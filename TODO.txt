@@ -1,0 +1,31 @@
+
+
+Online:
+- Player's Choice
+    - Wait for release
+    - Try once again to use it for actual mods
+	- Add descriptions for each mode
+- Figure out how to disable duplicate book in GoG
+- Make the quest book
+- Add Game Stages mod
+    - Better questing reward add gamestage creative
+    - Stage creative recipes behind gamestage
+- Recurrent Complex?
+    - Especially of interest would be one with an enderman spawner
+- Add Custom Main Menu
+- Create Pack Icon
+
+
+Offline:
+- Complete Expert Flower Recipes
+  * Add Runes of Spring and Autumn somewhere
+  * Add interesting ingredients, probably mostly to the runes, not flowers
+  * One botania quartz per sin rune
+- Complete Creative Recipes
+    > Creative Tablet(s) -> Creative Pool
+	> Rank SS Terra Shatterer
+	> Cosmic Potato
+	> Dice of Fate
+	> Gaia Guardian's Head
+- Add Tips with JustTheTips
+- Update README.md

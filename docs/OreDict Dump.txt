@@ -1,0 +1,1002 @@
+Ore entries for <ore:logWood> :
+-<minecraft:log:*>
+-<minecraft:log2:*>
+-<traverse:fir_log>
+
+Ore entries for <ore:plankWood> :
+-<minecraft:planks:*>
+-<quark:stained_planks:*>
+-<quark:vertical_planks:*>
+-<quark:vertical_stained_planks:*>
+-<traverse:fir_planks>
+
+Ore entries for <ore:slabWood> :
+-<minecraft:wooden_slab:*>
+-<traverse:fir_slab>
+
+Ore entries for <ore:stairWood> :
+-<minecraft:oak_stairs>
+-<minecraft:spruce_stairs>
+-<minecraft:birch_stairs>
+-<minecraft:jungle_stairs>
+-<minecraft:acacia_stairs>
+-<minecraft:dark_oak_stairs>
+-<traverse:fir_stairs>
+
+Ore entries for <ore:fenceWood> :
+-<minecraft:fence>
+-<minecraft:spruce_fence>
+-<minecraft:birch_fence>
+-<minecraft:jungle_fence>
+-<minecraft:dark_oak_fence>
+-<minecraft:acacia_fence>
+
+Ore entries for <ore:fenceGateWood> :
+-<minecraft:fence_gate>
+-<minecraft:spruce_fence_gate>
+-<minecraft:birch_fence_gate>
+-<minecraft:jungle_fence_gate>
+-<minecraft:dark_oak_fence_gate>
+-<minecraft:acacia_fence_gate>
+-<traverse:fir_fence>
+
+Ore entries for <ore:stickWood> :
+-<minecraft:stick>
+
+Ore entries for <ore:treeSapling> :
+-<minecraft:sapling:*>
+-<traverse:fir_sapling>
+
+Ore entries for <ore:treeLeaves> :
+-<minecraft:leaves:*>
+-<minecraft:leaves2:*>
+-<traverse:fir_leaves>
+
+Ore entries for <ore:vine> :
+-<minecraft:vine>
+
+Ore entries for <ore:oreGold> :
+-<minecraft:gold_ore>
+
+Ore entries for <ore:oreIron> :
+-<minecraft:iron_ore>
+
+Ore entries for <ore:oreLapis> :
+-<minecraft:lapis_ore>
+
+Ore entries for <ore:oreDiamond> :
+-<minecraft:diamond_ore>
+
+Ore entries for <ore:oreRedstone> :
+-<minecraft:redstone_ore>
+
+Ore entries for <ore:oreEmerald> :
+-<minecraft:emerald_ore>
+
+Ore entries for <ore:oreQuartz> :
+-<minecraft:quartz_ore>
+
+Ore entries for <ore:oreCoal> :
+-<minecraft:coal_ore>
+
+Ore entries for <ore:ingotIron> :
+-<minecraft:iron_ingot>
+
+Ore entries for <ore:ingotGold> :
+-<minecraft:gold_ingot>
+
+Ore entries for <ore:ingotBrick> :
+-<minecraft:brick>
+
+Ore entries for <ore:ingotBrickNether> :
+-<minecraft:netherbrick>
+
+Ore entries for <ore:nuggetGold> :
+-<minecraft:gold_nugget>
+
+Ore entries for <ore:nuggetIron> :
+-<minecraft:iron_nugget>
+
+Ore entries for <ore:gemDiamond> :
+-<minecraft:diamond>
+
+Ore entries for <ore:gemEmerald> :
+-<minecraft:emerald>
+
+Ore entries for <ore:gemQuartz> :
+-<minecraft:quartz>
+
+Ore entries for <ore:gemPrismarine> :
+-<minecraft:prismarine_shard>
+
+Ore entries for <ore:dustPrismarine> :
+-<minecraft:prismarine_crystals>
+
+Ore entries for <ore:dustRedstone> :
+-<minecraft:redstone>
+
+Ore entries for <ore:dustGlowstone> :
+-<minecraft:glowstone_dust>
+
+Ore entries for <ore:gemLapis> :
+-<minecraft:dye:4>
+
+Ore entries for <ore:blockGold> :
+-<minecraft:gold_block>
+
+Ore entries for <ore:blockIron> :
+-<minecraft:iron_block>
+
+Ore entries for <ore:blockLapis> :
+-<minecraft:lapis_block>
+
+Ore entries for <ore:blockDiamond> :
+-<minecraft:diamond_block>
+
+Ore entries for <ore:blockRedstone> :
+-<minecraft:redstone_block>
+
+Ore entries for <ore:blockEmerald> :
+-<minecraft:emerald_block>
+
+Ore entries for <ore:blockQuartz> :
+-<minecraft:quartz_block>
+
+Ore entries for <ore:blockCoal> :
+-<minecraft:coal_block>
+
+Ore entries for <ore:cropWheat> :
+-<minecraft:wheat>
+
+Ore entries for <ore:cropPotato> :
+-<minecraft:potato>
+
+Ore entries for <ore:cropCarrot> :
+-<minecraft:carrot>
+
+Ore entries for <ore:cropNetherWart> :
+-<minecraft:nether_wart>
+
+Ore entries for <ore:sugarcane> :
+-<minecraft:reeds>
+
+Ore entries for <ore:blockCactus> :
+-<minecraft:cactus>
+
+Ore entries for <ore:dye> :
+-<minecraft:dye:*>
+-<botania:dye:*>
+
+Ore entries for <ore:paper> :
+-<minecraft:paper>
+
+Ore entries for <ore:slimeball> :
+-<minecraft:slime_ball>
+-<quark:slime_bucket>
+
+Ore entries for <ore:enderpearl> :
+-<minecraft:ender_pearl>
+
+Ore entries for <ore:bone> :
+-<minecraft:bone>
+
+Ore entries for <ore:gunpowder> :
+-<minecraft:gunpowder>
+
+Ore entries for <ore:string> :
+-<minecraft:string>
+
+Ore entries for <ore:netherStar> :
+-<minecraft:nether_star>
+
+Ore entries for <ore:leather> :
+-<minecraft:leather>
+
+Ore entries for <ore:feather> :
+-<minecraft:feather>
+
+Ore entries for <ore:egg> :
+-<minecraft:egg>
+
+Ore entries for <ore:record> :
+-<minecraft:record_13>
+-<minecraft:record_cat>
+-<minecraft:record_blocks>
+-<minecraft:record_chirp>
+-<minecraft:record_far>
+-<minecraft:record_mall>
+-<minecraft:record_mellohi>
+-<minecraft:record_stal>
+-<minecraft:record_strad>
+-<minecraft:record_ward>
+-<minecraft:record_11>
+-<minecraft:record_wait>
+
+Ore entries for <ore:dirt> :
+-<minecraft:dirt>
+
+Ore entries for <ore:grass> :
+-<minecraft:grass>
+
+Ore entries for <ore:stone> :
+-<minecraft:stone>
+-<traverse:red_rock>
+-<traverse:blue_rock>
+
+Ore entries for <ore:cobblestone> :
+-<minecraft:cobblestone>
+-<traverse:blue_rock_cobblestone>
+-<traverse:red_rock_cobblestone>
+
+Ore entries for <ore:gravel> :
+-<minecraft:gravel>
+
+Ore entries for <ore:sand> :
+-<minecraft:sand:*>
+
+Ore entries for <ore:sandstone> :
+-<minecraft:sandstone:*>
+-<minecraft:red_sandstone:*>
+
+Ore entries for <ore:netherrack> :
+-<minecraft:netherrack>
+
+Ore entries for <ore:obsidian> :
+-<minecraft:obsidian>
+
+Ore entries for <ore:glowstone> :
+-<minecraft:glowstone>
+
+Ore entries for <ore:endstone> :
+-<minecraft:end_stone>
+
+Ore entries for <ore:torch> :
+-<minecraft:torch>
+
+Ore entries for <ore:workbench> :
+-<minecraft:crafting_table>
+
+Ore entries for <ore:blockSlime> :
+-<minecraft:slime>
+
+Ore entries for <ore:blockPrismarine> :
+-<minecraft:prismarine>
+
+Ore entries for <ore:blockPrismarineBrick> :
+-<minecraft:prismarine:1>
+
+Ore entries for <ore:blockPrismarineDark> :
+-<minecraft:prismarine:2>
+
+Ore entries for <ore:stoneGranite> :
+-<minecraft:stone:1>
+
+Ore entries for <ore:stoneGranitePolished> :
+-<minecraft:stone:2>
+
+Ore entries for <ore:stoneDiorite> :
+-<minecraft:stone:3>
+
+Ore entries for <ore:stoneDioritePolished> :
+-<minecraft:stone:4>
+
+Ore entries for <ore:stoneAndesite> :
+-<minecraft:stone:5>
+
+Ore entries for <ore:stoneAndesitePolished> :
+-<minecraft:stone:6>
+
+Ore entries for <ore:blockGlassColorless> :
+-<minecraft:glass>
+
+Ore entries for <ore:blockGlass> :
+-<minecraft:glass>
+-<minecraft:stained_glass:*>
+
+Ore entries for <ore:paneGlassColorless> :
+-<minecraft:glass_pane>
+
+Ore entries for <ore:paneGlass> :
+-<minecraft:glass_pane>
+-<minecraft:stained_glass_pane:*>
+
+Ore entries for <ore:chest> :
+-<minecraft:chest>
+-<minecraft:ender_chest>
+-<minecraft:trapped_chest>
+-<quark:custom_chest:*>
+-<quark:custom_chest_trap:*>
+
+Ore entries for <ore:chestWood> :
+-<minecraft:chest>
+-<quark:custom_chest:*>
+
+Ore entries for <ore:chestEnder> :
+-<minecraft:ender_chest>
+
+Ore entries for <ore:chestTrapped> :
+-<minecraft:trapped_chest>
+-<quark:custom_chest_trap:*>
+
+Ore entries for <ore:dyeBlack> :
+-<minecraft:dye>
+-<botania:dye:15>
+
+Ore entries for <ore:blockGlassBlack> :
+-<minecraft:stained_glass:15>
+
+Ore entries for <ore:paneGlassBlack> :
+-<minecraft:stained_glass_pane:15>
+
+Ore entries for <ore:dyeRed> :
+-<minecraft:dye:1>
+-<botania:dye:14>
+
+Ore entries for <ore:blockGlassRed> :
+-<minecraft:stained_glass:14>
+
+Ore entries for <ore:paneGlassRed> :
+-<minecraft:stained_glass_pane:14>
+
+Ore entries for <ore:dyeGreen> :
+-<minecraft:dye:2>
+-<botania:dye:13>
+
+Ore entries for <ore:blockGlassGreen> :
+-<minecraft:stained_glass:13>
+
+Ore entries for <ore:paneGlassGreen> :
+-<minecraft:stained_glass_pane:13>
+
+Ore entries for <ore:dyeBrown> :
+-<minecraft:dye:3>
+-<botania:dye:12>
+
+Ore entries for <ore:blockGlassBrown> :
+-<minecraft:stained_glass:12>
+
+Ore entries for <ore:paneGlassBrown> :
+-<minecraft:stained_glass_pane:12>
+
+Ore entries for <ore:dyeBlue> :
+-<minecraft:dye:4>
+-<botania:dye:11>
+
+Ore entries for <ore:blockGlassBlue> :
+-<minecraft:stained_glass:11>
+
+Ore entries for <ore:paneGlassBlue> :
+-<minecraft:stained_glass_pane:11>
+
+Ore entries for <ore:dyePurple> :
+-<minecraft:dye:5>
+-<botania:dye:10>
+
+Ore entries for <ore:blockGlassPurple> :
+-<minecraft:stained_glass:10>
+
+Ore entries for <ore:paneGlassPurple> :
+-<minecraft:stained_glass_pane:10>
+
+Ore entries for <ore:dyeCyan> :
+-<minecraft:dye:6>
+-<botania:dye:9>
+
+Ore entries for <ore:blockGlassCyan> :
+-<minecraft:stained_glass:9>
+
+Ore entries for <ore:paneGlassCyan> :
+-<minecraft:stained_glass_pane:9>
+
+Ore entries for <ore:dyeLightGray> :
+-<minecraft:dye:7>
+-<botania:dye:8>
+
+Ore entries for <ore:blockGlassLightGray> :
+-<minecraft:stained_glass:8>
+
+Ore entries for <ore:paneGlassLightGray> :
+-<minecraft:stained_glass_pane:8>
+
+Ore entries for <ore:dyeGray> :
+-<minecraft:dye:8>
+-<botania:dye:7>
+
+Ore entries for <ore:blockGlassGray> :
+-<minecraft:stained_glass:7>
+
+Ore entries for <ore:paneGlassGray> :
+-<minecraft:stained_glass_pane:7>
+
+Ore entries for <ore:dyePink> :
+-<minecraft:dye:9>
+-<botania:dye:6>
+
+Ore entries for <ore:blockGlassPink> :
+-<minecraft:stained_glass:6>
+
+Ore entries for <ore:paneGlassPink> :
+-<minecraft:stained_glass_pane:6>
+
+Ore entries for <ore:dyeLime> :
+-<minecraft:dye:10>
+-<botania:dye:5>
+
+Ore entries for <ore:blockGlassLime> :
+-<minecraft:stained_glass:5>
+
+Ore entries for <ore:paneGlassLime> :
+-<minecraft:stained_glass_pane:5>
+
+Ore entries for <ore:dyeYellow> :
+-<minecraft:dye:11>
+-<botania:dye:4>
+
+Ore entries for <ore:blockGlassYellow> :
+-<minecraft:stained_glass:4>
+
+Ore entries for <ore:paneGlassYellow> :
+-<minecraft:stained_glass_pane:4>
+
+Ore entries for <ore:dyeLightBlue> :
+-<minecraft:dye:12>
+-<botania:dye:3>
+
+Ore entries for <ore:blockGlassLightBlue> :
+-<minecraft:stained_glass:3>
+
+Ore entries for <ore:paneGlassLightBlue> :
+-<minecraft:stained_glass_pane:3>
+
+Ore entries for <ore:dyeMagenta> :
+-<minecraft:dye:13>
+-<botania:dye:2>
+
+Ore entries for <ore:blockGlassMagenta> :
+-<minecraft:stained_glass:2>
+
+Ore entries for <ore:paneGlassMagenta> :
+-<minecraft:stained_glass_pane:2>
+
+Ore entries for <ore:dyeOrange> :
+-<minecraft:dye:14>
+-<botania:dye:1>
+
+Ore entries for <ore:blockGlassOrange> :
+-<minecraft:stained_glass:1>
+
+Ore entries for <ore:paneGlassOrange> :
+-<minecraft:stained_glass_pane:1>
+
+Ore entries for <ore:dyeWhite> :
+-<minecraft:dye:15>
+-<botania:dye>
+
+Ore entries for <ore:blockGlassWhite> :
+-<minecraft:stained_glass>
+
+Ore entries for <ore:paneGlassWhite> :
+-<minecraft:stained_glass_pane>
+
+Ore entries for <ore:materialStoneTool> :
+-<minecraft:flint>
+-<minecraft:stone>
+-<minecraft:stone:1>
+-<minecraft:stone:3>
+-<minecraft:stone:5>
+-<minecraft:cobblestone>
+-<quark:limestone>
+-<quark:marble>
+
+Ore entries for <ore:gemEnderBiotite> :
+-<quark:biotite>
+
+Ore entries for <ore:mushroomAny> :
+-<minecraft:red_mushroom>
+-<minecraft:brown_mushroom>
+-<quark:glowshroom>
+
+Ore entries for <ore:tallow> :
+-<quark:tallow>
+
+Ore entries for <ore:blockWoolWhite> :
+-<minecraft:wool>
+
+Ore entries for <ore:blockWoolOrange> :
+-<minecraft:wool:1>
+
+Ore entries for <ore:blockWoolMagenta> :
+-<minecraft:wool:2>
+
+Ore entries for <ore:blockWoolLightBlue> :
+-<minecraft:wool:3>
+
+Ore entries for <ore:blockWoolYellow> :
+-<minecraft:wool:4>
+
+Ore entries for <ore:blockWoolLime> :
+-<minecraft:wool:5>
+
+Ore entries for <ore:blockWoolPink> :
+-<minecraft:wool:6>
+
+Ore entries for <ore:blockWoolGray> :
+-<minecraft:wool:7>
+
+Ore entries for <ore:blockWoolLightGray> :
+-<minecraft:wool:8>
+
+Ore entries for <ore:blockWoolCyan> :
+-<minecraft:wool:9>
+
+Ore entries for <ore:blockWoolPurple> :
+-<minecraft:wool:10>
+
+Ore entries for <ore:blockWoolBlue> :
+-<minecraft:wool:11>
+
+Ore entries for <ore:blockWoolBrown> :
+-<minecraft:wool:12>
+
+Ore entries for <ore:blockWoolGreen> :
+-<minecraft:wool:13>
+
+Ore entries for <ore:blockWoolRed> :
+-<minecraft:wool:14>
+
+Ore entries for <ore:blockWoolBlack> :
+-<minecraft:wool:15>
+
+Ore entries for <ore:rawTurkey> :
+-<familiarfauna:turkey_leg_raw>
+
+Ore entries for <ore:cookedTurkey> :
+-<familiarfauna:turkey_leg_cooked>
+
+Ore entries for <ore:foodTurkeyraw> :
+-<familiarfauna:turkey_leg_raw>
+
+Ore entries for <ore:foodTurkeycooked> :
+-<familiarfauna:turkey_leg_cooked>
+
+Ore entries for <ore:listAllturkeyraw> :
+-<familiarfauna:turkey_leg_raw>
+
+Ore entries for <ore:listAllturkeycooked> :
+-<familiarfauna:turkey_leg_cooked>
+
+Ore entries for <ore:listAllmeatraw> :
+-<familiarfauna:turkey_leg_raw>
+-<familiarfauna:venison_raw>
+
+Ore entries for <ore:listAllmeatcooked> :
+-<familiarfauna:turkey_leg_cooked>
+-<familiarfauna:venison_cooked>
+
+Ore entries for <ore:rawVenison> :
+-<familiarfauna:venison_raw>
+
+Ore entries for <ore:cookedVenison> :
+-<familiarfauna:venison_cooked>
+
+Ore entries for <ore:foodVenisonraw> :
+-<familiarfauna:venison_raw>
+
+Ore entries for <ore:foodVenisoncooked> :
+-<familiarfauna:venison_cooked>
+
+Ore entries for <ore:listAllvenisonraw> :
+-<familiarfauna:venison_raw>
+
+Ore entries for <ore:listAllvenisoncooked> :
+-<familiarfauna:venison_cooked>
+
+Ore entries for <ore:mysticFlowerWhite> :
+-<botania:flower>
+
+Ore entries for <ore:petalWhite> :
+-<botania:mushroom>
+-<botania:petal>
+
+Ore entries for <ore:mysticFlowerOrange> :
+-<botania:flower:1>
+
+Ore entries for <ore:petalOrange> :
+-<botania:mushroom:1>
+-<botania:petal:1>
+
+Ore entries for <ore:mysticFlowerMagenta> :
+-<botania:flower:2>
+
+Ore entries for <ore:petalMagenta> :
+-<botania:mushroom:2>
+-<botania:petal:2>
+
+Ore entries for <ore:mysticFlowerLightBlue> :
+-<botania:flower:3>
+
+Ore entries for <ore:petalLightBlue> :
+-<botania:mushroom:3>
+-<botania:petal:3>
+
+Ore entries for <ore:mysticFlowerYellow> :
+-<botania:flower:4>
+
+Ore entries for <ore:petalYellow> :
+-<botania:mushroom:4>
+-<botania:petal:4>
+
+Ore entries for <ore:mysticFlowerLime> :
+-<botania:flower:5>
+
+Ore entries for <ore:petalLime> :
+-<botania:mushroom:5>
+-<botania:petal:5>
+
+Ore entries for <ore:mysticFlowerPink> :
+-<botania:flower:6>
+
+Ore entries for <ore:petalPink> :
+-<botania:mushroom:6>
+-<botania:petal:6>
+
+Ore entries for <ore:mysticFlowerGray> :
+-<botania:flower:7>
+
+Ore entries for <ore:petalGray> :
+-<botania:mushroom:7>
+-<botania:petal:7>
+
+Ore entries for <ore:mysticFlowerLightGray> :
+-<botania:flower:8>
+
+Ore entries for <ore:petalLightGray> :
+-<botania:mushroom:8>
+-<botania:petal:8>
+
+Ore entries for <ore:mysticFlowerCyan> :
+-<botania:flower:9>
+
+Ore entries for <ore:petalCyan> :
+-<botania:mushroom:9>
+-<botania:petal:9>
+
+Ore entries for <ore:mysticFlowerPurple> :
+-<botania:flower:10>
+
+Ore entries for <ore:petalPurple> :
+-<botania:mushroom:10>
+-<botania:petal:10>
+
+Ore entries for <ore:mysticFlowerBlue> :
+-<botania:flower:11>
+
+Ore entries for <ore:petalBlue> :
+-<botania:mushroom:11>
+-<botania:petal:11>
+
+Ore entries for <ore:mysticFlowerBrown> :
+-<botania:flower:12>
+
+Ore entries for <ore:petalBrown> :
+-<botania:mushroom:12>
+-<botania:petal:12>
+
+Ore entries for <ore:mysticFlowerGreen> :
+-<botania:flower:13>
+
+Ore entries for <ore:petalGreen> :
+-<botania:mushroom:13>
+-<botania:petal:13>
+
+Ore entries for <ore:mysticFlowerRed> :
+-<botania:flower:14>
+
+Ore entries for <ore:petalRed> :
+-<botania:mushroom:14>
+-<botania:petal:14>
+
+Ore entries for <ore:mysticFlowerBlack> :
+-<botania:flower:15>
+
+Ore entries for <ore:petalBlack> :
+-<botania:mushroom:15>
+-<botania:petal:15>
+
+Ore entries for <ore:livingrock> :
+-<botania:livingrock>
+
+Ore entries for <ore:livingwood> :
+-<botania:livingwood>
+
+Ore entries for <ore:dreamwood> :
+-<botania:dreamwood>
+
+Ore entries for <ore:mysticFlowerWhiteDouble> :
+-<botania:doubleflower1>
+
+Ore entries for <ore:mysticFlowerLightGrayDouble> :
+-<botania:doubleflower2>
+
+Ore entries for <ore:mysticFlowerOrangeDouble> :
+-<botania:doubleflower1:1>
+
+Ore entries for <ore:mysticFlowerCyanDouble> :
+-<botania:doubleflower2:1>
+
+Ore entries for <ore:mysticFlowerMagentaDouble> :
+-<botania:doubleflower1:2>
+
+Ore entries for <ore:mysticFlowerPurpleDouble> :
+-<botania:doubleflower2:2>
+
+Ore entries for <ore:mysticFlowerLightBlueDouble> :
+-<botania:doubleflower1:3>
+
+Ore entries for <ore:mysticFlowerBlueDouble> :
+-<botania:doubleflower2:3>
+
+Ore entries for <ore:mysticFlowerYellowDouble> :
+-<botania:doubleflower1:4>
+
+Ore entries for <ore:mysticFlowerBrownDouble> :
+-<botania:doubleflower2:4>
+
+Ore entries for <ore:mysticFlowerLimeDouble> :
+-<botania:doubleflower1:5>
+
+Ore entries for <ore:mysticFlowerGreenDouble> :
+-<botania:doubleflower2:5>
+
+Ore entries for <ore:mysticFlowerPinkDouble> :
+-<botania:doubleflower1:6>
+
+Ore entries for <ore:mysticFlowerRedDouble> :
+-<botania:doubleflower2:6>
+
+Ore entries for <ore:mysticFlowerGrayDouble> :
+-<botania:doubleflower1:7>
+
+Ore entries for <ore:mysticFlowerBlackDouble> :
+-<botania:doubleflower2:7>
+
+Ore entries for <ore:blockBlaze> :
+-<botania:blazeblock>
+
+Ore entries for <ore:hardenedClay> :
+-<minecraft:hardened_clay:*>
+
+Ore entries for <ore:snowLayer> :
+-<minecraft:snow_layer>
+
+Ore entries for <ore:mycelium> :
+-<minecraft:mycelium>
+
+Ore entries for <ore:podzol> :
+-<minecraft:dirt:2>
+
+Ore entries for <ore:soulSand> :
+-<minecraft:soul_sand>
+
+Ore entries for <ore:ice> :
+-<minecraft:ice>
+
+Ore entries for <ore:slabCobblestone> :
+-<minecraft:stone_slab:3>
+
+Ore entries for <ore:lexicaBotania> :
+-<botania:lexicon>
+
+Ore entries for <ore:runeWaterB> :
+-<botania:rune>
+
+Ore entries for <ore:runeFireB> :
+-<botania:rune:1>
+
+Ore entries for <ore:runeEarthB> :
+-<botania:rune:2>
+
+Ore entries for <ore:runeAirB> :
+-<botania:rune:3>
+
+Ore entries for <ore:runeSpringB> :
+-<botania:rune:4>
+
+Ore entries for <ore:runeSummerB> :
+-<botania:rune:5>
+
+Ore entries for <ore:runeAutumnB> :
+-<botania:rune:6>
+
+Ore entries for <ore:runeWinterB> :
+-<botania:rune:7>
+
+Ore entries for <ore:runeManaB> :
+-<botania:rune:8>
+
+Ore entries for <ore:runeLustB> :
+-<botania:rune:9>
+
+Ore entries for <ore:runeGluttonyB> :
+-<botania:rune:10>
+
+Ore entries for <ore:runeGreedB> :
+-<botania:rune:11>
+
+Ore entries for <ore:runeSlothB> :
+-<botania:rune:12>
+
+Ore entries for <ore:runeWrathB> :
+-<botania:rune:13>
+
+Ore entries for <ore:runeEnvyB> :
+-<botania:rune:14>
+
+Ore entries for <ore:runePrideB> :
+-<botania:rune:15>
+
+Ore entries for <ore:quartzDark> :
+-<botania:quartz>
+
+Ore entries for <ore:quartzMana> :
+-<botania:quartz:1>
+
+Ore entries for <ore:quartzBlaze> :
+-<botania:quartz:2>
+
+Ore entries for <ore:quartzLavender> :
+-<botania:quartz:3>
+
+Ore entries for <ore:quartzRed> :
+-<botania:quartz:4>
+
+Ore entries for <ore:quartzElven> :
+-<botania:quartz:5>
+
+Ore entries for <ore:quartzSunny> :
+-<botania:quartz:6>
+
+Ore entries for <ore:pestleAndMortar> :
+-<botania:pestleandmortar>
+
+Ore entries for <ore:ingotManasteel> :
+-<botania:manaresource>
+
+Ore entries for <ore:manaPearl> :
+-<botania:manaresource:1>
+
+Ore entries for <ore:manaDiamond> :
+-<botania:manaresource:2>
+
+Ore entries for <ore:livingwoodTwig> :
+-<botania:manaresource:3>
+
+Ore entries for <ore:ingotTerrasteel> :
+-<botania:manaresource:4>
+
+Ore entries for <ore:eternalLifeEssence> :
+-<botania:manaresource:5>
+
+Ore entries for <ore:redstoneRoot> :
+-<botania:manaresource:6>
+
+Ore entries for <ore:ingotElvenElementium> :
+-<botania:manaresource:7>
+
+Ore entries for <ore:elvenPixieDust> :
+-<botania:manaresource:8>
+
+Ore entries for <ore:elvenDragonstone> :
+-<botania:manaresource:9>
+
+Ore entries for <ore:bPlaceholder> :
+-<botania:manaresource:11>
+
+Ore entries for <ore:bRedString> :
+-<botania:manaresource:12>
+
+Ore entries for <ore:dreamwoodTwig> :
+-<botania:manaresource:13>
+
+Ore entries for <ore:gaiaIngot> :
+-<botania:manaresource:14>
+
+Ore entries for <ore:bEnderAirBottle> :
+-<botania:manaresource:15>
+
+Ore entries for <ore:manaString> :
+-<botania:manaresource:16>
+
+Ore entries for <ore:nuggetManasteel> :
+-<botania:manaresource:17>
+
+Ore entries for <ore:nuggetTerrasteel> :
+-<botania:manaresource:18>
+
+Ore entries for <ore:nuggetElvenElementium> :
+-<botania:manaresource:19>
+
+Ore entries for <ore:livingRoot> :
+-<botania:manaresource:20>
+
+Ore entries for <ore:pebble> :
+-<botania:manaresource:21>
+
+Ore entries for <ore:clothManaweave> :
+-<botania:manaresource:22>
+
+Ore entries for <ore:powderMana> :
+-<botania:manaresource:23>
+
+Ore entries for <ore:bVial> :
+-<botania:vial>
+
+Ore entries for <ore:bFlask> :
+-<botania:vial:1>
+
+Ore entries for <ore:rodBlaze> :
+-<minecraft:blaze_rod>
+
+Ore entries for <ore:powderBlaze> :
+-<minecraft:blaze_powder>
+
+Ore entries for <ore:stonePolished> :
+-<quark:polished_stone>
+
+Ore entries for <ore:plankStained> :
+-<quark:stained_planks:*>
+-<quark:vertical_stained_planks:*>
+
+Ore entries for <ore:stoneMarble> :
+-<quark:marble>
+
+Ore entries for <ore:stoneMarblePolished> :
+-<quark:marble:1>
+
+Ore entries for <ore:stoneLimestone> :
+-<quark:limestone>
+
+Ore entries for <ore:stoneLimestonePolished> :
+-<quark:limestone:1>
+
+Ore entries for <ore:stoneBasalt> :
+-<quark:basalt>
+
+Ore entries for <ore:stoneBasaltPolished> :
+-<quark:basalt:1>
+
+Ore entries for <ore:trapdoorWood> :
+-<minecraft:trapdoor>
+-<quark:spruce_trapdoor>
+-<quark:birch_trapdoor>
+-<quark:jungle_trapdoor>
+-<quark:acacia_trapdoor>
+-<quark:dark_oak_trapdoor>
+
+Ore entries for <ore:bookshelf> :
+-<minecraft:bookshelf>
+-<quark:custom_bookshelf:*>
+
+Ore entries for <ore:bookshelfOak> :
+-<minecraft:bookshelf>
+
+Ore entries for <ore:bookshelfSpruce> :
+-<quark:custom_bookshelf>
+
+Ore entries for <ore:bookshelfBirch> :
+-<quark:custom_bookshelf:1>
+
+Ore entries for <ore:bookshelfJungle> :
+-<quark:custom_bookshelf:2>
+
+Ore entries for <ore:bookshelfAcacia> :
+-<quark:custom_bookshelf:3>
+
+Ore entries for <ore:bookshelfDarkOak> :
+-<quark:custom_bookshelf:4>
+
+Ore entries for <ore:blockCandle> :
+-<quark:candle:*>
+
+Ore entries for <ore:blockCharcoal> :
+-<quark:charcoal_block>

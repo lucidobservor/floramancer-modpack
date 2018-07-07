@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Easy Mode",
+    "desc": "Easy Mode",
+    "category": "Mode",
+    "group": "!Mode",
+    "base": true,
+    "extraMods": [],
+    "copyFiles": [ "easyMode" ],
+    "copyContents": true
+  },
+  {
+    "name": "Normal Mode",
+    "desc": "Normal Mode",
+    "category": "Mode",
+    "group": "!Mode",
+    "base": true,
+    "extraMods": [],
+    "copyFiles": [ "normalMode" ],
+    "copyContents": true
+  },
+  {
+    "name": "Hard Mode",
+    "desc": "Hard Mode",
+    "category": "Mode",
+    "group": "!Mode",
+    "base": false,
+    "extraMods": [],
+    "copyFiles": [ "expertMode" ],
+    "copyContents": true
+  }
+]

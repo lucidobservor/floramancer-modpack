@@ -1,0 +1,16 @@
+
+Flower          Generation (mana/s)         Recipe Cost     Lifetime Generation
+
+Entropinnyum    2167 (1 TNT / 3s)            88,850          7,801,200
+Gourmaryllis    1120                         29,850          4,032,000
+Rafflowsia      1050                         94,850          3,780,000
+Rosa Arcana     800                         134,000          2,880,000
+Munchdew        800                          67,000          2,880,000
+Dandelifeon     720                          87,400          2,592,000
+Shulk Me Not    580 (1 shulker/50s)         134,000          2,088,000
+Kekimurus       450                          73,000          1,620,000
+Spectrolus      300-3000 (1-10 wool/s)       35,850          1,080,000+
+Narslimmus      300 (1 large slime/3s)       29,850          1,080,000
+Thermalily      52                           43,700            187,200
+Endoflame       30                                0            108,000
+Hydroangeas     6.67                              0             24,000

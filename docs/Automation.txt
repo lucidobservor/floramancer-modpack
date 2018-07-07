@@ -1,0 +1,25 @@
+
+Cannot be fully automated:
+
+- Non-renewable
+  * Lily Pads
+- Villager Trade only
+  * Chain Mail?
+  * Bottle O' Enchanting
+  * Totem of Undying
+- Mob Drop for non-spawner or overworld mob
+  * Sponge
+  * Ghast tear
+  * Nether star
+  * Fish
+  * Dragon's breath/egg
+- Killed by player
+  * Blaze rods
+  * Wither skulls
+- Can't auto use pasture seeds and doesn't spread
+  * Podzol
+- Need specific tools to harvest even after crafting in world
+  * Podzol
+  * The five Botania grasses that aren't Dry Grass
+  * Obsidian
+  * Vines
