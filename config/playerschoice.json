@@ -4,7 +4,7 @@
     "desc": "Easy Mode",
     "category": "Mode",
     "group": "!Mode",
-    "base": true,
+    "base": false,
     "extraMods": [],
     "copyFiles": [ "easyMode" ],
     "copyContents": true
@@ -26,7 +26,7 @@
     "group": "!Mode",
     "base": false,
     "extraMods": [],
-    "copyFiles": [ "expertMode" ],
+    "copyFiles": [ "hardMode" ],
     "copyContents": true
   }
 ]

@@ -11,7 +11,6 @@ print(" =================== Pack Mode Normal =================== ");
 print(" ======================================================== ");
 
 
-
 /*=========================
          Apothecary
  =========================*/
@@ -26,7 +25,20 @@ Apothecary.addRecipe(dandelifeon,
 	[<ore:petalPurple>, <ore:petalPurple>, <ore:petalLime>, <ore:petalGreen>,
 	<ore:runeWaterB>, <ore:runeFireB>, <ore:runeEarthB>, <ore:runeAirB>, <ore:elvenPixieDust>, <ore:bEnderAirBottle>]);
 
+	
+/*=========================
+        Runic Altar
+ =========================*/
 
+RuneAltar.removeRecipe(<botania:rune:2>);
+RuneAltar.removeRecipe(<botania:rune:3>);
+RuneAltar.removeRecipe(<botania:rune:7>);
+
+RuneAltar.addRecipe(<botania:rune:2> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <ore:stone>, <ore:blockCoal>, <ore:mushroomAny>], 5200);
+RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <ore:carpet>, <ore:feather>, <ore:string>], 5200);
+RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <ore:blockWool>, <minecraft:cake>], 8000);
+	
+	
 /*=========================
     Creative Item Recipes
  =========================*/

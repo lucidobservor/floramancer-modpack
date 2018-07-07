@@ -69,27 +69,6 @@ Ore entries for <ore:soulSand> :
 Ore entries for <ore:ice> :
 -<minecraft:ice>
 
-Ore entries for <ore:quartzDark> :
--<botania:quartz>
-
-Ore entries for <ore:quartzMana> :
--<botania:quartz:1>
-
-Ore entries for <ore:quartzBlaze> :
--<botania:quartz:2>
-
-Ore entries for <ore:quartzLavender> :
--<botania:quartz:3>
-
-Ore entries for <ore:quartzRed> :
--<botania:quartz:4>
-
-Ore entries for <ore:quartzElven> :
--<botania:quartz:5>
-
-Ore entries for <ore:quartzSunny> :
--<botania:quartz:6>
-
 Ore entries for <ore:powderBlaze> :
 -<minecraft:blaze_powder>
 
