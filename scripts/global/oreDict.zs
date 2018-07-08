@@ -44,3 +44,17 @@ carpet.add(<minecraft:carpet:12>);
 carpet.add(<minecraft:carpet:13>);
 carpet.add(<minecraft:carpet:14>);
 carpet.add(<minecraft:carpet:15>);
+
+// Add OreDict entry for autumnal leaves
+
+oreDict.get("autumnalLeaves");
+val autumnalLeaves = <ore:autumnalLeaves>;
+
+autumnalLeaves.add(<traverse:red_autumnal_leaves>);
+autumnalLeaves.add(<traverse:orange_autumnal_leaves>);
+autumnalLeaves.add(<traverse:yellow_autumnal_leaves>);
+autumnalLeaves.add(<traverse:brown_autumnal_leaves>);
+
+<ore:treeLeaves>.addAll(autumnalLeaves);
+
+

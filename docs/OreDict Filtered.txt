@@ -1,17 +1,10 @@
 
 Currently Exists OreDicted, Consider requiring specific instances:
 
-Ore entries for <ore:treeSapling> :
--<minecraft:sapling:*>
--<traverse:fir_sapling>
-
 Ore entries for <ore:stone> :
 -<minecraft:stone>
 -<traverse:red_rock>
 -<traverse:blue_rock>
-
-Ore entries for <ore:sand> :
--<minecraft:sand:*>
 
 -------------------------------------------------------------------
 
@@ -20,23 +13,11 @@ Not Used Yet (?):
 Ore entries for <ore:ingotBrick> :
 -<minecraft:brick>
 
-Ore entries for <ore:hardenedClay> :
--<minecraft:hardened_clay:*>
-
 Ore entries for <ore:gemPrismarine> :
 -<minecraft:prismarine_shard>
 
 Ore entries for <ore:dustPrismarine> :
 -<minecraft:prismarine_crystals>
-
-Ore entries for <ore:cropPotato> :
--<minecraft:potato>
-
-Ore entries for <ore:cropCarrot> :
--<minecraft:carrot>
-
-Ore entries for <ore:grass> :
--<minecraft:grass>
 
 Ore entries for <ore:gravel> :
 -<minecraft:gravel>
@@ -54,23 +35,11 @@ Ore entries for <ore:materialStoneTool> :
 -<minecraft:flint>
 -...
 
-Ore entries for <ore:gemEnderBiotite> :
--<quark:biotite>
-
 Ore entries for <ore:tallow> :
 -<quark:tallow>
 
-Ore entries for <ore:mycelium> :
--<minecraft:mycelium>
-
 Ore entries for <ore:soulSand> :
 -<minecraft:soul_sand>
-
-Ore entries for <ore:ice> :
--<minecraft:ice>
-
-Ore entries for <ore:powderBlaze> :
--<minecraft:blaze_powder>
 
 --------------------------------------------------------------------
 

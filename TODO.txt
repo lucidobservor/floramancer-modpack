@@ -1,6 +1,12 @@
 
-
-Online:
+- Update recipes for GoG compat
+- Update tiny potato cost based on mode
+- Update Creative Recipes
+    > Creative Tablet(s) -> Creative Pool
+	> Rank SS Terra Shatterer
+	> Cosmic Potato
+	> Dice of Fate
+	> Gaia Guardian's Head
 - Player's Choice
     - Wait for release
     - Try once again to use it for actual mods
@@ -12,17 +18,7 @@ Online:
 - Recurrent Complex?
     - Especially of interest would be one with an enderman spawner
 - Add Custom Main Menu
+- Update README.md
 - Create Pack Icon
 
 
-Offline:
-- Complete Expert Flower Recipes
-  * Add Runes of Spring and Autumn somewhere
-  * Add interesting ingredients, probably mostly to the runes, not flowers
-- Complete Creative Recipes
-    > Creative Tablet(s) -> Creative Pool
-	> Rank SS Terra Shatterer
-	> Cosmic Potato
-	> Dice of Fate
-	> Gaia Guardian's Head
-- Update README.md
