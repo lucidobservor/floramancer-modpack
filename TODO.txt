@@ -1,10 +1,10 @@
 
-- Update recipes for GoG compat
-- Update tiny potato cost based on mode
-- Update Creative Recipes
-    > Creative Tablet(s) -> Creative Pool
-	> Rank SS Terra Shatterer
-	> Cosmic Potato
+- Creative Item Ideas:
+	- Can I trigger a chat message when right clicking galactic potato
+	- Can I trigger quest when right clicking galactic potato
+	- Can I add pages to the Lexica based on game stages or other interaction
+	- Custom terraglom structure to craft creative items 
+- Creative recipe/structure component ideas
 	> Dice of Fate
 	> Gaia Guardian's Head
 - Player's Choice
@@ -16,9 +16,10 @@
     - Better questing reward add gamestage creative
     - Stage creative recipes behind gamestage
 - Recurrent Complex?
-    - Especially of interest would be one with an enderman spawner
+    - Especially of interest would be one with an enderman/creeper spawner
 - Add Custom Main Menu
 - Update README.md
 - Create Pack Icon
+
 
 
