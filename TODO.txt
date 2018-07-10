@@ -1,25 +1,88 @@
 
-- Creative Item Ideas:
-	- Can I trigger a chat message when right clicking galactic potato
+----------------
+End Game Content
+----------------
+
+- Figure out what's possible
+	> Can I trigger a chat message when right clicking galactic potato
 	- Can I trigger quest when right clicking galactic potato
 	- Can I add pages to the Lexica based on game stages or other interaction
-	- Custom terraglom structure to craft creative items 
-- Creative recipe/structure component ideas
-	> Dice of Fate
-	> Gaia Guardian's Head
-- Player's Choice
+- Advancements or Quests?
+    > Advancements
+        * Pros:
+            - Might be able to get closer to the thing I actually want to stage on
+            - Can definitely get closer to end of pack vision (talk to the potato)
+            - Generally a lot cleaner than a very sparse quest book
+        * Cons:
+            - Requires pull/feature request to Botania Tweaks?
+            - Less guidance for players
+    > Quests
+        * Pros:
+            - Pretty much already set up, so less work
+        * Cons:
+            - Not very close to ideal pack vision
+            - Better Questing gui scale is broken
+- Staging
+    > If using Triumph/Advancements
+        * Set stage once all flower advancements/potato quest/botania challenges
+        * Probably need to stage off of a single quest. If so, make quest to right click potato with Lexica
+    > If Using Quests:
+        * Trigger gamestage command as reward for galactic potato quest
+    > Either way, actually add Game Stages (plus whatever addons) and configure
+- Creative Recipes
+    > Simple: Runic altar Recipe
+        * Dice of Fate or Gaia Guardian Head?
+    > Harder: Custom terraglomeration recipe with BotaniaTweaks
+        * Something inspired by the starlight infusion altar, but with mana pools instead of liquid starlight
+        * Recipe consumes number of mana pools in the structure
+
+
+---------------
+Tweaks
+---------------
+
+- Add tooltip to dry grass
+- Make Flugel Tiara require Elytra
+
+---------------
+Required Extras
+---------------
+
+-- Player's Choice
     - Wait for release
     - Try once again to use it for actual mods
-	- Add descriptions for each mode
-- Make the quest book
-- Add Game Stages mod
-    - Better questing reward add gamestage creative
-    - Stage creative recipes behind gamestage
-- Recurrent Complex?
-    - Especially of interest would be one with an enderman/creeper spawner
+ 	- Add descriptions for each mode
 - Add Custom Main Menu
-- Update README.md
+- Add MPUtils - configure pack start splash screen
+- Update README.md (rolling)
 - Create Pack Icon
 
+---------------
+Optional Extras
+---------------
 
+- Recurrent Complex?
+    - Especially of interest would be one with an enderman/creeper spawner
+- Waystones
+    - configure recipes to use world seed
+- ArchitectureCraft / blockcraftery
+    - Test the latter, if so use it
+- Bear with Me
+- Better Foliage
+- Bibliocraft
+    - consider disabling book printing
+- Comforts
+- CoralReef
+- EasierVillagerTrading
+- Fairy Lights
+- Garden Stuff
+- Horse Tweaks
+    - with config
+- Malisis Doors
+    - remove force field?
+- Mo' Villages
+- Open Glider?
+- Rebind Narrator
+- Wither Skeleton Tweaks
+    - configure
 
