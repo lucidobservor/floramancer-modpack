@@ -5,6 +5,7 @@ import mods.botania.RuneAltar;
 
 
 <botania:biomestonea:*>.addTooltip(format.aqua("Created by placing stone near a Marimorphosis flower."));
+<botania:altgrass>.addTooltip(format.aqua("Drops from any Botania grass when harvested with a weight lens."));
 <quark:tallow>.addTooltip(format.aqua("Dropped by pigs."));
 
 /*==========================
@@ -105,9 +106,20 @@ ManaInfusion.addAlchemy(<traverse:fir_sapling>, <traverse:brown_autumnal_sapling
 ManaInfusion.addAlchemy(<minecraft:sapling>, <traverse:fir_sapling>, 120);
 
 /*=========================
+        Flugel Tiara
+ =========================*/
+ 
+recipes.removeShaped(<botania:flighttiara>);
+recipes.addShaped("botania_flighttiara_0", <botania:flighttiara>, 
+	[[<ore:eternalLifeEssence>, <ore:eternalLifeEssence>, <ore:eternalLifeEssence>], 
+	[<ore:ingotElvenElementium>, <minecraft:elytra>, <ore:ingotElvenElementium>], 
+	[<minecraft:feather>, <ore:bEnderAirBottle>, <minecraft:feather>]]);
+
+
+/*=========================
     Creative Item Recipes - TODO - UPDATE
  =========================*/
-
+ 
 RuneAltar.addRecipe(creativeManaTablet,[
   <botania:manatablet>, terraSteelBlock, 
   <botania:manatablet>, gaiaSpritIngot, 

@@ -36,13 +36,23 @@ End Game Content
         * Something inspired by the starlight infusion altar, but with mana pools instead of liquid starlight
         * Recipe consumes number of mana pools in the structure
 
+---------------
+Tweaks / Fixes
+---------------
+
+- Fix Coral reef waila
+- Fix JER mob drops, if possible
+- Waystones configure recipes to use world seed
+- Horse saddles configure recipes to use botania items
 
 ---------------
-Tweaks
+Things to Check
 ---------------
 
-- Add tooltip to dry grass
-- Make Flugel Tiara require Elytra
+- Spawn rate/locations of bears/penguins (do they exist?)
+	- Black (forest)
+	- Panda (jungle)
+	- penguin (arctic)
 
 ---------------
 Required Extras
@@ -61,23 +71,14 @@ Required Extras
 Optional Extras
 ---------------
 
+- Heatmap thing SevTech does
 - Recurrent Complex?
     - Especially of interest would be one with an enderman/creeper spawner
-- Waystones
-    - configure recipes to use world seed
 - ArchitectureCraft / blockcraftery
     - Test the latter, if so use it
-- Bear with Me
 - Better Foliage
 - Bibliocraft
     - consider disabling book printing
-- Comforts
-- CoralReef
-- EasierVillagerTrading
-- Fairy Lights
-- Garden Stuff
-- Horse Tweaks
-    - with config
 - Malisis Doors
     - remove force field?
 - Mo' Villages
