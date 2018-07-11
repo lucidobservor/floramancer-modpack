@@ -40,15 +40,25 @@ End Game Content
 Tweaks / Fixes
 ---------------
 
-- Fix Coral reef waila
+- Remove Torchmaster (vanity's emptiness does the same thing)
+- Make feather fall recipe use tainted pendant of feathered feet
+- Add saddles to the Lexica (if runic altar recipes work)
 - Fix JER mob drops, if possible
-- Waystones configure recipes to use world seed
-- Horse saddles configure recipes to use botania items
+    - Add LootTweaker, check if that fixes it in general
+    - Remove tooltip for tallow
+    - Switch bear drops to use LootTweaker
+- Fix Coral reef WAILA
+    - Bug Report submitted
+
 
 ---------------
 Things to Check
 ---------------
 
+- Waystones configure recipes to use world seed
+- Add recipe for minecraft saddle
+- Horse saddles configure recipes to use botania items
+- Saddle recipes use runic altar to craft
 - Spawn rate/locations of bears/penguins (do they exist?)
 	- Black (forest)
 	- Panda (jungle)

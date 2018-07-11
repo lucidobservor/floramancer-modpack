@@ -6,14 +6,14 @@ Floramancer is a modpack designed to be a Vanilla + Quark + Botania expert pack.
 in the pack providing content, all of them chosen to have minimal impact on a playthrough focusing on those mods.
 
 The goal of the pack is to fully automate every generating flower in Botania. You will need to do this even though 
-*all* generating flora suffer passive decay in this pack. Once you've accomplished this, use the resulting mana to
-craft a Galactic Potato, which will grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
+*all* generating flora suffer passive decay in this pack. Use the resulting mana to craft a Galactic Potato, which will 
+grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
 
 
 ## Current Features
 
 - **Pack Modes** - There are two pack modes: Normal and Hard. There are currently only a few differences between the
-    modes, the corporea spork and the recipes of the final items. See below for more details.
+    modes, the corporea spork and the mana cost of the final items. See below for more details.
 
 - **Botania Tweaks** - The following tweaks are enabled:
 	- Corporea is available earlier through the use of the corporea spork (Normal mode only)
