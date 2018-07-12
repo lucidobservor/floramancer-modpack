@@ -40,7 +40,6 @@ End Game Content
 Tweaks / Fixes
 ---------------
 
-- Remove Torchmaster (vanity's emptiness does the same thing)
 - Add saddles to the Lexica (if runic altar recipes work)
 - Fix JER mob drops, if possible
     - Add LootTweaker, check if that fixes it in general
