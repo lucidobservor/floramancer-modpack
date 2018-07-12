@@ -41,7 +41,6 @@ Tweaks / Fixes
 ---------------
 
 - Remove Torchmaster (vanity's emptiness does the same thing)
-- Make feather fall recipe use tainted pendant of feathered feet
 - Add saddles to the Lexica (if runic altar recipes work)
 - Fix JER mob drops, if possible
     - Add LootTweaker, check if that fixes it in general
@@ -55,10 +54,6 @@ Tweaks / Fixes
 Things to Check
 ---------------
 
-- Waystones configure recipes to use world seed
-- Add recipe for minecraft saddle
-- Horse saddles configure recipes to use botania items
-- Saddle recipes use runic altar to craft
 - Spawn rate/locations of bears/penguins (do they exist?)
 	- Black (forest)
 	- Panda (jungle)
