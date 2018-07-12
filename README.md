@@ -13,12 +13,13 @@ grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
 ## Current Features
 
 - **Pack Modes** - There are two pack modes: Normal and Hard. There are currently only a few differences between the
-    modes, the corporea spork and the mana cost of the final items. See below for more details.
+    modes, the corporea spork, the passive decay timer, and the mana cost of the final items. See below for more 
+    details.
 
 - **Botania Tweaks** - The following tweaks are enabled:
 	- Corporea is available earlier through the use of the corporea spork (Normal mode only)
-    - All generating flora suffer passive decay after one real world hour. If properly utilized, all flowers still 
-      produce far more mana than it takes to make them.
+    - All generating flora suffer passive decay after one real world hour (Normal mode) or half an hour (Hard mode). If 
+      properly utilized, all flowers still produce far more mana than it takes to make them.
     - Automate crafting Ender Air with a Dispenser in the End dimension.
     - Automatically place Corporea Sparks and decorate them with Floral Powder, when you place corporea blocks.
     - Galactic Potato, because who doesn't want a huge, rainbow potato?

@@ -1,7 +1,7 @@
 
 import crafttweaker.data.IData;
 import loottweaker.vanilla.loot.LootTables;
-
+import loottweaker.vanilla.loot.Functions;
 
 // Hide bear leather in JEI
 mods.jei.JEI.removeAndHide(<bearwithme:hide_bear:*>);
@@ -20,10 +20,9 @@ grizlyBear.removeEntry("bearwithme:hide_bear");
 pandaBear.removeEntry("bearwithme:hide_bear");
 
 // Add equivalent normal leather drops
-blackBear.addItemEntryJSON(<minecraft:leather>, 4, 0, [
-	"count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], []);
-grizzlyBear.addItemEntryJSON(<minecraft:leather>, 4, 0, [
-	"count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], []);
-pandaBear.addItemEntryJSON(<minecraft:leather>, 4, 0, [
-	"count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], []);
+blackBear.addItemEntryHelper(<minecraft:leather> * 1, 4, 0, [Functions.parse("count:{min:0,max:1}, function:'minecraft:looting_enchant'")], []);
+grizzlyBear.addItemEntryHelper(<minecraft:leather> * 1, 4, 0, [Functions.parse("count:{min:0,max:1}, function:'minecraft:looting_enchant'")], []);
+pandaBear.addItemEntryHelper(<minecraft:leather> * 1, 4, 0, [Functions.parse("count:{min:0,max:1}, function:'minecraft:looting_enchant'")], []);
+
+
 

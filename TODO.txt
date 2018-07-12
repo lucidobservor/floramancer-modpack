@@ -53,6 +53,7 @@ Tweaks / Fixes
 Things to Check
 ---------------
 
+- Loot table of bears
 - Spawn rate/locations of bears/penguins (do they exist?)
 	- Black (forest)
 	- Panda (jungle)
