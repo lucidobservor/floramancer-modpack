@@ -10,19 +10,19 @@ End Game Content
         * Using Old tab might be an option?
     > Amount
         * Divvy up 18K pools for Hard, 1800 for Normal
-        * Entropinnyum    2100      3600 pools
-          Shulk Me Not    1500      2500 pools
-          Gourmaryllis    1100      1900 pools
-          Rafflowsia      1000      1750 pools
-          Rosa Arcana      800      1400 pools
-          Munchdew         800      1400 pools
-          Spectrolus       800      1400 pools
-          Dandelifeon      720      1250 pools
-          Kekimurus        450       750 pools
-          Narslimmus       300       500 pools
-          Thermalily       300       500 pools
-          Endoflame        300       500 pools
-          Hydroangeas      300       500 pools
+        * Entropinnyum    2100      3600 pools      ACME Inc.
+          Shulk Me Not    1500      2500 pools      I Believe I Can Fly
+          Gourmaryllis    1100      1900 pools      Fast Food Tycoon
+          Rafflowsia      1000      1750 pools      The Circle of Life
+          Rosa Arcana      800      1400 pools      Lethe's Rose
+          Munchdew         800      1400 pools      Can't See The Forest...
+          Spectrolus       800      1400 pools      Fabulous
+          Dandelifeon      720      1250 pools      Unto the Seven Thousandth Generation
+          Kekimurus        450       750 pools      It's Not a Lie
+          Narslimmus       300       500 pools      I Feel Sticky...
+          Thermalily       300       500 pools      Hell Raiser
+          Endoflame        300       500 pools      Burn the World
+          Hydroangeas      300       500 pools      8 Glasses a Day
 - Figure out what's possible
 	> Can I trigger a chat message when right clicking galactic potato (Yes, EnigmaScript or React)
 	> Can I trigger quest when right clicking galactic potato
@@ -80,14 +80,16 @@ Required Extras
 Optional Extras
 ---------------
 
+Mods:
 - Death Compass
-- https://minecraft.curseforge.com/projects/guidebook
-- SF3 Guide?
-- https://minecraft.curseforge.com/projects/climate-control-geographicraft
-- Quest Utils (just pedestal?)
-- Add saddles to the Lexica?
 - Better Foliage
+- https://minecraft.curseforge.com/projects/guidebook
+- https://minecraft.curseforge.com/projects/climate-control-geographicraft
+Mod Ideas:
 - Rail improvements
+- SF3 Like Checklist Guide Book?
+Other
+- Add saddles to the Lexica?
 
 ---------------
 Blockers
