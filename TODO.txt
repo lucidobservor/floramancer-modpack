@@ -58,8 +58,8 @@ Things to Check
 - Colytra
 - Malisis Door Recipe (add tooltip if works)
 - Spawn rate/locations of bears/penguins
-	- Black (forest)
-	- Grizzly (plains/hills/mountains)
+	- Black
+	- Grizzly
 	- penguin (arctic) (Ice Plains [spikes], Frozen beach, frozen ocean, glacier [spikes])
 
 	
@@ -87,7 +87,7 @@ Optional Extras
 - Quest Utils (just pedestal?)
 - Add saddles to the Lexica?
 - Better Foliage
-
+- Rail improvements
 
 ---------------
 Blockers
