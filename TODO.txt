@@ -45,16 +45,15 @@ Tweaks / Fixes
 
 - Configure Recurrent Complex
     - Especially of interest would be one with an enderman/creeper spawner
-- Bibliocraft - disable stuff
 - Fix JER mob drops, if possible
-    - Add LootTweaker, check if that fixes it in general
-    - Remove tooltip for tallow
+    - Remove tooltip for tallow once done
 
 
 ---------------
 Things to Check
 ---------------
 
+- Bibliocraft - disable any more stuff?
 - Traverse biomes for bearability (arid highland, lush hills, rocky plateau)
 - Colytra
 - Malisis Door Recipe (add tooltip if works)
@@ -81,16 +80,13 @@ Required Extras
 Optional Extras
 ---------------
 
+- Death Compass
 - https://minecraft.curseforge.com/projects/guidebook
+- SF3 Guide?
 - https://minecraft.curseforge.com/projects/climate-control-geographicraft
 - Quest Utils (just pedestal?)
-- Add saddles to the Lexica
-- Heatmap thing SevTech does
-- Recurrent Complex?
-    - Especially of interest would be one with an enderman/creeper spawner
+- Add saddles to the Lexica?
 - Better Foliage
-- Open Glider?
-- That bauble to show world info mod sevtech uses
 
 
 ---------------
