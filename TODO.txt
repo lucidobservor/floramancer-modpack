@@ -4,7 +4,7 @@ End Game Content
 ----------------
 
 - Figure out what's possible
-	> Can I trigger a chat message when right clicking galactic potato
+	> Can I trigger a chat message when right clicking galactic potato (Yes, EnigmaScript or React)
 	- Can I trigger quest when right clicking galactic potato
 	- Can I add pages to the Lexica based on game stages or other interaction
 - Advancements or Quests?
@@ -50,12 +50,11 @@ Tweaks / Fixes
     - Remove tooltip for tallow
 
 
-
 ---------------
 Things to Check
 ---------------
 
-- Carry On blockcraftery
+- Colytra
 - Spawn rate/locations of bears/penguins (do they exist?)
 	- Black (forest)
 	- Panda (jungle)
@@ -79,19 +78,22 @@ Required Extras
 Optional Extras
 ---------------
 
+- https://minecraft.curseforge.com/projects/guidebook
+- https://minecraft.curseforge.com/projects/climate-control-geographicraft
+- Quest Utils (just pedestal?)
 - Add saddles to the Lexica
 - Heatmap thing SevTech does
 - Recurrent Complex?
     - Especially of interest would be one with an enderman/creeper spawner
 - Better Foliage
 - Open Glider?
+- That bauble to show world info mod sevtech uses
 
 
 ---------------
 Blockers
 ---------------
 
-- Fix Coral reef WAILA
-    - Bug Report submitted
--- Player's Choice
-    - Wait for release
+- Fix Coral reef WAILA - Bug Report submitted
+- Player's Choice - Wait for release
+- Botania Tweaks - wait for mana statistics
