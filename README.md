@@ -32,11 +32,12 @@ grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
 	- Tier two and three runes have been tweaked slightly to require more varied ingredients. The new runic recipes are
       designed not to be strictly more expensive, but rather to contain new ingredients that there was previously no
 	  reason to automate except for decorative purposes, such as metamorphic stone and clay.
-	- By default, the mana cost of the Galactic Potato is equivalent to just under 27 Rank SS Terra Shatterers. In Hard
-	  mode, this is unchanged, while in Normal mode, the cost reduced to 15% of that.
+	- By default, the mana cost of the Galactic Potato is equivalent to just under 52 Rank SS Terra Shatterers. In Hard 
+	  mode, this is unchanged, while in Normal mode, the cost reduced to a tenth of that.
 
 - **Infinite Lava** - Lava in the Nether is infinite below y = 32 (The level of the lava lakes). This allows for the 
-    full automation of the thermalilly, something which isn't possible in pure Botania.
+    full automation of the thermalilly, something which isn't possible in pure Botania. If that's too easy for you, you
+    can also employ some trickery with the Flame Resistant Saddle from Horse Tweaks.
     
 - **Garden of Glass Compatibility** - There are no recipe changes that should interfere with progression in a Garden of
     Glass world.
@@ -45,12 +46,6 @@ grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
 ## Planned Features
 
 - **Player's Choice** - Choose your preferred mapping mod, WAILA substitute, chunk loader, and gravestone mod.
-
-- **Better Questing** - A quest book. This will not be a guide book, but rather a book of bulk-automation quests to 
-    acquire large amounts of all sorts of resources. The intent is for the player to set up automated systems to produce
-    these resources, with the eventual goal of automatically producing each kind of generating flora. While the quests 
-    cannot technically force you to automate the *use* of every flower, it's the hope that after crafting so many of
-    them, the player will find a use for them to offset the creation cost.
 
 - **Game Stages** - Game Stages is used for a singular purpose - to gate the creation of the creative mana tablet and
     pool behind the completion of the rest of the quest book.

@@ -3,31 +3,34 @@
 End Game Content
 ----------------
 
+- Adjust the cost of the tiny potato?
+- Update Botania Tweaks and Create Advancements using new triggers
+    > Location
+        * New tab: Pot-tato -> all flowers (branching) -> Galactic Potato (unbranching) -> Creative Tablet -> Creative Pool
+        * Using Old tab might be an option?
+    > Amount
+        * Divvy up 18K pools for Hard, 1800 for Normal
+        * Entropinnyum    2100      3600 pools
+          Shulk Me Not    1500      2500 pools
+          Gourmaryllis    1100      1900 pools
+          Rafflowsia      1000      1750 pools
+          Rosa Arcana      800      1400 pools
+          Munchdew         800      1400 pools
+          Spectrolus       800      1400 pools
+          Dandelifeon      720      1250 pools
+          Kekimurus        450       750 pools
+          Narslimmus       300       500 pools
+          Thermalily       300       500 pools
+          Endoflame        300       500 pools
+          Hydroangeas      300       500 pools
 - Figure out what's possible
 	> Can I trigger a chat message when right clicking galactic potato (Yes, EnigmaScript or React)
-	- Can I trigger quest when right clicking galactic potato
-	- Can I add pages to the Lexica based on game stages or other interaction
-- Advancements or Quests?
-    > Advancements
-        * Pros:
-            - Might be able to get closer to the thing I actually want to stage on
-            - Can definitely get closer to end of pack vision (talk to the potato)
-            - Generally a lot cleaner than a very sparse quest book
-        * Cons:
-            - Requires pull/feature request to Botania Tweaks?
-            - Less guidance for players
-    > Quests
-        * Pros:
-            - Pretty much already set up, so less work
-        * Cons:
-            - Not very close to ideal pack vision
-            - Better Questing gui scale is broken
+	> Can I trigger quest when right clicking galactic potato
+	> Can I add pages to the Lexica based on game stages or other interaction
 - Staging
     > If using Triumph/Advancements
         * Set stage once all flower advancements/potato quest/botania challenges
         * Probably need to stage off of a single quest. If so, make quest to right click potato with Lexica
-    > If Using Quests:
-        * Trigger gamestage command as reward for galactic potato quest
     > Either way, actually add Game Stages (plus whatever addons) and configure
 - Creative Recipes
     > Simple: Runic altar Recipe
@@ -40,8 +43,6 @@ End Game Content
 Tweaks / Fixes
 ---------------
 
-- Malisis Doors add recipes
-- Make Thicket biome smaller
 - Configure Recurrent Complex
     - Especially of interest would be one with an enderman/creeper spawner
 - Bibliocraft - disable stuff
@@ -54,11 +55,13 @@ Tweaks / Fixes
 Things to Check
 ---------------
 
+- Traverse biomes for bearability (arid highland, lush hills, rocky plateau)
 - Colytra
-- Spawn rate/locations of bears/penguins (do they exist?)
+- Malisis Door Recipe (add tooltip if works)
+- Spawn rate/locations of bears/penguins
 	- Black (forest)
-	- Panda (jungle)
-	- penguin (arctic)
+	- Grizzly (plains/hills/mountains)
+	- penguin (arctic) (Ice Plains [spikes], Frozen beach, frozen ocean, glacier [spikes])
 
 	
 ---------------
@@ -96,4 +99,3 @@ Blockers
 
 - Fix Coral reef WAILA - Bug Report submitted
 - Player's Choice - Wait for release
-- Botania Tweaks - wait for mana statistics
