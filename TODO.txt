@@ -40,31 +40,33 @@ End Game Content
 Tweaks / Fixes
 ---------------
 
-- Add saddles to the Lexica (if runic altar recipes work)
+- Malisis Doors add recipes
+- Make Thicket biome smaller
+- Configure Recurrent Complex
+    - Especially of interest would be one with an enderman/creeper spawner
+- Bibliocraft - disable stuff
 - Fix JER mob drops, if possible
     - Add LootTweaker, check if that fixes it in general
     - Remove tooltip for tallow
-    - Switch bear drops to use LootTweaker
-- Fix Coral reef WAILA
-    - Bug Report submitted
+
 
 
 ---------------
 Things to Check
 ---------------
 
-- Loot table of bears
+- Carry On blockcraftery
 - Spawn rate/locations of bears/penguins (do they exist?)
 	- Black (forest)
 	- Panda (jungle)
 	- penguin (arctic)
 
+	
 ---------------
 Required Extras
 ---------------
 
 -- Player's Choice
-    - Wait for release
     - Try once again to use it for actual mods
  	- Add descriptions for each mode
 - Add Custom Main Menu
@@ -72,22 +74,24 @@ Required Extras
 - Update README.md (rolling)
 - Create Pack Icon
 
+
 ---------------
 Optional Extras
 ---------------
 
+- Add saddles to the Lexica
 - Heatmap thing SevTech does
 - Recurrent Complex?
     - Especially of interest would be one with an enderman/creeper spawner
-- ArchitectureCraft / blockcraftery
-    - Test the latter, if so use it
 - Better Foliage
-- Bibliocraft
-    - consider disabling book printing
-- Malisis Doors
-    - remove force field?
-- Mo' Villages
 - Open Glider?
-- Wither Skeleton Tweaks
-    - configure
 
+
+---------------
+Blockers
+---------------
+
+- Fix Coral reef WAILA
+    - Bug Report submitted
+-- Player's Choice
+    - Wait for release

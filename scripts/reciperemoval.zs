@@ -1,4 +1,21 @@
 
+// Remove Botania Thaumcraft Compat Items
+mods.jei.JEI.removeAndHide(<botania:manainkwell>);
+mods.jei.JEI.removeAndHide(<botania:manasteelhelmreveal>);
+mods.jei.JEI.removeAndHide(<botania:elementiumhelmreveal>);
+mods.jei.JEI.removeAndHide(<botania:terrasteelhelmreveal>);
+
+// Remove WIther Tweaks Sword
+mods.jei.JEI.removeAndHide(<witherskelefix:blade>);
+mods.jei.JEI.removeAndHide(<witherskelefix:blade2>);
+
+// Remove conflicting Malisis Trapdoors
+mods.jei.JEI.removeAndHide(<malisisdoors:trapdoor_acacia>);
+mods.jei.JEI.removeAndHide(<malisisdoors:trapdoor_spruce>);
+mods.jei.JEI.removeAndHide(<malisisdoors:trapdoor_jungle>);
+mods.jei.JEI.removeAndHide(<malisisdoors:trapdoor_birch>);
+mods.jei.JEI.removeAndHide(<malisisdoors:trapdoor_dark_oak>);
+
 // Remove all Iron Shulker Boxes
 mods.jei.JEI.removeAndHide(<ironchest:vanilla_iron_shulker_upgrade>);
 mods.jei.JEI.removeAndHide(<ironchest:iron_chest:7>);

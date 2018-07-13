@@ -1,5 +1,4 @@
 
-import crafttweaker.data.IData;
 import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.Functions;
 
@@ -10,23 +9,19 @@ mods.jei.JEI.removeAndHide(<bearwithme:hide_bear:*>);
 recipes.removeByRecipeName("bearwithme:hidetoleather");
 
 //Get the bear loot tables and pools
-var blackBearTable = LootTables.getTable("bearwithme:entities/black_bear");
-var grizlyBearTable = LootTables.getTable("bearwithme:entities/grizzly_bear");
-var pandaBearTable = LootTables.getTable("bearwithme:entities/panda_bear");
-
-var blackBear = blackBearTable.getPool("main");
-var grizlyBear = grizlyBearTable.getPool("main");
-var pandaBear = pandaBearTable.getPool("main");
+var blackBear = LootTables.getTable("bearwithme:entities/black_bear").getPool("main");
+var grizzlyBear = LootTables.getTable("bearwithme:entities/grizzly_bear").getPool("main");
+var pandaBear = LootTables.getTable("bearwithme:entities/panda_bear").getPool("main");
 
 // Remove bear hide recipes
 blackBear.removeEntry("bearwithme:hide_bear");
-grizlyBear.removeEntry("bearwithme:hide_bear");
+grizzlyBear.removeEntry("bearwithme:hide_bear");
 pandaBear.removeEntry("bearwithme:hide_bear");
 
 // Add equivalent normal leather drops
-//blackBear.addItemEntryHelper(<minecraft:leather> * 1, 4, 0, [Functions.parse("count:{min:0,max:1}, function:'minecraft:looting_enchant'")], []);
-//grizzlyBear.addItemEntryHelper(<minecraft:leather> * 1, 4, 0, [Functions.parse("count:{min:0,max:1}, function:'minecraft:looting_enchant'")], []);
-//pandaBear.addItemEntryHelper(<minecraft:leather> * 1, 4, 0, [Functions.parse("count:{min:0,max:1}, function:'minecraft:looting_enchant'")], []);
+blackBear.addItemEntryHelper(<minecraft:leather> * 1, 4, 0, [Functions.setCount(1, 4), Functions.lootingEnchantBonus(0, 1, 0)], []);
+grizzlyBear.addItemEntryHelper(<minecraft:leather> * 1, 4, 0, [Functions.setCount(1, 4), Functions.lootingEnchantBonus(0, 1, 0)], []);
+pandaBear.addItemEntryHelper(<minecraft:leather> * 1, 4, 0, [Functions.setCount(1, 4), Functions.lootingEnchantBonus(0, 1, 0)], []);
 
 
 
