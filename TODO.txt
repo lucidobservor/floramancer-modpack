@@ -43,7 +43,7 @@ End Game Content
 Tweaks / Fixes
 ---------------
 
-- Configure Recurrent Complex
+- Configure Recurrent Complex (Start at O)
     - Especially of interest would be one with an enderman/creeper spawner
 - Fix JER mob drops, if possible
     - Remove tooltip for tallow once done
@@ -53,14 +53,6 @@ Tweaks / Fixes
 Things to Check
 ---------------
 
-- Bibliocraft - disable any more stuff?
-- Traverse biomes for bearability (arid highland, lush hills, rocky plateau)
-- Colytra
-- Malisis Door Recipe (add tooltip if works)
-- Spawn rate/locations of bears/penguins
-	- Black
-	- Grizzly
-	- penguin (arctic) (Ice Plains [spikes], Frozen beach, frozen ocean, glacier [spikes])
 
 	
 ---------------

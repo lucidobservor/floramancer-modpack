@@ -4,10 +4,6 @@ import mods.botania.ManaInfusion;
 import mods.botania.RuneAltar;
 
 
-<botania:biomestonea:*>.addTooltip(format.aqua("Created by placing stone near a Marimorphosis flower."));
-<botania:altgrass>.addTooltip(format.aqua("Drops from any Botania grass when harvested with a weight lens."));
-<quark:tallow>.addTooltip(format.aqua("Dropped by pigs."));
-
 /*==========================
   Apothecary Recipe Tweaks
  ==========================*/
