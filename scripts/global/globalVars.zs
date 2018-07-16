@@ -26,6 +26,7 @@ global thermalily as IItemStack =  <botania:specialflower>.withTag({type: "therm
 // Creative Items
 global creativeManaTablet as IItemStack =  <botania:manatablet>.withTag({mana: 500000, creative: 1 as byte});
 global creativeManaPool as IItemStack =  <botania:pool:1>;
+global galacticPotato as IItemStack = <botania_tweaks:compressed_tiny_potato_8>;
 
 // Other
 global rankSSTerraShatterer as IItemStack =  <botania:terrapick>.withTag({mana: 2147483646});

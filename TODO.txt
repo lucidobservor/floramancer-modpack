@@ -3,41 +3,55 @@
 End Game Content
 ----------------
 
-- Adjust the cost of the tiny potato?
-- Update Botania Tweaks and Create Advancements using new triggers
-    > Location
-        * New tab: Pot-tato -> all flowers (branching) -> Galactic Potato (unbranching) -> Creative Tablet -> Creative Pool
-        * Using Old tab might be an option?
-    > Amount
-        * Divvy up 18K pools for Hard, 1800 for Normal
+- Add Triumph and Create Advancements using new triggers
+    > New tab: Lexica -> all flowers (branching) -> Galactic Potato (unbranching) -> Creative Tablet -> Creative Pool
+    > Amount and Achievement Names
         * Entropinnyum    2100      3600 pools      ACME Inc.
-          Shulk Me Not    1500      2500 pools      I Believe I Can Fly
-          Gourmaryllis    1100      1900 pools      Fast Food Tycoon
-          Rafflowsia      1000      1750 pools      The Circle of Life
-          Rosa Arcana      800      1400 pools      Lethe's Rose
-          Munchdew         800      1400 pools      Can't See The Forest...
-          Spectrolus       800      1400 pools      Fabulous
-          Dandelifeon      720      1250 pools      Unto the Seven Thousandth Generation
-          Kekimurus        450       750 pools      It's Not a Lie
-          Narslimmus       300       500 pools      I Feel Sticky...
-          Thermalily       300       500 pools      Hell Raiser
-          Endoflame        300       500 pools      Burn the World
-          Hydroangeas      300       500 pools      8 Glasses a Day
-- Figure out what's possible
-	> Can I trigger a chat message when right clicking galactic potato (Yes, EnigmaScript or React)
-	> Can I trigger quest when right clicking galactic potato
-	> Can I add pages to the Lexica based on game stages or other interaction
-- Staging
-    > If using Triumph/Advancements
-        * Set stage once all flower advancements/potato quest/botania challenges
-        * Probably need to stage off of a single quest. If so, make quest to right click potato with Lexica
-    > Either way, actually add Game Stages (plus whatever addons) and configure
+        * Shulk Me Not    1500      2500 pools      I Believe I Can Fly
+        * Gourmaryllis    1100      1900 pools      Fast Food Tycoon
+        * Rafflowsia      1000      1750 pools      The Circle of Life
+        * Rosa Arcana      800      1400 pools      Lethe's Rose
+        * Munchdew         800      1400 pools      Can't See The Forest...
+        * Spectrolus       800      1400 pools      Fabulous
+        * Dandelifeon      720      1250 pools      Unto the Seven Thousandth Generation
+        * Kekimurus        450       750 pools      It's Not a Lie
+        * Narslimmus       300       500 pools      I Feel Sticky...
+        * Thermalily       300       500 pools      Hell Raiser
+        * Endoflame        300       300 pools      Burn the World
+        * Hydroangeas      300       100 pools      8 Glasses a Day
+    > Make Galactic Potato quest just acquisition for now, change it later if possible
+- Add Game Stages and Item Stages
+    > My galactic potato quest grants the "creative" stage
+
+
+--------------------------------------
+Optional / Uncertain End Game Content
+--------------------------------------
+
+- Ideal Vision:
+    > Lexica by default shows no creative recipes
+    > My Galactic Potato quest is to right click a potato with the Lexica, won't trigger before flower advancements
+    > Trigger custom chat message when right clicking potato with items
+        * Non-galactics when clicked with Lexica
+            -> "I can't really contribute anything new to this. Perhaps my father would know more?"
+        * Galactic when clicked without all flower quests
+            -> "It seems you have not yet mastered all the flowers. You are not yet worthy of my secrets."
+        * Galactic when clicked with all pre-requisites
+            -> "You have proven yourself worthy. Take this book, in which I have now inscribed the secrets of infinite mana."
+    > If custom chat messages can see what achievements have been gotten, perhaps require additional quests to be done.
+    > Once creative recipes unlocked, they show in the Lexica (and JEI)
+    > Both creative recipes require different custom structures. The pool gets transformed in world.
+- Figure Lexica / Recipe Staging
+    > Current Best option seems to be to award trophy items with the mana quests, and use them in the structure
+    > Game stages should take care of JEI, but want some way to stage Lexica content
 - Creative Recipes
-    > Simple: Runic altar Recipe
-        * Dice of Fate or Gaia Guardian Head?
-    > Harder: Custom terraglomeration recipe with BotaniaTweaks
+    > Creative Tablet
         * Something inspired by the starlight infusion altar, but with mana pools instead of liquid starlight
-        * Recipe consumes number of mana pools in the structure
+        * Recipe consumes number of mana pools in the structure (12?)
+    > Creative Pool
+        * Fabulous pool in the center. This gets transformed in world.
+        * Galactic potato is consumed, returning a tiny potato with a rainbow enchantment
+        * Tiny potato with enchantment can be regrown into galactic with mana infusion (creative pool only)
 
 ---------------
 Tweaks / Fixes
@@ -55,9 +69,11 @@ Tweaks / Fixes
 Things to Check
 ---------------
 
+- New category and Lexica pages
 - Recurrent Complex
 	- Tent
 	- DesertDungeon
+- Creative items are staged (after installing mods)
 	
 ---------------
 Required Extras
@@ -87,6 +103,8 @@ Mod Ideas:
 - SF3 Like Checklist Guide Book?
 Other
 - Add saddles to the Lexica?
+End Game Content
+-
 
 ---------------
 Blockers

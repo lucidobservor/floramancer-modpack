@@ -14,14 +14,14 @@ Apothecary.removeRecipe(narslimmus);
 Apothecary.removeRecipe(dandelifeon);
 Apothecary.removeRecipe(shulkMeNot);
 
-Apothecary.addRecipe(munchdew, 
-	[<ore:petalLime>, <ore:petalLime>, <ore:petalRed>, <ore:petalRed>, <ore:petalGreen>, 
+Apothecary.addRecipe(munchdew,
+	[<ore:petalLime>, <ore:petalLime>, <ore:petalRed>, <ore:petalRed>, <ore:petalGreen>,
 	<ore:runeGluttonyB>, <ore:runeWaterB>]);
-Apothecary.addRecipe(kekimurus, 
-	[<ore:petalWhite>, <ore:petalWhite>, <ore:petalOrange>, <ore:petalOrange>, <ore:petalBrown>, <ore:petalBrown>, 
+Apothecary.addRecipe(kekimurus,
+	[<ore:petalWhite>, <ore:petalWhite>, <ore:petalOrange>, <ore:petalOrange>, <ore:petalBrown>, <ore:petalBrown>,
 	<ore:runeGluttonyB>, <ore:runeSpringB>, <ore:elvenPixieDust>]);
-Apothecary.addRecipe(narslimmus, 
-	[<ore:petalLime>, <ore:petalLime>, <ore:petalGreen>, <ore:petalGreen>, <ore:petalBlack>, 
+Apothecary.addRecipe(narslimmus,
+	[<ore:petalLime>, <ore:petalLime>, <ore:petalGreen>, <ore:petalGreen>, <ore:petalBlack>,
 	<ore:runeAutumnB>, <ore:runeWaterB>]);
 Apothecary.addRecipe(shulkMeNot,
 	[<ore:petalPurple>, <ore:petalPurple>, <ore:petalMagenta>, <ore:petalMagenta>, <ore:petalLightGray>,
@@ -33,7 +33,7 @@ Apothecary.addRecipe(dandelifeon,
 /*==========================
   Runic Altar Recipe Tweaks
  ==========================*/
- 
+
 RuneAltar.removeRecipe(<botania:rune:2>);
 RuneAltar.removeRecipe(<botania:rune:3>);
 RuneAltar.removeRecipe(<botania:rune:4>);
@@ -54,21 +54,21 @@ RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel
 
 // Tier 2 rune tweaks
 RuneAltar.addRecipe(<botania:rune:4>, [
-	<ore:runeWaterB>, <ore:runeFireB>, 
-	<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, 
+	<ore:runeWaterB>, <ore:runeFireB>,
+	<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>,
 	<ore:cropWheat>, <ore:stoneMetamorphic>, <ore:grass>], 8000);
 RuneAltar.addRecipe(<botania:rune:5>, [
-	<ore:runeEarthB>, <ore:runeAirB>, 
-	<minecraft:sand>, <minecraft:sand>, 
+	<ore:runeEarthB>, <ore:runeAirB>,
+	<minecraft:sand>, <minecraft:sand>,
 	<minecraft:slime_ball>, <minecraft:melon>,
 	<ore:hardenedClay>, <minecraft:sand:1>], 8000);
 RuneAltar.addRecipe(<botania:rune:6>, [
-	<ore:runeFireB>, <ore:runeAirB>, 
-	<ore:autumnalLeaves>, <ore:autumnalLeaves>, <ore:autumnalLeaves>, 
+	<ore:runeFireB>, <ore:runeAirB>,
+	<ore:autumnalLeaves>, <ore:autumnalLeaves>, <ore:autumnalLeaves>,
 	<minecraft:fermented_spider_eye>, <ore:mycelium>, <botania:altgrass>], 8000);
 RuneAltar.addRecipe(<botania:rune:7>, [
-	<ore:runeWaterB>, <ore:runeEarthB>, 
-	<minecraft:snow>, <minecraft:snow>, 
+	<ore:runeWaterB>, <ore:runeEarthB>,
+	<minecraft:snow>, <minecraft:snow>,
 	<ore:blockWool>, <minecraft:cake>,
 	<minecraft:ice>, <minecraft:packed_ice>], 8000);
 
@@ -104,28 +104,9 @@ ManaInfusion.addAlchemy(<minecraft:sapling>, <traverse:fir_sapling>, 120);
 /*=========================
         Flugel Tiara
  =========================*/
- 
+
 recipes.removeShaped(<botania:flighttiara>);
-recipes.addShaped("botania_flighttiara_0", <botania:flighttiara>, 
-	[[<ore:eternalLifeEssence>, <ore:eternalLifeEssence>, <ore:eternalLifeEssence>], 
-	[<ore:ingotElvenElementium>, <minecraft:elytra>, <ore:ingotElvenElementium>], 
+recipes.addShaped("botania_flighttiara_0", <botania:flighttiara>,
+	[[<ore:eternalLifeEssence>, <ore:eternalLifeEssence>, <ore:eternalLifeEssence>],
+	[<ore:ingotElvenElementium>, <minecraft:elytra>, <ore:ingotElvenElementium>],
 	[<minecraft:feather>, <ore:bEnderAirBottle>, <minecraft:feather>]]);
-
-
-/*=========================
-    Creative Item Recipes - TODO - UPDATE
- =========================*/
- 
-RuneAltar.addRecipe(creativeManaTablet,[
-  <botania:manatablet>, terraSteelBlock, 
-  <botania:manatablet>, gaiaSpritIngot, 
-  <botania:manatablet>, terraSteelBlock, 
-  <botania:manatablet>, gaiaSpritIngot], 10000000
-);
-
-RuneAltar.addRecipe(creativeManaPool,[
-  creativeManaTablet, terraSteelBlock, <botania:pool:3>,  
-  creativeManaTablet, terraSteelBlock, <botania:pool:3>,
-  creativeManaTablet, terraSteelBlock, <botania:pool:3>], 10000000
-);
-

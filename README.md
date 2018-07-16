@@ -33,7 +33,7 @@ grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
       designed not to be strictly more expensive, but rather to contain new ingredients that there was previously no
 	  reason to automate except for decorative purposes, such as metamorphic stone and clay.
 	- By default, the mana cost of the Galactic Potato is equivalent to just under 52 Rank SS Terra Shatterers. In Hard 
-	  mode, this is unchanged, while in Normal mode, the cost reduced to a tenth of that.
+	  mode, this is unchanged, while in Normal mode, the cost reduced to less than a tenth of that.
 
 - **Infinite Lava** - Lava in the Nether is infinite below y = 32 (The level of the lava lakes). This allows for the 
     full automation of the thermalilly, something which isn't possible in pure Botania. If that's too easy for you, you
