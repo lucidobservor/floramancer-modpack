@@ -44,8 +44,7 @@ Tweaks / Fixes
 ---------------
 
 - Configure Recurrent Complex
-	- Remove written books from everything
-	- Tweak Loots in some structures, then add them
+	- Reconfigure TreeGuardian
 	- Add/Edit spawners in some structures
 	- Hide items from JEI when done
 - Fix JER mob drops, if possible
@@ -56,7 +55,9 @@ Tweaks / Fixes
 Things to Check
 ---------------
 
-
+- Recurrent Complex
+	- Tent
+	- DesertDungeon
 	
 ---------------
 Required Extras
