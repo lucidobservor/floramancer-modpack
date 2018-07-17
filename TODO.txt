@@ -64,6 +64,7 @@ Things to Check
 - New Triumph Quests
 - Creative Lexica is stage locked
 - New category and Lexica pages
+- IMPORTANT: Can you actually automatically place generating flowers?
 - Recurrent Complex
 	- Tent
 	- DesertDungeon
