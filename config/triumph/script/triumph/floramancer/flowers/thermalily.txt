@@ -1,0 +1,17 @@
+
+setIcon(<botania:specialflower, nbt:{type: "thermalily"}>)
+setTitle("Hellraiser")
+setDescription("Automate the Thermalily")
+addParent("triumph:floramancer/lexicon")
+
+setPos(20, 30)
+setRequiresParents()
+drawDirectLines(true)
+
+//criteria = addCriteria("usedThermalily", "botania_tweaks:flower_generated_mana")
+//criteria.setFlower("thermalily")
+//criteria.setPools(0.001)
+//criteria.setPools(500)
+
+criteria = addCriteria("usedThermalily", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, nbt:{type: "thermalily"}>)

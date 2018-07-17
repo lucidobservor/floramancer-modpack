@@ -15,7 +15,7 @@ mods.ItemStages.addItemStage("creative", creativeManaPool);
 
 // Register Knowledge Type
 Knowledge.registerKnowledgeType(knowledgeTypeCreative, knowledgeTypeCreative, "DARK_AQUA", false);
-recipes.addShapeless("botaniaCreativeKnowledgeAddition", 
+mods.recipestages.Recipes.addShapeless("botaniaCreativeKnowledgeAddition", "creative",
 	<botania:lexicon>.withTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte, "knowledge.creative": 1 as byte}), 
 	[<botania:lexicon>.onlyWithTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}), galacticPotato.reuse()]);
 

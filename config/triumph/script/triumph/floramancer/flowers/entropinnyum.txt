@@ -1,0 +1,17 @@
+
+setIcon(<botania:specialflower, nbt:{type: "entropinnyum"}>)
+setTitle("ACME, Inc.")
+setDescription("Automate the Entropinnyum")
+addParent("triumph:floramancer/lexicon")
+
+setPos(20, 0)
+setRequiresParents()
+drawDirectLines(true)
+
+//criteria = addCriteria("usedEntropinnyum", "botania_tweaks:flower_generated_mana")
+//criteria.setFlower("entropinnyum")
+//criteria.setPools(0.001)
+//criteria.setPools(3600)
+
+criteria = addCriteria("usedEntropinnyum", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, nbt:{type: "entropinnyum"}>)

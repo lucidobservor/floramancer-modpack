@@ -1,0 +1,17 @@
+
+setIcon(<botania:specialflower, nbt:{type: "gourmaryllis"}>)
+setTitle("Fast Food Tycoon")
+setDescription("Automate the Gourmaryllis")
+addParent("triumph:floramancer/lexicon")
+
+setPos(20, 20)
+setRequiresParents()
+drawDirectLines(true)
+
+//criteria = addCriteria("usedGourmaryllis", "botania_tweaks:flower_generated_mana")
+//criteria.setFlower("gourmaryllis")
+//criteria.setPools(0.001)
+//criteria.setPools(1900)
+
+criteria = addCriteria("usedGourmaryllis", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, nbt:{type: "gourmaryllis"}>)

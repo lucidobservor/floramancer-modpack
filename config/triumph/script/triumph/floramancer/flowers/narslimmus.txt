@@ -1,0 +1,17 @@
+
+setIcon(<botania:specialflower, nbt:{type: "narslimmus"}>)
+setTitle("I Feel Sticky...")
+setDescription("Automate the Narslimmus")
+addParent("triumph:floramancer/lexicon")
+
+setPos(20, 15)
+setRequiresParents()
+drawDirectLines(true)
+
+//criteria = addCriteria("usedNarslimmus", "botania_tweaks:flower_generated_mana")
+//criteria.setFlower("narslimmus")
+//criteria.setPools(0.001)
+//criteria.setPools(500)
+
+criteria = addCriteria("usedNarslimmus", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, nbt:{type: "narslimmus"}>)

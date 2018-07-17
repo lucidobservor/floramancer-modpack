@@ -1,0 +1,17 @@
+
+setIcon(<botania:specialflower, nbt:{type: "munchdew"}>)
+setTitle("Can't See The Forest")
+setDescription("Automate the Munchdew")
+addParent("triumph:floramancer/lexicon")
+
+setPos(20, 5)
+setRequiresParents()
+drawDirectLines(true)
+
+//criteria = addCriteria("usedMunchdew", "botania_tweaks:flower_generated_mana")
+//criteria.setFlower("munchdew")
+//criteria.setPools(0.001)
+//criteria.setPools(1400)
+
+criteria = addCriteria("usedMunchdew", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, nbt:{type: "munchdew"}>)

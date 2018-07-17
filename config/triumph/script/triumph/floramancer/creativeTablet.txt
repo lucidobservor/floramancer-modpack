@@ -5,7 +5,7 @@ setDescription("Craft the Creative Mana Tablet")
 addParent("triumph:floramancer/creativeLexicon")
 
 setPos(35, 10)
-setRequiresParents(true)
+setRequiresParents()
 drawDirectLines(true)
 
 criteria = addCriteria("hasTabletCreative", "minecraft:inventory_changed")

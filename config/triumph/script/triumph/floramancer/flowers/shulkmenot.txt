@@ -1,0 +1,17 @@
+
+setIcon(<botania:specialflower, nbt:{type: "shulk_me_not"}>)
+setTitle("I Believe I Can Fly")
+setDescription("Automate the Shulk Me Not")
+addParent("triumph:floramancer/lexicon")
+
+setPos(20, -15)
+setRequiresParents()
+drawDirectLines(true)
+
+//criteria = addCriteria("usedShulkMeNot", "botania_tweaks:flower_generated_mana")
+//criteria.setFlower("shulkmenot")
+//criteria.setPools(0.001)
+//criteria.setPools(2500)
+
+criteria = addCriteria("usedShulkMeNot", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, nbt:{type: "shulk_me_not"}>)

@@ -1,0 +1,17 @@
+
+setIcon(<botania:specialflower, nbt:{type: "endoflame"}>)
+setTitle("Burn The World")
+setDescription("Automate the Endoflame")
+addParent("triumph:floramancer/lexicon")
+
+setPos(20, 35)
+setRequiresParents()
+drawDirectLines(true)
+
+//criteria = addCriteria("usedEndoflame", "botania_tweaks:flower_generated_mana")
+//criteria.setFlower("endoflame")
+//criteria.setPools(0.001)
+//criteria.setPools(300)
+
+criteria = addCriteria("usedEndoflame", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, nbt:{type: "endoflame"}>)
