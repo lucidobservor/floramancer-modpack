@@ -1,0 +1,17 @@
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+setIcon(<botania:pool:1>)
+setTitle("Floramancer")
+setDescription("The path to becoming an expert floramancer")
+setBackground("botania:textures/blocks/bifrost.png")
+
+setShowToast(false)
+setAnnounceToChat(false)
+setHidden(true)
+
+//Set the position
+setPos(10, 10)
+
+//Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
+addCriteria("location", "minecraft:location")
+

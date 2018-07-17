@@ -1,0 +1,12 @@
+
+setIcon(<botania:lexicon>)
+setTitle("The Journey Begins")
+setDescription("Acquire the Lexica Botania")
+addParent("triumph:floramancer/root")
+
+setAnnounceToChat(false)
+
+setPos(15, 10)
+
+criteria = addCriteria("hasLexica", "minecraft:inventory_changed")
+criteria.addItem(<botania:lexicon>)

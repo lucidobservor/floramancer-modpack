@@ -57,6 +57,7 @@ Optional / Uncertain End Game Content
 Tweaks / Fixes
 ---------------
 
+- Submit Bug Report to ModTweaker - with logs
 - Configure Recurrent Complex
 	- Reconfigure TreeGuardian
 	- Add/Edit spawners in some structures
@@ -73,8 +74,7 @@ Things to Check
 - Recurrent Complex
 	- Tent
 	- DesertDungeon
-- Creative items are staged (after installing mods)
-	
+
 ---------------
 Required Extras
 ---------------
@@ -103,8 +103,6 @@ Mod Ideas:
 - SF3 Like Checklist Guide Book?
 Other
 - Add saddles to the Lexica?
-End Game Content
--
 
 ---------------
 Blockers

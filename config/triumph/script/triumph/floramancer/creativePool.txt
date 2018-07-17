@@ -1,0 +1,13 @@
+
+setIcon(<botania:manatablet, nbt: {mana: 500000, creative: 1 as byte}>)
+setTitle("Mana Everlasting")
+setDescription("Craft the Everlasting Guilty Pool")
+addParent("triumph:floramancer/creativeTablet")
+
+setPos(40, 10)
+setRequiresParents(true)
+drawDirectLines(true)
+setFrameType("GOAL")
+
+criteria = addCriteria("hasPoolCreative", "minecraft:inventory_changed")
+criteria.addItem(<botania:pool:1>)

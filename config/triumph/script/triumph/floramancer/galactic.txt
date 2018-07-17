@@ -1,0 +1,12 @@
+
+setIcon(<botania_tweaks:compressed_tiny_potato_8>)
+setTitle("The Elder Potato")
+setDescription("Bring Forth The Galactic Potato")
+addParent("triumph:floramancer/hydroangeas")
+
+setPos(25, 10)
+setRequiresParents(true)
+drawDirectLines(true)
+
+criteria = addCriteria("hasPotato", "minecraft:inventory_changed")
+criteria.addItem(<botania_tweaks:compressed_tiny_potato_8>)

@@ -1,0 +1,13 @@
+
+setIcon(<botania:specialflower, nbt:{type: "hydroangeas"}>)
+setTitle("8 Glasses a Day")
+setDescription("Automate the Hydroangeas")
+addParent("triumph:floramancer/lexicon")
+
+setPos(20, 10)
+setRequiresParents(true)
+drawDirectLines(true)
+
+criteria = addCriteria("usedHydroangeas", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("hydroangeas")
+criteria.setPools(0.001)

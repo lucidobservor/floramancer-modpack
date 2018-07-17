@@ -1,0 +1,12 @@
+
+setIcon(<botania:lexicon, nbt:{"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte, "knowledge.creative": 1 as byte}>)
+setTitle("Ultimate Knowledge")
+setDescription("Craft the Lexica Botania with the Galactic Potato")
+addParent("triumph:floramancer/galactic")
+
+setPos(30, 10)
+setRequiresParents(true)
+drawDirectLines(true)
+
+criteria = addCriteria("hasLexicaCreative", "minecraft:inventory_changed")
+criteria.addItem(<botania:lexicon, nbt:{"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte, "knowledge.creative": 1 as byte}>)

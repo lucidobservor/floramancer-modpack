@@ -1,0 +1,12 @@
+
+setIcon(<botania:manatablet, nbt: {mana: 500000, creative: 1 as byte}>)
+setTitle("Infinite Power, Itty Bitty Living Space")
+setDescription("Craft the Creative Mana Tablet")
+addParent("triumph:floramancer/creativeLexicon")
+
+setPos(35, 10)
+setRequiresParents(true)
+drawDirectLines(true)
+
+criteria = addCriteria("hasTabletCreative", "minecraft:inventory_changed")
+criteria.addItem(<botania:manatablet, nbt: {mana: 500000, creative: 1 as byte}>)
