@@ -4,8 +4,7 @@ End Game Content
 ----------------
 
 - Triumph
-    > Rearrange Quests to taste
-    > Choose proper background image
+	> Fix creative tablet/pool quest not registering
     > Wait on compatibility release
     > Once working, copy into player's choice config and set Normal mode numbers to 1/10th
 - Fix the Lexica Knowledge thing
@@ -60,10 +59,7 @@ Tweaks / Fixes
 Things to Check
 ---------------
 
-- New Triumph Quests
-- Creative Lexica is stage locked
 - New category and Lexica pages
-- IMPORTANT: Can you actually automatically place generating flowers?
 - Recurrent Complex
 	- Tent
 	- DesertDungeon
