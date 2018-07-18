@@ -6,7 +6,7 @@ addParent("triumph:floramancer/root")
 
 setAnnounceToChat(false)
 
-setPos(15, 10)
+setPos(11, 10)
 
 criteria = addCriteria("hasLexica", "minecraft:inventory_changed")
 criteria.addItem(<botania:lexicon>)

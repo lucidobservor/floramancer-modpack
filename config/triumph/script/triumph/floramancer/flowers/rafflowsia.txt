@@ -4,8 +4,7 @@ setTitle("The Circle of Life")
 setDescription("Automate the Rafflowsia")
 addParent("triumph:floramancer/lexicon")
 
-setPos(20, -5)
-setRequiresParents()
+setPos(12, 14)
 drawDirectLines(true)
 
 //criteria = addCriteria("usedRafflowsia", "botania_tweaks:flower_generated_mana")

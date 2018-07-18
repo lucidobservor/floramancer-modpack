@@ -3,7 +3,6 @@
 End Game Content
 ----------------
 
-- Add RecipeStages
 - Triumph
     > Rearrange Quests to taste
     > Choose proper background image

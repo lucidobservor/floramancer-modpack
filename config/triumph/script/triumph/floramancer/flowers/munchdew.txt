@@ -4,8 +4,7 @@ setTitle("Can't See The Forest")
 setDescription("Automate the Munchdew")
 addParent("triumph:floramancer/lexicon")
 
-setPos(20, 5)
-setRequiresParents()
+setPos(12, 8)
 drawDirectLines(true)
 
 //criteria = addCriteria("usedMunchdew", "botania_tweaks:flower_generated_mana")

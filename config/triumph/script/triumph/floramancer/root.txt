@@ -1,9 +1,9 @@
 //This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
 
-setIcon(<botania:pool:1>)
+setIcon(<botania_tweaks:compressed_tiny_potato_7>)
 setTitle("Floramancer")
 setDescription("The path to becoming an expert floramancer")
-setBackground("botania:textures/blocks/bifrost.png")
+setBackground("botania:textures/blocks/chiseledmanaquartz0.png")
 
 setShowToast(false)
 setAnnounceToChat(false)

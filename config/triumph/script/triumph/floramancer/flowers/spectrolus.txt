@@ -4,8 +4,7 @@ setTitle("Fabulous")
 setDescription("Automate the Spectrolus")
 addParent("triumph:floramancer/lexicon")
 
-setPos(20, 25)
-setRequiresParents()
+setPos(12, 13)
 drawDirectLines(true)
 
 //criteria = addCriteria("usedSpectrolus", "botania_tweaks:flower_generated_mana")
