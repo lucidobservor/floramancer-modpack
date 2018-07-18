@@ -43,6 +43,7 @@ Tweaks / Fixes
 	- Hide items from JEI when done
 - Fix JER mob drops, if possible
     - Remove tooltip for tallow once done
+- BiomeTweaker - use botania alt grasses in biomes?
 
 
 ---------------
@@ -76,7 +77,7 @@ Mods:
     > Tweaks modules
         - Flower Pot comparator
         - Fitted Carpets
-        - Desaddle Pigs
+        - De-saddle Pigs
         - Colored Fireworks
         - Colored Enchanted Books
         - Better cauldron item model
