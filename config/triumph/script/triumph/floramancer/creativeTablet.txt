@@ -9,4 +9,4 @@ setRequiresParents()
 drawDirectLines(true)
 
 criteria = addCriteria("hasTabletCreative", "minecraft:inventory_changed")
-criteria.addItem(<botania:manatablet, meta: 0, count: 1, nbt: {mana: 500000, creative: 1b}>)
+criteria.addItem(<botania:manatablet, nbt: {mana: 500000, creative: 1b}>)

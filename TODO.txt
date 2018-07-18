@@ -8,8 +8,7 @@ End Game Content
     > Wait on compatibility release
     > Once working, copy into player's choice config and set Normal mode numbers to 1/10th
 - Fix the Lexica Knowledge thing
-    > Submit Bug Report to ModTweaker - with logs
-    > Wait for bugfix release
+    > ???
 - Creative Recipes
     > Staging - > Current Best option seems to be to award trophy items with the mana quests, and use them in the structure
     > Creative Tablet
@@ -61,7 +60,6 @@ Things to Check
 
 - New category and Lexica pages
 - Recurrent Complex
-	- Tent
 	- DesertDungeon
 
 ---------------
