@@ -37,7 +37,7 @@ Tweaks / Fixes
 ---------------
 
 - Configure Recurrent Complex
-    - https://www.reddit.com/r/feedthebeast/comments/78n6yl/has_anyone_made_a_bunch_of_recurrent_complex/
+    - Check out new Wanderlust Structures
 	- Add/Edit spawners in some structures
 	- Screw with the block composition where quark, etc. has better options
 	- Hide items from JEI when done
@@ -50,6 +50,7 @@ Things to Check
 ---------------
 
 - Tiny Potato -> Galactic Potato creative recipe
+    - If not, make feature request
 
 
 ---------------
@@ -70,7 +71,7 @@ Optional Extras
 ---------------
 
 Mods:
-- Inspirations, for anvil crafting
+- Inspirations
     > Building module - all, but bookshelves specifically remove any need for bibliocraft
     > Tweaks modules
         - Flower Pot comparator
@@ -83,8 +84,7 @@ Mods:
 - Better Foliage
 - Climate Control/Geographicraft
     > Only use to prevent hot/cold transitions
-Mod Ideas:
-- Rail improvements
+- Extra Rails (disable teleporting rail)
 
 ---------------
 Blockers
