@@ -101,6 +101,9 @@ ManaInfusion.addAlchemy(<traverse:brown_autumnal_sapling>, <traverse:yellow_autu
 ManaInfusion.addAlchemy(<traverse:fir_sapling>, <traverse:brown_autumnal_sapling>, 120);
 ManaInfusion.addAlchemy(<minecraft:sapling>, <traverse:fir_sapling>, 120);
 
+// Creative Galactic Potato Recipe
+ManaInfusion.addInfusion(galacticPotato, <botania:tinypotato>, 1000001);
+
 /*=========================
         Flugel Tiara
  =========================*/

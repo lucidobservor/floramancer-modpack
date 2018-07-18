@@ -5,12 +5,14 @@ End Game Content
 
 - Triumph
 	> Fix creative tablet/pool quest not registering
-    > Wait on compatibility release
+    > [BLOCKED] Wait on Botania Tweaks compatibility release
     > Once working, copy into player's choice config and set Normal mode numbers to 1/10th
-- Fix the Lexica Knowledge thing
-    > ???
+- [BLOCKED] Fix the Lexica Knowledge thing
+    > Wait on open ModTweaker ticket
 - Creative Recipes
     > Staging - > Current Best option seems to be to award trophy items with the mana quests, and use them in the structure
+        * Something that looks like <flower>, but isn't functional and doesn't decay (placed on enchanted soil?)
+        * Trophy like AoE, but livingrock slab as base
     > Creative Tablet
         * Something inspired by the starlight infusion altar, but with mana pools instead of liquid starlight
         * Recipe consumes number of mana pools in the structure (12?)
@@ -28,27 +30,16 @@ Optional / Uncertain End Game Content
     > Craft by giving the potato the book instead of crafting
     > Might require Feature Request
     > Once done, change galactic potato quest to be right click potato with Lexica
-- Trigger custom chat message when right clicking potato with items
-    > Non-galactics when clicked with Lexica
-        -> "I can't really contribute anything new to this. Perhaps my ancestors/father would know more?"
-    > Galactic when clicked without all flower quests
-        -> "It seems you have not yet mastered all the flowers. You are not yet worthy of my secrets."
-    > Galactic when clicked with all pre-requisites
-        -> "You have proven yourself worthy. Take this book, in which I have now inscribed the secrets of infinite mana."
-    > If custom chat messages can see what achievements have been gotten, perhaps require additional quests to be done.
 
 
 ---------------
 Tweaks / Fixes
 ---------------
 
-- Add WorldEdit
 - Configure Recurrent Complex
-	- Reconfigure TreeGuardian
-	    - Start from scratch
-	    - Generate mushrooms instead of defaults
-	    - Petal blocks instead of wool
+    - https://www.reddit.com/r/feedthebeast/comments/78n6yl/has_anyone_made_a_bunch_of_recurrent_complex/
 	- Add/Edit spawners in some structures
+	- Screw with the block composition where quark, etc. has better options
 	- Hide items from JEI when done
 - Fix JER mob drops, if possible
     - Remove tooltip for tallow once done
@@ -58,9 +49,8 @@ Tweaks / Fixes
 Things to Check
 ---------------
 
-- New category and Lexica pages
-- Recurrent Complex
-	- DesertDungeon
+- Tiny Potato -> Galactic Potato creative recipe
+
 
 ---------------
 Required Extras
@@ -81,15 +71,20 @@ Optional Extras
 
 Mods:
 - Inspirations, for anvil crafting
+    > Building module - all, but bookshelves specifically remove any need for bibliocraft
+    > Tweaks modules
+        - Flower Pot comparator
+        - Fitted Carpets
+        - Desaddle Pigs
+        - Colored Fireworks
+        - Colored Enchanted Books
+        - Better cauldron item model
 - Death Compass
 - Better Foliage
-- https://minecraft.curseforge.com/projects/guidebook
-- https://minecraft.curseforge.com/projects/climate-control-geographicraft
+- Climate Control/Geographicraft
+    > Only use to prevent hot/cold transitions
 Mod Ideas:
 - Rail improvements
-- SF3 Like Checklist Guide Book?
-Other
-- Add saddles to the Lexica?
 
 ---------------
 Blockers
@@ -98,3 +93,4 @@ Blockers
 - Fix Coral reef WAILA - Bug Report submitted
 - Player's Choice - Wait for release
 - Triumph - wait for compatibility
+- ModTweaker - setKnowledgeType fix
