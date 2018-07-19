@@ -37,28 +37,24 @@ Tweaks / Fixes
 ---------------
 
 - Configure Recurrent Complex
-    - Check out new Wanderlust Structures
-	- Add/Edit spawners in some structures
 	- Screw with the block composition where quark, etc. has better options
-	- Hide items from JEI when done
+	- Hide items from JEI when done (including eggs)
 - Fix JER mob drops, if possible
     - Remove tooltip for tallow once done
-- BiomeTweaker - use botania alt grasses in biomes?
 
 
 ---------------
 Things to Check
 ---------------
 
-- Tiny Potato -> Galactic Potato creative recipe
-    - If not, make feature request
+
 
 
 ---------------
 Required Extras
 ---------------
 
--- Player's Choice
+- Player's Choice
     - Try once again to use it for actual mods
  	- Add descriptions for each mode
 - Add Custom Main Menu
@@ -68,26 +64,6 @@ Required Extras
 
 
 ---------------
-Optional Extras
----------------
-
-Mods:
-- Inspirations
-    > Building module - all, but bookshelves specifically remove any need for bibliocraft
-    > Tweaks modules
-        - Flower Pot comparator
-        - Fitted Carpets
-        - De-saddle Pigs
-        - Colored Fireworks
-        - Colored Enchanted Books
-        - Better cauldron item model
-- Death Compass
-- Better Foliage
-- Climate Control/Geographicraft
-    > Only use to prevent hot/cold transitions
-- Extra Rails (disable teleporting rail)
-
----------------
 Blockers
 ---------------
 
@@ -95,3 +71,7 @@ Blockers
 - Player's Choice - Wait for release
 - Triumph - wait for compatibility
 - ModTweaker - setKnowledgeType fix
+- Botania Tweaks - creative mana pool size
+- Inspirations - flower pot
+
+

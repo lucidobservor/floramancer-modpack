@@ -1,0 +1,56 @@
+{
+  "data": {
+    "environmentMatcher": "",
+    "transformers": [
+      {
+        "type": "naturalAir",
+        "transformer": {
+          "id": "naturalAir_fbe2a8e",
+          "sourceExpression": "reccomplex:negativeSpace \u0026 metadata\u003d1",
+          "destExpression": "",
+          "naturalExpansionDistance": 4.0,
+          "naturalExpansionRandomization": 10.0
+        }
+      },
+      {
+        "type": "negativeSpace",
+        "transformer": {
+          "id": "negativeSpace_bd46f09a",
+          "sourceExpression": "reccomplex:negativeSpace \u0026 metadata\u003d0",
+          "destExpression": ""
+        }
+      },
+      {
+        "type": "natural",
+        "transformer": {
+          "id": "natural_2e79ee44",
+          "sourceExpression": "reccomplex:naturalFloor \u0026 metadata\u003d0",
+          "destExpression": "is:replaceable | is:foliage",
+          "naturalExpansionDistance": 4.0,
+          "naturalExpansionRandomization": 6.0
+        }
+      },
+      {
+        "type": "ruins",
+        "transformer": {
+          "id": "ruins_7b9e18fd",
+          "decayDirection": "DOWN",
+          "minDecay": 0.0,
+          "maxDecay": 8.8050736E-5,
+          "decayChaos": 8.4178336E-4,
+          "decayValueDensity": 0.01,
+          "gravity": true,
+          "blockErosion": 0.3,
+          "vineGrowth": 0.05,
+          "cobwebGrowth": 0.02
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "title": "TemplePyramid",
+    "description": [
+      "Temple Pyramid"
+    ]
+  }
+}

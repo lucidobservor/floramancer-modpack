@@ -4,3 +4,4 @@
 <malisisdoors:carriage_door>.addTooltip(format.gray("Crafted using five of any block (in the same slot) and one oak door"));
 <malisisdoors:medieval_door>.addTooltip(format.gray("Crafted using five of any block (in the same slot) and one spruce door"));
 <quark:tallow>.addTooltip(format.gray("Dropped by pigs."));
+<minecraft:flower_pot>.addTooltip(format.gray("Try using with a comparator"));
