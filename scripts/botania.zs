@@ -1,5 +1,7 @@
 
 import mods.botania.Apothecary;
+import mods.botania.Knowledge;
+import mods.botania.Lexicon;
 import mods.botania.ManaInfusion;
 import mods.botania.RuneAltar;
 
@@ -105,11 +107,54 @@ ManaInfusion.addAlchemy(<minecraft:sapling>, <traverse:fir_sapling>, 120);
 //ManaInfusion.addInfusion(galacticPotato, <botania:tinypotato>, 1000001);
 
 /*=========================
-        Flugel Tiara
+            Other
  =========================*/
 
+// Flugel Tiara requires Elytra
 recipes.removeShaped(<botania:flighttiara>);
 recipes.addShaped("botania_flighttiara_0", <botania:flighttiara>,
 	[[<ore:eternalLifeEssence>, <ore:eternalLifeEssence>, <ore:eternalLifeEssence>],
 	[<ore:ingotElvenElementium>, <minecraft:elytra>, <ore:ingotElvenElementium>],
 	[<minecraft:feather>, <ore:bEnderAirBottle>, <minecraft:feather>]]);
+
+/*=========================
+           Lexica
+ =========================*/
+
+ // String Constants
+ var knowledgeTypeCreative = "creative";
+ var categoryMisc = "botania.category.misc";
+ var entryNameCreativeTablet = "Creative Mana Tablet";
+ var entryNameCreativePool = "Everlasting Guilty Pool";
+
+ // Register Knowledge Type
+ Knowledge.registerKnowledgeType(knowledgeTypeCreative, knowledgeTypeCreative, "BLUE", false);
+ mods.recipestages.Recipes.addShapeless("botaniaCreativeKnowledgeAddition", "creative",
+ 	<botania:lexicon>.onlyWithTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte, "knowledge.creative": 1 as byte}),
+ 	[<botania:lexicon>.onlyWithTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}), galacticPotato.reuse()]);
+ game.setLocalization("en_US", "botania.knowledge.creative", "Creative Knowledge");
+
+ // Add Entries
+ Lexicon.addEntry(entryNameCreativeTablet, categoryMisc, creativeManaTablet);
+ Lexicon.addTextPage("botania.page.creativeTablet", entryNameCreativeTablet, 0);
+ game.setLocalization("en_US", "botania.page.creativeTablet",
+     "A &1Mana Tablet&0 is all well and good, but with your mastery of all things botanical, you've discovered how to " +
+     "make one that never needs recharging, and provides a constant stream of &2Mana&0 to all your rods and baubles. " +
+     "It's going to be complicated though, and require a brand new ritual structure.");
+ Lexicon.setEntryKnowledgeType(entryNameCreativeTablet, knowledgeTypeCreative);
+
+ Lexicon.addEntry(entryNameCreativePool, categoryMisc, creativeManaPool);
+ Lexicon.addTextPage("botania.page.creativePool", entryNameCreativePool, 0);
+ game.setLocalization("en_US", "botania.page.creativePool",
+     "You've set your sights on the pinacle of &2Mana&0 production, the &1Everlasting Guilty Pool&0. This &1Mana Pool&0 " +
+     "pulls mana directly from the Aether, as fast as your &1Mana Spreaders&0 and &1Sparks&0 can move it. But like all " +
+     "great power, it requires great sacrifice. In this case the sacrifice of the very potato who taught you the ritual.");
+ Lexicon.setEntryKnowledgeType(entryNameCreativePool, knowledgeTypeCreative);
+
+ /*=========================
+       Creative Recipes
+  =========================*/
+
+// Add Item Stages to Creative Items
+mods.ItemStages.addItemStage("creative", creativeManaTablet);
+mods.ItemStages.addItemStage("creative", creativeManaPool);

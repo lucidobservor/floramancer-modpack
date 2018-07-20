@@ -5,25 +5,29 @@ End Game Content
 
 - Triumph
 	> Fix creative tablet/pool quest not registering
+	> Rearrange quests?
     > [BLOCKED] Wait on Botania Tweaks compatibility release
     > Once working, copy into player's choice config and set Normal mode numbers to 1/10th
+- Creative Recipes
+    > For each flower:
+        * ContentTweaker: create an object that looks like <flower> but doesn't decay and ideally is sparkly
+        * Add a crafting recipe for said flower - staged behind <flower name>
+        * Add tooltip to each cosmetic flower
+        * Grant stage <flower name> upon completion of quest for <flower>
+    > Creative Tablet
+        * Runic Altar recipe
+        * Inputs = one of each advancement flower trophy thing, mana tablet, black lotus x 4
+        * Mana cost = 12 pools
+    > Creative Pool
+        * Fabulous pool in the center => Transformed into creative pool
+        * Edges and corners = Enchanted soil => Transformed into Dry Soil
+        * Inputs = Galactic Potato, Creative Tablet, Gaia Guardian Head, Dice of Fate
+        * Output = Tiny potato with rainbow enchantment
+        * Cost = 24 pools
+    > Edit tiny potato recipe in pool to require enchantment, and add galactic potato tooltip
 - Update Lexica
-    > Pick Different Color for Creative entries
-	> Update Info Pages
 	> Update recipes
 	> Make sure mouseover says something
-- Creative Recipes
-    > Staging - > Current Best option seems to be to award trophy items with the mana quests, and use them in the structure
-        * Something that looks like <flower>, but isn't functional and doesn't decay (placed on enchanted soil?)
-        * Trophy like AoE, but livingrock slab as base
-    > Creative Tablet
-        * Something inspired by the starlight infusion altar, but with mana pools instead of liquid starlight
-        * Recipe consumes number of mana pools in the structure (12?)
-    > Creative Pool
-        * Fabulous pool in the center. This gets transformed in world.
-        * Galactic potato is consumed, returning a tiny potato with a rainbow enchantment
-        * Tiny potato with enchantment can be regrown into galactic with mana infusion (creative pool only)
-
 
 --------------------------------------
 Optional / Uncertain End Game Content
@@ -33,12 +37,13 @@ Optional / Uncertain End Game Content
     > Craft by giving the potato the book instead of crafting
     > Might require Feature Request
     > Once done, change galactic potato quest to be right click potato with Lexica
-
+- Chat trigger when picking up enchanted tiny potato for the first time (and also galactic the second time?)
 
 ---------------
 Tweaks / Fixes
 ---------------
 
+- Add tooltip to Gaia Guardian Head
 - Configure Recurrent Complex
 	- Screw with the block composition where quark, etc. has better options
 	- Hide items from JEI when done (including eggs)
@@ -50,7 +55,11 @@ Tweaks / Fixes
 Things to Check
 ---------------
 
-
+- Creative Tab color any better?
+- Lexica Recipe Tooltip
+- Lexica Knowledge Tooltip
+- Lexica info pages
+- Can a terraglom plate actually be placed on a pool
 
 
 ---------------
@@ -73,6 +82,6 @@ Blockers
 - Fix Coral reef WAILA - Bug Report submitted
 - Player's Choice - Wait for release
 - Triumph - wait for compatibility
-- Botania Tweaks - creative mana pool size
+- Botania Tweaks - creative mana pool size release
 
 
