@@ -7,8 +7,11 @@ End Game Content
 	> Fix creative tablet/pool quest not registering
     > [BLOCKED] Wait on Botania Tweaks compatibility release
     > Once working, copy into player's choice config and set Normal mode numbers to 1/10th
-- [BLOCKED] Fix the Lexica Knowledge thing
-    > Wait on open ModTweaker ticket
+- Update Lexica
+    > Pick Different Color for Creative entries
+	> Update Info Pages
+	> Update recipes
+	> Make sure mouseover says something
 - Creative Recipes
     > Staging - > Current Best option seems to be to award trophy items with the mana quests, and use them in the structure
         * Something that looks like <flower>, but isn't functional and doesn't decay (placed on enchanted soil?)
@@ -70,8 +73,6 @@ Blockers
 - Fix Coral reef WAILA - Bug Report submitted
 - Player's Choice - Wait for release
 - Triumph - wait for compatibility
-- ModTweaker - setKnowledgeType fix
 - Botania Tweaks - creative mana pool size
-- Inspirations - flower pot
 
 
