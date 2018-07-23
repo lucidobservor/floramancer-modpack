@@ -4,7 +4,7 @@ setTitle("ACME, Inc.")
 setDescription("Automate the Entropinnyum")
 addParent("triumph:floramancer/lexicon")
 
-setPos(12, 9)
+setPos(9, 8)
 drawDirectLines(true)
 
 //criteria = addCriteria("usedEntropinnyum", "botania_tweaks:flower_generated_mana")

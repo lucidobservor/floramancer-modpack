@@ -5,7 +5,7 @@ setDescription("Craft the Lexica Botania with the Galactic Potato to unlock crea
 
 addParent("triumph:floramancer/galactic")
 
-setPos(14, 10)
+setPos(10, 5)
 setRequiresParents()
 drawDirectLines(true)
 

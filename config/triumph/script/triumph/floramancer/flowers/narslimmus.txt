@@ -4,7 +4,7 @@ setTitle("I Feel Sticky...")
 setDescription("Automate the Narslimmus")
 addParent("triumph:floramancer/lexicon")
 
-setPos(12, 12)
+setPos(12, 8)
 drawDirectLines(true)
 
 //criteria = addCriteria("usedNarslimmus", "botania_tweaks:flower_generated_mana")

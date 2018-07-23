@@ -20,7 +20,8 @@ addParent("triumph:floramancer/flowers/hydroangeas")
 addRewardFunction("triumph:stage-creative")
 
 setRequiresParents()
-setPos(13, 10)
+setPos(10, 6)
+drawDirectLines(true)
 
 criteria = addCriteria("hasPotato", "minecraft:inventory_changed")
 criteria.addItem(<botania_tweaks:compressed_tiny_potato_8>)

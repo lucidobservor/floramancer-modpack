@@ -4,7 +4,7 @@ setTitle("Lethe's Rose")
 setDescription("Automate the Rosa Arcana")
 addParent("triumph:floramancer/lexicon")
 
-setPos(12, 7)
+setPos(7, 8)
 drawDirectLines(true)
 
 //criteria = addCriteria("usedArcanerose", "botania_tweaks:flower_generated_mana")

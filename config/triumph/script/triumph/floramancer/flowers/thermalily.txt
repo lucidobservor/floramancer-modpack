@@ -4,7 +4,7 @@ setTitle("Hellraiser")
 setDescription("Automate the Thermalily")
 addParent("triumph:floramancer/lexicon")
 
-setPos(12, 6)
+setPos(6, 8)
 drawDirectLines(true)
 
 //criteria = addCriteria("usedThermalily", "botania_tweaks:flower_generated_mana")

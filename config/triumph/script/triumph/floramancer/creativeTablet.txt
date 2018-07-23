@@ -4,7 +4,7 @@ setTitle("Infinite Power, Itty Bitty Living Space")
 setDescription("Craft the Creative Mana Tablet")
 addParent("triumph:floramancer/creativeLexicon")
 
-setPos(15, 10)
+setPos(10, 4)
 drawDirectLines(true)
 
 criteria = addCriteria("hasTabletCreative", "minecraft:inventory_changed")

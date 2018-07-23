@@ -4,7 +4,7 @@ setTitle("Fast Food Tycoon")
 setDescription("Automate the Gourmaryllis")
 addParent("triumph:floramancer/lexicon")
 
-setPos(12, 11)
+setPos(11, 8)
 drawDirectLines(true)
 
 //criteria = addCriteria("usedGourmaryllis", "botania_tweaks:flower_generated_mana")

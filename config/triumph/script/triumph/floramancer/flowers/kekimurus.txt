@@ -4,7 +4,7 @@ setTitle("It's Not a Lie")
 setDescription("Automate the Kekimurus")
 addParent("triumph:floramancer/lexicon")
 
-setPos(12, 10)
+setPos(10, 8)
 drawDirectLines(true)
 
 //criteria = addCriteria("usedKekimurus", "botania_tweaks:flower_generated_mana")

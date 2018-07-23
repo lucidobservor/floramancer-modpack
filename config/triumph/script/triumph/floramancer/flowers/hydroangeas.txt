@@ -4,7 +4,7 @@ setTitle("8 Glasses a Day")
 setDescription("Automate the Hydroangeas")
 addParent("triumph:floramancer/lexicon")
 
-setPos(12, 4)
+setPos(4, 8)
 drawDirectLines(true)
 
 //criteria = addCriteria("usedHydroangeas", "botania_tweaks:flower_generated_mana")

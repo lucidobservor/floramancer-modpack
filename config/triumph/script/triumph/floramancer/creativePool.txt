@@ -4,7 +4,7 @@ setTitle("Mana Everlasting")
 setDescription("Craft the Everlasting Guilty Pool")
 addParent("triumph:floramancer/creativeTablet")
 
-setPos(16, 10)
+setPos(10, 3)
 drawDirectLines(true)
 setFrameType("goal")
 
