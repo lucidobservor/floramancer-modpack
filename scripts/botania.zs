@@ -5,6 +5,14 @@ import mods.botania.Lexicon;
 import mods.botania.ManaInfusion;
 import mods.botania.RuneAltar;
 
+import mods.botaniatweaks.Agglomeration;
+import mods.botaniatweaks.AgglomerationPage;
+import mods.botaniatweaks.AgglomerationRecipe;
+import mods.botaniatweaks.AgglomerationMultiblock;
+
+import crafttweaker.item.IIngredient;
+
+
 
 /*==========================
   Apothecary Recipe Tweaks
@@ -104,7 +112,8 @@ ManaInfusion.addAlchemy(<traverse:fir_sapling>, <traverse:brown_autumnal_sapling
 ManaInfusion.addAlchemy(<minecraft:sapling>, <traverse:fir_sapling>, 120);
 
 // Creative Galactic Potato Recipe
-//ManaInfusion.addInfusion(galacticPotato, <botania:tinypotato>, 1000001);
+ManaInfusion.addInfusion(galacticPotato, <botania:tinypotato>.withTag(
+	{"Quark:RuneColor": 16, ench: [{lvl: 1 as short, id: 51 as short}], RepairCost: 1, "Quark:RuneAttached": 1 as byte}), 1000001);
 
 /*=========================
             Other
@@ -117,39 +126,6 @@ recipes.addShaped("botania_flighttiara_0", <botania:flighttiara>,
 	[<ore:ingotElvenElementium>, <minecraft:elytra>, <ore:ingotElvenElementium>],
 	[<minecraft:feather>, <ore:bEnderAirBottle>, <minecraft:feather>]]);
 
-/*=========================
-           Lexica
- =========================*/
-
- // String Constants
- var knowledgeTypeCreative = "creative";
- var categoryMisc = "botania.category.misc";
- var entryNameCreativeTablet = "Creative Mana Tablet";
- var entryNameCreativePool = "Everlasting Guilty Pool";
-
- // Register Knowledge Type
- Knowledge.registerKnowledgeType(knowledgeTypeCreative, knowledgeTypeCreative, "BLUE", false);
- mods.recipestages.Recipes.addShapeless("botaniaCreativeKnowledgeAddition", "creative",
- 	<botania:lexicon>.onlyWithTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte, "knowledge.creative": 1 as byte}),
- 	[<botania:lexicon>.onlyWithTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}), galacticPotato.reuse()]);
- game.setLocalization("en_US", "botania.knowledge.creative", "Creative Knowledge");
-
- // Add Entries
- Lexicon.addEntry(entryNameCreativeTablet, categoryMisc, creativeManaTablet);
- Lexicon.addTextPage("botania.page.creativeTablet", entryNameCreativeTablet, 0);
- game.setLocalization("en_US", "botania.page.creativeTablet",
-     "A &1Mana Tablet&0 is all well and good, but with your mastery of all things botanical, you've discovered how to " +
-     "make one that never needs recharging, and provides a constant stream of &2Mana&0 to all your rods and baubles. " +
-     "It's going to be complicated though, and require a brand new ritual structure.");
- Lexicon.setEntryKnowledgeType(entryNameCreativeTablet, knowledgeTypeCreative);
-
- Lexicon.addEntry(entryNameCreativePool, categoryMisc, creativeManaPool);
- Lexicon.addTextPage("botania.page.creativePool", entryNameCreativePool, 0);
- game.setLocalization("en_US", "botania.page.creativePool",
-     "You've set your sights on the pinacle of &2Mana&0 production, the &1Everlasting Guilty Pool&0. This &1Mana Pool&0 " +
-     "pulls mana directly from the Aether, as fast as your &1Mana Spreaders&0 and &1Sparks&0 can move it. But like all " +
-     "great power, it requires great sacrifice. In this case the sacrifice of the very potato who taught you the ritual.");
- Lexicon.setEntryKnowledgeType(entryNameCreativePool, knowledgeTypeCreative);
 
  /*=========================
        Creative Recipes
@@ -158,3 +134,58 @@ recipes.addShaped("botania_flighttiara_0", <botania:flighttiara>,
 // Add Item Stages to Creative Items
 mods.ItemStages.addItemStage("creative", creativeManaTablet);
 mods.ItemStages.addItemStage("creative", creativeManaPool);
+
+// Creative Tablet
+
+// Creative Pool
+Agglomeration.addRecipe(
+	<botania:tinypotato>.withTag({"Quark:RuneColor": 16, ench: [{lvl: 1 as short, id: 51 as short}], RepairCost: 1, "Quark:RuneAttached": 1 as byte}), 
+	[<botania:gaiahead>, creativeManaTablet, <botania_tweaks:compressed_tiny_potato_8>] as IIngredient[],
+	24000000,
+	0x0000FF,
+	0x00FF00,
+	<botania:pool:3>,
+	<botania:enchantedsoil>,
+	<botania:enchantedsoil>,
+	<botania:pool:1>,
+	<botania:altgrass>,
+	<botania:altgrass>);
+
+	
+/*=========================
+           Lexica
+ =========================*/
+
+// String Constants
+var knowledgeTypeCreative = "creative";
+var categoryMisc = "botania.category.misc";
+var entryNameCreativeTablet = "Creative Mana Tablet";
+var entryNameCreativePool = "Everlasting Guilty Pool";
+
+// Register Knowledge Type
+Knowledge.registerKnowledgeType(knowledgeTypeCreative, knowledgeTypeCreative, "DARK_BLUE", false);
+mods.recipestages.Recipes.addShapeless("botaniaCreativeKnowledgeAddition", "creative",
+	<botania:lexicon>.withTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte, "knowledge.creative": 1 as byte}),
+	[<botania:lexicon>.onlyWithTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}), galacticPotato.reuse()]);
+
+// Add Entries
+Lexicon.addEntry(entryNameCreativeTablet, categoryMisc, creativeManaTablet);
+Lexicon.addTextPage(game.localize("botania.page.creativeTablet"), entryNameCreativeTablet, 0);
+Lexicon.setEntryKnowledgeType(entryNameCreativeTablet, knowledgeTypeCreative);
+
+Lexicon.addEntry(entryNameCreativePool, categoryMisc, creativeManaPool);
+Lexicon.addTextPage(game.localize("botania.page.creativePool"), entryNameCreativePool, 0);
+Lexicon.setEntryKnowledgeType(entryNameCreativePool, knowledgeTypeCreative);
+AgglomerationPage.add(game.localize("botania.page.creativeManaPoolAgglomeration"), entryNameCreativePool, 1,
+	<botania:tinypotato>.withTag({"Quark:RuneColor": 16, ench: [{lvl: 1 as short, id: 51 as short}], RepairCost: 1, "Quark:RuneAttached": 1 as byte}), 
+	[<botania:gaiahead>, creativeManaTablet, <botania_tweaks:compressed_tiny_potato_8>] as IIngredient[],
+	24000000,
+	0x0000FF,
+	0x00FF00,
+	<botania:pool:3>,
+	<botania:enchantedsoil>,
+	<botania:enchantedsoil>,
+	creativeManaPool,
+	<botania:altgrass>,
+	<botania:altgrass>);
+

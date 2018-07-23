@@ -5,9 +5,9 @@ setDescription("Craft the Everlasting Guilty Pool")
 addParent("triumph:floramancer/creativeTablet")
 
 setPos(16, 10)
-setRequiresParents()
 drawDirectLines(true)
 setFrameType("goal")
 
 criteria = addCriteria("hasPoolCreative", "minecraft:inventory_changed")
 criteria.addItem(<botania:pool, meta:1>)
+

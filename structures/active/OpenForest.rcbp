@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "biomes": "$NETHER",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$END",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$WATER",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$DENSE",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$FOREST",
+      "weight": 0.32786881923675537
+    }
+  ],
+  "metadata": {
+    "title": "Open Forest",
+    "description": [
+      "Open Forest"
+    ]
+  }
+}
