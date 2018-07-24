@@ -158,8 +158,8 @@ Agglomeration.addRecipe(
 // String Constants
 var knowledgeTypeCreative = "creative";
 var categoryMisc = "botania.category.misc";
-var entryNameCreativeTablet = "Creative Mana Tablet";
-var entryNameCreativePool = "Everlasting Guilty Pool";
+var entryNameCreativeTablet = "botania.entry.creativeTablet";
+var entryNameCreativePool = "botania.entry.creativePool";
 
 // Register Knowledge Type
 Knowledge.registerKnowledgeType(knowledgeTypeCreative, knowledgeTypeCreative, "DARK_BLUE", false);

@@ -42,6 +42,7 @@ Optional / Uncertain End Game Content
 Tweaks / Fixes
 ---------------
 
+- Change color of creative pool recipe?
 - Configure Recurrent Complex
     - Try DesertDungeon again?
 	- Screw with the block composition where quark, etc. has better options
