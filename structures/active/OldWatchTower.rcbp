@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "biomes": "$NETHER",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$END",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$COLD",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$HOT",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$PLAINS"
+    },
+    {
+      "biomes": "$FOREST"
+    },
+    {
+      "biomes": "$MOUNTAIN"
+    },
+    {
+      "biomes": "$HILLS"
+    },
+    {
+      "biomes": "$SWAMP"
+    }
+  ],
+  "metadata": {
+    "title": "Old Watchtower",
+    "description": [
+      "Old Watchtower"
+    ]
+  }
+}
