@@ -55,6 +55,7 @@ Tweaks / Fixes
 Things to Check
 ---------------
 
+- Lexica mouseovers
 - Fix Localizations for Botania Knowledge, etc.
 - Tiny -> galactic recipe
 - Creative mana pool recipe showing in JEI?
