@@ -23,7 +23,6 @@ End Game Content
         * Mana cost = 12 pools
 - Update Lexica
 	> Update tablet recipe
-	> Make mouseover say something
 
 	
 --------------------------------------
