@@ -1,0 +1,21 @@
+
+setIcon(<botania:specialflower, nbt:{type: "spectrolus"}>)
+setTitle("Fabulous")
+setDescription("Fill 3 Mana Pools using the Spectrolus")
+addParent("triumph:floramancer/lexicon")
+
+setPos(13, 8)
+drawDirectLines(true)
+
+criteria = addCriteria("spectrolus_1", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("spectrolus")
+criteria.setPools(1)
+
+criteria = addCriteria("spectrolus_2", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("spectrolus")
+criteria.setPools(2)
+
+criteria = addCriteria("spectrolus_3", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("spectrolus")
+criteria.setPools(3)
+

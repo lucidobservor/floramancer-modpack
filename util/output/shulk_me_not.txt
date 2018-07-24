@@ -1,0 +1,21 @@
+
+setIcon(<botania:specialflower, nbt:{type: "shulk_me_not"}>)
+setTitle("I Believe I Can Fly")
+setDescription("Fill 3 Mana Pools using the Shulk Me Not")
+addParent("triumph:floramancer/lexicon")
+
+setPos(15, 8)
+drawDirectLines(true)
+
+criteria = addCriteria("shulk_me_not_1", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("shulkmenot")
+criteria.setPools(1)
+
+criteria = addCriteria("shulk_me_not_2", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("shulkmenot")
+criteria.setPools(2)
+
+criteria = addCriteria("shulk_me_not_3", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("shulkmenot")
+criteria.setPools(3)
+

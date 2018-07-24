@@ -1,4 +1,9 @@
 
+- Add Enchantment Descriptions
+- Add resource loader
+- Update Botania Tweaks
+- Link resources folder
+
 ----------------
 End Game Content
 ----------------
@@ -17,7 +22,7 @@ End Game Content
         * Inputs = one of each advancement flower trophy thing, mana tablet, black lotus x 4
         * Mana cost = 12 pools
 - Update Lexica
-	> Update recipes
+	> Update tablet recipe
 	> Make mouseover say something
 
 	
@@ -30,15 +35,15 @@ Optional / Uncertain End Game Content
     > Might require Feature Request
     > Once done, change galactic potato quest to be right click potato with Lexica
 - Chat trigger when picking up enchanted tiny potato for the first time (and also galactic the second time?)
+- Right click potato with flower to see achievement progress
 
 
 ---------------
 Tweaks / Fixes
 ---------------
 
-- Fix Localizations for Botania Knowledge, etc.
-- Fix creative mana pool recipe not showing in JEI
 - Configure Recurrent Complex
+    - Try DesertDungeon again?
 	- Screw with the block composition where quark, etc. has better options
 	- Hide items from JEI when done (including eggs)
 - Fix JER mob drops, if possible
@@ -49,6 +54,9 @@ Tweaks / Fixes
 Things to Check
 ---------------
 
+- Fix Localizations for Botania Knowledge, etc.
+- Tiny -> galactic recipe
+- Creative mana pool recipe showing in JEI?
 
 ---------------
 Required Extras
@@ -64,12 +72,11 @@ Required Extras
 
 
 ---------------
-Blockers
+Open Tickets
 ---------------
 
 - Fix Coral reef WAILA - Bug Report submitted
 - Player's Choice - Wait for release
 - Triumph - wait for compatibility
-- Botania Tweaks - wait for release
 
 

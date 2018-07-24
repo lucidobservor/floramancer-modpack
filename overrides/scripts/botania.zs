@@ -169,13 +169,13 @@ mods.recipestages.Recipes.addShapeless("botaniaCreativeKnowledgeAddition", "crea
 
 // Add Entries
 Lexicon.addEntry(entryNameCreativeTablet, categoryMisc, creativeManaTablet);
-Lexicon.addTextPage(game.localize("botania.page.creativeTablet"), entryNameCreativeTablet, 0);
+Lexicon.addTextPage("botania.page.creativeTablet", entryNameCreativeTablet, 0);
 Lexicon.setEntryKnowledgeType(entryNameCreativeTablet, knowledgeTypeCreative);
 
 Lexicon.addEntry(entryNameCreativePool, categoryMisc, creativeManaPool);
-Lexicon.addTextPage(game.localize("botania.page.creativePool"), entryNameCreativePool, 0);
+Lexicon.addTextPage("botania.page.creativePool", entryNameCreativePool, 0);
 Lexicon.setEntryKnowledgeType(entryNameCreativePool, knowledgeTypeCreative);
-AgglomerationPage.add(game.localize("botania.page.creativeManaPoolAgglomeration"), entryNameCreativePool, 1,
+AgglomerationPage.add("botania.page.creativePoolAgglomeration", entryNameCreativePool, 1,
 	<botania:tinypotato>.withTag({"Quark:RuneColor": 16, ench: [{lvl: 1 as short, id: 51 as short}], RepairCost: 1, "Quark:RuneAttached": 1 as byte}), 
 	[<botania:gaiahead>, creativeManaTablet, <botania_tweaks:compressed_tiny_potato_8>] as IIngredient[],
 	24000000,

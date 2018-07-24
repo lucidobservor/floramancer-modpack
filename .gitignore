@@ -5,3 +5,4 @@ config/splash.properties
 config/fmlModState.properties
 /config/BiomeTweaker/output/
 *.lnk
+*/target/
