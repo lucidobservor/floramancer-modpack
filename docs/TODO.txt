@@ -1,4 +1,7 @@
 
+- Install ContentTweaker
+- Remove Resource Loader
+
 ----------------
 End Game Content
 ----------------
