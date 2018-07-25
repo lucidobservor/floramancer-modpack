@@ -42,8 +42,6 @@ Tweaks / Fixes
 - Tiny -> galactic recipe requires NBT? 
 - Lexica mouseovers
 - Change color of creative pool recipe?
-- Configure Recurrent Complex
-	- Hide items from JEI when done (including eggs)
 - Fix JER mob drops, if possible
     - Remove tooltip for tallow once done
 
