@@ -18,8 +18,8 @@ global kekimurus as IItemStack =  <botania:specialflower>.withTag({type: "kekimu
 global munchdew as IItemStack =  <botania:specialflower>.withTag({type: "munchdew"});
 global narslimmus as IItemStack =  <botania:specialflower>.withTag({type: "narslimmus"});
 global rafflowsia as IItemStack =  <botania:specialflower>.withTag({type: "rafflowsia"});
-global rosaArcana as IItemStack =  <botania:specialflower>.withTag({type: "arcanerose"});
-global shulkMeNot as IItemStack =  <botania:specialflower>.withTag({type: "shulk_me_not"});
+global arcanerose as IItemStack =  <botania:specialflower>.withTag({type: "arcanerose"});
+global shulkmenot as IItemStack =  <botania:specialflower>.withTag({type: "shulk_me_not"});
 global spectrolus as IItemStack =  <botania:specialflower>.withTag({type: "spectrolus"});
 global thermalily as IItemStack =  <botania:specialflower>.withTag({type: "thermalily"});
 

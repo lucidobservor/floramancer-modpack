@@ -1,16 +1,14 @@
 
 setIcon(<botania:specialflower, nbt:{type: "spectrolus"}>)
 setTitle("Fabulous")
-setDescription("Automate the Spectrolus")
+setDescription("Fill 3 Mana Pools using the Spectrolus")
 addParent("triumph:floramancer/lexicon")
 
 setPos(13, 8)
 drawDirectLines(true)
 
-//criteria = addCriteria("usedSpectrolus", "botania_tweaks:flower_generated_mana")
-//criteria.setFlower("spectrolus")
-//criteria.setPools(0.001)
-//criteria.setPools(1400)
+setRewardItem("contenttweaker:spectrolustrophy")
+addRewardFunction("triumph:stage-spectrolus")
 
-criteria = addCriteria("usedSpectrolus", "minecraft:inventory_changed")
+criteria = addCriteria("spectrolus_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "spectrolus"}>)

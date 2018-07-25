@@ -7,6 +7,9 @@ addParent("triumph:floramancer/lexicon")
 setPos(4, 8)
 drawDirectLines(true)
 
+setRewardItem("contenttweaker:hydroangeastrophy")
+addRewardFunction("triumph:stage-hydroangeas")
+
 criteria = addCriteria("hydroangeas_1", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("hydroangeas")
 criteria.setPools(1)

@@ -7,6 +7,9 @@ addParent("triumph:floramancer/lexicon")
 setPos(13, 8)
 drawDirectLines(true)
 
+setRewardItem("contenttweaker:spectrolustrophy")
+addRewardFunction("triumph:stage-spectrolus")
+
 criteria = addCriteria("spectrolus_1", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("spectrolus")
 criteria.setPools(1)

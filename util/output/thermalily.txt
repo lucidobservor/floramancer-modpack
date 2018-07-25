@@ -7,6 +7,9 @@ addParent("triumph:floramancer/lexicon")
 setPos(6, 8)
 drawDirectLines(true)
 
+setRewardItem("contenttweaker:thermalilytrophy")
+addRewardFunction("triumph:stage-thermalily")
+
 criteria = addCriteria("thermalily_1", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("thermalily")
 criteria.setPools(1)

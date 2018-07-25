@@ -7,6 +7,9 @@ addParent("triumph:floramancer/lexicon")
 setPos(16, 8)
 drawDirectLines(true)
 
+setRewardItem("contenttweaker:dandelifeontrophy")
+addRewardFunction("triumph:stage-dandelifeon")
+
 criteria = addCriteria("dandelifeon_1", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("dandelifeon")
 criteria.setPools(1)

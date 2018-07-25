@@ -7,6 +7,9 @@ addParent("triumph:floramancer/lexicon")
 setPos(12, 8)
 drawDirectLines(true)
 
+setRewardItem("contenttweaker:narslimmustrophy")
+addRewardFunction("triumph:stage-narslimmus")
+
 criteria = addCriteria("narslimmus_1", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("narslimmus")
 criteria.setPools(1)

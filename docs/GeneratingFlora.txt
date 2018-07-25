@@ -14,3 +14,17 @@ Narslimmus      300 (1 large slime/3s)       29,850          1,080,000
 Thermalily      52                           43,700            187,200
 Endoflame       30                                0            108,000
 Hydroangeas     6.67                              0             24,000
+
+--hydroangeas--
+--endoflame--
+--thermalily--
+--arcanerose--
+--munchdew--
+--entropinnyum--
+--kekimurus--
+--gourmaryllis--
+--narslimmus--
+--spectrolus--
+--rafflowsia--
+--shulkmenot--
+--dandelifeon--

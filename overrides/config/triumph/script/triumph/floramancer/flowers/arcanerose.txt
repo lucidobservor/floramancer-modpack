@@ -1,16 +1,14 @@
 
 setIcon(<botania:specialflower, nbt:{type: "arcanerose"}>)
 setTitle("Lethe's Rose")
-setDescription("Automate the Rosa Arcana")
+setDescription("Fill 3 Mana Pools using the Rosa Arcana")
 addParent("triumph:floramancer/lexicon")
 
 setPos(7, 8)
 drawDirectLines(true)
 
-//criteria = addCriteria("usedArcanerose", "botania_tweaks:flower_generated_mana")
-//criteria.setFlower("arcanerose")
-//criteria.setPools(0.001)
-//criteria.setPools(1400)
+setRewardItem("contenttweaker:arcanerosetrophy")
+addRewardFunction("triumph:stage-arcanerose")
 
-criteria = addCriteria("usedArcanerose", "minecraft:inventory_changed")
+criteria = addCriteria("arcanerose_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "arcanerose"}>)

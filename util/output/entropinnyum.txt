@@ -7,6 +7,9 @@ addParent("triumph:floramancer/lexicon")
 setPos(9, 8)
 drawDirectLines(true)
 
+setRewardItem("contenttweaker:entropinnyumtrophy")
+addRewardFunction("triumph:stage-entropinnyum")
+
 criteria = addCriteria("entropinnyum_1", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("entropinnyum")
 criteria.setPools(1)

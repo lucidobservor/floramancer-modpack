@@ -21,7 +21,7 @@ Apothecary.removeRecipe(kekimurus);
 Apothecary.removeRecipe(munchdew);
 Apothecary.removeRecipe(narslimmus);
 Apothecary.removeRecipe(dandelifeon);
-Apothecary.removeRecipe(shulkMeNot);
+Apothecary.removeRecipe(shulkmenot);
 
 Apothecary.addRecipe(munchdew,
 	[<ore:petalLime>, <ore:petalLime>, <ore:petalRed>, <ore:petalRed>, <ore:petalGreen>,
@@ -32,7 +32,7 @@ Apothecary.addRecipe(kekimurus,
 Apothecary.addRecipe(narslimmus,
 	[<ore:petalLime>, <ore:petalLime>, <ore:petalGreen>, <ore:petalGreen>, <ore:petalBlack>,
 	<ore:runeAutumnB>, <ore:runeWaterB>]);
-Apothecary.addRecipe(shulkMeNot,
+Apothecary.addRecipe(shulkmenot,
 	[<ore:petalPurple>, <ore:petalPurple>, <ore:petalMagenta>, <ore:petalMagenta>, <ore:petalLightGray>,
 	<ore:runeEnvyB>, <ore:runeWrathB>, <ore:runeAirB>, <ore:elvenPixieDust>, <ore:bEnderAirBottle>]);
 Apothecary.addRecipe(dandelifeon,
@@ -135,6 +135,24 @@ mods.ItemStages.addItemStage("creative", creativeManaTablet);
 mods.ItemStages.addItemStage("creative", creativeManaPool);
 
 // Creative Tablet
+RuneAltar.addRecipe(creativeManaTablet, [
+    // insert 2 black lotus
+    <botania:manatablet>,
+    // insert 2 black lotus
+	<contenttweaker:hydroangeastrophy>,
+	<contenttweaker:endoflametrophy>,
+	<contenttweaker:thermalilytrophy>,
+	<contenttweaker:arcanerosetrophy>,
+	<contenttweaker:munchdewtrophy>,
+	<contenttweaker:entropinnyumtrophy>,
+	<contenttweaker:kekimurustrophy>,
+	<contenttweaker:gourmaryllistrophy>,
+	<contenttweaker:narslimmustrophy>,
+	<contenttweaker:spectrolustrophy>,
+	<contenttweaker:rafflowsiatrophy>,
+	<contenttweaker:shulkmenottrophy>,
+	<contenttweaker:dandelifeontrophy>
+	], 12000000);
 
 // Creative Pool
 Agglomeration.addRecipe(

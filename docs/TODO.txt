@@ -8,16 +8,10 @@ End Game Content
     > Once working, copy into player's choice config and set Normal mode numbers to 1/10th
 - Creative Recipes
     > For each flower:
-        * ContentTweaker: create an object that looks like <flower> but doesn't decay and ideally is sparkly
-        * Add a crafting recipe for said flower - staged behind <flower name> - four of <flower> in plus around gaia spirit
-        * Add tooltip to each cosmetic flower
-        * Grant stage <flower name> upon completion of quest for <flower>, and grant item as quest reward
+        * Make custom item look like botania item
     > Creative Tablet
-        * Runic Altar recipe
-        * Inputs = one of each advancement flower trophy thing, mana tablet, black lotus x 4
-        * Mana cost = 12 pools
-- Update Lexica
-	> Update tablet recipe
+        * Insert black lotus
+        * Update lexica entry
 
 	
 --------------------------------------
@@ -26,7 +20,7 @@ Optional / Uncertain End Game Content
 
 - Immersive Creative Lexica Recipes
     > Craft by giving the potato the book instead of crafting
-    > Might require Feature Request
+    > Should be doable with triumph
     > Once done, change galactic potato quest to be right click potato with Lexica
 - Chat trigger when picking up enchanted tiny potato for the first time (and also galactic the second time?)
 - Right click potato with flower to see achievement progress
@@ -50,6 +44,18 @@ Tweaks / Fixes
 Things to Check
 ---------------
 
+- Advancements
+    > Award item stage properly
+    > Award item properly
+- Custom Items
+    > Are hidden without stages
+    > Exist once correct stage
+    > Have tooltips
+    > Look ok
+- Recipes
+    > Exist
+    > Work
+    > Don't work in crafty crate
 
 ---------------
 Required Extras
@@ -57,7 +63,7 @@ Required Extras
 
 - Player's Choice
     - Try once again to use it for actual mods
- 	- Add descriptions for each mode
+ 	- Update descriptions for each mode
 - Add Custom Main Menu
 - Add MPUtils - configure pack start splash screen
 - Update README.md (rolling)

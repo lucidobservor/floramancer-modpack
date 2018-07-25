@@ -25,16 +25,32 @@ public class AdvancementGenerator {
             lines.add(String.format("setPos(%d, 8)", X_OFFSET + flower.getId()));
             lines.add("drawDirectLines(true)");
             lines.add("");
+            lines.add(String.format("setRewardItem(\"contenttweaker:%strophy\")", flower.getBotaniaTweaksName()));
+            lines.add(String.format("addRewardFunction(\"triumph:stage-%s\")", flower.getBotaniaTweaksName()));
+            lines.add("");
 
-            for (int i = 1; i <= flower.getPoolsRequired(); i++) {
-                lines.add(String.format("criteria = addCriteria(\"%s_%d\", \"botania_tweaks:flower_generated_mana\")", flower.getBotaniaName(), i));
-                lines.add(String.format("criteria.setFlower(\"%s\")", flower.getBotaniaTweaksName()));
-                lines.add(String.format("criteria.setPools(%d)", i));
-                lines.add("");
-            }
+            // Botania Tweaks version
+            lines.addAll(getPoolCriteria(flower));
 
-            Files.write(Paths.get(absolutePath + flower.getBotaniaName() + ".txt"), lines);
+            // Vanilla Version
+            //lines.add(String.format("criteria = addCriteria(\"%s_acquire\", \"minecraft:inventory_changed\")", flower.getBotaniaName()));
+            //lines.add(String.format("criteria.addItem(<botania:specialflower, nbt:{type: \"%s\"}>)", flower.getBotaniaName()));
+
+            Files.write(Paths.get(absolutePath + flower.getBotaniaTweaksName() + ".txt"), lines);
         }
+    }
+
+    private static List<String> getPoolCriteria(FlowerType flower) {
+        List<String> lines = new ArrayList<>();
+
+        for (int i = 1; i <= flower.getPoolsRequired(); i++) {
+            lines.add(String.format("criteria = addCriteria(\"%s_%d\", \"botania_tweaks:flower_generated_mana\")", flower.getBotaniaName(), i));
+            lines.add(String.format("criteria.setFlower(\"%s\")", flower.getBotaniaTweaksName()));
+            lines.add(String.format("criteria.setPools(%d)", i));
+            lines.add("");
+        }
+
+        return lines;
     }
 
 }

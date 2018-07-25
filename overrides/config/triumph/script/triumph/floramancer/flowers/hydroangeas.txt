@@ -1,16 +1,14 @@
 
 setIcon(<botania:specialflower, nbt:{type: "hydroangeas"}>)
 setTitle("8 Glasses a Day")
-setDescription("Automate the Hydroangeas")
+setDescription("Fill 3 Mana Pools using the Hydroangeas")
 addParent("triumph:floramancer/lexicon")
 
 setPos(4, 8)
 drawDirectLines(true)
 
-//criteria = addCriteria("usedHydroangeas", "botania_tweaks:flower_generated_mana")
-//criteria.setFlower("hydroangeas")
-//criteria.setPools(0.001)
-//criteria.setPools(100)
+setRewardItem("contenttweaker:hydroangeastrophy")
+addRewardFunction("triumph:stage-hydroangeas")
 
-criteria = addCriteria("usedHydroangeas", "minecraft:inventory_changed")
+criteria = addCriteria("hydroangeas_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "hydroangeas"}>)

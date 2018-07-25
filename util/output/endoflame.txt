@@ -7,6 +7,9 @@ addParent("triumph:floramancer/lexicon")
 setPos(5, 8)
 drawDirectLines(true)
 
+setRewardItem("contenttweaker:endoflametrophy")
+addRewardFunction("triumph:stage-endoflame")
+
 criteria = addCriteria("endoflame_1", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("endoflame")
 criteria.setPools(1)

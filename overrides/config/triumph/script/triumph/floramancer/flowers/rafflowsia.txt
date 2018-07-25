@@ -1,16 +1,14 @@
 
 setIcon(<botania:specialflower, nbt:{type: "rafflowsia"}>)
 setTitle("The Circle of Life")
-setDescription("Automate the Rafflowsia")
+setDescription("Fill 3 Mana Pools using the Rafflowsia")
 addParent("triumph:floramancer/lexicon")
 
 setPos(14, 8)
 drawDirectLines(true)
 
-//criteria = addCriteria("usedRafflowsia", "botania_tweaks:flower_generated_mana")
-//criteria.setFlower("rafflowsia")
-//criteria.setPools(0.001)
-//criteria.setPools(1750)
+setRewardItem("contenttweaker:rafflowsiatrophy")
+addRewardFunction("triumph:stage-rafflowsia")
 
-criteria = addCriteria("usedRafflowsia", "minecraft:inventory_changed")
+criteria = addCriteria("rafflowsia_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "rafflowsia"}>)

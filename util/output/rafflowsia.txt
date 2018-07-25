@@ -7,6 +7,9 @@ addParent("triumph:floramancer/lexicon")
 setPos(14, 8)
 drawDirectLines(true)
 
+setRewardItem("contenttweaker:rafflowsiatrophy")
+addRewardFunction("triumph:stage-rafflowsia")
+
 criteria = addCriteria("rafflowsia_1", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("rafflowsia")
 criteria.setPools(1)

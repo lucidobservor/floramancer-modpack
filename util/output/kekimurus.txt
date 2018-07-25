@@ -7,6 +7,9 @@ addParent("triumph:floramancer/lexicon")
 setPos(10, 8)
 drawDirectLines(true)
 
+setRewardItem("contenttweaker:kekimurustrophy")
+addRewardFunction("triumph:stage-kekimurus")
+
 criteria = addCriteria("kekimurus_1", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("kekimurus")
 criteria.setPools(1)
