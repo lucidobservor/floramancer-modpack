@@ -7,8 +7,6 @@ End Game Content
     > [BLOCKED] Wait on Botania Tweaks compatibility release
     > Once working, copy into player's choice config and set Normal mode numbers to 1/10th
 - Creative Recipes
-    > For each flower:
-        * Make custom item look like botania item
     > Creative Tablet
         * Insert black lotus
         * Update lexica entry
@@ -30,6 +28,8 @@ Optional / Uncertain End Game Content
 Tweaks / Fixes
 ---------------
 
+- Add Lexica page for trophy flowers
+- Make trophy flowers placeable in world?
 - Advancement for enderman/creeper spawner
 - Anvil smashing recipes to reduce potatoes
 	> advancement for smashing tiny potato?
@@ -56,6 +56,9 @@ Things to Check
     > Exist
     > Work
     > Don't work in crafty crate
+- Lexica
+    > New Tablet page
+    > Generally looks done
 
 ---------------
 Required Extras

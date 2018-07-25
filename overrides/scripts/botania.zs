@@ -189,6 +189,25 @@ mods.recipestages.Recipes.addShapeless("botaniaCreativeKnowledgeAddition", "crea
 Lexicon.addEntry(entryNameCreativeTablet, categoryMisc, creativeManaTablet);
 Lexicon.addTextPage("botania.page.creativeTablet", entryNameCreativeTablet, 0);
 Lexicon.setEntryKnowledgeType(entryNameCreativeTablet, knowledgeTypeCreative);
+Lexicon.addRunePage("botania.page.creativeTabletRecipe", entryNameCreativeTablet, 1,
+    [creativeManaTablet], [[
+    // insert 2 black lotus
+    <botania:manatablet>,
+    // insert 2 black lotus
+	<contenttweaker:hydroangeastrophy>,
+	<contenttweaker:endoflametrophy>,
+	<contenttweaker:thermalilytrophy>,
+	<contenttweaker:arcanerosetrophy>,
+	<contenttweaker:munchdewtrophy>,
+	<contenttweaker:entropinnyumtrophy>,
+	<contenttweaker:kekimurustrophy>,
+	<contenttweaker:gourmaryllistrophy>,
+	<contenttweaker:narslimmustrophy>,
+	<contenttweaker:spectrolustrophy>,
+	<contenttweaker:rafflowsiatrophy>,
+	<contenttweaker:shulkmenottrophy>,
+	<contenttweaker:dandelifeontrophy>
+	]], [12000000]);
 
 Lexicon.addEntry(entryNameCreativePool, categoryMisc, creativeManaPool);
 Lexicon.addTextPage("botania.page.creativePool", entryNameCreativePool, 0);
