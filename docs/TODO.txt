@@ -1,9 +1,4 @@
 
-- Add Enchantment Descriptions
-- Add resource loader
-- Update Botania Tweaks
-- Link resources folder
-
 ----------------
 End Game Content
 ----------------
@@ -41,10 +36,13 @@ Optional / Uncertain End Game Content
 Tweaks / Fixes
 ---------------
 
+- Advancement for enderman/creeper spawner
+- Anvil smashing recipes to reduce potatoes
+	> advancement for smashing tiny potato?
+- Tiny -> galactic recipe requires NBT? 
+- Lexica mouseovers
 - Change color of creative pool recipe?
 - Configure Recurrent Complex
-    - Try DesertDungeon again?
-	- Screw with the block composition where quark, etc. has better options
 	- Hide items from JEI when done (including eggs)
 - Fix JER mob drops, if possible
     - Remove tooltip for tallow once done
@@ -54,10 +52,6 @@ Tweaks / Fixes
 Things to Check
 ---------------
 
-- Lexica mouseovers
-- Fix Localizations for Botania Knowledge, etc.
-- Tiny -> galactic recipe
-- Creative mana pool recipe showing in JEI?
 
 ---------------
 Required Extras

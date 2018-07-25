@@ -3,6 +3,6 @@ config/MouseTweaks.cfg
 config/jei/worldSettings.cfg
 config/splash.properties
 config/fmlModState.properties
-/config/BiomeTweaker/output/
+overrides/config/BiomeTweaker/output/
 *.lnk
 */target/

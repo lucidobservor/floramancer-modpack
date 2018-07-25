@@ -1,0 +1,3 @@
+<botania:spawnermover>.withTag({spawner: {MaxNearbyEntities: 6 as short, RequiredPlayerRange: 16 as short, SpawnCount: 4 as short, SpawnData: {id: "minecraft:creeper"}, MaxSpawnDelay: 800 as short, Delay: 197 as short, x: -274, y: 86, z: -107, id:
+
+<botania:spawnermover>.withTag({spawner: {MaxNearbyEntities: 6 as short, RequiredPlayerRange: 16 as short, SpawnCount: 4 as short, SpawnData: {id: "minecraft:enderman"}, MaxSpawnDelay: 800 as short, Delay: 461 as short, x: -272, y: 86, z: -107, id
