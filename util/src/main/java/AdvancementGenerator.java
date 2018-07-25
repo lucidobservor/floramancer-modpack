@@ -7,7 +7,7 @@ import java.util.List;
 
 public class AdvancementGenerator {
 
-    private static final String OUTPUT_DIRECTORY = "/util/output/";
+    private static final String OUTPUT_DIRECTORY = "/util/output/flowerQuests/";
     private static final int X_OFFSET = 4;
 
     public static void main(String[] args) throws IOException {
