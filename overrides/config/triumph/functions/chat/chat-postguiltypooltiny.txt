@@ -1,0 +1,2 @@
+tell @p Wow, did it work?! You're so big! Or...wait...I'm tiny again! Whaaaaaaat. Maybe try tossing me in that pool we just made?
+advancement revoke @p only triumph:hidden/postguiltypoolgalactic

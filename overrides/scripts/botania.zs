@@ -213,7 +213,7 @@ Lexicon.addEntry(entryNameCreativePool, categoryMisc, creativeManaPool);
 Lexicon.addTextPage("botania.page.creativePool", entryNameCreativePool, 0);
 Lexicon.setEntryKnowledgeType(entryNameCreativePool, knowledgeTypeCreative);
 AgglomerationPage.add("botania.page.creativePoolRecipe", entryNameCreativePool, 1,
-	<botania:tinypotato>.withTag({"Quark:RuneColor": 16, ench: [{lvl: 1 as short, id: 51 as short}], RepairCost: 1, "Quark:RuneAttached": 1 as byte}), 
+	<minecraft:air>,
 	[<botania:gaiahead>, creativeManaTablet, <botania_tweaks:compressed_tiny_potato_8>] as IIngredient[],
 	24000000,
 	0x0000FF,

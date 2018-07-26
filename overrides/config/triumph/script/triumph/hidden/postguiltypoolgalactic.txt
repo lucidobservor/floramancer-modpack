@@ -1,0 +1,12 @@
+
+addParent("triumph:hidden/postguiltypooltiny")
+
+setShowToast(false)
+setAnnounceToChat(false)
+setHidden(true)
+setRequiresParents()
+
+addRewardFunction("triumph:chat-postguiltypoolgalactic")
+
+criteria = addCriteria("hasTinyPotato", "minecraft:inventory_changed")
+criteria.setItem(<botania_tweaks:compressed_tiny_potato_8>)

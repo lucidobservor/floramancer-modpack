@@ -53,6 +53,8 @@ Bug Fixes
 Things to Check
 ---------------
 
+- Guilty pool lexica recipe
+- /bnb hand on enchanted tiny potato, if that one autocompletes
 - New hidden quests are hidden and work
     > Give potato a book, should do nothing if no prerequisites
     > Complete prerequisites, shouldn't complete quest prematurely
