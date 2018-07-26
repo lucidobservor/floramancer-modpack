@@ -12,10 +12,6 @@ End Game Content
 Optional / Uncertain End Game Content
 --------------------------------------
 
-- Immersive Creative Lexica Recipes
-    > Craft by giving the potato the book instead of crafting
-    > Should be doable with triumph
-    > Once done, change galactic potato quest to be right click potato with Lexica
 - Chat trigger when picking up enchanted tiny potato for the first time (and also galactic the second time?)
 - Right click potato with flower to see achievement progress
 
@@ -64,6 +60,7 @@ Things to Check
     > Right click empty hand without retrieving lexica, should do nothing
     > Retrieve Lexica, should get replaced
     > Actual quest gets completed
+    > Aside from the actual quest, all the above steps can be repeated
     > If above all work, change description of creativeLexicon amd remove shapeless recipe and tooltip
 - Run /ct names modid
 - Dispensers place anvils
