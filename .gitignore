@@ -1,8 +1,9 @@
-config/InvTweaks.cfg
-config/MouseTweaks.cfg
-config/jei/worldSettings.cfg
-config/splash.properties
-config/fmlModState.properties
+overrides/config/InvTweaks.cfg
+overrides/config/MouseTweaks.cfg
+overrides/config/jei/worldSettings.cfg
+overrides/config/splash.properties
+overrides/config/fmlModState.properties
 overrides/config/BiomeTweaker/output/
+overrides/resources/pack.mcmeta
 *.lnk
 */target/

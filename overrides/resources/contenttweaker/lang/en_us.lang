@@ -6,7 +6,7 @@ botania.knowledge.creative=&1Creative&7 Knowledge
 botania.entry.creativeTablet=Creative Mana Tablet;
 botania.tagline.creativeTablet=Infinite power in the palm of your hand
 botania.page.creativeTablet=A &1Mana Tablet&0 is all well and good, but with your mastery of all things botanical, you've discovered how to make one that never needs recharging, and provides a constant stream of &4Mana&0 to all your rods and baubles.
-botania.page.creativePoolRecipe=Consumes 12 &1Mana Pools&0 worth of &4Mana&0
+botania.page.creativeTabletRecipe=Consumes 12 &1Mana Pools&0 worth of &4Mana&0
 
 # Creative Pool
 botania.entry.creativePool=Everlasting Guilty Pool
@@ -15,16 +15,16 @@ botania.page.creativePool=You've set your sights on the pinnacle of &4Mana&0 pro
 botania.page.creativePoolRecipe=&1Mana Pool&0 under the plate will be transformed in world
 
 # Flower Trophies
-item.contenttweaker.hydroangeastrophy=Hydroangeas Trophy
-item.contenttweaker.endoflametrophy=Endoflame Trophy
-item.contenttweaker.thermalilytrophy=Thermalily Trophy
-item.contenttweaker.arcanerosetrophy=Rosa Arcana Trophy
-item.contenttweaker.munchdewtrophy=Munchdew Trophy
-item.contenttweaker.entropinnyumtrophy=Entropinnyum Trophy
-item.contenttweaker.kekimurustrophy=Kekimurus Trophy
-item.contenttweaker.gourmaryllistrophy=Gourmaryllis Trophy
-item.contenttweaker.narslimmustrophy=Narslimmus Trophy
-item.contenttweaker.spectrolustrophy=Spectrolus Trophy
-item.contenttweaker.rafflowsiatrophy=Rafflowsia Trophy
-item.contenttweaker.shulkmenottrophy=Shulk Me Not Trophy
-item.contenttweaker.dandelifeontrophy=Dandelifeon Trophy
+item.contenttweaker.hydroangeastrophy.name=Hydroangeas Trophy
+item.contenttweaker.endoflametrophy.name=Endoflame Trophy
+item.contenttweaker.thermalilytrophy.name=Thermalily Trophy
+item.contenttweaker.arcanerosetrophy.name=Rosa Arcana Trophy
+item.contenttweaker.munchdewtrophy.name=Munchdew Trophy
+item.contenttweaker.entropinnyumtrophy.name=Entropinnyum Trophy
+item.contenttweaker.kekimurustrophy.name=Kekimurus Trophy
+item.contenttweaker.gourmaryllistrophy.name=Gourmaryllis Trophy
+item.contenttweaker.narslimmustrophy.name=Narslimmus Trophy
+item.contenttweaker.spectrolustrophy.name=Spectrolus Trophy
+item.contenttweaker.rafflowsiatrophy.name=Rafflowsia Trophy
+item.contenttweaker.shulkmenottrophy.name=Shulk Me Not Trophy
+item.contenttweaker.dandelifeontrophy.name=Dandelifeon Trophy

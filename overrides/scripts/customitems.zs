@@ -63,7 +63,7 @@ shulkmenottrophy.rarity = "epic";
 shulkmenottrophy.glowing = true;
 shulkmenottrophy.register();
 
-var sdandelifeontrophy = VanillaFactory.createItem("dandelifeontrophy");
+var dandelifeontrophy = VanillaFactory.createItem("dandelifeontrophy");
 dandelifeontrophy.rarity = "epic";
 dandelifeontrophy.glowing = true;
 dandelifeontrophy.register();

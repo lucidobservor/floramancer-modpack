@@ -136,9 +136,9 @@ mods.ItemStages.addItemStage("creative", creativeManaPool);
 
 // Creative Tablet
 RuneAltar.addRecipe(creativeManaTablet, [
-    // insert 2 black lotus
+	<botania:dice>,
     <botania:manatablet>,
-    // insert 2 black lotus
+	<botania:dice>,
 	<contenttweaker:hydroangeastrophy>,
 	<contenttweaker:endoflametrophy>,
 	<contenttweaker:thermalilytrophy>,
@@ -191,9 +191,9 @@ Lexicon.addTextPage("botania.page.creativeTablet", entryNameCreativeTablet, 0);
 Lexicon.setEntryKnowledgeType(entryNameCreativeTablet, knowledgeTypeCreative);
 Lexicon.addRunePage("botania.page.creativeTabletRecipe", entryNameCreativeTablet, 1,
     [creativeManaTablet], [[
-    // insert 2 black lotus
+    <botania:dice>,
     <botania:manatablet>,
-    // insert 2 black lotus
+	<botania:dice>,
 	<contenttweaker:hydroangeastrophy>,
 	<contenttweaker:endoflametrophy>,
 	<contenttweaker:thermalilytrophy>,
@@ -212,7 +212,7 @@ Lexicon.addRunePage("botania.page.creativeTabletRecipe", entryNameCreativeTablet
 Lexicon.addEntry(entryNameCreativePool, categoryMisc, creativeManaPool);
 Lexicon.addTextPage("botania.page.creativePool", entryNameCreativePool, 0);
 Lexicon.setEntryKnowledgeType(entryNameCreativePool, knowledgeTypeCreative);
-AgglomerationPage.add("botania.page.creativePoolAgglomeration", entryNameCreativePool, 1,
+AgglomerationPage.add("botania.page.creativePoolRecipe", entryNameCreativePool, 1,
 	<botania:tinypotato>.withTag({"Quark:RuneColor": 16, ench: [{lvl: 1 as short, id: 51 as short}], RepairCost: 1, "Quark:RuneAttached": 1 as byte}), 
 	[<botania:gaiahead>, creativeManaTablet, <botania_tweaks:compressed_tiny_potato_8>] as IIngredient[],
 	24000000,

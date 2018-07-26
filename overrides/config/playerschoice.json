@@ -5,7 +5,6 @@
     "category": "Mode",
     "group": "!Mode",
     "base": true,
-    "extraMods": [],
     "copyFiles": [ "normalMode" ],
     "copyContents": true
   },
@@ -15,7 +14,6 @@
     "category": "Mode",
     "group": "!Mode",
     "base": false,
-    "extraMods": [],
     "copyFiles": [ "hardMode" ],
     "copyContents": true
   }

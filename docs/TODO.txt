@@ -1,7 +1,4 @@
 
-- Install ContentTweaker
-- Remove Resource Loader
-
 ----------------
 End Game Content
 ----------------
@@ -9,10 +6,6 @@ End Game Content
 - Triumph
     > [BLOCKED] Wait on Botania Tweaks compatibility release
     > Once working, copy into player's choice config and set Normal mode numbers to 1/10th
-- Creative Recipes
-    > Creative Tablet
-        * Insert black lotus
-        * Update lexica entry
 
 	
 --------------------------------------
@@ -31,7 +24,8 @@ Optional / Uncertain End Game Content
 Tweaks / Fixes
 ---------------
 
-- Add Lexica page for trophy flowers
+- Merge botania tweaks config into packmode folders
+- Add Lexica page for trophy flowers?
 - Make trophy flowers placeable in world?
 - Advancement for enderman/creeper spawner
 - Anvil smashing recipes to reduce potatoes
@@ -47,21 +41,6 @@ Tweaks / Fixes
 Things to Check
 ---------------
 
-- Advancements
-    > Award item stage properly
-    > Award item properly
-- Custom Items
-    > Are hidden without stages
-    > Exist once correct stage
-    > Have tooltips
-    > Look ok
-- Recipes
-    > Exist
-    > Work
-    > Don't work in crafty crate
-- Lexica
-    > New Tablet page
-    > Generally looks done
 
 ---------------
 Required Extras
@@ -69,7 +48,8 @@ Required Extras
 
 - Player's Choice
     - Try once again to use it for actual mods
- 	- Update descriptions for each mode
+ 	- Update descriptions
+	- Check mod dependencies
 - Add Custom Main Menu
 - Add MPUtils - configure pack start splash screen
 - Update README.md (rolling)
@@ -80,7 +60,6 @@ Required Extras
 Open Tickets
 ---------------
 
-- Fix Coral reef WAILA - Bug Report submitted
 - Player's Choice - Wait for release
 - Triumph - wait for compatibility
 
