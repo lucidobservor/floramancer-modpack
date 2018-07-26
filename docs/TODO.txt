@@ -24,6 +24,7 @@ Optional / Uncertain End Game Content
 Tweaks / Fixes
 ---------------
 
+- Add Notch Apple to overgrowth seed recipe
 - Merge botania tweaks config into packmode folders
 - Add Lexica page for trophy flowers?
 - Make trophy flowers placeable in world?
