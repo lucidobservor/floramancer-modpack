@@ -8,7 +8,7 @@ setPos(15, 8)
 drawDirectLines(true)
 
 setRewardItem("contenttweaker:shulkmenottrophy")
-addRewardFunction("triumph:stage-shulkmenot")
+addRewardFunction("triumph:stages/stage-shulkmenot")
 
 criteria = addCriteria("shulk_me_not_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "shulk_me_not"}>)

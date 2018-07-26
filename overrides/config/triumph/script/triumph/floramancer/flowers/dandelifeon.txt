@@ -8,7 +8,7 @@ setPos(16, 8)
 drawDirectLines(true)
 
 setRewardItem("contenttweaker:dandelifeontrophy")
-addRewardFunction("triumph:stage-dandelifeon")
+addRewardFunction("triumph:stages/stage-dandelifeon")
 
 criteria = addCriteria("dandelifeon_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "dandelifeon"}>)

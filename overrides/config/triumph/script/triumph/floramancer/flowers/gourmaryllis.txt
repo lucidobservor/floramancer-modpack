@@ -8,7 +8,7 @@ setPos(11, 8)
 drawDirectLines(true)
 
 setRewardItem("contenttweaker:gourmaryllistrophy")
-addRewardFunction("triumph:stage-gourmaryllis")
+addRewardFunction("triumph:stages/stage-gourmaryllis")
 
 criteria = addCriteria("gourmaryllis_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "gourmaryllis"}>)

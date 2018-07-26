@@ -8,7 +8,7 @@ setPos(13, 8)
 drawDirectLines(true)
 
 setRewardItem("contenttweaker:spectrolustrophy")
-addRewardFunction("triumph:stage-spectrolus")
+addRewardFunction("triumph:stages/stage-spectrolus")
 
 criteria = addCriteria("spectrolus_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "spectrolus"}>)

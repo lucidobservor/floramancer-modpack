@@ -24,14 +24,15 @@ Optional / Uncertain End Game Content
 Tweaks
 ---------------
 
-- Add Notch Apple -> overgrowth seed alchemy catalyst recipe
+- Add <minecraft:enchanted_golden_apple> -> overgrowth seed alchemy catalyst recipe
 - ContentTweaker - Make trophy flowers placeable in world
+    > Might require not just using botania models, if the enchantment thing doesn't carry over
 - Change color of creative pool recipe?
 - Additional Advancements
     > creeper/enderman spawners
     > fully upgraded saddle
-    > waystone
-    > smash tiny potato with an anvil
+    > waystone?
+    > smash tiny potato with an anvil?
 - Additional Lexica Pages
     > Autumnal sapling/leaves recipes
     > Add recipe page to overgrowth seed entry
@@ -39,7 +40,6 @@ Tweaks
 - Potato recipes
     > See if Enchanted tiny -> galactic recipe can be made to require NBT
     > If so, either ask quat again about potatoes keeping enchantments in world, or make a staged recipe for the tiny
-    > Anvil smashing recipes to reduce potato
 
 
 ---------------
@@ -47,6 +47,7 @@ Bug Fixes
 ---------------
 
 - Disable overworld structures only if GoG
+    > Or maybe just find the underground ones and edit to not spawn in air
 - Add Lexica entry tagline
 - Fix JER mob drops, if possible
     - Remove tooltip for tallow once done
@@ -56,8 +57,20 @@ Bug Fixes
 Things to Check
 ---------------
 
+- New hidden quests are hidden and work
+    > Give potato a book, should do nothing if no prerequisites
+    > Complete prerequisites, shouldn't complete quest prematurely
+    > Give potato a book again - chat message
+    > Right click empty hand without retrieving lexica, should do nothing
+    > Retrieve Lexica, should get replaced
+    > Actual quest gets completed
+    > If above all work, change description of creativeLexicon amd remove shapeless recipe and tooltip
+- Run /ct names modid
+- Dispensers place anvils
+- Smash potatoes with anvil
 - All changed recipes as they appear in the Lexica
 - Player's Choice descriptions
+- Leave loonium running for a while and see what the distribution is like (ensure notch apple exists)
 
 
 ---------------

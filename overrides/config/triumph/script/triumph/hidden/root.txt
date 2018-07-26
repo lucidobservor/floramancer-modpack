@@ -1,0 +1,11 @@
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+setTitle("This Should Be Hidden")
+setBackground("botania:textures/blocks/chiseleddarkquartz0.png")
+
+setShowToast(false)
+setAnnounceToChat(false)
+setHidden(true)
+
+addCriteria("impossible", "minecraft:impossible")
+

@@ -8,7 +8,7 @@ setPos(7, 8)
 drawDirectLines(true)
 
 setRewardItem("contenttweaker:arcanerosetrophy")
-addRewardFunction("triumph:stage-arcanerose")
+addRewardFunction("triumph:stages/stage-arcanerose")
 
 criteria = addCriteria("arcanerose_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "arcanerose"}>)

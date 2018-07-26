@@ -1,0 +1,2 @@
+gamestage add @p shulkmenot
+advancement revoke @p only triumph:hidden/lexiconpotatoclick clickedPotatoWithLexica

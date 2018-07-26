@@ -8,7 +8,7 @@ setPos(5, 8)
 drawDirectLines(true)
 
 setRewardItem("contenttweaker:endoflametrophy")
-addRewardFunction("triumph:stage-endoflame")
+addRewardFunction("triumph:stages/stage-endoflame")
 
 criteria = addCriteria("endoflame_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "endoflame"}>)

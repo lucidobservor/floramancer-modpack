@@ -8,7 +8,7 @@ setPos(15, 8)
 drawDirectLines(true)
 
 setRewardItem("contenttweaker:shulkmenottrophy")
-addRewardFunction("triumph:stage-shulkmenot")
+addRewardFunction("triumph:stages/stage-shulkmenot")
 
 criteria = addCriteria("shulk_me_not_1", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("shulkmenot")

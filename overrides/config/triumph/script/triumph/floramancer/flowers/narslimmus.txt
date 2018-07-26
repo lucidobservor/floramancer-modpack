@@ -8,7 +8,7 @@ setPos(12, 8)
 drawDirectLines(true)
 
 setRewardItem("contenttweaker:narslimmustrophy")
-addRewardFunction("triumph:stage-narslimmus")
+addRewardFunction("triumph:stages/stage-narslimmus")
 
 criteria = addCriteria("narslimmus_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "narslimmus"}>)

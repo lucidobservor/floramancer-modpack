@@ -1,0 +1,2 @@
+gamestage add @p kekimurus
+advancement revoke @p only triumph:hidden/lexiconpotatoclick clickedPotatoWithLexica

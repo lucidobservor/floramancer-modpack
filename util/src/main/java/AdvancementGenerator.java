@@ -26,7 +26,7 @@ public class AdvancementGenerator {
             lines.add("drawDirectLines(true)");
             lines.add("");
             lines.add(String.format("setRewardItem(\"contenttweaker:%strophy\")", flower.getBotaniaTweaksName()));
-            lines.add(String.format("addRewardFunction(\"triumph:stage-%s\")", flower.getBotaniaTweaksName()));
+            lines.add(String.format("addRewardFunction(\"triumph:stages/stage-%s\")", flower.getBotaniaTweaksName()));
             lines.add("");
 
             // Botania Tweaks version

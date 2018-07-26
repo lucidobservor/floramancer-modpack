@@ -1,0 +1,2 @@
+clear @p botania:lexicon -1 1 {nbt:{"knowledge.minecraft": 1b, "knowledge.alfheim": 1b, "knowledge.relic": 1b}
+give @p botania:lexicon 1 0 {nbt:{"knowledge.minecraft": 1b, "knowledge.alfheim": 1b, "knowledge.relic": 1b, "knowledge.creative": 1b}}

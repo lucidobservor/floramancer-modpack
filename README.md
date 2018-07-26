@@ -28,7 +28,7 @@ grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
     - Automatically place Corporea Sparks and decorate them with Floral Powder, when you place corporea blocks.
     - Galactic Potato, because who doesn't want a huge, rainbow potato?
   
-- **Recipe Tweaks** - 
+- **Recipe Tweaks** 
 	- Because generating flora all suffer from passive decay, the Dandelifeon and Shulk Me Not now require pixie dust
       and ender air in place of a (non-automatable) gaia spirit.
 	- Several generating flora have been tweaked to use somewhat different runes, to better balance the distribution
@@ -42,12 +42,12 @@ grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
 	  players are required to produce with each flower is adjusted accordingly.
 	- The Flügel Tiara now requires the Elytra in its crafting recipe.
 
-- **World Gen** - 
+- **World Gen** 
     - The default world type uses Quark's realistic terrain generation, combined with Traverse for some additional
       interesting biomes.
     - Recurrent Complex is used to add some structures to the world. If you go exploring, you might be able to find
       creeper spawners in the overworld, which should help with powering your entropinnyums, and enderman spawners in
-      The End, which can save you time spent AFK waiting for natural Enderman spawns. Neither are required for
+      The End, which can save you time spent AFK waiting for natural Endermen to spawn. Neither are required for
       progression though, so don't sweat it if you don't find any.
 
 - **Infinite Lava** - Lava in the Nether is infinite below y = 32 (The level of the lava lakes). This allows for the 

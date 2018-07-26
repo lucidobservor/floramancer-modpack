@@ -1,0 +1,2 @@
+gamestage add @p dandelifeon
+advancement revoke @p only triumph:hidden/lexiconpotatoclick clickedPotatoWithLexica

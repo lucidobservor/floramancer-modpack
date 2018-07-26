@@ -8,7 +8,7 @@ setPos(6, 8)
 drawDirectLines(true)
 
 setRewardItem("contenttweaker:thermalilytrophy")
-addRewardFunction("triumph:stage-thermalily")
+addRewardFunction("triumph:stages/stage-thermalily")
 
 criteria = addCriteria("thermalily_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "thermalily"}>)

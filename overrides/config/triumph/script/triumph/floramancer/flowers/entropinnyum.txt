@@ -8,7 +8,7 @@ setPos(9, 8)
 drawDirectLines(true)
 
 setRewardItem("contenttweaker:entropinnyumtrophy")
-addRewardFunction("triumph:stage-entropinnyum")
+addRewardFunction("triumph:stages/stage-entropinnyum")
 
 criteria = addCriteria("entropinnyum_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "entropinnyum"}>)

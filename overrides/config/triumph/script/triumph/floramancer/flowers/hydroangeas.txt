@@ -8,7 +8,7 @@ setPos(4, 8)
 drawDirectLines(true)
 
 setRewardItem("contenttweaker:hydroangeastrophy")
-addRewardFunction("triumph:stage-hydroangeas")
+addRewardFunction("triumph:stages/stage-hydroangeas")
 
 criteria = addCriteria("hydroangeas_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "hydroangeas"}>)

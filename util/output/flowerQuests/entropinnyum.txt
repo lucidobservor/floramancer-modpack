@@ -8,7 +8,7 @@ setPos(9, 8)
 drawDirectLines(true)
 
 setRewardItem("contenttweaker:entropinnyumtrophy")
-addRewardFunction("triumph:stage-entropinnyum")
+addRewardFunction("triumph:stages/stage-entropinnyum")
 
 criteria = addCriteria("entropinnyum_1", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("entropinnyum")

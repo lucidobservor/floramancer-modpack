@@ -17,7 +17,7 @@ addParent("triumph:floramancer/flowers/spectrolus")
 addParent("triumph:floramancer/flowers/thermalily")
 addParent("triumph:floramancer/flowers/hydroangeas")
 
-addRewardFunction("triumph:stage-creative")
+addRewardFunction("triumph:stages/stage-creative")
 
 setRequiresParents()
 setPos(10, 6)

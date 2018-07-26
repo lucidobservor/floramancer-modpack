@@ -8,7 +8,7 @@ setPos(12, 8)
 drawDirectLines(true)
 
 setRewardItem("contenttweaker:narslimmustrophy")
-addRewardFunction("triumph:stage-narslimmus")
+addRewardFunction("triumph:stages/stage-narslimmus")
 
 criteria = addCriteria("narslimmus_1", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("narslimmus")

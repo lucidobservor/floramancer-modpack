@@ -8,7 +8,7 @@ setPos(8, 8)
 drawDirectLines(true)
 
 setRewardItem("contenttweaker:munchdewtrophy")
-addRewardFunction("triumph:stage-munchdew")
+addRewardFunction("triumph:stages/stage-munchdew")
 
 criteria = addCriteria("munchdew_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "munchdew"}>)

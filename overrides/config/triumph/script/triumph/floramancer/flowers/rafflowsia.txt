@@ -8,7 +8,7 @@ setPos(14, 8)
 drawDirectLines(true)
 
 setRewardItem("contenttweaker:rafflowsiatrophy")
-addRewardFunction("triumph:stage-rafflowsia")
+addRewardFunction("triumph:stages/stage-rafflowsia")
 
 criteria = addCriteria("rafflowsia_acquire", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "rafflowsia"}>)

@@ -1,0 +1,2 @@
+tell @p I see you have mastered every flower. You are now worthy of my secrets. Take this book, and read what it is you wished to know.
+advancement revoke @p only triumph:hidden/lexiconfrompotatoclick hasLexicaAgain
