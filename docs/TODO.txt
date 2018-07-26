@@ -21,19 +21,33 @@ Optional / Uncertain End Game Content
 
 
 ---------------
-Tweaks / Fixes
+Tweaks
 ---------------
 
-- Add Notch Apple to overgrowth seed recipe
-- Merge botania tweaks config into packmode folders
-- Add Lexica page for trophy flowers?
-- Make trophy flowers placeable in world?
-- Advancement for enderman/creeper spawner
-- Anvil smashing recipes to reduce potatoes
-	> advancement for smashing tiny potato?
-- Tiny -> galactic recipe requires NBT? 
-- Lexica mouseovers
+- Add Notch Apple -> overgrowth seed alchemy catalyst recipe
+- ContentTweaker - Make trophy flowers placeable in world
 - Change color of creative pool recipe?
+- Additional Advancements
+    > creeper/enderman spawners
+    > fully upgraded saddle
+    > waystone
+    > smash tiny potato with an anvil
+- Additional Lexica Pages
+    > Autumnal sapling/leaves recipes
+    > Add recipe page to overgrowth seed entry
+    > Entry for trophy flowers
+- Potato recipes
+    > See if Enchanted tiny -> galactic recipe can be made to require NBT
+    > If so, either ask quat again about potatoes keeping enchantments in world, or make a staged recipe for the tiny
+    > Anvil smashing recipes to reduce potato
+
+
+---------------
+Bug Fixes
+---------------
+
+- Disable overworld structures only if GoG
+- Add Lexica entry tagline
 - Fix JER mob drops, if possible
     - Remove tooltip for tallow once done
 
@@ -42,15 +56,18 @@ Tweaks / Fixes
 Things to Check
 ---------------
 
+- All changed recipes as they appear in the Lexica
+- Player's Choice descriptions
+
 
 ---------------
 Required Extras
 ---------------
 
 - Player's Choice
+    - Submit bug report for Forge related crash
     - Try once again to use it for actual mods
- 	- Update descriptions
-	- Check mod dependencies
+    - If it still doesn't work for that, post the list of client-side only ones on Curseforge page
 - Add Custom Main Menu
 - Add MPUtils - configure pack start splash screen
 - Update README.md (rolling)

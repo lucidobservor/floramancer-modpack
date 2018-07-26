@@ -1,20 +1,20 @@
 [
   {
     "name": "Normal Mode",
-    "desc": "In Normal Mode, the Corporea Spork from Botania Tweaks is enabled, offering pre-Elven recipes for many corporea items. In addition, the recipe for the Tiny Potato (and therefore Galactic Potato) is reduced to 15% of the default value.",
+    "desc": "In Normal Mode, the Corporea Spork from Botania Tweaks is enabled, offering pre-Elven recipes for many corporea items. In addition, the recipe for the Tiny Potato (and therefore Galactic Potato) is reduced to less than a tenth of the default value. Generating flowers suffer passive decay after one real-world hour.\nIf playing on a server, you must choose the same Mode as the server owner. To return to this selection screen later, exit your game, then delete the playerschoice.marker file in your instance directory before restarting.",
     "category": "Mode",
     "group": "!Mode",
-    "base": true,
     "copyFiles": [ "normalMode" ],
+    "base": true,
     "copyContents": true
   },
   {
     "name": "Hard Mode",
-    "desc": "In Hard Mode, the Corporea Spork from Botania Tweaks is disabled, and the recipe for the Tiny Potato (and therefore Galactic Potato) is unchanged.",
+    "desc": "In Hard Mode, the Corporea Spork from Botania Tweaks is disabled, the recipe for the Tiny Potato (and therefore Galactic Potato) is unchanged, and generating flowers decay after half of a real-world hour.\nIf playing on a server, you must choose the same Mode as the server owner. To return to this selection screen later, exit your game, then delete the playerschoice.marker file in your instance directory before restarting.",
     "category": "Mode",
     "group": "!Mode",
-    "base": false,
     "copyFiles": [ "hardMode" ],
+    "base": false,
     "copyContents": true
   }
 ]
