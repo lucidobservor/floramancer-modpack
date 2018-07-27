@@ -110,9 +110,12 @@ ManaInfusion.addAlchemy(<traverse:brown_autumnal_sapling>, <traverse:yellow_autu
 ManaInfusion.addAlchemy(<traverse:fir_sapling>, <traverse:brown_autumnal_sapling>, 120);
 ManaInfusion.addAlchemy(<minecraft:sapling>, <traverse:fir_sapling>, 120);
 
+// Notch Apple to Overgrowth Seed
+ManaInfusion.addAlchemy(<botania:overgrowthseed>, <minecraft:golden_apple:1>, 50000);
+
 // Creative Galactic Potato Recipe
 ManaInfusion.addInfusion(galacticPotato, <botania:tinypotato>.withTag(
-	{"Quark:RuneColor": 16, ench: [{lvl: 1 as short, id: 51 as short}], RepairCost: 1, "Quark:RuneAttached": 1 as byte}), 1000001);
+	{"Quark:RuneColor": 16, ench: [{lvl: 1 as short, id: 51 as short}], "Quark:RuneAttached": 1 as byte}), 1000001);
 
 /*=========================
             Other
@@ -181,9 +184,9 @@ var entryNameCreativePool = "botania.entry.creativePool";
 
 // Register Knowledge Type
 Knowledge.registerKnowledgeType(knowledgeTypeCreative, knowledgeTypeCreative, "DARK_BLUE", false);
-mods.recipestages.Recipes.addShapeless("botaniaCreativeKnowledgeAddition", "creative",
-	<botania:lexicon>.withTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte, "knowledge.creative": 1 as byte}),
-	[<botania:lexicon>.onlyWithTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}), galacticPotato.reuse()]);
+//mods.recipestages.Recipes.addShapeless("botaniaCreativeKnowledgeAddition", "creative",
+//	<botania:lexicon>.withTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte, "knowledge.creative": 1 as byte}),
+//	[<botania:lexicon>.onlyWithTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}), galacticPotato.reuse()]);
 
 // Add Entries
 Lexicon.addEntry(entryNameCreativeTablet, categoryMisc, creativeManaTablet);
@@ -213,7 +216,7 @@ Lexicon.addEntry(entryNameCreativePool, categoryMisc, creativeManaPool);
 Lexicon.addTextPage("botania.page.creativePool", entryNameCreativePool, 0);
 Lexicon.setEntryKnowledgeType(entryNameCreativePool, knowledgeTypeCreative);
 AgglomerationPage.add("botania.page.creativePoolRecipe", entryNameCreativePool, 1,
-	<minecraft:air>,
+	<botania:tinypotato>.withTag({"Quark:RuneColor": 16, ench: [{lvl: 1 as short, id: 51 as short}], RepairCost: 1, "Quark:RuneAttached": 1 as byte}), 
 	[<botania:gaiahead>, creativeManaTablet, <botania_tweaks:compressed_tiny_potato_8>] as IIngredient[],
 	24000000,
 	0x0000FF,

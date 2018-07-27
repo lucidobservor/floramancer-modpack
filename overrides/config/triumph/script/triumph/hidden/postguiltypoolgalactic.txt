@@ -3,10 +3,11 @@ addParent("triumph:hidden/postguiltypooltiny")
 
 setShowToast(false)
 setAnnounceToChat(false)
-setHidden(true)
 setRequiresParents()
 
-addRewardFunction("triumph:chat-postguiltypoolgalactic")
+addRewardFunction("triumph:chat/chat-postguiltypoolgalactic")
 
-criteria = addCriteria("hasTinyPotato", "minecraft:inventory_changed")
-criteria.setItem(<botania_tweaks:compressed_tiny_potato_8>)
+criteria = addCriteria("hasBigPotato", "minecraft:inventory_changed")
+criteria.addItem(<botania_tweaks:compressed_tiny_potato_8>)
+
+criteria = addCriteria("impossible", "minecraft:impossible")

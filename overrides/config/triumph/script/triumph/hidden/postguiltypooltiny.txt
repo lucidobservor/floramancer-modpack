@@ -3,9 +3,8 @@ addParent("triumph:hidden/root")
 
 setShowToast(false)
 setAnnounceToChat(false)
-setHidden(true)
 
-addRewardFunction("triumph:chat-postguiltypooltiny")
+addRewardFunction("triumph:chat/chat-postguiltypooltiny")
 
 criteria = addCriteria("hasTinyPotato", "minecraft:inventory_changed")
-criteria.setItem(<botania:tinypotato, nbt:{"Quark:RuneColor": 16, ench: [{lvl: 1, id: 51}], "Quark:RuneAttached": 1b}>)
+criteria.addItem(<botania:tinypotato, nbt:{"Quark:RuneColor":16,ench:[{lvl:1s,id:51s}],RepairCost:1,"Quark:RuneAttached":1b}>)

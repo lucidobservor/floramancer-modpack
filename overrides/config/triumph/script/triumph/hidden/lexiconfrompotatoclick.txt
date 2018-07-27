@@ -3,7 +3,6 @@ addParent("triumph:hidden/lexiconpotatoclick")
 
 setShowToast(false)
 setAnnounceToChat(false)
-setHidden(true)
 setRequiresParents()
 
 addRewardFunction("triumph:replace-upgradelexicon")
@@ -12,4 +11,4 @@ criteria = addCriteria("clickedPotatoWithEmptyHand", "triumph:right_click_block"
 criteria.setBlock(<botania_tweaks:compressed_tiny_potato_8>)
 
 criteria = addCriteria("hasLexicaAgain", "minecraft:inventory_changed")
-criteria.setItem(<botania:lexicon, nbt:{"knowledge.minecraft": 1b, "knowledge.alfheim": 1b, "knowledge.relic": 1b>)
+criteria.addItem(<botania:lexicon>)

@@ -1,11 +1,12 @@
 //This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
 
-setTitle("This Should Be Hidden")
-setBackground("botania:textures/blocks/chiseleddarkquartz0.png")
+setBackground("botania:textures/blocks/chiseledmanaquartz0.png")
 
 setShowToast(false)
 setAnnounceToChat(false)
-setHidden(true)
 
-addCriteria("impossible", "minecraft:impossible")
+
+
+//Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
+addCriteria("location", "minecraft:location")
 

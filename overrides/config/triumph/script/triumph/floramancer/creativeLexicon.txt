@@ -1,7 +1,7 @@
 
 setIcon(<botania:lexicon, nbt:{"knowledge.minecraft": 1b, "knowledge.alfheim": 1b, "knowledge.relic": 1b, "knowledge.creative": 1b}>)
 setTitle("Ultimate Knowledge")
-setDescription("Craft the Lexica Botania with the Galactic Potato to unlock creative knowledge")
+setDescription("Give your Lexica Botania to the Galactic Potato to unlock creative knowledge. You may need to do this twice.")
 
 addParent("triumph:floramancer/galactic")
 

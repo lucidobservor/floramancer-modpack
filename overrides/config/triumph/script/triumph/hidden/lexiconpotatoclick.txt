@@ -1,13 +1,15 @@
 
+addParent("triumph:hidden/root")
 addParent("triumph:floramancer/galactic")
 
 setShowToast(false)
 setAnnounceToChat(false)
-setHidden(true)
 setRequiresParents()
 
-addRewardFunction("triumph:chat-clickpotatowithlexica")
+addRewardFunction("triumph:chat/chat-clickpotatowithlexica")
 
 criteria = addCriteria("clickedPotatoWithLexica", "triumph:right_click_block")
-criteria.setItem(<botania:lexicon, nbt:{"knowledge.minecraft": 1b, "knowledge.alfheim": 1b, "knowledge.relic": 1b>)
+//criteria.setItem(<botania:lexicon, nbt:{"knowledge.minecraft": 1b, "knowledge.alfheim": 1b, "knowledge.relic": 1b>)
+criteria.setItem(<botania:lexicon>)
 criteria.setBlock(<botania_tweaks:compressed_tiny_potato_8>)
+

@@ -1,1 +1,1 @@
-tell @p Ahhh, much better! Thank you @p, you truly are a Master Floramancer now!
+say Ahhh, much better! Thank you my good botanist, you truly are a Master Floramancer now!
