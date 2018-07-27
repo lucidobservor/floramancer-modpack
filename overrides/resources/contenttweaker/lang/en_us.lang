@@ -12,7 +12,7 @@ botania.page.creativeTabletRecipe=Consumes 12 &1Mana Pools&0 worth of &4Mana&0
 botania.entry.creativePool=Everlasting Guilty Pool
 botania.tagline.creativePool=Power everlasting, ever-flowing
 botania.page.creativePool=You've set your sights on the pinnacle of &4Mana&0 production, the &1Everlasting Guilty Pool&0. This &1Mana Pool&0 pulls mana directly from the Aether, as fast as your &1Mana Spreaders&0 and &1Sparks&0 can move it. But like all great power, it requires great sacrifice. In this case the sacrifice of the very potato who taught you the ritual. It will also cost 24 mana pools worth of mana.
-botania.page.creativePoolRecipe=&1Mana Pool&0 under the plate will be transformed in world
+botania.page.creativePoolRecipe=&1Fabulous Mana Pool&0 under the plate will be transformed in world
 
 # Flower Trophies
 item.contenttweaker.hydroangeastrophy.name=Hydroangeas Trophy

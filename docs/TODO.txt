@@ -19,36 +19,43 @@ Optional / Uncertain End Game Content
 Tweaks
 ---------------
 
-- Make null output Guilty pool lexica recipe
 - ContentTweaker - Make trophy flowers placeable in world
     > Might require not just using botania models, if the enchantment thing doesn't carry over
-- Change color of creative pool recipe?
 - Additional Advancements
     > creeper/enderman spawners
     > fully upgraded saddle
-    > waystone?
-    > smash tiny potato with an anvil?
+    > Every max level enchanted book? (Incl ancient tomes)
+    > Spartan Shield? Waystone?
 - Additional Lexica Pages
 	> Make recipes in Lexica match JEI
     > Autumnal sapling/leaves recipes
     > Add recipe page to overgrowth seed entry
     > Entry for trophy flowers
-
-
----------------
-Bug Fixes
----------------
-
-- Add Lexica entry tagline
-	> Requires ModTweaker pull request
-- Fix JER mob drops, if possible
-    - Remove tooltip for tallow once done
+- Make Tier 3 runes require anything else? Brews?
+    > Sloth - resistance
+    > Greed - invisibility
+    > Gluttony - absorption
+    > Wrath - bloodthirst
+    > Lust - allure
+    > Envy - night vision
+    > Pride - emptiness
 
 
 ---------------
 Things to Check
 ---------------
 
+- Guilty Pool Lexica
+- Changed color of creative pool recipe?
+
+
+---------------
+New Mods
+---------------
+
+- Duck Craft
+- Just a Few Fish
+- Mystic World
 
 
 ---------------
@@ -71,5 +78,7 @@ Open Tickets
 
 - Player's Choice - Wait for release
 - Triumph - wait for compatibility
-
+- ModTweaker - Lexica entry tagline support
+- JER mob drop support
+    > Remove tooltip for tallow once done
 
