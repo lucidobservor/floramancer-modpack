@@ -31,13 +31,13 @@ Tweaks
     > Autumnal sapling/leaves recipes
     > Add recipe page to overgrowth seed entry
     > Entry for trophy flowers
-
+- Hide Galactic potato infusion in JEI
+- Mystic World spawns
 
 ---------------
 Things to Check
 ---------------
 
-- Guilty Pool Lexica
 - Changed color of creative pool recipe?
 
 
