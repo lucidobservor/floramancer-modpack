@@ -31,14 +31,6 @@ Tweaks
     > Autumnal sapling/leaves recipes
     > Add recipe page to overgrowth seed entry
     > Entry for trophy flowers
-- Make Tier 3 runes require anything else? Brews?
-    > Sloth - resistance
-    > Greed - invisibility
-    > Gluttony - absorption
-    > Wrath - bloodthirst
-    > Lust - allure
-    > Envy - night vision
-    > Pride - emptiness
 
 
 ---------------
@@ -47,15 +39,6 @@ Things to Check
 
 - Guilty Pool Lexica
 - Changed color of creative pool recipe?
-
-
----------------
-New Mods
----------------
-
-- Duck Craft
-- Just a Few Fish
-- Mystic World
 
 
 ---------------

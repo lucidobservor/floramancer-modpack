@@ -51,8 +51,7 @@ grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
       progression though, so don't sweat it if you don't find any.
 
 - **Infinite Lava** - Lava in the Nether is infinite below y = 32 (The level of the lava lakes). This allows for the 
-    full automation of the thermalilly, something which isn't possible in pure Botania. If that's too easy for you, you
-    can also employ some trickery with the Flame Resistant Saddle from Horse Tweaks.
+    full automation of the thermalilly, something which isn't possible in pure Botania.
     
 - **Garden of Glass Compatibility** - There are no recipe changes that should interfere with progression in a Garden of
     Glass world.
