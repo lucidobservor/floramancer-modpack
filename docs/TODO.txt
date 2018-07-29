@@ -33,12 +33,11 @@ Tweaks
     > Entry for trophy flowers
 - Hide Galactic potato infusion in JEI
 - Mystic World spawns
+- Change color of creative pool recipe
 
 ---------------
 Things to Check
 ---------------
-
-- Changed color of creative pool recipe?
 
 
 ---------------
