@@ -1,1 +1,3 @@
 tellraw @p ["",{"text":"[Galactic Potato] "},{"text":"You are not yet worthy of my secrets. Return once you have mastered every flower.","color":"aqua"}]
+advancement revoke @p only triumph:hidden/lexiconpotatoclickunworthy clickedPotatoWithLexica
+advancement grant @p only triumph:hidden/lexiconpotatoclickunworthy impossible

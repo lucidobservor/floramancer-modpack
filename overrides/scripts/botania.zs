@@ -115,7 +115,7 @@ ManaInfusion.addAlchemy(<minecraft:sapling>, <traverse:fir_sapling>, 120);
 ManaInfusion.addAlchemy(<botania:overgrowthseed>, <minecraft:golden_apple:1>, 50000);
 
 // Creative Galactic Potato Recipe
-ManaInfusion.addInfusion(galacticPotato, <contenttweaker:tinygalacticpotato>, 1000001);
+ManaInfusion.addInfusion(galacticPotato, <contenttweaker:tinygalacticpotato>.withTag({"Quark:RuneColor": 16, "Quark:RuneAttached": 1 as byte}), 1000001);
 
 /*=========================
             Other
@@ -159,7 +159,7 @@ RuneAltar.addRecipe(creativeManaTablet, [
 
 // Creative Pool
 Agglomeration.addRecipe(
-	<contenttweaker:tinygalacticpotato>, 
+	<contenttweaker:tinygalacticpotato>.withTag({"Quark:RuneColor": 16, "Quark:RuneAttached": 1 as byte}), 
 	[<botania:gaiahead>, creativeManaTablet, <botania_tweaks:compressed_tiny_potato_8>] as IIngredient[],
 	24000000,
 	0x00FF00,

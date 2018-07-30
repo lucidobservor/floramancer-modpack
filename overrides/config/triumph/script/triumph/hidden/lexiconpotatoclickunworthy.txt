@@ -3,15 +3,15 @@ addParent("triumph:hidden/root")
 
 setShowToast(false)
 setAnnounceToChat(false)
-setRequiresParents()
 
 addRewardFunction("triumph:chat/chat-clickpotatowithlexicaunworthy")
 
-setRepeatTime(3)
 
 criteria = addCriteria("clickedPotatoWithLexica", "triumph:right_click_block")
 criteria.setItem(<botania:lexicon>)
 criteria.setBlock(<botania_tweaks:compressed_tiny_potato_8>)
 
 impossible = addCriteria("impossible", "minecraft:impossible");
+
+setRepeatTime(3)
 

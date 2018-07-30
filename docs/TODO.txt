@@ -34,8 +34,6 @@ Tweaks
 Things to Check
 ---------------
 
-- Right click any block with tiny galactic potato
-- Rick click potato with book when unworthy
 
 ---------------
 Required Extras
