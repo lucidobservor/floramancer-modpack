@@ -1,0 +1,1 @@
+tellraw @p ["",{"text":"[Galactic Potato] "},{"text":"You are not yet worthy of my secrets. Return once you have mastered every flower.","color":"aqua"}]

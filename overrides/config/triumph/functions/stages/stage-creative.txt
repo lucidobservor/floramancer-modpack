@@ -1,1 +1,2 @@
 gamestage add @p creative
+advancement revoke @p only triumph:hidden/lexiconpotatoclickunworthy impossible

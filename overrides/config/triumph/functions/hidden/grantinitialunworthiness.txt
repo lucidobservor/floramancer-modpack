@@ -1,0 +1,1 @@
+advancement grant @p only triumph:hidden/lexiconpotatoclickunworthy impossible

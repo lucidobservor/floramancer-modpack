@@ -5,6 +5,8 @@ setBackground("botania:textures/blocks/chiseledmanaquartz0.png")
 setShowToast(false)
 setAnnounceToChat(false)
 
+addRewardFunction("triumph:hidden/grantinitialunworthiness")
+
 
 
 //Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
