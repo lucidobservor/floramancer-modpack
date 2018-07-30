@@ -1,0 +1,13 @@
+
+addParent("triumph:hidden/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+addRewardFunction("triumph:chat/chat-clickwithtinygalacticpotato")
+
+criteria = addCriteria("clickedPotatoWithLexica", "triumph:right_click_block")
+criteria.setItem(<contenttweaker:tinygalacticpotato>)
+
+setRepeatTime(3)
+

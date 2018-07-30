@@ -29,14 +29,13 @@ Tweaks
     > Spartan Shield? Waystone?
 - Additional Lexica Pages
 	> Make recipes in Lexica match JEI
-    > Autumnal sapling/leaves recipes
-    > Add recipe page to overgrowth seed entry
     > Entry for trophy flowers
 
 ---------------
 Things to Check
 ---------------
 
+- Right click any block with tiny galactic potato
 
 ---------------
 Required Extras
