@@ -7,4 +7,4 @@ setAnnounceToChat(false)
 addRewardFunction("triumph:chat/chat-postguiltypooltiny")
 
 criteria = addCriteria("hasTinyPotato", "minecraft:inventory_changed")
-criteria.addItem(<botania:tinypotato, nbt:{"Quark:RuneColor":16,ench:[{lvl:1s,id:51s}],RepairCost:1,"Quark:RuneAttached":1b}>)
+criteria.addItem(<contenttweaker:tinygalacticpotato>)

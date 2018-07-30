@@ -3,6 +3,10 @@
 import mods.contenttweaker.VanillaFactory;
 
 
+var tinygalacticpotato = VanillaFactory.createItem("tinygalacticpotato");
+tinygalacticpotato.glowing = true;
+tinygalacticpotato.register();
+
 var hydroangeastrophy = VanillaFactory.createItem("hydroangeastrophy");
 hydroangeastrophy.rarity = "epic";
 hydroangeastrophy.glowing = true;
