@@ -1,3 +1,3 @@
-say Wow, did it work?! You're so big! Or...wait...I'm tiny again! Whaaaaaaat. Maybe try tossing me in that pool we just made?
+tellraw @p ["",{"text":"[Galactic Potato?] "},{"text":"Wow, did it work?! You're so big! Or...wait...I'm tiny again! Whaaaaaaat. Maybe try tossing me in that pool we just made?","color":"aqua"}]
 advancement revoke @p only triumph:hidden/postguiltypoolgalactic hasBigPotato
 advancement grant @p only triumph:hidden/postguiltypoolgalactic impossible

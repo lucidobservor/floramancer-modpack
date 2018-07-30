@@ -1,21 +1,16 @@
 
-import mods.botania.Apothecary;
 import mods.botania.Knowledge;
 import mods.botania.Lexicon;
-import mods.botania.ManaInfusion;
-import mods.botania.RuneAltar;
 
-import mods.botaniatweaks.Agglomeration;
 import mods.botaniatweaks.AgglomerationPage;
-import mods.botaniatweaks.AgglomerationRecipe;
-import mods.botaniatweaks.AgglomerationMultiblock;
 
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
 
 /*==========================
   Apothecary Recipe Tweaks
- ==========================*/
+ ==========================
 
 Apothecary.removeRecipe(kekimurus);
 Apothecary.removeRecipe(munchdew);
@@ -41,7 +36,7 @@ Apothecary.addRecipe(dandelifeon,
 
 /*==========================
   Runic Altar Recipe Tweaks
- ==========================*/
+ ==========================
 
 RuneAltar.removeRecipe(<botania:rune:2>);
 RuneAltar.removeRecipe(<botania:rune:3>);
@@ -95,31 +90,30 @@ RuneAltar.addRecipe(<botania:rune:15>, [<ore:manaDiamond>, <ore:manaDiamond>, <o
     Mana Infustion Tweaks
  ==========================*/
 
-// Autumnal Leaves Duplication
-ManaInfusion.addConjuration(<traverse:red_autumnal_leaves> * 2, <traverse:red_autumnal_leaves>, 2000);
-ManaInfusion.addConjuration(<traverse:orange_autumnal_leaves> * 2, <traverse:orange_autumnal_leaves>, 2000);
-ManaInfusion.addConjuration(<traverse:yellow_autumnal_leaves> * 2, <traverse:yellow_autumnal_leaves>, 2000);
-ManaInfusion.addConjuration(<traverse:brown_autumnal_leaves> * 2, <traverse:brown_autumnal_leaves>, 2000);
-ManaInfusion.addConjuration(<traverse:fir_leaves> * 2, <traverse:fir_leaves>, 2000);
+// Traverse Leaves Duplication
+Lexicon.removePage("botania.entry.manaConjuration", 10);
+Lexicon.addConjurationPage("botania.page.manaConjuration10", "botania.entry.manaConjuration", 10, 
+	[<minecraft:leaves> * 2, <minecraft:leaves:1> * 2, <minecraft:leaves:2> * 2, <minecraft:leaves:3> * 2, <minecraft:leaves2> * 2, <minecraft:leaves2:1> * 2, <traverse:fir_leaves> * 2, <traverse:brown_autumnal_leaves> * 2, <traverse:yellow_autumnal_leaves> * 2, <traverse:orange_autumnal_leaves> * 2, <traverse:red_autumnal_leaves> * 2] as IItemStack[], 
+	[<minecraft:leaves>, <minecraft:leaves:1>, <minecraft:leaves:2>, <minecraft:leaves:3>, <minecraft:leaves2>, <minecraft:leaves2:1>, <traverse:fir_leaves>, <traverse:brown_autumnal_leaves>, <traverse:yellow_autumnal_leaves>, <traverse:orange_autumnal_leaves>, <traverse:red_autumnal_leaves>] as IIngredient[], 
+	[2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000]);
 
 // Add Traverse Saplings to Alchemy rotation
-ManaInfusion.removeRecipe(<minecraft:sapling>);
-ManaInfusion.addAlchemy(<traverse:red_autumnal_sapling>, <minecraft:sapling:5>, 120);
-ManaInfusion.addAlchemy(<traverse:orange_autumnal_sapling>, <traverse:red_autumnal_sapling>, 120);
-ManaInfusion.addAlchemy(<traverse:yellow_autumnal_sapling>, <traverse:orange_autumnal_sapling>, 120);
-ManaInfusion.addAlchemy(<traverse:brown_autumnal_sapling>, <traverse:yellow_autumnal_sapling>, 120);
-ManaInfusion.addAlchemy(<traverse:fir_sapling>, <traverse:brown_autumnal_sapling>, 120);
-ManaInfusion.addAlchemy(<minecraft:sapling>, <traverse:fir_sapling>, 120);
+Lexicon.removePage("botania.entry.manaAlchemy", 4);
+Lexicon.addAlchemyPage("botania.page.manaAlchemy4", "botania.entry.manaAlchemy", 4, 
+	[<minecraft:sapling>, <traverse:fir_sapling>, <traverse:brown_autumnal_sapling>, <traverse:yellow_autumnal_sapling>, <traverse:orange_autumnal_sapling>, <traverse:red_autumnal_sapling>, <minecraft:sapling:5>, <minecraft:sapling:4>, <minecraft:sapling:3>, <minecraft:sapling:2>, <minecraft:sapling:1>] as IItemStack[], 
+	[<traverse:fir_sapling>, <traverse:brown_autumnal_sapling>, <traverse:yellow_autumnal_sapling>, <traverse:orange_autumnal_sapling>, <traverse:red_autumnal_sapling>, <minecraft:sapling:5>, <minecraft:sapling:4>, <minecraft:sapling:3>, <minecraft:sapling:2>, <minecraft:sapling:1>, <minecraft:sapling>] as IIngredient[], 
+	[120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]);
 
 // Notch Apple to Overgrowth Seed
-ManaInfusion.addAlchemy(<botania:overgrowthseed>, <minecraft:golden_apple:1>, 50000);
+Lexicon.addAlchemyPage("botania.page.overgrowthSeed2", "botania.entry.overgrowthSeed", 2, 
+	[<botania:overgrowthseed>] as IItemStack[], 
+	[<minecraft:golden_apple:1>] as IIngredient[], 
+	[50000]);
 
-// Creative Galactic Potato Recipe
-ManaInfusion.addInfusion(galacticPotato, <contenttweaker:tinygalacticpotato>, 1000001);
-
+	
 /*=========================
             Other
- =========================*/
+ =========================
 
 // Flugel Tiara requires Elytra
 recipes.removeShaped(<botania:flighttiara>);
@@ -129,17 +123,26 @@ recipes.addShaped("botania_flighttiara_0", <botania:flighttiara>,
 	[<minecraft:feather>, <ore:bEnderAirBottle>, <minecraft:feather>]]);
 
 
- /*=========================
-       Creative Recipes
-  =========================*/
+/*=========================
+      Creative Recipes
+ =========================*/
 
-// Add Item Stages to Creative Items
-mods.ItemStages.addItemStage("creative", creativeManaTablet);
-mods.ItemStages.addItemStage("creative", creativeManaPool);
+// String Constants
+var knowledgeTypeCreative = "creative";
+var categoryMisc = "botania.category.misc";
+var entryNameCreativeTablet = "botania.entry.creativeTablet";
+var entryNameCreativePool = "botania.entry.creativePool";
 
-// Creative Tablet
-RuneAltar.addRecipe(creativeManaTablet, [
-	<botania:dice>,
+// Register Knowledge Type
+Knowledge.registerKnowledgeType(knowledgeTypeCreative, knowledgeTypeCreative, "DARK_BLUE", false);
+
+// Add Entries
+Lexicon.addEntry(entryNameCreativeTablet, categoryMisc, creativeManaTablet);
+Lexicon.addTextPage("botania.page.creativeTablet", entryNameCreativeTablet, 0);
+Lexicon.setEntryKnowledgeType(entryNameCreativeTablet, knowledgeTypeCreative);
+Lexicon.addRunePage("botania.page.creativeTabletRecipe", entryNameCreativeTablet, 1,
+    [creativeManaTablet], [[
+    <botania:dice>,
     <botania:manatablet>,
 	<botania:dice>,
 	<contenttweaker:hydroangeastrophy>,
@@ -155,11 +158,13 @@ RuneAltar.addRecipe(creativeManaTablet, [
 	<contenttweaker:rafflowsiatrophy>,
 	<contenttweaker:shulkmenottrophy>,
 	<contenttweaker:dandelifeontrophy>
-	], 12000000);
+	]], [12000000]);
 
-// Creative Pool
-Agglomeration.addRecipe(
-	<contenttweaker:tinygalacticpotato>, 
+Lexicon.addEntry(entryNameCreativePool, categoryMisc, creativeManaPool);
+Lexicon.addTextPage("botania.page.creativePool", entryNameCreativePool, 0);
+Lexicon.setEntryKnowledgeType(entryNameCreativePool, knowledgeTypeCreative);
+AgglomerationPage.add("botania.page.creativePoolRecipe", entryNameCreativePool, 1,
+	creativeManaPool,
 	[<botania:gaiahead>, creativeManaTablet, <botania_tweaks:compressed_tiny_potato_8>] as IIngredient[],
 	24000000,
 	0x00FF00,
@@ -167,8 +172,7 @@ Agglomeration.addRecipe(
 	<botania:pool:3>,
 	<botania:enchantedsoil>,
 	<botania:enchantedsoil>,
-	<botania:pool:1>,
+	creativeManaPool,
 	<botania:altgrass>,
 	<botania:altgrass>);
 
-	

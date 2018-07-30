@@ -22,6 +22,7 @@ Tweaks
 - ContentTweaker - Make trophy flowers placeable in world
     > Might require not just using botania models, if the enchantment thing doesn't carry over
 - Additional Advancements
+	> "You are not yet worthy" potato message
     > creeper/enderman spawners
     > fully upgraded saddle
     > Every max level enchanted book? (Incl ancient tomes)

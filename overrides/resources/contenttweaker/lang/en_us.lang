@@ -29,3 +29,6 @@ item.contenttweaker.spectrolustrophy.name=Spectrolus Trophy
 item.contenttweaker.rafflowsiatrophy.name=Rafflowsia Trophy
 item.contenttweaker.shulkmenottrophy.name=Shulk Me Not Trophy
 item.contenttweaker.dandelifeontrophy.name=Dandelifeon Trophy
+
+# Extra Lexicon Pages
+botania.page.overgrowthSeed2=Creating an &1Overgrowth Seed&0 from dungeon loot

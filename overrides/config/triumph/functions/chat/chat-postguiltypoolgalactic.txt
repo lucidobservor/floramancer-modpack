@@ -1,1 +1,1 @@
-say Ahhh, much better! Thank you my good botanist, you truly are a Master Floramancer now!
+tellraw @p ["",{"text":"[Galactic Potato] "},{"text":"Ahhh, much better! Thank you ","color":"aqua"},{"selector":"@p","color":"aqua"},{"text":", you truly are a Master Floramancer now!","color":"aqua"}]
