@@ -11,14 +11,6 @@ setLevelsMax:
     Notes:
         Sets the max levels for the beacon.
 
-setLevelsMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max levels for the beacon.
-
 setLevelsMin:
     Arguments:
         float
@@ -26,6 +18,14 @@ setLevelsMin:
         min
     Notes:
         Sets the min levels for the beacon.
+
+setLevelsMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max levels for the beacon.
 
 setCount:
     Arguments:

@@ -3,13 +3,13 @@ trigger.
 
 
 
-getDamageSourceData:
-    Notes:
-        Returns the DamageSourceData object so functions can be called on it.
-
 getEntityData:
     Notes:
         Returns the EntityData object so functions can be called on it.
+
+getDamageSourceData:
+    Notes:
+        Returns the DamageSourceData object so functions can be called on it.
 
 setEntityType:
     Arguments:

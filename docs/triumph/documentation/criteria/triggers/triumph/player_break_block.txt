@@ -12,14 +12,6 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
-setBlock:
-    Arguments:
-        ItemBlockData
-    Usage:
-        block data
-    Notes:
-        Sets the required block.
-
 setItem:
     Arguments:
         ItemBlockData
@@ -27,6 +19,14 @@ setItem:
         item data
     Notes:
         Sets the required item.
+
+setBlock:
+    Arguments:
+        ItemBlockData
+    Usage:
+        block data
+    Notes:
+        Sets the required block.
 
 setBiome:
     Arguments:

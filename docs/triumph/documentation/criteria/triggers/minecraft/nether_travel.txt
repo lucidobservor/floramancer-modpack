@@ -3,26 +3,6 @@ trigger.
 
 
 
-setEnteredFeature:
-    Arguments:
-        String
-    Usage:
-        feature id
-    Notes:
-        Sets the feature id for the entered location. Used for things like structures.
-
-getEnteredData:
-    Notes:
-        Returns the LocationData object for the entered location so functions can be called on it.
-
-setEnteredBiome:
-    Arguments:
-        Non_Null_Biome_ID
-    Usage:
-        biome id
-    Notes:
-        Sets the biome id for the entered location. Can be an int or String.
-
 getDistanceData:
     Notes:
         Returns the DistanceData object so functions can be called on it.
@@ -35,10 +15,6 @@ setExitedFeature:
     Notes:
         Sets the feature id for the exited location. Used for things like structures.
 
-getExitedData:
-    Notes:
-        Returns the LocationData object for the exited location so functions can be called on it.
-
 setExitedBiome:
     Arguments:
         Non_Null_Biome_ID
@@ -46,6 +22,30 @@ setExitedBiome:
         biome id
     Notes:
         Sets the biome id for the exited location. Can be an int or String.
+
+setEnteredBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id for the entered location. Can be an int or String.
+
+getEnteredData:
+    Notes:
+        Returns the LocationData object for the entered location so functions can be called on it.
+
+getExitedData:
+    Notes:
+        Returns the LocationData object for the exited location so functions can be called on it.
+
+setEnteredFeature:
+    Arguments:
+        String
+    Usage:
+        feature id
+    Notes:
+        Sets the feature id for the entered location. Used for things like structures.
 
 setCount:
     Arguments:

@@ -2,13 +2,13 @@ These are the functions which can be called on a PotionEffectData object.
 
 
 
-setAmplifierMinMax:
+setVisible:
     Arguments:
-        float, float
+        boolean
     Usage:
-        min, max
+        true/false
     Notes:
-        Sets the min and max amplifier for the effect.
+        Sets if the effect is visible.
 
 setDurationMinMax:
     Arguments:
@@ -18,13 +18,13 @@ setDurationMinMax:
     Notes:
         Sets the min and max duration for the effect.
 
-setVisible:
+setAmplifierMinMax:
     Arguments:
-        boolean
+        float, float
     Usage:
-        true/false
+        min, max
     Notes:
-        Sets if the effect is visible.
+        Sets the min and max amplifier for the effect.
 
 setDurationMin:
     Arguments:
@@ -33,22 +33,6 @@ setDurationMin:
         min
     Notes:
         Sets the min duration for the effect.
-
-setAmbient:
-    Arguments:
-        boolean
-    Usage:
-        true/false
-    Notes:
-        Sets if the effect is ambient.
-
-setAmplifierMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max amplifier for the effect.
 
 setDurationMax:
     Arguments:
@@ -65,4 +49,20 @@ setAmplifierMin:
         min
     Notes:
         Sets the min amplifier for the effect.
+
+setAmplifierMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max amplifier for the effect.
+
+setAmbient:
+    Arguments:
+        boolean
+    Usage:
+        true/false
+    Notes:
+        Sets if the effect is ambient.
 

@@ -18,10 +18,6 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
-getDistanceData:
-    Notes:
-        Returns the DistanceData object so functions can be called on it.
-
 setBiome:
     Arguments:
         Non_Null_Biome_ID
@@ -29,6 +25,10 @@ setBiome:
         biome id
     Notes:
         Sets the biome id. Can be an int or String.
+
+getLocationData:
+    Notes:
+        Returns the LocationData object so functions can be called on it.
 
 setDimensionType:
     Arguments:
@@ -38,7 +38,7 @@ setDimensionType:
     Notes:
         Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
 
-getLocationData:
+getDistanceData:
     Notes:
-        Returns the LocationData object so functions can be called on it.
+        Returns the DistanceData object so functions can be called on it.
 
