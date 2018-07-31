@@ -10,30 +10,31 @@ import crafttweaker.item.IItemStack;
 
 /*==========================
   Apothecary Recipe Tweaks
- ==========================
+ ==========================*/
 
-Apothecary.removeRecipe(kekimurus);
-Apothecary.removeRecipe(munchdew);
-Apothecary.removeRecipe(narslimmus);
-Apothecary.removeRecipe(dandelifeon);
-Apothecary.removeRecipe(shulkmenot);
+Lexicon.removePage("botania.entry.kekimurus", 1);
+Lexicon.removePage("botania.entry.munchdew", 2);
+Lexicon.removePage("botania.entry.narslimmus", 1);
+Lexicon.removePage("botania.entry.dandelifeon", 9);
+Lexicon.removePage("botania.entry.shulk_me_not", 2);
+ 
+Lexicon.addPetalPage("botania.page.kekimurus1", "botania.entry.kekimurus", 1, 
+	[kekimurus], 
+	[[<ore:petalWhite>, <ore:petalWhite>, <ore:petalOrange>, <ore:petalOrange>, <ore:petalBrown>, <ore:petalBrown>,	<ore:runeGluttonyB>, <ore:runeSpringB>, <ore:elvenPixieDust>]]);
+Lexicon.addPetalPage("botania.page.munchdew2", "botania.entry.munchdew", 2, 
+	[munchdew], 
+	[[<ore:petalLime>, <ore:petalLime>, <ore:petalRed>, <ore:petalRed>, <ore:petalGreen>, <ore:runeGluttonyB>, <ore:runeWaterB>]]);
+Lexicon.addPetalPage("botania.page.narslimmus1", "botania.entry.narslimmus", 1, 
+	[narslimmus], 
+	[[<ore:petalLime>, <ore:petalLime>, <ore:petalGreen>, <ore:petalGreen>, <ore:petalBlack>, <ore:runeAutumnB>, <ore:runeWaterB>]]);
+Lexicon.addPetalPage("botania.page.shulk_me_not2", "botania.entry.shulk_me_not", 2, 
+	[shulkmenot], 
+	[[<ore:petalPurple>, <ore:petalPurple>, <ore:petalMagenta>, <ore:petalMagenta>, <ore:petalLightGray>, <ore:runeEnvyB>, <ore:runeWrathB>, <ore:runeAirB>, <ore:elvenPixieDust>, <ore:bEnderAirBottle>]]);
+Lexicon.addPetalPage("botania.page.dandelifeon8", "botania.entry.dandelifeon", 9, 
+	[dandelifeon], 
+	[[<ore:petalPurple>, <ore:petalPurple>, <ore:petalLime>, <ore:petalGreen>, <ore:runeWaterB>, <ore:runeFireB>, <ore:runeEarthB>, <ore:runeAirB>, <ore:runeSpringB>, <ore:runeSummerB>, <ore:runeAutumnB>, <ore:runeWinterB>, <ore:elvenPixieDust>, <ore:bEnderAirBottle>]]);
 
-Apothecary.addRecipe(munchdew,
-	[<ore:petalLime>, <ore:petalLime>, <ore:petalRed>, <ore:petalRed>, <ore:petalGreen>,
-	<ore:runeGluttonyB>, <ore:runeWaterB>]);
-Apothecary.addRecipe(kekimurus,
-	[<ore:petalWhite>, <ore:petalWhite>, <ore:petalOrange>, <ore:petalOrange>, <ore:petalBrown>, <ore:petalBrown>,
-	<ore:runeGluttonyB>, <ore:runeSpringB>, <ore:elvenPixieDust>]);
-Apothecary.addRecipe(narslimmus,
-	[<ore:petalLime>, <ore:petalLime>, <ore:petalGreen>, <ore:petalGreen>, <ore:petalBlack>,
-	<ore:runeAutumnB>, <ore:runeWaterB>]);
-Apothecary.addRecipe(shulkmenot,
-	[<ore:petalPurple>, <ore:petalPurple>, <ore:petalMagenta>, <ore:petalMagenta>, <ore:petalLightGray>,
-	<ore:runeEnvyB>, <ore:runeWrathB>, <ore:runeAirB>, <ore:elvenPixieDust>, <ore:bEnderAirBottle>]);
-Apothecary.addRecipe(dandelifeon,
-	[<ore:petalPurple>, <ore:petalPurple>, <ore:petalLime>, <ore:petalGreen>,
-	<ore:runeWaterB>, <ore:runeFireB>, <ore:runeEarthB>, <ore:runeAirB>, <ore:runeSpringB>, <ore:runeSummerB>, <ore:runeAutumnB>, <ore:runeWinterB>, <ore:elvenPixieDust>, <ore:bEnderAirBottle>]);
-
+	
 /*==========================
   Runic Altar Recipe Tweaks
  ==========================*/
@@ -55,24 +56,20 @@ Lexicon.removePage("botania.entry.runeAltar", 11);
 
 Lexicon.addRunePage("botania.page.runeAltar8", "botania.entry.runeAltar", 11, 
 	[<botania:rune:4>], 
-	[[<ore:runeWaterB>, <ore:runeFireB>,	<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:cropWheat>, <ore:stoneMetamorphic>, <ore:grass>]], 
+	[[<ore:runeWaterB>, <ore:runeFireB>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:cropWheat>, <ore:stoneMetamorphic>, <ore:grass>]], 
 	[8000]);
-	
 Lexicon.addRunePage("botania.page.runeAltar9", "botania.entry.runeAltar", 12, 
 	[<botania:rune:5>], 
-	[[<ore:runeEarthB>, <ore:runeAirB>, <minecraft:sand>, <minecraft:sand>,	<minecraft:slime_ball>, <minecraft:melon>, <ore:hardenedClay>, <minecraft:sand:1>]], 
+	[[<ore:runeEarthB>, <ore:runeAirB>, <minecraft:sand>, <minecraft:sand>, <minecraft:slime_ball>, <minecraft:melon>, <ore:hardenedClay>, <minecraft:sand:1>]], 
 	[8000]);
-	
 Lexicon.addRunePage("botania.page.runeAltar10", "botania.entry.runeAltar", 13, 
 	[<botania:rune:6>], 
 	[[<ore:runeFireB>, <ore:runeAirB>, <ore:autumnalLeaves>, <ore:autumnalLeaves>, <ore:autumnalLeaves>, <minecraft:fermented_spider_eye>, <ore:mycelium>, <botania:altgrass>]], 
 	[8000]);
-	
 Lexicon.addRunePage("botania.page.runeAltar11", "botania.entry.runeAltar", 14, 
 	[<botania:rune:7>], 
 	[[<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <ore:blockWool>, <minecraft:cake>, <minecraft:ice>, <minecraft:packed_ice>]], 
 	[8000]);
-	
 Lexicon.addRunePage("botania.page.runeAltar12", "botania.entry.runeAltar", 15, 
 	[<botania:rune:8>], 
 	[[<ore:manaPearl>, <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>]], 

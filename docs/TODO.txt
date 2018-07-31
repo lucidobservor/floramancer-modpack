@@ -27,7 +27,6 @@ Tweaks
     > Every max level enchanted book? (Incl ancient tomes)
     > Spartan Shield? Waystone?
 - Additional Lexica Pages
-	> Make recipes in Lexica match JEI
     > Entry for trophy flowers
 
 ---------------
