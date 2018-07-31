@@ -1,7 +1,7 @@
 
 setIcon(<botania:specialflower, nbt:{type: "kekimurus"}>)
 setTitle("It's Not a Lie")
-setDescription("Fill 3 Mana Pools using the Kekimurus")
+setDescription("Fill 1 Mana Pool using the Kekimurus")
 addParent("triumph:floramancer/lexicon")
 
 setPos(10, 8)
@@ -10,5 +10,6 @@ drawDirectLines(true)
 setRewardItem("contenttweaker:kekimurustrophy")
 addRewardFunction("triumph:stages/stage-kekimurus")
 
-criteria = addCriteria("kekimurus_acquire", "minecraft:inventory_changed")
-criteria.addItem(<botania:specialflower, nbt:{type: "kekimurus"}>)
+criteria = addCriteria("kekimurus_mana", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(1000000)

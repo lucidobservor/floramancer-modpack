@@ -4,7 +4,7 @@ End Game Content
 ----------------
 
 - Triumph
-    > [BLOCKED] Wait on Botania Tweaks compatibility release
+    > Test
     > Once working, copy into player's choice config and set Normal mode numbers to 1/10th
 
 	
@@ -53,7 +53,6 @@ Open Tickets
 ---------------
 
 - Player's Choice - Wait for release
-- Triumph - wait for compatibility
 - ModTweaker - Lexica entry tagline support
 - JER mob drop support
     > Remove tooltip for tallow once done
