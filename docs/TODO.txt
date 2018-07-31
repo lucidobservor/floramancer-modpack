@@ -4,7 +4,6 @@ End Game Content
 ----------------
 
 - Triumph
-    > Test
     > Once working, copy into player's choice config and set Normal mode numbers to 1/10th
 
 	
@@ -19,6 +18,7 @@ Optional / Uncertain End Game Content
 Tweaks
 ---------------
 
+- Give the tiny galactic potato a better model, if I can do that solely through contenttweaker
 - ContentTweaker - Make trophy flowers placeable in world
     > Might require not just using botania models, if the enchantment thing doesn't carry over
 - Additional Advancements
@@ -28,10 +28,7 @@ Tweaks
     > Spartan Shield? Waystone?
 - Additional Lexica Pages
     > Entry for trophy flowers
-
----------------
-Things to Check
----------------
+- Add Easy mode?
 
 
 ---------------
@@ -55,5 +52,4 @@ Open Tickets
 - Player's Choice - Wait for release
 - ModTweaker - Lexica entry tagline support
 - JER mob drop support
-    > Remove tooltip for tallow once done
 
