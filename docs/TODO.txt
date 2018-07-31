@@ -1,16 +1,16 @@
 
----------------
-Things To Check
----------------
+-------------------
+  Things To Check
+-------------------
 
 - Player's choice switch quest requirements
 - Quest progress displays properly
 - No lag every 10 seconds on recompute
 
 
---------------------
-Optional / Uncertain
---------------------
+----------------------
+ Optional / Uncertain
+----------------------
 
 - Right click potato with flower to see achievement progress (only if 13000 criteria is laggy)
 - Give the tiny galactic potato a better model, if I can do that solely through contenttweaker
@@ -19,7 +19,7 @@ Optional / Uncertain
 
 
 ---------------
-Tweaks
+    Tweaks
 ---------------
 
 - Additional Advancements
@@ -33,9 +33,9 @@ Tweaks
 - Add Dynamic Surroundings?
 
 
----------------
-Required Extras
----------------
+-------------------
+  Required Extras
+-------------------
 
 - Create a pack icon
 - Edit Custom Main Menu
@@ -48,9 +48,9 @@ Required Extras
 - Update README.md (rolling)
 
 
----------------
-Open Tickets
----------------
+----------------
+  Open Tickets
+----------------
 
 - Player's Choice - Wait for release
 - ModTweaker - Lexica entry tagline support
