@@ -1,3 +1,5 @@
+package floramancer.util;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -43,12 +45,13 @@ public class AdvancementGenerator {
     private static List<String> getPoolCriteria(FlowerType flower) {
         List<String> lines = new ArrayList<>();
 
-        for (int i = 1; i <= flower.getPoolsRequired(); i++) {
+        int i = flower.getPoolsRequired();
+        //for (int i = 1; i <= flower.getPoolsRequired(); i++) {
             lines.add(String.format("criteria = addCriteria(\"%s_%d\", \"botania_tweaks:flower_generated_mana\")", flower.getBotaniaName(), i));
             lines.add(String.format("criteria.setFlower(\"%s\")", flower.getBotaniaTweaksName()));
-            lines.add(String.format("criteria.setPools(%d)", i));
+            lines.add(String.format("criteria.setRequiredMana(%d)", i * 1000000));
             lines.add("");
-        }
+        //}
 
         return lines;
     }

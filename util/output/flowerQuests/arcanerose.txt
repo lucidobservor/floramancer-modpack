@@ -1,7 +1,7 @@
 
 setIcon(<botania:specialflower, nbt:{type: "arcanerose"}>)
 setTitle("Lethe's Rose")
-setDescription("Fill 3 Mana Pools using the Rosa Arcana")
+setDescription("Fill 1000 Mana Pools using the Rosa Arcana")
 addParent("triumph:floramancer/lexicon")
 
 setPos(7, 8)
@@ -10,15 +10,7 @@ drawDirectLines(true)
 setRewardItem("contenttweaker:arcanerosetrophy")
 addRewardFunction("triumph:stages/stage-arcanerose")
 
-criteria = addCriteria("arcanerose_1", "botania_tweaks:flower_generated_mana")
+criteria = addCriteria("arcanerose_1000", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("arcanerose")
-criteria.setPools(1)
-
-criteria = addCriteria("arcanerose_2", "botania_tweaks:flower_generated_mana")
-criteria.setFlower("arcanerose")
-criteria.setPools(2)
-
-criteria = addCriteria("arcanerose_3", "botania_tweaks:flower_generated_mana")
-criteria.setFlower("arcanerose")
-criteria.setPools(3)
+criteria.setRequiredMana(1000000000)
 

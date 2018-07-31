@@ -1,7 +1,7 @@
 
 setIcon(<botania:specialflower, nbt:{type: "dandelifeon"}>)
 setTitle("Unto The Seven Thousandth Generation")
-setDescription("Fill 3 Mana Pools using the Dandelifeon")
+setDescription("Fill 1000 Mana Pools using the Dandelifeon")
 addParent("triumph:floramancer/lexicon")
 
 setPos(16, 8)
@@ -10,15 +10,7 @@ drawDirectLines(true)
 setRewardItem("contenttweaker:dandelifeontrophy")
 addRewardFunction("triumph:stages/stage-dandelifeon")
 
-criteria = addCriteria("dandelifeon_1", "botania_tweaks:flower_generated_mana")
+criteria = addCriteria("dandelifeon_1000", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("dandelifeon")
-criteria.setPools(1)
-
-criteria = addCriteria("dandelifeon_2", "botania_tweaks:flower_generated_mana")
-criteria.setFlower("dandelifeon")
-criteria.setPools(2)
-
-criteria = addCriteria("dandelifeon_3", "botania_tweaks:flower_generated_mana")
-criteria.setFlower("dandelifeon")
-criteria.setPools(3)
+criteria.setRequiredMana(1000000000)
 

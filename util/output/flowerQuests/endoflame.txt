@@ -1,7 +1,7 @@
 
 setIcon(<botania:specialflower, nbt:{type: "endoflame"}>)
 setTitle("Burn The World")
-setDescription("Fill 3 Mana Pools using the Endoflame")
+setDescription("Fill 1000 Mana Pools using the Endoflame")
 addParent("triumph:floramancer/lexicon")
 
 setPos(5, 8)
@@ -10,15 +10,7 @@ drawDirectLines(true)
 setRewardItem("contenttweaker:endoflametrophy")
 addRewardFunction("triumph:stages/stage-endoflame")
 
-criteria = addCriteria("endoflame_1", "botania_tweaks:flower_generated_mana")
+criteria = addCriteria("endoflame_1000", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("endoflame")
-criteria.setPools(1)
-
-criteria = addCriteria("endoflame_2", "botania_tweaks:flower_generated_mana")
-criteria.setFlower("endoflame")
-criteria.setPools(2)
-
-criteria = addCriteria("endoflame_3", "botania_tweaks:flower_generated_mana")
-criteria.setFlower("endoflame")
-criteria.setPools(3)
+criteria.setRequiredMana(1000000000)
 

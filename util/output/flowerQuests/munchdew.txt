@@ -1,7 +1,7 @@
 
 setIcon(<botania:specialflower, nbt:{type: "munchdew"}>)
 setTitle("Can't See The Forest")
-setDescription("Fill 3 Mana Pools using the Munchdew")
+setDescription("Fill 1000 Mana Pools using the Munchdew")
 addParent("triumph:floramancer/lexicon")
 
 setPos(8, 8)
@@ -10,15 +10,7 @@ drawDirectLines(true)
 setRewardItem("contenttweaker:munchdewtrophy")
 addRewardFunction("triumph:stages/stage-munchdew")
 
-criteria = addCriteria("munchdew_1", "botania_tweaks:flower_generated_mana")
+criteria = addCriteria("munchdew_1000", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("munchdew")
-criteria.setPools(1)
-
-criteria = addCriteria("munchdew_2", "botania_tweaks:flower_generated_mana")
-criteria.setFlower("munchdew")
-criteria.setPools(2)
-
-criteria = addCriteria("munchdew_3", "botania_tweaks:flower_generated_mana")
-criteria.setFlower("munchdew")
-criteria.setPools(3)
+criteria.setRequiredMana(1000000000)
 

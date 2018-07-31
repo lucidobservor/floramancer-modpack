@@ -1,7 +1,7 @@
 
 setIcon(<botania:specialflower, nbt:{type: "narslimmus"}>)
 setTitle("I Feel Sticky...")
-setDescription("Fill 3 Mana Pools using the Narslimmus")
+setDescription("Fill 1000 Mana Pools using the Narslimmus")
 addParent("triumph:floramancer/lexicon")
 
 setPos(12, 8)
@@ -10,15 +10,7 @@ drawDirectLines(true)
 setRewardItem("contenttweaker:narslimmustrophy")
 addRewardFunction("triumph:stages/stage-narslimmus")
 
-criteria = addCriteria("narslimmus_1", "botania_tweaks:flower_generated_mana")
+criteria = addCriteria("narslimmus_1000", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("narslimmus")
-criteria.setPools(1)
-
-criteria = addCriteria("narslimmus_2", "botania_tweaks:flower_generated_mana")
-criteria.setFlower("narslimmus")
-criteria.setPools(2)
-
-criteria = addCriteria("narslimmus_3", "botania_tweaks:flower_generated_mana")
-criteria.setFlower("narslimmus")
-criteria.setPools(3)
+criteria.setRequiredMana(1000000000)
 

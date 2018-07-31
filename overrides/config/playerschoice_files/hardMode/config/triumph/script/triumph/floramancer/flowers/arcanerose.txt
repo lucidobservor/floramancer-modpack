@@ -1,0 +1,4012 @@
+
+setIcon(<botania:specialflower, nbt:{type: "arcanerose"}>)
+setTitle("Lethe's Rose")
+setDescription("Fill 1000 Mana Pools using the Rosa Arcana")
+addParent("triumph:floramancer/lexicon")
+
+setPos(7, 8)
+drawDirectLines(true)
+
+setRewardItem("contenttweaker:arcanerosetrophy")
+addRewardFunction("triumph:stages/stage-arcanerose")
+
+criteria = addCriteria("arcanerose_1", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(1000000)
+
+criteria = addCriteria("arcanerose_2", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(2000000)
+
+criteria = addCriteria("arcanerose_3", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(3000000)
+
+criteria = addCriteria("arcanerose_4", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(4000000)
+
+criteria = addCriteria("arcanerose_5", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(5000000)
+
+criteria = addCriteria("arcanerose_6", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(6000000)
+
+criteria = addCriteria("arcanerose_7", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(7000000)
+
+criteria = addCriteria("arcanerose_8", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(8000000)
+
+criteria = addCriteria("arcanerose_9", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(9000000)
+
+criteria = addCriteria("arcanerose_10", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(10000000)
+
+criteria = addCriteria("arcanerose_11", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(11000000)
+
+criteria = addCriteria("arcanerose_12", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(12000000)
+
+criteria = addCriteria("arcanerose_13", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(13000000)
+
+criteria = addCriteria("arcanerose_14", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(14000000)
+
+criteria = addCriteria("arcanerose_15", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(15000000)
+
+criteria = addCriteria("arcanerose_16", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(16000000)
+
+criteria = addCriteria("arcanerose_17", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(17000000)
+
+criteria = addCriteria("arcanerose_18", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(18000000)
+
+criteria = addCriteria("arcanerose_19", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(19000000)
+
+criteria = addCriteria("arcanerose_20", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(20000000)
+
+criteria = addCriteria("arcanerose_21", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(21000000)
+
+criteria = addCriteria("arcanerose_22", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(22000000)
+
+criteria = addCriteria("arcanerose_23", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(23000000)
+
+criteria = addCriteria("arcanerose_24", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(24000000)
+
+criteria = addCriteria("arcanerose_25", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(25000000)
+
+criteria = addCriteria("arcanerose_26", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(26000000)
+
+criteria = addCriteria("arcanerose_27", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(27000000)
+
+criteria = addCriteria("arcanerose_28", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(28000000)
+
+criteria = addCriteria("arcanerose_29", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(29000000)
+
+criteria = addCriteria("arcanerose_30", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(30000000)
+
+criteria = addCriteria("arcanerose_31", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(31000000)
+
+criteria = addCriteria("arcanerose_32", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(32000000)
+
+criteria = addCriteria("arcanerose_33", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(33000000)
+
+criteria = addCriteria("arcanerose_34", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(34000000)
+
+criteria = addCriteria("arcanerose_35", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(35000000)
+
+criteria = addCriteria("arcanerose_36", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(36000000)
+
+criteria = addCriteria("arcanerose_37", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(37000000)
+
+criteria = addCriteria("arcanerose_38", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(38000000)
+
+criteria = addCriteria("arcanerose_39", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(39000000)
+
+criteria = addCriteria("arcanerose_40", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(40000000)
+
+criteria = addCriteria("arcanerose_41", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(41000000)
+
+criteria = addCriteria("arcanerose_42", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(42000000)
+
+criteria = addCriteria("arcanerose_43", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(43000000)
+
+criteria = addCriteria("arcanerose_44", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(44000000)
+
+criteria = addCriteria("arcanerose_45", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(45000000)
+
+criteria = addCriteria("arcanerose_46", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(46000000)
+
+criteria = addCriteria("arcanerose_47", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(47000000)
+
+criteria = addCriteria("arcanerose_48", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(48000000)
+
+criteria = addCriteria("arcanerose_49", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(49000000)
+
+criteria = addCriteria("arcanerose_50", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(50000000)
+
+criteria = addCriteria("arcanerose_51", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(51000000)
+
+criteria = addCriteria("arcanerose_52", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(52000000)
+
+criteria = addCriteria("arcanerose_53", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(53000000)
+
+criteria = addCriteria("arcanerose_54", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(54000000)
+
+criteria = addCriteria("arcanerose_55", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(55000000)
+
+criteria = addCriteria("arcanerose_56", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(56000000)
+
+criteria = addCriteria("arcanerose_57", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(57000000)
+
+criteria = addCriteria("arcanerose_58", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(58000000)
+
+criteria = addCriteria("arcanerose_59", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(59000000)
+
+criteria = addCriteria("arcanerose_60", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(60000000)
+
+criteria = addCriteria("arcanerose_61", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(61000000)
+
+criteria = addCriteria("arcanerose_62", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(62000000)
+
+criteria = addCriteria("arcanerose_63", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(63000000)
+
+criteria = addCriteria("arcanerose_64", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(64000000)
+
+criteria = addCriteria("arcanerose_65", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(65000000)
+
+criteria = addCriteria("arcanerose_66", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(66000000)
+
+criteria = addCriteria("arcanerose_67", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(67000000)
+
+criteria = addCriteria("arcanerose_68", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(68000000)
+
+criteria = addCriteria("arcanerose_69", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(69000000)
+
+criteria = addCriteria("arcanerose_70", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(70000000)
+
+criteria = addCriteria("arcanerose_71", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(71000000)
+
+criteria = addCriteria("arcanerose_72", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(72000000)
+
+criteria = addCriteria("arcanerose_73", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(73000000)
+
+criteria = addCriteria("arcanerose_74", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(74000000)
+
+criteria = addCriteria("arcanerose_75", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(75000000)
+
+criteria = addCriteria("arcanerose_76", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(76000000)
+
+criteria = addCriteria("arcanerose_77", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(77000000)
+
+criteria = addCriteria("arcanerose_78", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(78000000)
+
+criteria = addCriteria("arcanerose_79", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(79000000)
+
+criteria = addCriteria("arcanerose_80", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(80000000)
+
+criteria = addCriteria("arcanerose_81", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(81000000)
+
+criteria = addCriteria("arcanerose_82", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(82000000)
+
+criteria = addCriteria("arcanerose_83", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(83000000)
+
+criteria = addCriteria("arcanerose_84", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(84000000)
+
+criteria = addCriteria("arcanerose_85", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(85000000)
+
+criteria = addCriteria("arcanerose_86", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(86000000)
+
+criteria = addCriteria("arcanerose_87", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(87000000)
+
+criteria = addCriteria("arcanerose_88", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(88000000)
+
+criteria = addCriteria("arcanerose_89", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(89000000)
+
+criteria = addCriteria("arcanerose_90", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(90000000)
+
+criteria = addCriteria("arcanerose_91", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(91000000)
+
+criteria = addCriteria("arcanerose_92", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(92000000)
+
+criteria = addCriteria("arcanerose_93", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(93000000)
+
+criteria = addCriteria("arcanerose_94", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(94000000)
+
+criteria = addCriteria("arcanerose_95", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(95000000)
+
+criteria = addCriteria("arcanerose_96", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(96000000)
+
+criteria = addCriteria("arcanerose_97", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(97000000)
+
+criteria = addCriteria("arcanerose_98", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(98000000)
+
+criteria = addCriteria("arcanerose_99", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(99000000)
+
+criteria = addCriteria("arcanerose_100", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(100000000)
+
+criteria = addCriteria("arcanerose_101", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(101000000)
+
+criteria = addCriteria("arcanerose_102", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(102000000)
+
+criteria = addCriteria("arcanerose_103", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(103000000)
+
+criteria = addCriteria("arcanerose_104", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(104000000)
+
+criteria = addCriteria("arcanerose_105", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(105000000)
+
+criteria = addCriteria("arcanerose_106", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(106000000)
+
+criteria = addCriteria("arcanerose_107", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(107000000)
+
+criteria = addCriteria("arcanerose_108", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(108000000)
+
+criteria = addCriteria("arcanerose_109", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(109000000)
+
+criteria = addCriteria("arcanerose_110", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(110000000)
+
+criteria = addCriteria("arcanerose_111", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(111000000)
+
+criteria = addCriteria("arcanerose_112", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(112000000)
+
+criteria = addCriteria("arcanerose_113", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(113000000)
+
+criteria = addCriteria("arcanerose_114", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(114000000)
+
+criteria = addCriteria("arcanerose_115", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(115000000)
+
+criteria = addCriteria("arcanerose_116", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(116000000)
+
+criteria = addCriteria("arcanerose_117", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(117000000)
+
+criteria = addCriteria("arcanerose_118", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(118000000)
+
+criteria = addCriteria("arcanerose_119", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(119000000)
+
+criteria = addCriteria("arcanerose_120", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(120000000)
+
+criteria = addCriteria("arcanerose_121", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(121000000)
+
+criteria = addCriteria("arcanerose_122", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(122000000)
+
+criteria = addCriteria("arcanerose_123", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(123000000)
+
+criteria = addCriteria("arcanerose_124", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(124000000)
+
+criteria = addCriteria("arcanerose_125", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(125000000)
+
+criteria = addCriteria("arcanerose_126", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(126000000)
+
+criteria = addCriteria("arcanerose_127", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(127000000)
+
+criteria = addCriteria("arcanerose_128", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(128000000)
+
+criteria = addCriteria("arcanerose_129", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(129000000)
+
+criteria = addCriteria("arcanerose_130", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(130000000)
+
+criteria = addCriteria("arcanerose_131", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(131000000)
+
+criteria = addCriteria("arcanerose_132", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(132000000)
+
+criteria = addCriteria("arcanerose_133", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(133000000)
+
+criteria = addCriteria("arcanerose_134", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(134000000)
+
+criteria = addCriteria("arcanerose_135", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(135000000)
+
+criteria = addCriteria("arcanerose_136", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(136000000)
+
+criteria = addCriteria("arcanerose_137", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(137000000)
+
+criteria = addCriteria("arcanerose_138", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(138000000)
+
+criteria = addCriteria("arcanerose_139", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(139000000)
+
+criteria = addCriteria("arcanerose_140", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(140000000)
+
+criteria = addCriteria("arcanerose_141", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(141000000)
+
+criteria = addCriteria("arcanerose_142", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(142000000)
+
+criteria = addCriteria("arcanerose_143", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(143000000)
+
+criteria = addCriteria("arcanerose_144", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(144000000)
+
+criteria = addCriteria("arcanerose_145", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(145000000)
+
+criteria = addCriteria("arcanerose_146", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(146000000)
+
+criteria = addCriteria("arcanerose_147", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(147000000)
+
+criteria = addCriteria("arcanerose_148", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(148000000)
+
+criteria = addCriteria("arcanerose_149", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(149000000)
+
+criteria = addCriteria("arcanerose_150", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(150000000)
+
+criteria = addCriteria("arcanerose_151", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(151000000)
+
+criteria = addCriteria("arcanerose_152", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(152000000)
+
+criteria = addCriteria("arcanerose_153", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(153000000)
+
+criteria = addCriteria("arcanerose_154", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(154000000)
+
+criteria = addCriteria("arcanerose_155", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(155000000)
+
+criteria = addCriteria("arcanerose_156", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(156000000)
+
+criteria = addCriteria("arcanerose_157", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(157000000)
+
+criteria = addCriteria("arcanerose_158", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(158000000)
+
+criteria = addCriteria("arcanerose_159", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(159000000)
+
+criteria = addCriteria("arcanerose_160", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(160000000)
+
+criteria = addCriteria("arcanerose_161", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(161000000)
+
+criteria = addCriteria("arcanerose_162", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(162000000)
+
+criteria = addCriteria("arcanerose_163", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(163000000)
+
+criteria = addCriteria("arcanerose_164", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(164000000)
+
+criteria = addCriteria("arcanerose_165", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(165000000)
+
+criteria = addCriteria("arcanerose_166", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(166000000)
+
+criteria = addCriteria("arcanerose_167", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(167000000)
+
+criteria = addCriteria("arcanerose_168", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(168000000)
+
+criteria = addCriteria("arcanerose_169", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(169000000)
+
+criteria = addCriteria("arcanerose_170", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(170000000)
+
+criteria = addCriteria("arcanerose_171", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(171000000)
+
+criteria = addCriteria("arcanerose_172", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(172000000)
+
+criteria = addCriteria("arcanerose_173", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(173000000)
+
+criteria = addCriteria("arcanerose_174", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(174000000)
+
+criteria = addCriteria("arcanerose_175", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(175000000)
+
+criteria = addCriteria("arcanerose_176", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(176000000)
+
+criteria = addCriteria("arcanerose_177", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(177000000)
+
+criteria = addCriteria("arcanerose_178", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(178000000)
+
+criteria = addCriteria("arcanerose_179", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(179000000)
+
+criteria = addCriteria("arcanerose_180", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(180000000)
+
+criteria = addCriteria("arcanerose_181", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(181000000)
+
+criteria = addCriteria("arcanerose_182", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(182000000)
+
+criteria = addCriteria("arcanerose_183", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(183000000)
+
+criteria = addCriteria("arcanerose_184", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(184000000)
+
+criteria = addCriteria("arcanerose_185", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(185000000)
+
+criteria = addCriteria("arcanerose_186", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(186000000)
+
+criteria = addCriteria("arcanerose_187", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(187000000)
+
+criteria = addCriteria("arcanerose_188", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(188000000)
+
+criteria = addCriteria("arcanerose_189", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(189000000)
+
+criteria = addCriteria("arcanerose_190", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(190000000)
+
+criteria = addCriteria("arcanerose_191", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(191000000)
+
+criteria = addCriteria("arcanerose_192", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(192000000)
+
+criteria = addCriteria("arcanerose_193", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(193000000)
+
+criteria = addCriteria("arcanerose_194", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(194000000)
+
+criteria = addCriteria("arcanerose_195", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(195000000)
+
+criteria = addCriteria("arcanerose_196", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(196000000)
+
+criteria = addCriteria("arcanerose_197", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(197000000)
+
+criteria = addCriteria("arcanerose_198", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(198000000)
+
+criteria = addCriteria("arcanerose_199", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(199000000)
+
+criteria = addCriteria("arcanerose_200", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(200000000)
+
+criteria = addCriteria("arcanerose_201", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(201000000)
+
+criteria = addCriteria("arcanerose_202", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(202000000)
+
+criteria = addCriteria("arcanerose_203", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(203000000)
+
+criteria = addCriteria("arcanerose_204", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(204000000)
+
+criteria = addCriteria("arcanerose_205", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(205000000)
+
+criteria = addCriteria("arcanerose_206", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(206000000)
+
+criteria = addCriteria("arcanerose_207", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(207000000)
+
+criteria = addCriteria("arcanerose_208", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(208000000)
+
+criteria = addCriteria("arcanerose_209", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(209000000)
+
+criteria = addCriteria("arcanerose_210", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(210000000)
+
+criteria = addCriteria("arcanerose_211", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(211000000)
+
+criteria = addCriteria("arcanerose_212", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(212000000)
+
+criteria = addCriteria("arcanerose_213", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(213000000)
+
+criteria = addCriteria("arcanerose_214", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(214000000)
+
+criteria = addCriteria("arcanerose_215", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(215000000)
+
+criteria = addCriteria("arcanerose_216", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(216000000)
+
+criteria = addCriteria("arcanerose_217", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(217000000)
+
+criteria = addCriteria("arcanerose_218", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(218000000)
+
+criteria = addCriteria("arcanerose_219", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(219000000)
+
+criteria = addCriteria("arcanerose_220", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(220000000)
+
+criteria = addCriteria("arcanerose_221", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(221000000)
+
+criteria = addCriteria("arcanerose_222", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(222000000)
+
+criteria = addCriteria("arcanerose_223", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(223000000)
+
+criteria = addCriteria("arcanerose_224", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(224000000)
+
+criteria = addCriteria("arcanerose_225", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(225000000)
+
+criteria = addCriteria("arcanerose_226", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(226000000)
+
+criteria = addCriteria("arcanerose_227", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(227000000)
+
+criteria = addCriteria("arcanerose_228", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(228000000)
+
+criteria = addCriteria("arcanerose_229", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(229000000)
+
+criteria = addCriteria("arcanerose_230", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(230000000)
+
+criteria = addCriteria("arcanerose_231", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(231000000)
+
+criteria = addCriteria("arcanerose_232", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(232000000)
+
+criteria = addCriteria("arcanerose_233", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(233000000)
+
+criteria = addCriteria("arcanerose_234", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(234000000)
+
+criteria = addCriteria("arcanerose_235", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(235000000)
+
+criteria = addCriteria("arcanerose_236", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(236000000)
+
+criteria = addCriteria("arcanerose_237", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(237000000)
+
+criteria = addCriteria("arcanerose_238", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(238000000)
+
+criteria = addCriteria("arcanerose_239", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(239000000)
+
+criteria = addCriteria("arcanerose_240", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(240000000)
+
+criteria = addCriteria("arcanerose_241", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(241000000)
+
+criteria = addCriteria("arcanerose_242", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(242000000)
+
+criteria = addCriteria("arcanerose_243", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(243000000)
+
+criteria = addCriteria("arcanerose_244", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(244000000)
+
+criteria = addCriteria("arcanerose_245", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(245000000)
+
+criteria = addCriteria("arcanerose_246", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(246000000)
+
+criteria = addCriteria("arcanerose_247", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(247000000)
+
+criteria = addCriteria("arcanerose_248", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(248000000)
+
+criteria = addCriteria("arcanerose_249", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(249000000)
+
+criteria = addCriteria("arcanerose_250", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(250000000)
+
+criteria = addCriteria("arcanerose_251", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(251000000)
+
+criteria = addCriteria("arcanerose_252", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(252000000)
+
+criteria = addCriteria("arcanerose_253", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(253000000)
+
+criteria = addCriteria("arcanerose_254", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(254000000)
+
+criteria = addCriteria("arcanerose_255", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(255000000)
+
+criteria = addCriteria("arcanerose_256", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(256000000)
+
+criteria = addCriteria("arcanerose_257", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(257000000)
+
+criteria = addCriteria("arcanerose_258", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(258000000)
+
+criteria = addCriteria("arcanerose_259", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(259000000)
+
+criteria = addCriteria("arcanerose_260", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(260000000)
+
+criteria = addCriteria("arcanerose_261", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(261000000)
+
+criteria = addCriteria("arcanerose_262", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(262000000)
+
+criteria = addCriteria("arcanerose_263", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(263000000)
+
+criteria = addCriteria("arcanerose_264", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(264000000)
+
+criteria = addCriteria("arcanerose_265", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(265000000)
+
+criteria = addCriteria("arcanerose_266", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(266000000)
+
+criteria = addCriteria("arcanerose_267", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(267000000)
+
+criteria = addCriteria("arcanerose_268", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(268000000)
+
+criteria = addCriteria("arcanerose_269", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(269000000)
+
+criteria = addCriteria("arcanerose_270", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(270000000)
+
+criteria = addCriteria("arcanerose_271", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(271000000)
+
+criteria = addCriteria("arcanerose_272", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(272000000)
+
+criteria = addCriteria("arcanerose_273", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(273000000)
+
+criteria = addCriteria("arcanerose_274", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(274000000)
+
+criteria = addCriteria("arcanerose_275", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(275000000)
+
+criteria = addCriteria("arcanerose_276", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(276000000)
+
+criteria = addCriteria("arcanerose_277", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(277000000)
+
+criteria = addCriteria("arcanerose_278", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(278000000)
+
+criteria = addCriteria("arcanerose_279", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(279000000)
+
+criteria = addCriteria("arcanerose_280", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(280000000)
+
+criteria = addCriteria("arcanerose_281", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(281000000)
+
+criteria = addCriteria("arcanerose_282", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(282000000)
+
+criteria = addCriteria("arcanerose_283", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(283000000)
+
+criteria = addCriteria("arcanerose_284", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(284000000)
+
+criteria = addCriteria("arcanerose_285", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(285000000)
+
+criteria = addCriteria("arcanerose_286", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(286000000)
+
+criteria = addCriteria("arcanerose_287", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(287000000)
+
+criteria = addCriteria("arcanerose_288", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(288000000)
+
+criteria = addCriteria("arcanerose_289", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(289000000)
+
+criteria = addCriteria("arcanerose_290", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(290000000)
+
+criteria = addCriteria("arcanerose_291", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(291000000)
+
+criteria = addCriteria("arcanerose_292", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(292000000)
+
+criteria = addCriteria("arcanerose_293", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(293000000)
+
+criteria = addCriteria("arcanerose_294", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(294000000)
+
+criteria = addCriteria("arcanerose_295", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(295000000)
+
+criteria = addCriteria("arcanerose_296", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(296000000)
+
+criteria = addCriteria("arcanerose_297", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(297000000)
+
+criteria = addCriteria("arcanerose_298", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(298000000)
+
+criteria = addCriteria("arcanerose_299", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(299000000)
+
+criteria = addCriteria("arcanerose_300", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(300000000)
+
+criteria = addCriteria("arcanerose_301", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(301000000)
+
+criteria = addCriteria("arcanerose_302", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(302000000)
+
+criteria = addCriteria("arcanerose_303", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(303000000)
+
+criteria = addCriteria("arcanerose_304", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(304000000)
+
+criteria = addCriteria("arcanerose_305", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(305000000)
+
+criteria = addCriteria("arcanerose_306", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(306000000)
+
+criteria = addCriteria("arcanerose_307", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(307000000)
+
+criteria = addCriteria("arcanerose_308", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(308000000)
+
+criteria = addCriteria("arcanerose_309", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(309000000)
+
+criteria = addCriteria("arcanerose_310", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(310000000)
+
+criteria = addCriteria("arcanerose_311", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(311000000)
+
+criteria = addCriteria("arcanerose_312", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(312000000)
+
+criteria = addCriteria("arcanerose_313", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(313000000)
+
+criteria = addCriteria("arcanerose_314", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(314000000)
+
+criteria = addCriteria("arcanerose_315", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(315000000)
+
+criteria = addCriteria("arcanerose_316", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(316000000)
+
+criteria = addCriteria("arcanerose_317", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(317000000)
+
+criteria = addCriteria("arcanerose_318", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(318000000)
+
+criteria = addCriteria("arcanerose_319", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(319000000)
+
+criteria = addCriteria("arcanerose_320", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(320000000)
+
+criteria = addCriteria("arcanerose_321", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(321000000)
+
+criteria = addCriteria("arcanerose_322", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(322000000)
+
+criteria = addCriteria("arcanerose_323", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(323000000)
+
+criteria = addCriteria("arcanerose_324", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(324000000)
+
+criteria = addCriteria("arcanerose_325", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(325000000)
+
+criteria = addCriteria("arcanerose_326", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(326000000)
+
+criteria = addCriteria("arcanerose_327", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(327000000)
+
+criteria = addCriteria("arcanerose_328", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(328000000)
+
+criteria = addCriteria("arcanerose_329", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(329000000)
+
+criteria = addCriteria("arcanerose_330", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(330000000)
+
+criteria = addCriteria("arcanerose_331", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(331000000)
+
+criteria = addCriteria("arcanerose_332", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(332000000)
+
+criteria = addCriteria("arcanerose_333", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(333000000)
+
+criteria = addCriteria("arcanerose_334", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(334000000)
+
+criteria = addCriteria("arcanerose_335", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(335000000)
+
+criteria = addCriteria("arcanerose_336", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(336000000)
+
+criteria = addCriteria("arcanerose_337", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(337000000)
+
+criteria = addCriteria("arcanerose_338", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(338000000)
+
+criteria = addCriteria("arcanerose_339", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(339000000)
+
+criteria = addCriteria("arcanerose_340", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(340000000)
+
+criteria = addCriteria("arcanerose_341", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(341000000)
+
+criteria = addCriteria("arcanerose_342", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(342000000)
+
+criteria = addCriteria("arcanerose_343", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(343000000)
+
+criteria = addCriteria("arcanerose_344", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(344000000)
+
+criteria = addCriteria("arcanerose_345", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(345000000)
+
+criteria = addCriteria("arcanerose_346", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(346000000)
+
+criteria = addCriteria("arcanerose_347", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(347000000)
+
+criteria = addCriteria("arcanerose_348", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(348000000)
+
+criteria = addCriteria("arcanerose_349", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(349000000)
+
+criteria = addCriteria("arcanerose_350", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(350000000)
+
+criteria = addCriteria("arcanerose_351", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(351000000)
+
+criteria = addCriteria("arcanerose_352", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(352000000)
+
+criteria = addCriteria("arcanerose_353", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(353000000)
+
+criteria = addCriteria("arcanerose_354", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(354000000)
+
+criteria = addCriteria("arcanerose_355", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(355000000)
+
+criteria = addCriteria("arcanerose_356", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(356000000)
+
+criteria = addCriteria("arcanerose_357", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(357000000)
+
+criteria = addCriteria("arcanerose_358", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(358000000)
+
+criteria = addCriteria("arcanerose_359", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(359000000)
+
+criteria = addCriteria("arcanerose_360", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(360000000)
+
+criteria = addCriteria("arcanerose_361", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(361000000)
+
+criteria = addCriteria("arcanerose_362", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(362000000)
+
+criteria = addCriteria("arcanerose_363", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(363000000)
+
+criteria = addCriteria("arcanerose_364", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(364000000)
+
+criteria = addCriteria("arcanerose_365", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(365000000)
+
+criteria = addCriteria("arcanerose_366", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(366000000)
+
+criteria = addCriteria("arcanerose_367", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(367000000)
+
+criteria = addCriteria("arcanerose_368", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(368000000)
+
+criteria = addCriteria("arcanerose_369", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(369000000)
+
+criteria = addCriteria("arcanerose_370", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(370000000)
+
+criteria = addCriteria("arcanerose_371", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(371000000)
+
+criteria = addCriteria("arcanerose_372", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(372000000)
+
+criteria = addCriteria("arcanerose_373", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(373000000)
+
+criteria = addCriteria("arcanerose_374", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(374000000)
+
+criteria = addCriteria("arcanerose_375", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(375000000)
+
+criteria = addCriteria("arcanerose_376", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(376000000)
+
+criteria = addCriteria("arcanerose_377", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(377000000)
+
+criteria = addCriteria("arcanerose_378", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(378000000)
+
+criteria = addCriteria("arcanerose_379", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(379000000)
+
+criteria = addCriteria("arcanerose_380", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(380000000)
+
+criteria = addCriteria("arcanerose_381", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(381000000)
+
+criteria = addCriteria("arcanerose_382", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(382000000)
+
+criteria = addCriteria("arcanerose_383", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(383000000)
+
+criteria = addCriteria("arcanerose_384", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(384000000)
+
+criteria = addCriteria("arcanerose_385", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(385000000)
+
+criteria = addCriteria("arcanerose_386", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(386000000)
+
+criteria = addCriteria("arcanerose_387", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(387000000)
+
+criteria = addCriteria("arcanerose_388", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(388000000)
+
+criteria = addCriteria("arcanerose_389", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(389000000)
+
+criteria = addCriteria("arcanerose_390", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(390000000)
+
+criteria = addCriteria("arcanerose_391", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(391000000)
+
+criteria = addCriteria("arcanerose_392", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(392000000)
+
+criteria = addCriteria("arcanerose_393", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(393000000)
+
+criteria = addCriteria("arcanerose_394", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(394000000)
+
+criteria = addCriteria("arcanerose_395", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(395000000)
+
+criteria = addCriteria("arcanerose_396", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(396000000)
+
+criteria = addCriteria("arcanerose_397", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(397000000)
+
+criteria = addCriteria("arcanerose_398", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(398000000)
+
+criteria = addCriteria("arcanerose_399", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(399000000)
+
+criteria = addCriteria("arcanerose_400", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(400000000)
+
+criteria = addCriteria("arcanerose_401", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(401000000)
+
+criteria = addCriteria("arcanerose_402", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(402000000)
+
+criteria = addCriteria("arcanerose_403", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(403000000)
+
+criteria = addCriteria("arcanerose_404", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(404000000)
+
+criteria = addCriteria("arcanerose_405", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(405000000)
+
+criteria = addCriteria("arcanerose_406", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(406000000)
+
+criteria = addCriteria("arcanerose_407", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(407000000)
+
+criteria = addCriteria("arcanerose_408", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(408000000)
+
+criteria = addCriteria("arcanerose_409", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(409000000)
+
+criteria = addCriteria("arcanerose_410", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(410000000)
+
+criteria = addCriteria("arcanerose_411", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(411000000)
+
+criteria = addCriteria("arcanerose_412", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(412000000)
+
+criteria = addCriteria("arcanerose_413", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(413000000)
+
+criteria = addCriteria("arcanerose_414", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(414000000)
+
+criteria = addCriteria("arcanerose_415", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(415000000)
+
+criteria = addCriteria("arcanerose_416", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(416000000)
+
+criteria = addCriteria("arcanerose_417", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(417000000)
+
+criteria = addCriteria("arcanerose_418", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(418000000)
+
+criteria = addCriteria("arcanerose_419", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(419000000)
+
+criteria = addCriteria("arcanerose_420", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(420000000)
+
+criteria = addCriteria("arcanerose_421", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(421000000)
+
+criteria = addCriteria("arcanerose_422", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(422000000)
+
+criteria = addCriteria("arcanerose_423", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(423000000)
+
+criteria = addCriteria("arcanerose_424", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(424000000)
+
+criteria = addCriteria("arcanerose_425", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(425000000)
+
+criteria = addCriteria("arcanerose_426", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(426000000)
+
+criteria = addCriteria("arcanerose_427", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(427000000)
+
+criteria = addCriteria("arcanerose_428", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(428000000)
+
+criteria = addCriteria("arcanerose_429", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(429000000)
+
+criteria = addCriteria("arcanerose_430", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(430000000)
+
+criteria = addCriteria("arcanerose_431", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(431000000)
+
+criteria = addCriteria("arcanerose_432", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(432000000)
+
+criteria = addCriteria("arcanerose_433", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(433000000)
+
+criteria = addCriteria("arcanerose_434", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(434000000)
+
+criteria = addCriteria("arcanerose_435", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(435000000)
+
+criteria = addCriteria("arcanerose_436", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(436000000)
+
+criteria = addCriteria("arcanerose_437", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(437000000)
+
+criteria = addCriteria("arcanerose_438", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(438000000)
+
+criteria = addCriteria("arcanerose_439", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(439000000)
+
+criteria = addCriteria("arcanerose_440", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(440000000)
+
+criteria = addCriteria("arcanerose_441", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(441000000)
+
+criteria = addCriteria("arcanerose_442", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(442000000)
+
+criteria = addCriteria("arcanerose_443", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(443000000)
+
+criteria = addCriteria("arcanerose_444", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(444000000)
+
+criteria = addCriteria("arcanerose_445", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(445000000)
+
+criteria = addCriteria("arcanerose_446", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(446000000)
+
+criteria = addCriteria("arcanerose_447", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(447000000)
+
+criteria = addCriteria("arcanerose_448", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(448000000)
+
+criteria = addCriteria("arcanerose_449", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(449000000)
+
+criteria = addCriteria("arcanerose_450", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(450000000)
+
+criteria = addCriteria("arcanerose_451", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(451000000)
+
+criteria = addCriteria("arcanerose_452", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(452000000)
+
+criteria = addCriteria("arcanerose_453", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(453000000)
+
+criteria = addCriteria("arcanerose_454", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(454000000)
+
+criteria = addCriteria("arcanerose_455", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(455000000)
+
+criteria = addCriteria("arcanerose_456", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(456000000)
+
+criteria = addCriteria("arcanerose_457", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(457000000)
+
+criteria = addCriteria("arcanerose_458", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(458000000)
+
+criteria = addCriteria("arcanerose_459", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(459000000)
+
+criteria = addCriteria("arcanerose_460", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(460000000)
+
+criteria = addCriteria("arcanerose_461", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(461000000)
+
+criteria = addCriteria("arcanerose_462", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(462000000)
+
+criteria = addCriteria("arcanerose_463", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(463000000)
+
+criteria = addCriteria("arcanerose_464", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(464000000)
+
+criteria = addCriteria("arcanerose_465", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(465000000)
+
+criteria = addCriteria("arcanerose_466", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(466000000)
+
+criteria = addCriteria("arcanerose_467", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(467000000)
+
+criteria = addCriteria("arcanerose_468", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(468000000)
+
+criteria = addCriteria("arcanerose_469", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(469000000)
+
+criteria = addCriteria("arcanerose_470", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(470000000)
+
+criteria = addCriteria("arcanerose_471", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(471000000)
+
+criteria = addCriteria("arcanerose_472", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(472000000)
+
+criteria = addCriteria("arcanerose_473", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(473000000)
+
+criteria = addCriteria("arcanerose_474", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(474000000)
+
+criteria = addCriteria("arcanerose_475", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(475000000)
+
+criteria = addCriteria("arcanerose_476", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(476000000)
+
+criteria = addCriteria("arcanerose_477", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(477000000)
+
+criteria = addCriteria("arcanerose_478", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(478000000)
+
+criteria = addCriteria("arcanerose_479", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(479000000)
+
+criteria = addCriteria("arcanerose_480", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(480000000)
+
+criteria = addCriteria("arcanerose_481", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(481000000)
+
+criteria = addCriteria("arcanerose_482", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(482000000)
+
+criteria = addCriteria("arcanerose_483", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(483000000)
+
+criteria = addCriteria("arcanerose_484", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(484000000)
+
+criteria = addCriteria("arcanerose_485", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(485000000)
+
+criteria = addCriteria("arcanerose_486", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(486000000)
+
+criteria = addCriteria("arcanerose_487", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(487000000)
+
+criteria = addCriteria("arcanerose_488", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(488000000)
+
+criteria = addCriteria("arcanerose_489", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(489000000)
+
+criteria = addCriteria("arcanerose_490", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(490000000)
+
+criteria = addCriteria("arcanerose_491", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(491000000)
+
+criteria = addCriteria("arcanerose_492", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(492000000)
+
+criteria = addCriteria("arcanerose_493", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(493000000)
+
+criteria = addCriteria("arcanerose_494", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(494000000)
+
+criteria = addCriteria("arcanerose_495", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(495000000)
+
+criteria = addCriteria("arcanerose_496", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(496000000)
+
+criteria = addCriteria("arcanerose_497", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(497000000)
+
+criteria = addCriteria("arcanerose_498", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(498000000)
+
+criteria = addCriteria("arcanerose_499", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(499000000)
+
+criteria = addCriteria("arcanerose_500", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(500000000)
+
+criteria = addCriteria("arcanerose_501", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(501000000)
+
+criteria = addCriteria("arcanerose_502", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(502000000)
+
+criteria = addCriteria("arcanerose_503", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(503000000)
+
+criteria = addCriteria("arcanerose_504", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(504000000)
+
+criteria = addCriteria("arcanerose_505", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(505000000)
+
+criteria = addCriteria("arcanerose_506", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(506000000)
+
+criteria = addCriteria("arcanerose_507", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(507000000)
+
+criteria = addCriteria("arcanerose_508", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(508000000)
+
+criteria = addCriteria("arcanerose_509", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(509000000)
+
+criteria = addCriteria("arcanerose_510", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(510000000)
+
+criteria = addCriteria("arcanerose_511", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(511000000)
+
+criteria = addCriteria("arcanerose_512", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(512000000)
+
+criteria = addCriteria("arcanerose_513", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(513000000)
+
+criteria = addCriteria("arcanerose_514", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(514000000)
+
+criteria = addCriteria("arcanerose_515", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(515000000)
+
+criteria = addCriteria("arcanerose_516", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(516000000)
+
+criteria = addCriteria("arcanerose_517", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(517000000)
+
+criteria = addCriteria("arcanerose_518", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(518000000)
+
+criteria = addCriteria("arcanerose_519", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(519000000)
+
+criteria = addCriteria("arcanerose_520", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(520000000)
+
+criteria = addCriteria("arcanerose_521", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(521000000)
+
+criteria = addCriteria("arcanerose_522", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(522000000)
+
+criteria = addCriteria("arcanerose_523", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(523000000)
+
+criteria = addCriteria("arcanerose_524", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(524000000)
+
+criteria = addCriteria("arcanerose_525", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(525000000)
+
+criteria = addCriteria("arcanerose_526", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(526000000)
+
+criteria = addCriteria("arcanerose_527", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(527000000)
+
+criteria = addCriteria("arcanerose_528", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(528000000)
+
+criteria = addCriteria("arcanerose_529", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(529000000)
+
+criteria = addCriteria("arcanerose_530", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(530000000)
+
+criteria = addCriteria("arcanerose_531", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(531000000)
+
+criteria = addCriteria("arcanerose_532", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(532000000)
+
+criteria = addCriteria("arcanerose_533", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(533000000)
+
+criteria = addCriteria("arcanerose_534", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(534000000)
+
+criteria = addCriteria("arcanerose_535", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(535000000)
+
+criteria = addCriteria("arcanerose_536", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(536000000)
+
+criteria = addCriteria("arcanerose_537", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(537000000)
+
+criteria = addCriteria("arcanerose_538", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(538000000)
+
+criteria = addCriteria("arcanerose_539", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(539000000)
+
+criteria = addCriteria("arcanerose_540", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(540000000)
+
+criteria = addCriteria("arcanerose_541", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(541000000)
+
+criteria = addCriteria("arcanerose_542", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(542000000)
+
+criteria = addCriteria("arcanerose_543", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(543000000)
+
+criteria = addCriteria("arcanerose_544", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(544000000)
+
+criteria = addCriteria("arcanerose_545", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(545000000)
+
+criteria = addCriteria("arcanerose_546", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(546000000)
+
+criteria = addCriteria("arcanerose_547", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(547000000)
+
+criteria = addCriteria("arcanerose_548", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(548000000)
+
+criteria = addCriteria("arcanerose_549", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(549000000)
+
+criteria = addCriteria("arcanerose_550", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(550000000)
+
+criteria = addCriteria("arcanerose_551", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(551000000)
+
+criteria = addCriteria("arcanerose_552", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(552000000)
+
+criteria = addCriteria("arcanerose_553", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(553000000)
+
+criteria = addCriteria("arcanerose_554", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(554000000)
+
+criteria = addCriteria("arcanerose_555", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(555000000)
+
+criteria = addCriteria("arcanerose_556", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(556000000)
+
+criteria = addCriteria("arcanerose_557", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(557000000)
+
+criteria = addCriteria("arcanerose_558", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(558000000)
+
+criteria = addCriteria("arcanerose_559", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(559000000)
+
+criteria = addCriteria("arcanerose_560", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(560000000)
+
+criteria = addCriteria("arcanerose_561", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(561000000)
+
+criteria = addCriteria("arcanerose_562", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(562000000)
+
+criteria = addCriteria("arcanerose_563", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(563000000)
+
+criteria = addCriteria("arcanerose_564", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(564000000)
+
+criteria = addCriteria("arcanerose_565", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(565000000)
+
+criteria = addCriteria("arcanerose_566", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(566000000)
+
+criteria = addCriteria("arcanerose_567", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(567000000)
+
+criteria = addCriteria("arcanerose_568", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(568000000)
+
+criteria = addCriteria("arcanerose_569", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(569000000)
+
+criteria = addCriteria("arcanerose_570", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(570000000)
+
+criteria = addCriteria("arcanerose_571", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(571000000)
+
+criteria = addCriteria("arcanerose_572", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(572000000)
+
+criteria = addCriteria("arcanerose_573", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(573000000)
+
+criteria = addCriteria("arcanerose_574", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(574000000)
+
+criteria = addCriteria("arcanerose_575", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(575000000)
+
+criteria = addCriteria("arcanerose_576", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(576000000)
+
+criteria = addCriteria("arcanerose_577", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(577000000)
+
+criteria = addCriteria("arcanerose_578", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(578000000)
+
+criteria = addCriteria("arcanerose_579", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(579000000)
+
+criteria = addCriteria("arcanerose_580", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(580000000)
+
+criteria = addCriteria("arcanerose_581", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(581000000)
+
+criteria = addCriteria("arcanerose_582", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(582000000)
+
+criteria = addCriteria("arcanerose_583", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(583000000)
+
+criteria = addCriteria("arcanerose_584", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(584000000)
+
+criteria = addCriteria("arcanerose_585", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(585000000)
+
+criteria = addCriteria("arcanerose_586", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(586000000)
+
+criteria = addCriteria("arcanerose_587", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(587000000)
+
+criteria = addCriteria("arcanerose_588", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(588000000)
+
+criteria = addCriteria("arcanerose_589", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(589000000)
+
+criteria = addCriteria("arcanerose_590", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(590000000)
+
+criteria = addCriteria("arcanerose_591", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(591000000)
+
+criteria = addCriteria("arcanerose_592", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(592000000)
+
+criteria = addCriteria("arcanerose_593", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(593000000)
+
+criteria = addCriteria("arcanerose_594", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(594000000)
+
+criteria = addCriteria("arcanerose_595", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(595000000)
+
+criteria = addCriteria("arcanerose_596", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(596000000)
+
+criteria = addCriteria("arcanerose_597", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(597000000)
+
+criteria = addCriteria("arcanerose_598", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(598000000)
+
+criteria = addCriteria("arcanerose_599", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(599000000)
+
+criteria = addCriteria("arcanerose_600", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(600000000)
+
+criteria = addCriteria("arcanerose_601", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(601000000)
+
+criteria = addCriteria("arcanerose_602", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(602000000)
+
+criteria = addCriteria("arcanerose_603", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(603000000)
+
+criteria = addCriteria("arcanerose_604", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(604000000)
+
+criteria = addCriteria("arcanerose_605", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(605000000)
+
+criteria = addCriteria("arcanerose_606", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(606000000)
+
+criteria = addCriteria("arcanerose_607", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(607000000)
+
+criteria = addCriteria("arcanerose_608", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(608000000)
+
+criteria = addCriteria("arcanerose_609", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(609000000)
+
+criteria = addCriteria("arcanerose_610", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(610000000)
+
+criteria = addCriteria("arcanerose_611", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(611000000)
+
+criteria = addCriteria("arcanerose_612", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(612000000)
+
+criteria = addCriteria("arcanerose_613", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(613000000)
+
+criteria = addCriteria("arcanerose_614", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(614000000)
+
+criteria = addCriteria("arcanerose_615", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(615000000)
+
+criteria = addCriteria("arcanerose_616", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(616000000)
+
+criteria = addCriteria("arcanerose_617", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(617000000)
+
+criteria = addCriteria("arcanerose_618", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(618000000)
+
+criteria = addCriteria("arcanerose_619", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(619000000)
+
+criteria = addCriteria("arcanerose_620", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(620000000)
+
+criteria = addCriteria("arcanerose_621", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(621000000)
+
+criteria = addCriteria("arcanerose_622", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(622000000)
+
+criteria = addCriteria("arcanerose_623", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(623000000)
+
+criteria = addCriteria("arcanerose_624", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(624000000)
+
+criteria = addCriteria("arcanerose_625", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(625000000)
+
+criteria = addCriteria("arcanerose_626", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(626000000)
+
+criteria = addCriteria("arcanerose_627", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(627000000)
+
+criteria = addCriteria("arcanerose_628", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(628000000)
+
+criteria = addCriteria("arcanerose_629", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(629000000)
+
+criteria = addCriteria("arcanerose_630", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(630000000)
+
+criteria = addCriteria("arcanerose_631", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(631000000)
+
+criteria = addCriteria("arcanerose_632", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(632000000)
+
+criteria = addCriteria("arcanerose_633", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(633000000)
+
+criteria = addCriteria("arcanerose_634", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(634000000)
+
+criteria = addCriteria("arcanerose_635", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(635000000)
+
+criteria = addCriteria("arcanerose_636", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(636000000)
+
+criteria = addCriteria("arcanerose_637", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(637000000)
+
+criteria = addCriteria("arcanerose_638", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(638000000)
+
+criteria = addCriteria("arcanerose_639", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(639000000)
+
+criteria = addCriteria("arcanerose_640", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(640000000)
+
+criteria = addCriteria("arcanerose_641", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(641000000)
+
+criteria = addCriteria("arcanerose_642", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(642000000)
+
+criteria = addCriteria("arcanerose_643", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(643000000)
+
+criteria = addCriteria("arcanerose_644", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(644000000)
+
+criteria = addCriteria("arcanerose_645", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(645000000)
+
+criteria = addCriteria("arcanerose_646", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(646000000)
+
+criteria = addCriteria("arcanerose_647", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(647000000)
+
+criteria = addCriteria("arcanerose_648", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(648000000)
+
+criteria = addCriteria("arcanerose_649", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(649000000)
+
+criteria = addCriteria("arcanerose_650", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(650000000)
+
+criteria = addCriteria("arcanerose_651", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(651000000)
+
+criteria = addCriteria("arcanerose_652", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(652000000)
+
+criteria = addCriteria("arcanerose_653", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(653000000)
+
+criteria = addCriteria("arcanerose_654", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(654000000)
+
+criteria = addCriteria("arcanerose_655", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(655000000)
+
+criteria = addCriteria("arcanerose_656", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(656000000)
+
+criteria = addCriteria("arcanerose_657", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(657000000)
+
+criteria = addCriteria("arcanerose_658", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(658000000)
+
+criteria = addCriteria("arcanerose_659", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(659000000)
+
+criteria = addCriteria("arcanerose_660", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(660000000)
+
+criteria = addCriteria("arcanerose_661", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(661000000)
+
+criteria = addCriteria("arcanerose_662", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(662000000)
+
+criteria = addCriteria("arcanerose_663", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(663000000)
+
+criteria = addCriteria("arcanerose_664", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(664000000)
+
+criteria = addCriteria("arcanerose_665", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(665000000)
+
+criteria = addCriteria("arcanerose_666", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(666000000)
+
+criteria = addCriteria("arcanerose_667", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(667000000)
+
+criteria = addCriteria("arcanerose_668", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(668000000)
+
+criteria = addCriteria("arcanerose_669", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(669000000)
+
+criteria = addCriteria("arcanerose_670", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(670000000)
+
+criteria = addCriteria("arcanerose_671", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(671000000)
+
+criteria = addCriteria("arcanerose_672", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(672000000)
+
+criteria = addCriteria("arcanerose_673", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(673000000)
+
+criteria = addCriteria("arcanerose_674", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(674000000)
+
+criteria = addCriteria("arcanerose_675", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(675000000)
+
+criteria = addCriteria("arcanerose_676", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(676000000)
+
+criteria = addCriteria("arcanerose_677", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(677000000)
+
+criteria = addCriteria("arcanerose_678", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(678000000)
+
+criteria = addCriteria("arcanerose_679", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(679000000)
+
+criteria = addCriteria("arcanerose_680", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(680000000)
+
+criteria = addCriteria("arcanerose_681", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(681000000)
+
+criteria = addCriteria("arcanerose_682", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(682000000)
+
+criteria = addCriteria("arcanerose_683", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(683000000)
+
+criteria = addCriteria("arcanerose_684", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(684000000)
+
+criteria = addCriteria("arcanerose_685", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(685000000)
+
+criteria = addCriteria("arcanerose_686", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(686000000)
+
+criteria = addCriteria("arcanerose_687", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(687000000)
+
+criteria = addCriteria("arcanerose_688", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(688000000)
+
+criteria = addCriteria("arcanerose_689", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(689000000)
+
+criteria = addCriteria("arcanerose_690", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(690000000)
+
+criteria = addCriteria("arcanerose_691", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(691000000)
+
+criteria = addCriteria("arcanerose_692", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(692000000)
+
+criteria = addCriteria("arcanerose_693", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(693000000)
+
+criteria = addCriteria("arcanerose_694", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(694000000)
+
+criteria = addCriteria("arcanerose_695", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(695000000)
+
+criteria = addCriteria("arcanerose_696", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(696000000)
+
+criteria = addCriteria("arcanerose_697", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(697000000)
+
+criteria = addCriteria("arcanerose_698", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(698000000)
+
+criteria = addCriteria("arcanerose_699", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(699000000)
+
+criteria = addCriteria("arcanerose_700", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(700000000)
+
+criteria = addCriteria("arcanerose_701", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(701000000)
+
+criteria = addCriteria("arcanerose_702", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(702000000)
+
+criteria = addCriteria("arcanerose_703", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(703000000)
+
+criteria = addCriteria("arcanerose_704", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(704000000)
+
+criteria = addCriteria("arcanerose_705", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(705000000)
+
+criteria = addCriteria("arcanerose_706", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(706000000)
+
+criteria = addCriteria("arcanerose_707", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(707000000)
+
+criteria = addCriteria("arcanerose_708", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(708000000)
+
+criteria = addCriteria("arcanerose_709", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(709000000)
+
+criteria = addCriteria("arcanerose_710", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(710000000)
+
+criteria = addCriteria("arcanerose_711", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(711000000)
+
+criteria = addCriteria("arcanerose_712", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(712000000)
+
+criteria = addCriteria("arcanerose_713", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(713000000)
+
+criteria = addCriteria("arcanerose_714", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(714000000)
+
+criteria = addCriteria("arcanerose_715", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(715000000)
+
+criteria = addCriteria("arcanerose_716", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(716000000)
+
+criteria = addCriteria("arcanerose_717", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(717000000)
+
+criteria = addCriteria("arcanerose_718", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(718000000)
+
+criteria = addCriteria("arcanerose_719", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(719000000)
+
+criteria = addCriteria("arcanerose_720", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(720000000)
+
+criteria = addCriteria("arcanerose_721", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(721000000)
+
+criteria = addCriteria("arcanerose_722", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(722000000)
+
+criteria = addCriteria("arcanerose_723", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(723000000)
+
+criteria = addCriteria("arcanerose_724", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(724000000)
+
+criteria = addCriteria("arcanerose_725", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(725000000)
+
+criteria = addCriteria("arcanerose_726", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(726000000)
+
+criteria = addCriteria("arcanerose_727", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(727000000)
+
+criteria = addCriteria("arcanerose_728", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(728000000)
+
+criteria = addCriteria("arcanerose_729", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(729000000)
+
+criteria = addCriteria("arcanerose_730", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(730000000)
+
+criteria = addCriteria("arcanerose_731", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(731000000)
+
+criteria = addCriteria("arcanerose_732", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(732000000)
+
+criteria = addCriteria("arcanerose_733", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(733000000)
+
+criteria = addCriteria("arcanerose_734", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(734000000)
+
+criteria = addCriteria("arcanerose_735", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(735000000)
+
+criteria = addCriteria("arcanerose_736", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(736000000)
+
+criteria = addCriteria("arcanerose_737", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(737000000)
+
+criteria = addCriteria("arcanerose_738", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(738000000)
+
+criteria = addCriteria("arcanerose_739", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(739000000)
+
+criteria = addCriteria("arcanerose_740", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(740000000)
+
+criteria = addCriteria("arcanerose_741", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(741000000)
+
+criteria = addCriteria("arcanerose_742", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(742000000)
+
+criteria = addCriteria("arcanerose_743", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(743000000)
+
+criteria = addCriteria("arcanerose_744", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(744000000)
+
+criteria = addCriteria("arcanerose_745", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(745000000)
+
+criteria = addCriteria("arcanerose_746", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(746000000)
+
+criteria = addCriteria("arcanerose_747", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(747000000)
+
+criteria = addCriteria("arcanerose_748", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(748000000)
+
+criteria = addCriteria("arcanerose_749", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(749000000)
+
+criteria = addCriteria("arcanerose_750", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(750000000)
+
+criteria = addCriteria("arcanerose_751", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(751000000)
+
+criteria = addCriteria("arcanerose_752", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(752000000)
+
+criteria = addCriteria("arcanerose_753", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(753000000)
+
+criteria = addCriteria("arcanerose_754", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(754000000)
+
+criteria = addCriteria("arcanerose_755", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(755000000)
+
+criteria = addCriteria("arcanerose_756", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(756000000)
+
+criteria = addCriteria("arcanerose_757", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(757000000)
+
+criteria = addCriteria("arcanerose_758", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(758000000)
+
+criteria = addCriteria("arcanerose_759", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(759000000)
+
+criteria = addCriteria("arcanerose_760", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(760000000)
+
+criteria = addCriteria("arcanerose_761", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(761000000)
+
+criteria = addCriteria("arcanerose_762", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(762000000)
+
+criteria = addCriteria("arcanerose_763", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(763000000)
+
+criteria = addCriteria("arcanerose_764", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(764000000)
+
+criteria = addCriteria("arcanerose_765", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(765000000)
+
+criteria = addCriteria("arcanerose_766", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(766000000)
+
+criteria = addCriteria("arcanerose_767", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(767000000)
+
+criteria = addCriteria("arcanerose_768", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(768000000)
+
+criteria = addCriteria("arcanerose_769", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(769000000)
+
+criteria = addCriteria("arcanerose_770", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(770000000)
+
+criteria = addCriteria("arcanerose_771", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(771000000)
+
+criteria = addCriteria("arcanerose_772", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(772000000)
+
+criteria = addCriteria("arcanerose_773", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(773000000)
+
+criteria = addCriteria("arcanerose_774", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(774000000)
+
+criteria = addCriteria("arcanerose_775", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(775000000)
+
+criteria = addCriteria("arcanerose_776", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(776000000)
+
+criteria = addCriteria("arcanerose_777", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(777000000)
+
+criteria = addCriteria("arcanerose_778", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(778000000)
+
+criteria = addCriteria("arcanerose_779", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(779000000)
+
+criteria = addCriteria("arcanerose_780", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(780000000)
+
+criteria = addCriteria("arcanerose_781", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(781000000)
+
+criteria = addCriteria("arcanerose_782", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(782000000)
+
+criteria = addCriteria("arcanerose_783", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(783000000)
+
+criteria = addCriteria("arcanerose_784", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(784000000)
+
+criteria = addCriteria("arcanerose_785", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(785000000)
+
+criteria = addCriteria("arcanerose_786", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(786000000)
+
+criteria = addCriteria("arcanerose_787", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(787000000)
+
+criteria = addCriteria("arcanerose_788", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(788000000)
+
+criteria = addCriteria("arcanerose_789", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(789000000)
+
+criteria = addCriteria("arcanerose_790", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(790000000)
+
+criteria = addCriteria("arcanerose_791", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(791000000)
+
+criteria = addCriteria("arcanerose_792", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(792000000)
+
+criteria = addCriteria("arcanerose_793", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(793000000)
+
+criteria = addCriteria("arcanerose_794", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(794000000)
+
+criteria = addCriteria("arcanerose_795", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(795000000)
+
+criteria = addCriteria("arcanerose_796", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(796000000)
+
+criteria = addCriteria("arcanerose_797", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(797000000)
+
+criteria = addCriteria("arcanerose_798", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(798000000)
+
+criteria = addCriteria("arcanerose_799", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(799000000)
+
+criteria = addCriteria("arcanerose_800", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(800000000)
+
+criteria = addCriteria("arcanerose_801", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(801000000)
+
+criteria = addCriteria("arcanerose_802", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(802000000)
+
+criteria = addCriteria("arcanerose_803", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(803000000)
+
+criteria = addCriteria("arcanerose_804", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(804000000)
+
+criteria = addCriteria("arcanerose_805", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(805000000)
+
+criteria = addCriteria("arcanerose_806", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(806000000)
+
+criteria = addCriteria("arcanerose_807", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(807000000)
+
+criteria = addCriteria("arcanerose_808", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(808000000)
+
+criteria = addCriteria("arcanerose_809", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(809000000)
+
+criteria = addCriteria("arcanerose_810", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(810000000)
+
+criteria = addCriteria("arcanerose_811", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(811000000)
+
+criteria = addCriteria("arcanerose_812", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(812000000)
+
+criteria = addCriteria("arcanerose_813", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(813000000)
+
+criteria = addCriteria("arcanerose_814", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(814000000)
+
+criteria = addCriteria("arcanerose_815", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(815000000)
+
+criteria = addCriteria("arcanerose_816", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(816000000)
+
+criteria = addCriteria("arcanerose_817", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(817000000)
+
+criteria = addCriteria("arcanerose_818", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(818000000)
+
+criteria = addCriteria("arcanerose_819", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(819000000)
+
+criteria = addCriteria("arcanerose_820", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(820000000)
+
+criteria = addCriteria("arcanerose_821", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(821000000)
+
+criteria = addCriteria("arcanerose_822", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(822000000)
+
+criteria = addCriteria("arcanerose_823", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(823000000)
+
+criteria = addCriteria("arcanerose_824", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(824000000)
+
+criteria = addCriteria("arcanerose_825", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(825000000)
+
+criteria = addCriteria("arcanerose_826", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(826000000)
+
+criteria = addCriteria("arcanerose_827", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(827000000)
+
+criteria = addCriteria("arcanerose_828", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(828000000)
+
+criteria = addCriteria("arcanerose_829", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(829000000)
+
+criteria = addCriteria("arcanerose_830", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(830000000)
+
+criteria = addCriteria("arcanerose_831", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(831000000)
+
+criteria = addCriteria("arcanerose_832", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(832000000)
+
+criteria = addCriteria("arcanerose_833", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(833000000)
+
+criteria = addCriteria("arcanerose_834", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(834000000)
+
+criteria = addCriteria("arcanerose_835", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(835000000)
+
+criteria = addCriteria("arcanerose_836", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(836000000)
+
+criteria = addCriteria("arcanerose_837", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(837000000)
+
+criteria = addCriteria("arcanerose_838", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(838000000)
+
+criteria = addCriteria("arcanerose_839", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(839000000)
+
+criteria = addCriteria("arcanerose_840", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(840000000)
+
+criteria = addCriteria("arcanerose_841", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(841000000)
+
+criteria = addCriteria("arcanerose_842", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(842000000)
+
+criteria = addCriteria("arcanerose_843", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(843000000)
+
+criteria = addCriteria("arcanerose_844", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(844000000)
+
+criteria = addCriteria("arcanerose_845", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(845000000)
+
+criteria = addCriteria("arcanerose_846", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(846000000)
+
+criteria = addCriteria("arcanerose_847", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(847000000)
+
+criteria = addCriteria("arcanerose_848", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(848000000)
+
+criteria = addCriteria("arcanerose_849", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(849000000)
+
+criteria = addCriteria("arcanerose_850", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(850000000)
+
+criteria = addCriteria("arcanerose_851", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(851000000)
+
+criteria = addCriteria("arcanerose_852", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(852000000)
+
+criteria = addCriteria("arcanerose_853", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(853000000)
+
+criteria = addCriteria("arcanerose_854", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(854000000)
+
+criteria = addCriteria("arcanerose_855", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(855000000)
+
+criteria = addCriteria("arcanerose_856", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(856000000)
+
+criteria = addCriteria("arcanerose_857", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(857000000)
+
+criteria = addCriteria("arcanerose_858", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(858000000)
+
+criteria = addCriteria("arcanerose_859", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(859000000)
+
+criteria = addCriteria("arcanerose_860", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(860000000)
+
+criteria = addCriteria("arcanerose_861", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(861000000)
+
+criteria = addCriteria("arcanerose_862", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(862000000)
+
+criteria = addCriteria("arcanerose_863", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(863000000)
+
+criteria = addCriteria("arcanerose_864", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(864000000)
+
+criteria = addCriteria("arcanerose_865", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(865000000)
+
+criteria = addCriteria("arcanerose_866", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(866000000)
+
+criteria = addCriteria("arcanerose_867", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(867000000)
+
+criteria = addCriteria("arcanerose_868", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(868000000)
+
+criteria = addCriteria("arcanerose_869", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(869000000)
+
+criteria = addCriteria("arcanerose_870", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(870000000)
+
+criteria = addCriteria("arcanerose_871", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(871000000)
+
+criteria = addCriteria("arcanerose_872", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(872000000)
+
+criteria = addCriteria("arcanerose_873", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(873000000)
+
+criteria = addCriteria("arcanerose_874", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(874000000)
+
+criteria = addCriteria("arcanerose_875", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(875000000)
+
+criteria = addCriteria("arcanerose_876", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(876000000)
+
+criteria = addCriteria("arcanerose_877", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(877000000)
+
+criteria = addCriteria("arcanerose_878", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(878000000)
+
+criteria = addCriteria("arcanerose_879", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(879000000)
+
+criteria = addCriteria("arcanerose_880", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(880000000)
+
+criteria = addCriteria("arcanerose_881", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(881000000)
+
+criteria = addCriteria("arcanerose_882", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(882000000)
+
+criteria = addCriteria("arcanerose_883", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(883000000)
+
+criteria = addCriteria("arcanerose_884", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(884000000)
+
+criteria = addCriteria("arcanerose_885", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(885000000)
+
+criteria = addCriteria("arcanerose_886", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(886000000)
+
+criteria = addCriteria("arcanerose_887", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(887000000)
+
+criteria = addCriteria("arcanerose_888", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(888000000)
+
+criteria = addCriteria("arcanerose_889", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(889000000)
+
+criteria = addCriteria("arcanerose_890", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(890000000)
+
+criteria = addCriteria("arcanerose_891", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(891000000)
+
+criteria = addCriteria("arcanerose_892", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(892000000)
+
+criteria = addCriteria("arcanerose_893", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(893000000)
+
+criteria = addCriteria("arcanerose_894", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(894000000)
+
+criteria = addCriteria("arcanerose_895", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(895000000)
+
+criteria = addCriteria("arcanerose_896", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(896000000)
+
+criteria = addCriteria("arcanerose_897", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(897000000)
+
+criteria = addCriteria("arcanerose_898", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(898000000)
+
+criteria = addCriteria("arcanerose_899", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(899000000)
+
+criteria = addCriteria("arcanerose_900", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(900000000)
+
+criteria = addCriteria("arcanerose_901", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(901000000)
+
+criteria = addCriteria("arcanerose_902", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(902000000)
+
+criteria = addCriteria("arcanerose_903", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(903000000)
+
+criteria = addCriteria("arcanerose_904", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(904000000)
+
+criteria = addCriteria("arcanerose_905", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(905000000)
+
+criteria = addCriteria("arcanerose_906", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(906000000)
+
+criteria = addCriteria("arcanerose_907", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(907000000)
+
+criteria = addCriteria("arcanerose_908", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(908000000)
+
+criteria = addCriteria("arcanerose_909", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(909000000)
+
+criteria = addCriteria("arcanerose_910", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(910000000)
+
+criteria = addCriteria("arcanerose_911", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(911000000)
+
+criteria = addCriteria("arcanerose_912", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(912000000)
+
+criteria = addCriteria("arcanerose_913", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(913000000)
+
+criteria = addCriteria("arcanerose_914", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(914000000)
+
+criteria = addCriteria("arcanerose_915", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(915000000)
+
+criteria = addCriteria("arcanerose_916", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(916000000)
+
+criteria = addCriteria("arcanerose_917", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(917000000)
+
+criteria = addCriteria("arcanerose_918", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(918000000)
+
+criteria = addCriteria("arcanerose_919", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(919000000)
+
+criteria = addCriteria("arcanerose_920", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(920000000)
+
+criteria = addCriteria("arcanerose_921", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(921000000)
+
+criteria = addCriteria("arcanerose_922", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(922000000)
+
+criteria = addCriteria("arcanerose_923", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(923000000)
+
+criteria = addCriteria("arcanerose_924", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(924000000)
+
+criteria = addCriteria("arcanerose_925", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(925000000)
+
+criteria = addCriteria("arcanerose_926", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(926000000)
+
+criteria = addCriteria("arcanerose_927", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(927000000)
+
+criteria = addCriteria("arcanerose_928", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(928000000)
+
+criteria = addCriteria("arcanerose_929", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(929000000)
+
+criteria = addCriteria("arcanerose_930", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(930000000)
+
+criteria = addCriteria("arcanerose_931", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(931000000)
+
+criteria = addCriteria("arcanerose_932", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(932000000)
+
+criteria = addCriteria("arcanerose_933", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(933000000)
+
+criteria = addCriteria("arcanerose_934", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(934000000)
+
+criteria = addCriteria("arcanerose_935", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(935000000)
+
+criteria = addCriteria("arcanerose_936", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(936000000)
+
+criteria = addCriteria("arcanerose_937", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(937000000)
+
+criteria = addCriteria("arcanerose_938", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(938000000)
+
+criteria = addCriteria("arcanerose_939", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(939000000)
+
+criteria = addCriteria("arcanerose_940", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(940000000)
+
+criteria = addCriteria("arcanerose_941", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(941000000)
+
+criteria = addCriteria("arcanerose_942", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(942000000)
+
+criteria = addCriteria("arcanerose_943", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(943000000)
+
+criteria = addCriteria("arcanerose_944", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(944000000)
+
+criteria = addCriteria("arcanerose_945", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(945000000)
+
+criteria = addCriteria("arcanerose_946", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(946000000)
+
+criteria = addCriteria("arcanerose_947", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(947000000)
+
+criteria = addCriteria("arcanerose_948", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(948000000)
+
+criteria = addCriteria("arcanerose_949", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(949000000)
+
+criteria = addCriteria("arcanerose_950", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(950000000)
+
+criteria = addCriteria("arcanerose_951", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(951000000)
+
+criteria = addCriteria("arcanerose_952", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(952000000)
+
+criteria = addCriteria("arcanerose_953", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(953000000)
+
+criteria = addCriteria("arcanerose_954", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(954000000)
+
+criteria = addCriteria("arcanerose_955", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(955000000)
+
+criteria = addCriteria("arcanerose_956", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(956000000)
+
+criteria = addCriteria("arcanerose_957", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(957000000)
+
+criteria = addCriteria("arcanerose_958", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(958000000)
+
+criteria = addCriteria("arcanerose_959", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(959000000)
+
+criteria = addCriteria("arcanerose_960", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(960000000)
+
+criteria = addCriteria("arcanerose_961", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(961000000)
+
+criteria = addCriteria("arcanerose_962", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(962000000)
+
+criteria = addCriteria("arcanerose_963", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(963000000)
+
+criteria = addCriteria("arcanerose_964", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(964000000)
+
+criteria = addCriteria("arcanerose_965", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(965000000)
+
+criteria = addCriteria("arcanerose_966", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(966000000)
+
+criteria = addCriteria("arcanerose_967", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(967000000)
+
+criteria = addCriteria("arcanerose_968", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(968000000)
+
+criteria = addCriteria("arcanerose_969", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(969000000)
+
+criteria = addCriteria("arcanerose_970", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(970000000)
+
+criteria = addCriteria("arcanerose_971", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(971000000)
+
+criteria = addCriteria("arcanerose_972", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(972000000)
+
+criteria = addCriteria("arcanerose_973", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(973000000)
+
+criteria = addCriteria("arcanerose_974", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(974000000)
+
+criteria = addCriteria("arcanerose_975", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(975000000)
+
+criteria = addCriteria("arcanerose_976", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(976000000)
+
+criteria = addCriteria("arcanerose_977", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(977000000)
+
+criteria = addCriteria("arcanerose_978", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(978000000)
+
+criteria = addCriteria("arcanerose_979", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(979000000)
+
+criteria = addCriteria("arcanerose_980", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(980000000)
+
+criteria = addCriteria("arcanerose_981", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(981000000)
+
+criteria = addCriteria("arcanerose_982", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(982000000)
+
+criteria = addCriteria("arcanerose_983", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(983000000)
+
+criteria = addCriteria("arcanerose_984", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(984000000)
+
+criteria = addCriteria("arcanerose_985", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(985000000)
+
+criteria = addCriteria("arcanerose_986", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(986000000)
+
+criteria = addCriteria("arcanerose_987", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(987000000)
+
+criteria = addCriteria("arcanerose_988", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(988000000)
+
+criteria = addCriteria("arcanerose_989", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(989000000)
+
+criteria = addCriteria("arcanerose_990", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(990000000)
+
+criteria = addCriteria("arcanerose_991", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(991000000)
+
+criteria = addCriteria("arcanerose_992", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(992000000)
+
+criteria = addCriteria("arcanerose_993", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(993000000)
+
+criteria = addCriteria("arcanerose_994", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(994000000)
+
+criteria = addCriteria("arcanerose_995", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(995000000)
+
+criteria = addCriteria("arcanerose_996", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(996000000)
+
+criteria = addCriteria("arcanerose_997", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(997000000)
+
+criteria = addCriteria("arcanerose_998", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(998000000)
+
+criteria = addCriteria("arcanerose_999", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(999000000)
+
+criteria = addCriteria("arcanerose_1000", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("arcanerose")
+criteria.setRequiredMana(1000000000)
+
