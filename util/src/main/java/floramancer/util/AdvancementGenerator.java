@@ -45,13 +45,12 @@ public class AdvancementGenerator {
     private static List<String> getPoolCriteria(FlowerType flower) {
         List<String> lines = new ArrayList<>();
 
-        int i = flower.getPoolsRequired();
-        //for (int i = 1; i <= flower.getPoolsRequired(); i++) {
+        for (int i = 1; i <= flower.getPoolsRequired(); i++) {
             lines.add(String.format("criteria = addCriteria(\"%s_%d\", \"botania_tweaks:flower_generated_mana\")", flower.getBotaniaName(), i));
             lines.add(String.format("criteria.setFlower(\"%s\")", flower.getBotaniaTweaksName()));
             lines.add(String.format("criteria.setRequiredMana(%d)", i * 1000000));
             lines.add("");
-        //}
+        }
 
         return lines;
     }

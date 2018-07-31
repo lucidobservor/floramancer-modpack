@@ -1,26 +1,27 @@
 
-----------------
-End Game Content
-----------------
+---------------
+Things To Check
+---------------
 
-- Triumph
-    > Once working, copy into player's choice config and set Normal mode numbers to 1/10th
+- Player's choice switch quest requirements
+- Quest progress displays properly
+- No lag every 10 seconds on recompute
 
-	
---------------------------------------
-Optional / Uncertain End Game Content
---------------------------------------
 
-- Right click potato with flower to see achievement progress
+--------------------
+Optional / Uncertain
+--------------------
+
+- Right click potato with flower to see achievement progress (only if 13000 criteria is laggy)
+- Give the tiny galactic potato a better model, if I can do that solely through contenttweaker
+- ContentTweaker - Make trophy flowers placeable in world
+    > Might require not just using botania models, if the enchantment thing doesn't carry over
 
 
 ---------------
 Tweaks
 ---------------
 
-- Give the tiny galactic potato a better model, if I can do that solely through contenttweaker
-- ContentTweaker - Make trophy flowers placeable in world
-    > Might require not just using botania models, if the enchantment thing doesn't carry over
 - Additional Advancements
     > creeper/enderman spawners
     > fully upgraded saddle
@@ -29,20 +30,22 @@ Tweaks
 - Additional Lexica Pages
     > Entry for trophy flowers
 - Add Easy mode?
+- Add Dynamic Surroundings?
 
 
 ---------------
 Required Extras
 ---------------
 
+- Create a pack icon
+- Edit Custom Main Menu
+- Add MPUtils - configure pack start splash screen
 - Player's Choice
     - Submit bug report for Forge related crash
     - Try once again to use it for actual mods
     - If it still doesn't work for that, post the list of client-side only ones on Curseforge page
-- Add Custom Main Menu
-- Add MPUtils - configure pack start splash screen
+        > Actually, split up the mod list on Curseforge by category anyway
 - Update README.md (rolling)
-- Create Pack Icon
 
 
 ---------------
