@@ -6,5 +6,6 @@ overrides/config/splash.properties
 overrides/config/fmlModState.properties
 overrides/config/BiomeTweaker/output/
 overrides/resources/pack.mcmeta
+overrides/config/presets
 *.lnk
 */target/
