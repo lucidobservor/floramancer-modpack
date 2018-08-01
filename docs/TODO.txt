@@ -1,13 +1,4 @@
 
--------------------
-  Things To Check
--------------------
-
-- Player's choice switch quest requirements
-- Quest progress displays properly
-- No lag every 10 seconds on recompute
-
-
 ----------------------
  Optional / Uncertain
 ----------------------
