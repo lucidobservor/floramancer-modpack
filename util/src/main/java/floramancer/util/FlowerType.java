@@ -3,7 +3,7 @@ package floramancer.util;
 enum FlowerType {
 
     HYDROANGEAS(0, "hydroangeas", "hydroangeas", "Hydroangeas", "8 Glasses a Day", 1000),
-    ENDOFLAME(1, "endoflame", "endoflame", "Endoflame", "There Goes the Ozone Layer", 1000),
+    ENDOFLAME(1, "endoflame", "endoflame", "Endoflame", "There Goes The Ozone Layer", 1000),
     THERMALILY(2, "thermalily", "thermalily", "Thermalily", "Hellraiser", 1000),
     ROSA_ARCANA(3, "arcanerose", "arcanerose", "Rosa Arcana", "Lethe's Rose", 1000),
     MUNCHDEW(4, "munchdew", "munchdew", "Munchdew", "Can't See The Forest", 1000),
