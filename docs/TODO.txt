@@ -3,7 +3,6 @@
  Optional / Uncertain
 ----------------------
 
-- Right click potato with flower to see achievement progress (only if 13000 criteria is laggy)
 - Give the tiny galactic potato a better model, if I can do that solely through contenttweaker
 - ContentTweaker - Make trophy flowers placeable in world
     > Might require not just using botania models, if the enchantment thing doesn't carry over
@@ -21,7 +20,6 @@
 - Additional Lexica Pages
     > Entry for trophy flowers
 - Add Easy mode?
-- Add Dynamic Surroundings?
 
 
 -------------------
