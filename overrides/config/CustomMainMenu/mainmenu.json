@@ -113,7 +113,7 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "ï¿½nCopyright Mojang AB. Do not distribute!",
+            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -136,7 +136,7 @@
     },
     
     "other":
-    {   
+    {
         "panorama":
         {
             "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
