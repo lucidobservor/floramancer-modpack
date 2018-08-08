@@ -12,6 +12,7 @@
     Tweaks
 ---------------
 
+- 8 potato compression for normal mode
 - Additional Advancements
     > creeper/enderman spawners
     > fully upgraded saddle
