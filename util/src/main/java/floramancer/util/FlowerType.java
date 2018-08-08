@@ -5,7 +5,7 @@ enum FlowerType {
     HYDROANGEAS(0, "hydroangeas", "hydroangeas", "Hydroangeas", "8 Glasses a Day", 1000),
     ENDOFLAME(1, "endoflame", "endoflame", "Endoflame", "There Goes The Ozone Layer", 1000),
     THERMALILY(2, "thermalily", "thermalily", "Thermalily", "Hellraiser", 1000),
-    ROSA_ARCANA(3, "arcanerose", "arcanerose", "Rosa Arcana", "Lethe's Rose", 1000),
+    ROSA_ARCANA(3, "arcanerose", "arcanerose", "Rosa Arcana", "Rosa Aeterna", 1000),
     MUNCHDEW(4, "munchdew", "munchdew", "Munchdew", "Can't See The Forest", 1000),
     ENTROPINNYUM(5, "entropinnyum", "entropinnyum", "Entropinnyum", "ACME, Inc.", 1000),
     KEKIMURUS(6, "kekimurus", "kekimurus", "Kekimurus", "It's Not a Lie", 1000),

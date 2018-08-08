@@ -1,6 +1,6 @@
 
 setIcon(<botania:specialflower, nbt:{type: "arcanerose"}>)
-setTitle("Lethe's Rose")
+setTitle("Rosa Aeterna")
 setDescription("Fill 1000 Mana Pools using the Rosa Arcana")
 addParent("triumph:floramancer/lexicon")
 
