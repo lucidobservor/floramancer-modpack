@@ -26,7 +26,7 @@
   Required Extras
 -------------------
 
-- Create a pack icon
+- Create/Find a better pack icon
 - Edit Custom Main Menu
 - Add MPUtils - configure pack start splash screen
 - Player's Choice
