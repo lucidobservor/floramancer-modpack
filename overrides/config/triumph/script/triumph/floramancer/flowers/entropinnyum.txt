@@ -1,6 +1,6 @@
 
 setIcon(<botania:specialflower, nbt:{type: "entropinnyum"}>)
-setTitle("ACME, Inc.")
+setTitle("advancements.floramancer.entropinnyum.title")
 setDescription("Fill 1000 Mana Pools using the Entropinnyum")
 addParent("triumph:floramancer/lexicon")
 

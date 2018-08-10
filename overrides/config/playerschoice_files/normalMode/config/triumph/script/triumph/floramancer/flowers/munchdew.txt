@@ -1,6 +1,6 @@
 
 setIcon(<botania:specialflower, nbt:{type: "munchdew"}>)
-setTitle("Can't See The Forest")
+setTitle("advancements.floramancer.munchdew.title")
 setDescription("Fill 100 Mana Pools using the Munchdew")
 addParent("triumph:floramancer/lexicon")
 

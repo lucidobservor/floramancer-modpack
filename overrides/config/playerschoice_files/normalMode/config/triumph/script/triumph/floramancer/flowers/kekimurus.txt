@@ -1,6 +1,6 @@
 
 setIcon(<botania:specialflower, nbt:{type: "kekimurus"}>)
-setTitle("It's Not a Lie")
+setTitle("advancements.floramancer.kekimurus.title")
 setDescription("Fill 100 Mana Pools using the Kekimurus")
 addParent("triumph:floramancer/lexicon")
 

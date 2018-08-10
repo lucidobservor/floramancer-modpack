@@ -1,6 +1,6 @@
 
 setIcon(<botania:specialflower, nbt:{type: "hydroangeas"}>)
-setTitle("8 Glasses a Day")
+setTitle("advancements.floramancer.hydroangeas.title")
 setDescription("Fill 100 Mana Pools using the Hydroangeas")
 addParent("triumph:floramancer/lexicon")
 

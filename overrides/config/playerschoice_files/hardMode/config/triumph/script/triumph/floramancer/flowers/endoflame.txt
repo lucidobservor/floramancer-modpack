@@ -1,6 +1,6 @@
 
 setIcon(<botania:specialflower, nbt:{type: "endoflame"}>)
-setTitle("There Goes The Ozone Layer")
+setTitle("advancements.floramancer.endoflame.title")
 setDescription("Fill 1000 Mana Pools using the Endoflame")
 addParent("triumph:floramancer/lexicon")
 

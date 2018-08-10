@@ -20,7 +20,7 @@ public class AdvancementGenerator {
 
             lines.add("");
             lines.add(String.format("setIcon(<botania:specialflower, nbt:{type: \"%s\"}>)", flower.getBotaniaName()));
-            lines.add(String.format("setTitle(\"%s\")", flower.getTitle()));
+            lines.add(String.format("setTitle(\"advancements.floramancer.%s.title\")", flower.getBotaniaTweaksName()));
             lines.add(String.format("setDescription(\"Fill %d Mana Pools using the %s\")", flower.getPoolsRequired(), flower.getLocalizedName()));
             lines.add("addParent(\"triumph:floramancer/lexicon\")");
             lines.add("");

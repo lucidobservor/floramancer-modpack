@@ -1,6 +1,6 @@
 
 setIcon(<botania:specialflower, nbt:{type: "thermalily"}>)
-setTitle("Hellraiser")
+setTitle("advancements.floramancer.thermalily.title")
 setDescription("Fill 1000 Mana Pools using the Thermalily")
 addParent("triumph:floramancer/lexicon")
 
