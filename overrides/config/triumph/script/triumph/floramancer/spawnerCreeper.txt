@@ -1,0 +1,14 @@
+
+setIcon(<minecraft:skull, meta:4>)
+setTitle("Gunpowder and Thorns")
+setDescription("Search jungles and birch forests for a creeper spawner, and move it with a Life Aggregator")
+addParent("triumph:floramancer/root")
+
+setAnnounceToChat(false)
+setFrameType("challenge")
+
+setPos(13, 10)
+drawDirectLines(false)
+
+criteria = addCriteria("pickedUpCreeperSpawner", "minecraft:inventory_changed")
+criteria.addItem(<botania:spawnermover, nbt:{spawner: {SpawnData: {id: "minecraft:creeper"}}}>)

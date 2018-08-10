@@ -1,6 +1,11 @@
 
+Do:
 - Downgrade Forge 1 version and see if Player's Choice works any better
 - Add Chutes
+- Add Earthworks - disable any blocks that seem to overlap with Quark, etc.
+- Add Realistic Cobwebs
+- Add Trample Stopper (unless that's already a feature of some other mod)
+- Add Display
 - Add Project: Vibrant Journeys
     > Check that harvesting wheat still produces more seeds, and that prairies always generate close enough to spawn. Otherwise disable it.
     > If possible, make cobwebs under trees roofed forest only. Otherwise make a feature request and disable it.
@@ -11,8 +16,9 @@
     > Check and possibly disable snails, flies, fireflies
 - Add Redstone PCB?
 
-
+Check:
 - Check Lexicon trophy flower entry
+- Spawner mover advancements
 
 ----------------------
  Optional / Uncertain
@@ -29,11 +35,8 @@
 
 - Figure out why Lexicon crafting pages don't work
 - Additional Advancements
-    > creeper/enderman spawners
     > fully upgraded saddle
     > Every max level enchanted book? (Incl ancient tomes)
-    > Spartan Shield? Waystone?
-- Add Easy mode?
 
 
 -------------------

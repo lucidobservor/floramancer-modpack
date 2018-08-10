@@ -1,0 +1,19 @@
+
+setIcon(<minecraft:end_crystal>)
+setTitle("Pearl Power")
+setDescription("Search the islands in The End for a structure containing an enderman spawner, and relocate it to the Overworld")
+addParent("triumph:floramancer/root")
+
+setAnnounceToChat(false)
+setFrameType("challenge")
+
+setPos(16, 10)
+drawDirectLines(false)
+
+criteria = addCriteria("pickedUpEndermanSpawner", "minecraft:inventory_changed")
+criteria.addItem(<botania:spawnermover, nbt:{spawner: {SpawnData: {id: "minecraft:enderman"}}}>)
+
+criteria = addCriteria("placedSpawnerInOverworld", "triumph:right_click_block")
+criteria.setItem(<botania:spawnermover, nbt:{spawner: {SpawnData: {id: "minecraft:enderman"}}}>)
+location = criteria.getLocationData()
+location.setDimensionType("overworld")
