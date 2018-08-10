@@ -53,8 +53,7 @@ Lexicon.removePage("botania.entry.runeAltar", 11);
 Lexicon.removePage("botania.entry.runeAltar", 11);
  
 // Tier 2 rune tweaks
-
-Lexicon.addRunePage("botania.page.runeAltar8", "botania.entry.runeAltar", 11, 
+Lexicon.addRunePage("botania.page.runeAltar8", "botania.entry.runeAltar", 11,
 	[<botania:rune:4>], 
 	[[<ore:runeWaterB>, <ore:runeFireB>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:cropWheat>, <ore:stoneMetamorphic>, <ore:grass>]], 
 	[8000]);
@@ -138,6 +137,24 @@ var entryNameCreativePool = "botania.entry.creativePool";
 
 // Register Knowledge Type
 Knowledge.registerKnowledgeType(knowledgeTypeCreative, knowledgeTypeCreative, "DARK_BLUE", false);
+
+// Trophy Flowers
+Lexicon.addEntry("botania.entry.trophyflower", categoryMisc, hydroangeas);
+Lexicon.addTextPage("botania.page.trophyflower0", "botania.entry.trophyflower", 0);
+Lexicon.addCraftingPage("botania.page.trophyflower1", "botania.entry.trophyflower", 1,
+    "contenttweaker_hydroangeas",
+    "contenttweaker_endoflame",
+    "contenttweaker_thermalily",
+    "contenttweaker_arcanerose",
+    "contenttweaker_munchdew",
+    "contenttweaker_entropinnyum",
+    "contenttweaker_kekimurus",
+    "contenttweaker_gourmaryllis",
+    "contenttweaker_narslimmus",
+    "contenttweaker_spectrolus",
+    "contenttweaker_rafflowsia",
+    "contenttweaker_shulkmenot",
+    "contenttweaker_dandelifeon");
 
 // Add Entries
 Lexicon.addEntry(entryNameCreativeTablet, categoryMisc, creativeManaTablet);

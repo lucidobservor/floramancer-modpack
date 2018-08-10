@@ -12,6 +12,8 @@
 - Add Redstone PCB?
 
 
+- Check Lexicon trophy flower entry
+
 ----------------------
  Optional / Uncertain
 ----------------------
@@ -25,14 +27,12 @@
     Tweaks
 ---------------
 
-- 8 potato compression for normal mode
+- Figure out why Lexicon crafting pages don't work
 - Additional Advancements
     > creeper/enderman spawners
     > fully upgraded saddle
     > Every max level enchanted book? (Incl ancient tomes)
     > Spartan Shield? Waystone?
-- Additional Lexica Pages
-    > Entry for trophy flowers
 - Add Easy mode?
 
 

@@ -30,6 +30,11 @@ item.contenttweaker.rafflowsiatrophy.name=Rafflowsia Trophy
 item.contenttweaker.shulkmenottrophy.name=Shulk Me Not Trophy
 item.contenttweaker.dandelifeontrophy.name=Dandelifeon Trophy
 
+# Flower Trophy Lexicon
+botania.entry.trophyflower=Trophy Flowers
+botania.page.trophyflower0=Some say the gods look down on us and keep a tally of our deeds. Perhaps you can impress them by producing a truly incredible amount of &4Mana&0 with each &4Generating Flower&0.
+botania.page.trophyflower1=Each recipe unlocked once you've received the trophy
+
 # Extra Lexicon Pages
 botania.page.overgrowthSeed2=Creating an &1Overgrowth Seed&0 from dungeon loot
 botania.page.flightTiara1=Check JEI for recipe
