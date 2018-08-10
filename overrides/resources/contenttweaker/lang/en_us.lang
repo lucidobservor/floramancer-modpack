@@ -39,7 +39,7 @@ botania.page.trophyflower1=Each recipe unlocked once you've received the trophy
 botania.page.overgrowthSeed2=Creating an &1Overgrowth Seed&0 from dungeon loot
 botania.page.flightTiara1=Check JEI for recipe
 
-# Advancements
+# Flower Advancement Titles
 advancements.floramancer.hydroangeas.title=8 Glasses Per Day
 advancements.floramancer.endoflame.title=There Goes the Ozone Layer
 advancements.floramancer.thermalily.title=Hellraiser
@@ -53,3 +53,22 @@ advancements.floramancer.spectrolus.title=Fabulous
 advancements.floramancer.rafflowsia.title=The Circle of Life
 advancements.floramancer.shulkmenot.title=I Believe I Can Fly
 advancements.floramancer.dandelifeon.title=Unto The Seven Thousandth Generation
+
+# Other Advancements
+advancements.floramancer.creativeLexicon.title=Ultimate Knowledge
+advancements.floramancer.creativePool.title=Mana Everlasting
+advancements.floramancer.creativeTablet.title=Infinite Power, Itty Bitty Living Space
+advancements.floramancer.galactic.title=The Elder Potato
+advancements.floramancer.lexicon.title=The Journey Begins
+advancements.floramancer.root.title=Floramancer
+advancements.floramancer.spawnerCreeper.title=Gunpowder and Thorns
+advancements.floramancer.spawnerEnderman.title=A Little Slice of Heaven
+
+advancements.floramancer.creativeLexicon.description=Give your Lexica Botania to the Galactic Potato to unlock creative knowledge. You may need to do this twice.
+advancements.floramancer.creativePool.description=Craft the Everlasting Guilty Pool
+advancements.floramancer.creativeTablet.description=Craft the Creative Mana Tablet
+advancements.floramancer.galactic.description=Automate all flowers and bring forth the Galactic Potato
+advancements.floramancer.lexicon.description=Acquire the Lexica Botania
+advancements.floramancer.root.description=The path to becoming an expert floramancer
+advancements.floramancer.spawnerCreeper.description=Search jungles and birch forests for a creeper spawner, and move it with a Life Aggregator
+advancements.floramancer.spawnerEnderman.description=Search the islands in The End for a structure containing an enderman spawner, and relocate it to the Overworld

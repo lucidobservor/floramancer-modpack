@@ -1,7 +1,7 @@
 
 setIcon(<minecraft:end_crystal>)
 setTitle("Pearl Power")
-setDescription("Search the islands in The End for a structure containing an enderman spawner, and relocate it to the Overworld")
+setDescription("")
 addParent("triumph:floramancer/root")
 
 setAnnounceToChat(false)

@@ -1,7 +1,7 @@
 
 setIcon(<minecraft:skull, meta:4>)
-setTitle("Gunpowder and Thorns")
-setDescription("Search jungles and birch forests for a creeper spawner, and move it with a Life Aggregator")
+setTitle("advancements.floramancer.spawnerCreeper.title")
+setDescription("advancements.floramancer.spawnerCreeper.description")
 addParent("triumph:floramancer/root")
 
 setAnnounceToChat(false)

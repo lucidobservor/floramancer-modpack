@@ -1,7 +1,7 @@
 
 setIcon(<botania:lexicon>)
-setTitle("The Journey Begins")
-setDescription("Acquire the Lexica Botania")
+setTitle("advancements.floramancer.lexicon.title")
+setDescription("advancements.floramancer.lexicon.description")
 addParent("triumph:floramancer/root")
 
 setAnnounceToChat(false)

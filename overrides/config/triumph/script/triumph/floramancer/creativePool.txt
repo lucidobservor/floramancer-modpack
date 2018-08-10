@@ -1,7 +1,7 @@
 
 setIcon(<botania:pool, meta:1>)
-setTitle("Mana Everlasting")
-setDescription("Craft the Everlasting Guilty Pool")
+setTitle("advancements.floramancer.creativePool.title")
+setDescription("advancements.floramancer.creativePool.description")
 addParent("triumph:floramancer/creativeTablet")
 
 setPos(10, 3)
