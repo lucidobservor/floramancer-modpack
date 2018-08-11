@@ -1,11 +1,7 @@
 
 Do:
-- Downgrade Forge 1 version and see if Player's Choice works any better
-- Add Chutes
+- See if Player's Choice works any better with a different Forge version
 - Add Earthworks - disable any blocks that seem to overlap with Quark, etc.
-- Add Realistic Cobwebs
-- Add Trample Stopper (unless that's already a feature of some other mod)
-- Add Display
 - Add Project: Vibrant Journeys
     > Check that harvesting wheat still produces more seeds, and that prairies always generate close enough to spawn. Otherwise disable it.
     > If possible, make cobwebs under trees roofed forest only. Otherwise make a feature request and disable it.
@@ -14,10 +10,7 @@ Do:
     > Add shade/ghost spawners to recurrent complex
     > Use spectral wrappings for something?
     > Check and possibly disable snails, flies, fireflies
-- Add Redstone PCB?
 
-Check:
-- Check Lexicon trophy flower entry
 
 ----------------------
  Optional / Uncertain
