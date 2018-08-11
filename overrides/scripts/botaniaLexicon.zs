@@ -122,7 +122,7 @@ Lexicon.addAlchemyPage("botania.page.overgrowthSeed2", "botania.entry.overgrowth
 
 // Flugel Tiara requires Elytra - Lexicon page does not actually seem to work
 Lexicon.removePage("botania.entry.flightTiara", 4);
-Lexicon.addCraftingPage("botania.page.flightTiara1", "botania.entry.flightTiara", 4, "botania_flighttiara_0");
+Lexicon.addCraftingPage("botania.page.flightTiara1", "botania.entry.flightTiara", 4, "crafttweaker:botania_flighttiara_0");
 
 
 /*=========================
@@ -142,19 +142,19 @@ Knowledge.registerKnowledgeType(knowledgeTypeCreative, knowledgeTypeCreative, "D
 Lexicon.addEntry("botania.entry.trophyflower", categoryMisc, hydroangeas);
 Lexicon.addTextPage("botania.page.trophyflower0", "botania.entry.trophyflower", 0);
 Lexicon.addCraftingPage("botania.page.trophyflower1", "botania.entry.trophyflower", 1,
-    "contenttweaker_hydroangeas",
-    "contenttweaker_endoflame",
-    "contenttweaker_thermalily",
-    "contenttweaker_arcanerose",
-    "contenttweaker_munchdew",
-    "contenttweaker_entropinnyum",
-    "contenttweaker_kekimurus",
-    "contenttweaker_gourmaryllis",
-    "contenttweaker_narslimmus",
-    "contenttweaker_spectrolus",
-    "contenttweaker_rafflowsia",
-    "contenttweaker_shulkmenot",
-    "contenttweaker_dandelifeon");
+    "crafttweaker:contenttweaker_hydroangeas",
+    "crafttweaker:contenttweaker_endoflame",
+    "crafttweaker:contenttweaker_thermalily",
+    "crafttweaker:contenttweaker_arcanerose",
+    "crafttweaker:contenttweaker_munchdew",
+    "crafttweaker:contenttweaker_entropinnyum",
+    "crafttweaker:contenttweaker_kekimurus",
+    "crafttweaker:contenttweaker_gourmaryllis",
+    "crafttweaker:contenttweaker_narslimmus",
+    "crafttweaker:contenttweaker_spectrolus",
+    "crafttweaker:contenttweaker_rafflowsia",
+    "crafttweaker:contenttweaker_shulkmenot",
+    "crafttweaker:contenttweaker_dandelifeon");
 
 // Add Entries
 Lexicon.addEntry(entryNameCreativeTablet, categoryMisc, creativeManaTablet);
