@@ -18,7 +18,6 @@ Do:
 
 Check:
 - Check Lexicon trophy flower entry
-- Spawner mover advancements
 
 ----------------------
  Optional / Uncertain

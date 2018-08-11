@@ -1,14 +1,13 @@
 
 setIcon(<minecraft:skull, meta:4>)
-setTitle("advancements.floramancer.spawnerCreeper.title")
-setDescription("advancements.floramancer.spawnerCreeper.description")
+setTranslatedTitle("advancements.floramancer.spawnerCreeper.title")
+setTranslatedDescription("advancements.floramancer.spawnerCreeper.description")
 addParent("triumph:floramancer/root")
 
 setAnnounceToChat(false)
 setFrameType("challenge")
 
-setPos(13, 10)
-drawDirectLines(false)
+setPos(12, 11)
 
 criteria = addCriteria("pickedUpCreeperSpawner", "minecraft:inventory_changed")
 criteria.addItem(<botania:spawnermover, nbt:{spawner: {SpawnData: {id: "minecraft:creeper"}}}>)

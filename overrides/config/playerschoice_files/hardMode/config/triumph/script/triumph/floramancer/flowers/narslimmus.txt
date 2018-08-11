@@ -1,6 +1,6 @@
 
 setIcon(<botania:specialflower, nbt:{type: "narslimmus"}>)
-setTitle("advancements.floramancer.narslimmus.title")
+setTranslatedTitle("advancements.floramancer.narslimmus.title")
 setDescription("Fill 1000 Mana Pools using the Narslimmus")
 addParent("triumph:floramancer/lexicon")
 

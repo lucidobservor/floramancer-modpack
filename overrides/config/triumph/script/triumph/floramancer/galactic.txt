@@ -1,7 +1,7 @@
 
 setIcon(<botania_tweaks:compressed_tiny_potato_8>)
-setTitle("advancements.floramancer.galactic.title")
-setDescription("advancements.floramancer.galactic.description")
+setTranslatedTitle("advancements.floramancer.galactic.title")
+setTranslatedDescription("advancements.floramancer.galactic.description")
 
 addParent("triumph:floramancer/flowers/kekimurus")
 addParent("triumph:floramancer/flowers/arcanerose")

@@ -1,7 +1,7 @@
 
 setIcon(<botania:manatablet, nbt: {mana: 500000, creative: 1b}>)
-setTitle("advancements.floramancer.creativeTablet.title")
-setDescription("advancements.floramancer.creativeTablet.description")
+setTranslatedTitle("advancements.floramancer.creativeTablet.title")
+setTranslatedDescription("advancements.floramancer.creativeTablet.description")
 addParent("triumph:floramancer/creativeLexicon")
 
 setPos(10, 4)

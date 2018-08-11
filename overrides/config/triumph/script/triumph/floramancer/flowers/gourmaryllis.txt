@@ -1,6 +1,6 @@
 
 setIcon(<botania:specialflower, nbt:{type: "gourmaryllis"}>)
-setTitle("advancements.floramancer.gourmaryllis.title")
+setTranslatedTitle("advancements.floramancer.gourmaryllis.title")
 setDescription("Fill 1000 Mana Pools using the Gourmaryllis")
 addParent("triumph:floramancer/lexicon")
 

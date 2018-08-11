@@ -1,7 +1,7 @@
 
 setIcon(<botania:lexicon, nbt:{"knowledge.minecraft": 1b, "knowledge.alfheim": 1b, "knowledge.relic": 1b, "knowledge.creative": 1b}>)
-setTitle("advancements.floramancer.creativeLexicon.title")
-setDescription("advancements.floramancer.creativeLexicon.description")
+setTranslatedTitle("advancements.floramancer.creativeLexicon.title")
+setTranslatedDescription("advancements.floramancer.creativeLexicon.description")
 
 addParent("triumph:floramancer/galactic")
 

@@ -1,6 +1,6 @@
 
 setIcon(<botania:specialflower, nbt:{type: "rafflowsia"}>)
-setTitle("advancements.floramancer.rafflowsia.title")
+setTranslatedTitle("advancements.floramancer.rafflowsia.title")
 setDescription("Fill 100 Mana Pools using the Rafflowsia")
 addParent("triumph:floramancer/lexicon")
 

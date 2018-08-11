@@ -1,6 +1,6 @@
 
 setIcon(<botania:specialflower, nbt:{type: "arcanerose"}>)
-setTitle("advancements.floramancer.arcanerose.title")
+setTranslatedTitle("advancements.floramancer.arcanerose.title")
 setDescription("Fill 100 Mana Pools using the Rosa Arcana")
 addParent("triumph:floramancer/lexicon")
 

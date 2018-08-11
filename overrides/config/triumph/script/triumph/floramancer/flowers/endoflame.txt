@@ -1,6 +1,6 @@
 
 setIcon(<botania:specialflower, nbt:{type: "endoflame"}>)
-setTitle("advancements.floramancer.endoflame.title")
+setTranslatedTitle("advancements.floramancer.endoflame.title")
 setDescription("Fill 1000 Mana Pools using the Endoflame")
 addParent("triumph:floramancer/lexicon")
 

@@ -1,6 +1,6 @@
 
 setIcon(<botania:specialflower, nbt:{type: "shulk_me_not"}>)
-setTitle("advancements.floramancer.shulkmenot.title")
+setTranslatedTitle("advancements.floramancer.shulkmenot.title")
 setDescription("Fill 1000 Mana Pools using the Shulk Me Not")
 addParent("triumph:floramancer/lexicon")
 

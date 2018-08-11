@@ -1,6 +1,6 @@
 
 setIcon(<botania:specialflower, nbt:{type: "dandelifeon"}>)
-setTitle("advancements.floramancer.dandelifeon.title")
+setTranslatedTitle("advancements.floramancer.dandelifeon.title")
 setDescription("Fill 1000 Mana Pools using the Dandelifeon")
 addParent("triumph:floramancer/lexicon")
 
