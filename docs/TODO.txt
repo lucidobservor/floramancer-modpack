@@ -11,6 +11,8 @@ Do:
     > Use spectral wrappings for something?
     > Check and possibly disable snails, flies, fireflies
 
+Check:
+- Saddle advancement
 
 ----------------------
  Optional / Uncertain
@@ -27,7 +29,6 @@ Do:
 
 - Figure out why Lexicon crafting pages don't work
 - Additional Advancements
-    > fully upgraded saddle
     > Every max level enchanted book? (Incl ancient tomes)
 
 
