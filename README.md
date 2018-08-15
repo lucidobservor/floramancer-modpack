@@ -12,9 +12,8 @@ grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
 
 ## Major Features
 
-- **Pack Modes** - There are two pack modes: Normal and Hard. There are currently only a few differences between the
-    modes, the corporea spork, the passive decay timer, and the mana cost of the final items. See below for more 
-    details.
+- **Pack Modes** - There are two pack modes: Normal and Hard. Currently the only differences between the modes are the 
+    passive decay timer and the mana cost of the final items. See below for more details.
 
 - **Passive Flower Decay** - The biggest change this pack makes to ordinary Botania progression is making all generating
     flora suffer from passive decay. In Normal Mode, flowers will decay after one real world hour, while in Hard Mode, 
@@ -30,7 +29,6 @@ grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
 ## Minor Features
 
 - **Botania Tweaks** - The following miscellaneous tweaks are enabled:
-	- Corporea is available earlier through the use of the corporea spork (Normal mode only)
     - Automate crafting Ender Air with a Dispenser in the End dimension.
     - Automatically place Corporea Sparks and decorate them with Floral Powder, when you place corporea blocks.
     - Powering the entropinnyum with a vanilla TNT duplicator is disabled

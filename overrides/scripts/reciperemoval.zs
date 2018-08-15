@@ -5,7 +5,8 @@ mods.jei.JEI.removeAndHide(<botania:manasteelhelmreveal>);
 mods.jei.JEI.removeAndHide(<botania:elementiumhelmreveal>);
 mods.jei.JEI.removeAndHide(<botania:terrasteelhelmreveal>);
 
-// Meme Spork
+// Spork
+mods.jei.JEI.removeAndHide(<botania_tweaks:spork>);
 mods.jei.JEI.removeAndHide(<botania_tweaks:meme_spork>);
 
 // Remove WIther Tweaks Sword
