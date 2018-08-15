@@ -64,6 +64,7 @@ advancements.floramancer.root.title=Floramancer
 advancements.floramancer.saddle.title=Ride like the wind, Bullseye!
 advancements.floramancer.spawnerCreeper.title=Gunpowder and Thorns
 advancements.floramancer.spawnerEnderman.title=A Little Slice of Heaven
+advancements.floramancer.tome.title=Knowledge Is Power
 
 advancements.floramancer.creativeLexicon.description=Give your Lexica Botania to the Galactic Potato to unlock creative knowledge. You may need to do this twice.
 advancements.floramancer.creativePool.description=Craft the Everlasting Guilty Pool
@@ -74,3 +75,4 @@ advancements.floramancer.root.description=The path to becoming an expert florama
 advancements.floramancer.saddle.description=Fully upgrade your saddle
 advancements.floramancer.spawnerCreeper.description=Search jungles and birch forests for a creeper spawner, and move it with a Life Aggregator
 advancements.floramancer.spawnerEnderman.description=Search the islands in The End for a structure containing an enderman spawner, and relocate it to the Overworld
+advancements.floramancer.tome.description=Find every kind of Ancient Tome and use them to upgrade every maximum level enchanted book

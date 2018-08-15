@@ -1,0 +1,58 @@
+
+setIcon(<quark:ancient_tome, nbt:{ench: [{lvl: 4s, id: 2s}]}>)
+setTranslatedTitle("advancements.floramancer.tome.title")
+setTranslatedDescription("advancements.floramancer.tome.description")
+addParent("triumph:floramancer/root")
+
+setAnnounceToChat(false)
+setFrameType("challenge")
+
+setPos(6, 11)
+
+criteria2 = addCriteria("ench2", "minecraft:inventory_changed")
+criteria2.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 5s, id: 2s}]}>)
+
+criteria7 = addCriteria("ench7", "minecraft:inventory_changed")
+criteria7.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 4s, id: 7s}]}>)
+
+criteria16 = addCriteria("ench16", "minecraft:inventory_changed")
+criteria16.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 6s, id: 16s}]}>)
+
+criteria17 = addCriteria("ench17", "minecraft:inventory_changed")
+criteria17.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 6s, id: 17s}]}>)
+
+criteria18 = addCriteria("ench18", "minecraft:inventory_changed")
+criteria18.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 6s, id: 18s}]}>)
+
+criteria19 = addCriteria("ench19", "minecraft:inventory_changed")
+criteria19.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 3s, id: 19s}]}>)
+
+criteria20 = addCriteria("ench20", "minecraft:inventory_changed")
+criteria20.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 3s, id: 20s}]}>)
+
+criteria21 = addCriteria("ench21", "minecraft:inventory_changed")
+criteria21.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 4s, id: 21s}]}>)
+
+criteria22 = addCriteria("ench22", "minecraft:inventory_changed")
+criteria22.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 4s, id: 22s}]}>)
+
+criteria32 = addCriteria("ench32", "minecraft:inventory_changed")
+criteria32.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 6s, id: 32s}]}>)
+
+criteria34 = addCriteria("ench34", "minecraft:inventory_changed")
+criteria34.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 4s, id: 34s}]}>)
+
+criteria35 = addCriteria("ench35", "minecraft:inventory_changed")
+criteria35.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 4s, id: 35s}]}>)
+
+criteria48 = addCriteria("ench48", "minecraft:inventory_changed")
+criteria48.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 6s, id: 48s}]}>)
+
+criteria49 = addCriteria("ench49", "minecraft:inventory_changed")
+criteria49.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 3s, id: 49s}]}>)
+
+criteria61 = addCriteria("ench61", "minecraft:inventory_changed")
+criteria61.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 4s, id: 61s}]}>)
+
+criteria62 = addCriteria("ench62", "minecraft:inventory_changed")
+criteria62.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 4s, id: 62s}]}>)

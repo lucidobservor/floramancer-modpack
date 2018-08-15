@@ -13,6 +13,7 @@ Do:
 
 Check:
 - Saddle advancement
+- Tome enchantment
 
 ----------------------
  Optional / Uncertain
@@ -28,8 +29,7 @@ Check:
 ---------------
 
 - Figure out why Lexicon crafting pages don't work
-- Additional Advancements
-    > Every max level enchanted book? (Incl ancient tomes)
+- Add TellMe, Dump enchantment ids, Remove TellMe, expand the quark ancient tomes list (and quest) accordingly
 
 
 -------------------
