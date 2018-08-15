@@ -12,8 +12,10 @@ grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
 
 ## Major Features
 
-- **Pack Modes** - There are two pack modes: Normal and Hard. Currently the only differences between the modes are the 
-    passive decay timer and the mana cost of the final items. See below for more details.
+- **Pack Modes** - There are two pack modes: Normal and Hard. These modes are differences in quantity of automation
+    required; the progression is identical for both. Currently the only differences between the modes are the 
+    passive decay timer and the mana cost of the final items, with the advancements adjusted accordingly. See below for 
+    more details.
 
 - **Passive Flower Decay** - The biggest change this pack makes to ordinary Botania progression is making all generating
     flora suffer from passive decay. In Normal Mode, flowers will decay after one real world hour, while in Hard Mode, 
@@ -51,6 +53,7 @@ grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
 - **World Gen** 
     - The default world type uses Quark's realistic terrain generation, combined with Traverse for some additional
       interesting biomes.
+    - Worley's Caves makes for some new and interesting underground exploration.
     - Recurrent Complex is used to add some structures to the world. If you go exploring, you might be able to find
       creeper spawners in the overworld, which should help with powering your entropinnyums, and enderman spawners in
       The End, which can save you time spent AFK waiting for natural Endermen to spawn. Neither are required for
