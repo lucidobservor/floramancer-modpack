@@ -22,6 +22,10 @@ mods.jei.JEI.removeAndHide(<malisisdoors:trapdoor_dark_oak>);
 
 // Remove all Iron Shulker Boxes
 mods.jei.JEI.removeAndHide(<ironchest:vanilla_iron_shulker_upgrade>);
+mods.jei.JEI.removeAndHide(<ironchest:iron_gold_shulker_upgrade>);
+mods.jei.JEI.removeAndHide(<ironchest:gold_diamond_shulker_upgrade>);
+mods.jei.JEI.removeAndHide(<ironchest:diamond_obsidian_shulker_upgrade>);
+mods.jei.JEI.removeAndHide(<ironchest:diamond_crystal_shulker_upgrade>);
 mods.jei.JEI.removeAndHide(<ironchest:iron_chest:7>);
 mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_white:*>);
 mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_red:*>);

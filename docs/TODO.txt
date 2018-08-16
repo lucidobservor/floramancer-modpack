@@ -1,11 +1,6 @@
 
 Do:
 - See if Player's Choice works any better with a different Forge version
-- Add Advanced Shulker Boxes
-- Add chunk animator
-- Replace Right click harvest with Harvestables
-- Add SnowVillage
-- Add Earthworks - disable any blocks that seem to overlap with Quark, etc.
 - Add Project: Vibrant Journeys
     > Check that harvesting wheat still produces more seeds, and that prairies always generate close enough to spawn. Otherwise disable it.
     > If possible, make cobwebs under trees roofed forest only. Otherwise make a feature request and disable it.
@@ -16,8 +11,8 @@ Do:
     > Check and possibly disable snails, flies, fireflies
 
 Check:
-- Saddle advancement
-- Tome enchantment
+- Tome enchantment quest
+- iron shulkers disabled
 
 ----------------------
  Optional / Uncertain
@@ -32,8 +27,10 @@ Check:
     Tweaks
 ---------------
 
+- Fix Earthworks dark oak / acacia recipes
 - Figure out why Lexicon crafting pages don't work
-- Add TellMe, Dump enchantment ids, Remove TellMe, expand the quark ancient tomes list (and quest) accordingly
+- Add ss ench to quark list
+- Expand enchanted book quest to all minecraft enchanted books (+1 level for quark tome ones)
 
 
 -------------------
