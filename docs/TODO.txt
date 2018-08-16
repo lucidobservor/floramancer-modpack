@@ -13,6 +13,8 @@ Do:
 Check:
 - Tome enchantment quest
 - iron shulkers disabled
+- Fix Earthworks dark oak / acacia recipes
+
 
 ----------------------
  Optional / Uncertain
@@ -27,7 +29,6 @@ Check:
     Tweaks
 ---------------
 
-- Fix Earthworks dark oak / acacia recipes
 - Figure out why Lexicon crafting pages don't work
 - Add ss ench to quark list
 - Expand enchanted book quest to all minecraft enchanted books (+1 level for quark tome ones)
