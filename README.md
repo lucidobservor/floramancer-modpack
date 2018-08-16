@@ -12,20 +12,14 @@ grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
 
 ## Major Features
 
-- **Pack Modes** - There are two pack modes: Normal and Hard. These modes are differences in quantity of automation
-    required; the progression is identical for both. Currently the only differences between the modes are the 
-    passive decay timer and the mana cost of the final items, with the advancements adjusted accordingly. See below for 
-    more details.
-
 - **Passive Flower Decay** - The biggest change this pack makes to ordinary Botania progression is making all generating
-    flora suffer from passive decay. In Normal Mode, flowers will decay after one real world hour, while in Hard Mode, 
-    decay happens in only half that time. This means you will need to set up systems to automatically craft every flower,
-    including all of its components, as well as ensure each flower is used efficiently before it decays.  
+    flora suffer from passive decay after one real world hour. This means you will need to set up systems to 
+    automatically craft every flower, including all of its components, as well as ensure each flower is used efficiently 
+    before it decays.  
 
 - **Advancements and Progression** - As you progress, the game will keep track of how much mana you have produced using
     each flower. Once you've produced enough, you will earn an advancement for that flower, and upon completing them all
-    you will unlock the recipes for the Creative Mana Tablet and Everlasting Guilty Pool. The exact amount of mana
-    required per flower differs by pack mode.
+    you will unlock the recipes for the Creative Mana Tablet and Everlasting Guilty Pool.
 
   
 ## Minor Features
@@ -45,9 +39,8 @@ grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
       designed not to be strictly more expensive, but rather to contain new ingredients that there was previously no
 	  reason to automate except for decorative purposes, such as metamorphic stone, clay, and the different kinds of
 	  Botania quartz.
-	- By default, the mana cost of the Galactic Potato is equivalent to just under 52 Rank SS Terra Shatterers. In Hard 
-	  mode, this is unchanged, while in Normal mode, the cost reduced to less than a tenth of that. The amount of mana
-	  players are required to produce with each flower is adjusted accordingly.
+	- The mana cost of the tiny potato is lowered so that the total mana cost of the Galactic Potato is equivalent to 
+	  just under 10 Rank SS Terra Shatterers.
 	- The Flügel Tiara now requires the Elytra in its crafting recipe.
 
 - **World Gen** 
@@ -79,9 +72,7 @@ progression through the pack.
 ## Downloads
 
 This pack has not yet been released. However, you can test it by cloning this repository, zipping it into a .zip file,
-and importing it into the Twitch Launcher. This will get you an instance of the pack in Normal Mode. To change modes,
-clone and build my updated fork of [Player's Choice](https://github.com/lucidobservor/PlayersChoice), and add the
-resulting .jar to your instance's mods directory.
+and importing it into the Twitch Launcher. 
 	
 	
 	

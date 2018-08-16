@@ -1,5 +1,6 @@
 
 Do:
+- Remove Pack Mode
 - See if Player's Choice works any better with a different Forge version
 - Add Project: Vibrant Journeys
     > Check that harvesting wheat still produces more seeds, and that prairies always generate close enough to spawn. Otherwise disable it.
@@ -21,8 +22,6 @@ Check:
 ----------------------
 
 - Give the tiny galactic potato a better model, if I can do that solely through contenttweaker
-- ContentTweaker - Make trophy flowers placeable in world
-    > Might require not just using botania models, if the enchantment thing doesn't carry over
 
 
 ---------------
@@ -30,8 +29,6 @@ Check:
 ---------------
 
 - Figure out why Lexicon crafting pages don't work
-- Add ss ench to quark list
-- Expand enchanted book quest to all minecraft enchanted books (+1 level for quark tome ones)
 
 
 -------------------
@@ -40,11 +37,7 @@ Check:
 
 - Create/Find a better pack icon
 - Edit Custom Main Menu
-- Player's Choice
-    - Submit bug report for Forge related crash
-    - Try once again to use it for actual mods
-    - If it still doesn't work for that, post the list of client-side only ones on Curseforge page
-        > Actually, split up the mod list on Curseforge by category anyway
+- Make Curseforge Description (basically README + modlist)
 - Update README.md (rolling)
 
 
@@ -52,7 +45,6 @@ Check:
   Open Tickets
 ----------------
 
-- Player's Choice - Wait for release
 - ModTweaker - Lexica entry tagline support
 - JER mob drop support
 

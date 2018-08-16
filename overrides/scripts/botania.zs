@@ -114,6 +114,10 @@ ManaInfusion.addAlchemy(<minecraft:sapling>, <traverse:fir_sapling>, 120);
 // Notch Apple to Overgrowth Seed
 ManaInfusion.addAlchemy(<botania:overgrowthseed>, <minecraft:golden_apple:1>, 50000);
 
+// Reduce Tiny Potato Cost
+ManaInfusion.removeRecipe(<botania:tinypotato>);
+ManaInfusion.addInfusion(<botania:tinypotato>, <minecraft:potato>, 250);
+
 // Creative Galactic Potato Recipe
 ManaInfusion.addInfusion(galacticPotato, <contenttweaker:tinygalacticpotato>.withTag({"Quark:RuneColor": 16, "Quark:RuneAttached": 1 as byte}), 1000001);
 

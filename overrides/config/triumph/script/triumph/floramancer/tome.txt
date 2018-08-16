@@ -9,11 +9,38 @@ setFrameType("challenge")
 
 setPos(6, 11)
 
+criteria0 = addCriteria("ench0", "minecraft:inventory_changed")
+criteria0.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 5s, id: 0s}]}>)
+
+criteria1 = addCriteria("ench1", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 5s, id: 1s}]}>)
+
 criteria2 = addCriteria("ench2", "minecraft:inventory_changed")
 criteria2.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 5s, id: 2s}]}>)
 
+criteria3 = addCriteria("ench3", "minecraft:inventory_changed")
+criteria3.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 5s, id: 3s}]}>)
+
+criteria4 = addCriteria("ench4", "minecraft:inventory_changed")
+criteria4.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 5s, id: 4s}]}>)
+
+criteria5 = addCriteria("ench5", "minecraft:inventory_changed")
+criteria5.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 4s, id: 5s}]}>)
+
+criteria6 = addCriteria("ench6", "minecraft:inventory_changed")
+criteria6.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 1s, id: 6s}]}>)
+
 criteria7 = addCriteria("ench7", "minecraft:inventory_changed")
 criteria7.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 4s, id: 7s}]}>)
+
+criteria8 = addCriteria("ench8", "minecraft:inventory_changed")
+criteria8.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 4s, id: 8s}]}>)
+
+criteria9 = addCriteria("ench9", "minecraft:inventory_changed")
+criteria9.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 3s, id: 9s}]}>)
+
+criteria11 = addCriteria("ench11", "minecraft:inventory_changed")
+criteria11.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 4s, id: 11s}]}>)
 
 criteria16 = addCriteria("ench16", "minecraft:inventory_changed")
 criteria16.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 6s, id: 16s}]}>)
@@ -39,6 +66,9 @@ criteria22.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 4s
 criteria32 = addCriteria("ench32", "minecraft:inventory_changed")
 criteria32.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 6s, id: 32s}]}>)
 
+criteria33 = addCriteria("ench33", "minecraft:inventory_changed")
+criteria33.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 1s, id: 33s}]}>)
+
 criteria34 = addCriteria("ench34", "minecraft:inventory_changed")
 criteria34.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 4s, id: 34s}]}>)
 
@@ -51,8 +81,17 @@ criteria48.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 6s
 criteria49 = addCriteria("ench49", "minecraft:inventory_changed")
 criteria49.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 3s, id: 49s}]}>)
 
+criteria50 = addCriteria("ench50", "minecraft:inventory_changed")
+criteria50.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 1s, id: 50s}]}>)
+
+criteria51 = addCriteria("ench51", "minecraft:inventory_changed")
+criteria51.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 1s, id: 51s}]}>)
+
 criteria61 = addCriteria("ench61", "minecraft:inventory_changed")
 criteria61.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 4s, id: 61s}]}>)
 
 criteria62 = addCriteria("ench62", "minecraft:inventory_changed")
 criteria62.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 4s, id: 62s}]}>)
+
+criteria70 = addCriteria("ench70", "minecraft:inventory_changed")
+criteria70.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 1s, id: 70s}]}>)
