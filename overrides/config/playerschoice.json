@@ -1,0 +1,43 @@
+[
+  {
+	"id": "clienttweaks",
+    "name": "Client Tweaks",
+    "desc": "",
+    "category": "Client Side",
+	"website": "http://balyware.com",
+    "base": true
+  },
+  {
+	"id": "easiervillagertrading",
+    "name": "Easier Villager Trading",
+    "desc": "",
+    "category": "Client Side",
+	"website": "https://mods.curse.com/mc-mods/minecraft/261605-easiervillagertrading",
+    "base": true
+  },
+  {
+	"id": "fw",
+    "name": "Fullscreen Windowed",
+    "desc": "",
+    "category": "Client Side",
+	"website": "https://github.com/hancin/Fullscreen-Windowed-Minecraft",
+    "base": true
+  },
+  {
+	"id": "smoothfont",
+    "name": "Smooth Font",
+    "desc": "",
+    "category": "Performance Heavy",
+	"website": "https://minecraft.curseforge.com/projects/smooth-font",
+    "base": true,
+	"extraMods": ["smoothfontcore"]
+  },
+  {
+	"id": "soundfilters",
+    "name": "Sound Filters",
+    "desc": "",
+    "category": "Client Side",
+	"website": "",
+    "base": true
+  }
+]

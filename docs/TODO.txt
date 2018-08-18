@@ -1,6 +1,5 @@
 
 Do:
-- See if Player's Choice works any better with a different Forge version
 - Add Project: Vibrant Journeys
     > Check that harvesting wheat still produces more seeds, and that prairies always generate close enough to spawn. Otherwise disable it.
     > If possible, make cobwebs under trees roofed forest only. Otherwise make a feature request and disable it.
@@ -22,6 +21,7 @@ Do:
     Tweaks
 ---------------
 
+- Player's Choice Descriptions
 - Figure out why Lexicon crafting pages don't work
 
 
@@ -34,11 +34,4 @@ Do:
 - Make Curseforge Description (basically README + modlist)
 - Update README.md (rolling)
 
-
-----------------
-  Open Tickets
-----------------
-
-- ModTweaker - Lexica entry tagline support
-- JER mob drop support
 
