@@ -21,6 +21,5 @@
 <minecraft:golden_horse_armor>.maxStackSize = 16;
 
 # Other
-<minecraft:saddle>.maxStackSize = 16;
 <minecraft:cake>.maxStackSize = 16;
 <botania:manabottle>.maxStackSize = 16;

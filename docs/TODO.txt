@@ -1,6 +1,5 @@
 
 Do:
-- Remove Pack Mode
 - See if Player's Choice works any better with a different Forge version
 - Add Project: Vibrant Journeys
     > Check that harvesting wheat still produces more seeds, and that prairies always generate close enough to spawn. Otherwise disable it.
@@ -10,11 +9,6 @@ Do:
     > Add shade/ghost spawners to recurrent complex
     > Use spectral wrappings for something?
     > Check and possibly disable snails, flies, fireflies
-
-Check:
-- Tome enchantment quest
-- iron shulkers disabled
-- Fix Earthworks dark oak / acacia recipes
 
 
 ----------------------
