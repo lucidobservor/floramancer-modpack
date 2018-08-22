@@ -1,13 +1,13 @@
 
 setIcon(<botania:specialflower, nbt:{type: "narslimmus"}>)
-setTranslatedTitle("advancements.floramancer.narslimmus.title")
+setTitle("advancements.floramancer.narslimmus.title")
 setDescription("Fill 1000 Mana Pools using the Narslimmus")
 addParent("triumph:floramancer/lexicon")
 
 setPos(12, 8)
 drawDirectLines(true)
 
-setRewardItem("contenttweaker:narslimmustrophy")
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower",tag:{type:"narslimmus"}},TrophyName:"advancements.floramancer.narslimmus.title"}>)
 addRewardFunction("triumph:stages/stage-narslimmus")
 
 criteria = addCriteria("narslimmus_1", "botania_tweaks:flower_generated_mana")

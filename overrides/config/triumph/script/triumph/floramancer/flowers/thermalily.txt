@@ -1,13 +1,13 @@
 
 setIcon(<botania:specialflower, nbt:{type: "thermalily"}>)
-setTranslatedTitle("advancements.floramancer.thermalily.title")
+setTitle("advancements.floramancer.thermalily.title")
 setDescription("Fill 1000 Mana Pools using the Thermalily")
 addParent("triumph:floramancer/lexicon")
 
 setPos(6, 8)
 drawDirectLines(true)
 
-setRewardItem("contenttweaker:thermalilytrophy")
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower",tag:{type:"thermalily"}},TrophyName:"advancements.floramancer.thermalily.title"}>)
 addRewardFunction("triumph:stages/stage-thermalily")
 
 criteria = addCriteria("thermalily_1", "botania_tweaks:flower_generated_mana")

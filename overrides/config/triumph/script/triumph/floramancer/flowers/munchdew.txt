@@ -1,13 +1,13 @@
 
 setIcon(<botania:specialflower, nbt:{type: "munchdew"}>)
-setTranslatedTitle("advancements.floramancer.munchdew.title")
+setTitle("advancements.floramancer.munchdew.title")
 setDescription("Fill 1000 Mana Pools using the Munchdew")
 addParent("triumph:floramancer/lexicon")
 
 setPos(8, 8)
 drawDirectLines(true)
 
-setRewardItem("contenttweaker:munchdewtrophy")
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower",tag:{type:"munchdew"}},TrophyName:"advancements.floramancer.munchdew.title"}>)
 addRewardFunction("triumph:stages/stage-munchdew")
 
 criteria = addCriteria("munchdew_1", "botania_tweaks:flower_generated_mana")

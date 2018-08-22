@@ -1,13 +1,13 @@
 
 setIcon(<botania:specialflower, nbt:{type: "dandelifeon"}>)
-setTranslatedTitle("advancements.floramancer.dandelifeon.title")
+setTitle("advancements.floramancer.dandelifeon.title")
 setDescription("Fill 1000 Mana Pools using the Dandelifeon")
 addParent("triumph:floramancer/lexicon")
 
 setPos(16, 8)
 drawDirectLines(true)
 
-setRewardItem("contenttweaker:dandelifeontrophy")
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower",tag:{type:"dandelifeon"}},TrophyName:"advancements.floramancer.dandelifeon.title"}>)
 addRewardFunction("triumph:stages/stage-dandelifeon")
 
 criteria = addCriteria("dandelifeon_1", "botania_tweaks:flower_generated_mana")

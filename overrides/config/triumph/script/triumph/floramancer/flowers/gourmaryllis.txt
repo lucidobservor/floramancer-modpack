@@ -1,13 +1,13 @@
 
 setIcon(<botania:specialflower, nbt:{type: "gourmaryllis"}>)
-setTranslatedTitle("advancements.floramancer.gourmaryllis.title")
+setTitle("advancements.floramancer.gourmaryllis.title")
 setDescription("Fill 1000 Mana Pools using the Gourmaryllis")
 addParent("triumph:floramancer/lexicon")
 
 setPos(11, 8)
 drawDirectLines(true)
 
-setRewardItem("contenttweaker:gourmaryllistrophy")
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower",tag:{type:"gourmaryllis"}},TrophyName:"advancements.floramancer.gourmaryllis.title"}>)
 addRewardFunction("triumph:stages/stage-gourmaryllis")
 
 criteria = addCriteria("gourmaryllis_1", "botania_tweaks:flower_generated_mana")

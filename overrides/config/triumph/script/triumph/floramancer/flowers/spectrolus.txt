@@ -1,13 +1,13 @@
 
 setIcon(<botania:specialflower, nbt:{type: "spectrolus"}>)
-setTranslatedTitle("advancements.floramancer.spectrolus.title")
+setTitle("advancements.floramancer.spectrolus.title")
 setDescription("Fill 1000 Mana Pools using the Spectrolus")
 addParent("triumph:floramancer/lexicon")
 
 setPos(13, 8)
 drawDirectLines(true)
 
-setRewardItem("contenttweaker:spectrolustrophy")
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower",tag:{type:"spectrolus"}},TrophyName:"advancements.floramancer.spectrolus.title"}>)
 addRewardFunction("triumph:stages/stage-spectrolus")
 
 criteria = addCriteria("spectrolus_1", "botania_tweaks:flower_generated_mana")

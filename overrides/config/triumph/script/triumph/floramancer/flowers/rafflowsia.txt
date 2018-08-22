@@ -1,13 +1,13 @@
 
 setIcon(<botania:specialflower, nbt:{type: "rafflowsia"}>)
-setTranslatedTitle("advancements.floramancer.rafflowsia.title")
+setTitle("advancements.floramancer.rafflowsia.title")
 setDescription("Fill 1000 Mana Pools using the Rafflowsia")
 addParent("triumph:floramancer/lexicon")
 
 setPos(14, 8)
 drawDirectLines(true)
 
-setRewardItem("contenttweaker:rafflowsiatrophy")
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower",tag:{type:"rafflowsia"}},TrophyName:"advancements.floramancer.rafflowsia.title"}>)
 addRewardFunction("triumph:stages/stage-rafflowsia")
 
 criteria = addCriteria("rafflowsia_1", "botania_tweaks:flower_generated_mana")
