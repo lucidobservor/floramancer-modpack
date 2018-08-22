@@ -15,6 +15,23 @@ Thermalily      52                           43,700            187,200
 Endoflame       30                                0            108,000
 Hydroangeas     6.67                              0             24,000
 
+
+------------------------------------------------------------------------------------
+
+
+Mana Rune            8,000 mana + 21,000 mana for components = 29,000 [+105,000]
+Elemental Runes      2,600 mana +  1,750 mana for components =  4,350
+Seasonal Runes       8,000 mana                              =  8,000
+Sin Runes           12,000 mana + 20,000 mana for components = 32,000
+
+Mana steel       3,000 mana
+Mana Powder        500 mana
+Mana Diamond    10,000 mana
+Mana Pearl       6,000 mana
+
+
+
+
 --hydroangeas--
 --endoflame--
 --thermalily--
