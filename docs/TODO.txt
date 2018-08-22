@@ -28,6 +28,7 @@ Check:
 
 - Figure out why Lexicon crafting pages don't work
 - Add lower cost flint -> gunpowder recipe to match quat's planned tweak
+- Go through all newish mods and check for anything to be added to carryon blacklist
 
 
 -------------------
