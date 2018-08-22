@@ -15,20 +15,7 @@ botania.page.creativePool=You've set your sights on the pinnacle of &4Mana&0 pro
 botania.page.creativePoolRecipe=&1Fabulous Mana Pool&0 under the plate will be transformed
 
 # Flower Trophies
-item.contenttweaker.tinygalacticpotato.name=Reduced Galactic Potato
-item.contenttweaker.hydroangeastrophy.name=Hydroangeas Trophy
-item.contenttweaker.endoflametrophy.name=Endoflame Trophy
-item.contenttweaker.thermalilytrophy.name=Thermalily Trophy
-item.contenttweaker.arcanerosetrophy.name=Rosa Arcana Trophy
-item.contenttweaker.munchdewtrophy.name=Munchdew Trophy
-item.contenttweaker.entropinnyumtrophy.name=Entropinnyum Trophy
-item.contenttweaker.kekimurustrophy.name=Kekimurus Trophy
-item.contenttweaker.gourmaryllistrophy.name=Gourmaryllis Trophy
-item.contenttweaker.narslimmustrophy.name=Narslimmus Trophy
-item.contenttweaker.spectrolustrophy.name=Spectrolus Trophy
-item.contenttweaker.rafflowsiatrophy.name=Rafflowsia Trophy
-item.contenttweaker.shulkmenottrophy.name=Shulk Me Not Trophy
-item.contenttweaker.dandelifeontrophy.name=Dandelifeon Trophy
+item.contenttweaker.tinygalacticpotato.name=Tiny Galactic Potato
 
 # Flower Trophy Lexicon
 botania.entry.trophyflower=Trophy Flowers
@@ -56,7 +43,7 @@ advancements.floramancer.dandelifeon.title=Unto The Seven Thousandth Generation
 
 # Other Advancements
 advancements.floramancer.creativeLexicon.title=Ultimate Knowledge
-advancements.floramancer.creativePool.title=Mana Everlasting
+advancements.floramancer.creativePool.title=Twilight of the Idols, Baby
 advancements.floramancer.creativeTablet.title=Infinite Power, Itty Bitty Living Space
 advancements.floramancer.galactic.title=The Elder Potato
 advancements.floramancer.lexicon.title=The Journey Begins
@@ -67,7 +54,7 @@ advancements.floramancer.spawnerEnderman.title=A Little Slice of Heaven
 advancements.floramancer.tome.title=Knowledge Is Power
 
 advancements.floramancer.creativeLexicon.description=Give your Lexica Botania to the Galactic Potato to unlock creative knowledge. You may need to do this twice.
-advancements.floramancer.creativePool.description=Craft the Everlasting Guilty Pool
+advancements.floramancer.creativePool.description=Sacrifice the Galactic Potato in order to attain true mana everlasting
 advancements.floramancer.creativeTablet.description=Craft the Creative Mana Tablet
 advancements.floramancer.galactic.description=Automate all flowers and bring forth the Galactic Potato
 advancements.floramancer.lexicon.description=Acquire the Lexica Botania

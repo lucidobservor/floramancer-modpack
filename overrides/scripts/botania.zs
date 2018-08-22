@@ -143,22 +143,9 @@ mods.ItemStages.addItemStage("creative", creativeManaPool);
 
 // Creative Tablet
 RuneAltar.addRecipe(creativeManaTablet, [
-	<botania:dice>,
-    <botania:manatablet>,
-	<botania:dice>,
-	<contenttweaker:hydroangeastrophy>,
-	<contenttweaker:endoflametrophy>,
-	<contenttweaker:thermalilytrophy>,
-	<contenttweaker:arcanerosetrophy>,
-	<contenttweaker:munchdewtrophy>,
-	<contenttweaker:entropinnyumtrophy>,
-	<contenttweaker:kekimurustrophy>,
-	<contenttweaker:gourmaryllistrophy>,
-	<contenttweaker:narslimmustrophy>,
-	<contenttweaker:spectrolustrophy>,
-	<contenttweaker:rafflowsiatrophy>,
-	<contenttweaker:shulkmenottrophy>,
-	<contenttweaker:dandelifeontrophy>
+	<botania:dice>, <botania:manatablet>, <botania:dice>,
+	hydroangeastrophy, endoflametrophy, thermalilytrophy, arcanerosetrophy, munchdewtrophy, entropinnyumtrophy, 
+	kekimurustrophy, gourmaryllistrophy, narslimmustrophy, spectrolustrophy, rafflowsiatrophy, shulkmenottrophy, dandelifeontrophy
 	], 12000000);
 
 // Creative Pool

@@ -142,19 +142,19 @@ Knowledge.registerKnowledgeType(knowledgeTypeCreative, knowledgeTypeCreative, "D
 Lexicon.addEntry("botania.entry.trophyflower", categoryMisc, hydroangeas);
 Lexicon.addTextPage("botania.page.trophyflower0", "botania.entry.trophyflower", 0);
 Lexicon.addCraftingPage("botania.page.trophyflower1", "botania.entry.trophyflower", 1,
-    "crafttweaker:contenttweaker_hydroangeas",
-    "crafttweaker:contenttweaker_endoflame",
-    "crafttweaker:contenttweaker_thermalily",
-    "crafttweaker:contenttweaker_arcanerose",
-    "crafttweaker:contenttweaker_munchdew",
-    "crafttweaker:contenttweaker_entropinnyum",
-    "crafttweaker:contenttweaker_kekimurus",
-    "crafttweaker:contenttweaker_gourmaryllis",
-    "crafttweaker:contenttweaker_narslimmus",
-    "crafttweaker:contenttweaker_spectrolus",
-    "crafttweaker:contenttweaker_rafflowsia",
-    "crafttweaker:contenttweaker_shulkmenot",
-    "crafttweaker:contenttweaker_dandelifeon");
+    "crafttweaker:trophy_hydroangeas",
+    "crafttweaker:trophy_endoflame",
+    "crafttweaker:trophy_thermalily",
+    "crafttweaker:trophy_arcanerose",
+    "crafttweaker:trophy_munchdew",
+    "crafttweaker:trophy_entropinnyum",
+    "crafttweaker:trophy_kekimurus",
+    "crafttweaker:trophy_gourmaryllis",
+    "crafttweaker:trophy_narslimmus",
+    "crafttweaker:trophy_spectrolus",
+    "crafttweaker:trophy_rafflowsia",
+    "crafttweaker:trophy_shulkmenot",
+    "crafttweaker:trophy_dandelifeon");
 
 // Add Entries
 Lexicon.addEntry(entryNameCreativeTablet, categoryMisc, creativeManaTablet);
@@ -162,22 +162,9 @@ Lexicon.addTextPage("botania.page.creativeTablet", entryNameCreativeTablet, 0);
 Lexicon.setEntryKnowledgeType(entryNameCreativeTablet, knowledgeTypeCreative);
 Lexicon.addRunePage("botania.page.creativeTabletRecipe", entryNameCreativeTablet, 1,
     [creativeManaTablet], [[
-    <botania:dice>,
-    <botania:manatablet>,
-	<botania:dice>,
-	<contenttweaker:hydroangeastrophy>,
-	<contenttweaker:endoflametrophy>,
-	<contenttweaker:thermalilytrophy>,
-	<contenttweaker:arcanerosetrophy>,
-	<contenttweaker:munchdewtrophy>,
-	<contenttweaker:entropinnyumtrophy>,
-	<contenttweaker:kekimurustrophy>,
-	<contenttweaker:gourmaryllistrophy>,
-	<contenttweaker:narslimmustrophy>,
-	<contenttweaker:spectrolustrophy>,
-	<contenttweaker:rafflowsiatrophy>,
-	<contenttweaker:shulkmenottrophy>,
-	<contenttweaker:dandelifeontrophy>
+    <botania:dice>, <botania:manatablet>, <botania:dice>,
+	hydroangeastrophy, endoflametrophy, thermalilytrophy, arcanerosetrophy, munchdewtrophy, entropinnyumtrophy, 
+	kekimurustrophy, gourmaryllistrophy, narslimmustrophy, spectrolustrophy, rafflowsiatrophy, shulkmenottrophy, dandelifeontrophy
 	]], [12000000]);
 
 Lexicon.addEntry(entryNameCreativePool, categoryMisc, creativeManaPool);

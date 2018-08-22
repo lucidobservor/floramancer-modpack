@@ -18,6 +18,8 @@ public class AdvancementGenerator {
         for (FlowerType flower : FlowerType.values()) {
             List<String> lines = new ArrayList<>();
 
+			// <simple_trophies:trophy, meta:0, count:2, nbt:{TrophyItem:{id:"botania:specialflower",Count:1b,tag:{type:"hydroangeas"},Damage:0s},TrophyName:"advancements.floramancer.hydroangeas.title"}>
+			
             lines.add("");
             lines.add(String.format("setIcon(<botania:specialflower, nbt:{type: \"%s\"}>)", flower.getBotaniaName()));
             lines.add(String.format("setTitle(\"advancements.floramancer.%s.title\")", flower.getBotaniaTweaksName()));
