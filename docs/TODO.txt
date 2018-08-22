@@ -9,6 +9,11 @@ Do:
     > Use spectral wrappings for something?
     > Check and possibly disable snails, flies, fireflies
 
+Check:
+- Lexicon Entry for trophies and creative tablet
+- Advancements award trophy correctly
+- Creative Tablet recipe still works (and only works with correct trophies)
+
 
 ----------------------
  Optional / Uncertain
@@ -21,8 +26,8 @@ Do:
     Tweaks
 ---------------
 
-- Player's Choice Descriptions
 - Figure out why Lexicon crafting pages don't work
+- Add lower cost flint -> gunpowder recipe to match quat's planned tweak
 
 
 -------------------

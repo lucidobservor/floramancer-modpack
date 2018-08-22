@@ -28,6 +28,7 @@ grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
     - Automate crafting Ender Air with a Dispenser in the End dimension.
     - Automatically place Corporea Sparks and decorate them with Floral Powder, when you place corporea blocks.
     - Powering the entropinnyum with a vanilla TNT duplicator is disabled
+    - Flint to gunpowder alchemy infusion cost is reduced, allowing you to run an entropinnyum off of a cobbleworks
     - Galactic Potato, because who doesn't want a huge, rainbow potato?
 
 - **Recipe Tweaks** 
