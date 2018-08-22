@@ -1,3 +1,23 @@
 {
-	"parent": "botania_tweaks:block/compressed_tiny_potato_2"
+	"parent": "botania_tweaks:block/compressed_tiny_potato_8",
+	"display": {
+		"gui": {
+			"scale":[ 1.0, 1.0, 1.0 ]
+		},
+		"ground": {
+			"scale":[ 1.0, 1.0, 1.0 ]
+		},
+		"fixed": {
+			"scale":[ 1.0, 1.0, 1.0 ]
+		},
+		"thirdperson_righthand": {
+			"scale": [ 2.0, 2.0, 2.0 ]
+		},
+		"firstperson_righthand": {
+			"scale": [ 0.40, 0.40, 0.40 ]
+		},
+		"firstperson_lefthand": {
+			"scale": [ 0.20, 0.20, 0.20 ]
+		}
+	}
 }
