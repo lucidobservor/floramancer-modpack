@@ -1,13 +1,13 @@
 
 setIcon(<botania:specialflower, nbt:{type: "arcanerose"}>)
-setTitle("advancements.floramancer.arcanerose.title")
+setTranslatedTitle("advancements.floramancer.arcanerose.title")
 setDescription("Fill 1000 Mana Pools using the Rosa Arcana")
 addParent("triumph:floramancer/lexicon")
 
 setPos(7, 8)
 drawDirectLines(true)
 
-setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower",tag:{type:"arcanerose"}},TrophyName:"advancements.floramancer.arcanerose.title"}>)
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"arcanerose"}},TrophyName:"advancements.floramancer.arcanerose.title"}>)
 addRewardFunction("triumph:stages/stage-arcanerose")
 
 criteria = addCriteria("arcanerose_1", "botania_tweaks:flower_generated_mana")

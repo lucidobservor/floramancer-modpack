@@ -9,25 +9,14 @@ Do:
     > Use spectral wrappings for something?
     > Check and possibly disable snails, flies, fireflies
 
-Check:
-- Lexicon Entry for trophies and creative tablet
-- Advancements award trophy correctly
-- Creative Tablet recipe still works (and only works with correct trophies)
-
-
-----------------------
- Optional / Uncertain
-----------------------
-
-- Give the tiny galactic potato a better model, if I can do that solely through contenttweaker
-
 
 ---------------
     Tweaks
 ---------------
 
+- Wait for quat to fix runic altar NBT
+- Why is creative pool recipe broken again?
 - Figure out why Lexicon crafting pages don't work
-- Add lower cost flint -> gunpowder recipe to match quat's planned tweak
 - Go through all newish mods and check for anything to be added to carryon blacklist
 
 

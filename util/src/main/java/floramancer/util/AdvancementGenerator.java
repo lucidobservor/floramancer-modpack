@@ -22,13 +22,13 @@ public class AdvancementGenerator {
             String flowerItem = String.format("<botania:specialflower, nbt:{type: \"%s\"}>", flower.getBotaniaName());
 
             String rewardItem = String.format("<simple_trophies:trophy, nbt:{" +
-                    "TrophyItem:{id:\"botania:specialflower\",tag:{type:\"%s\"}}," +
+                    "TrophyItem:{id:\"botania:specialflower\", Count: 1b, tag:{type:\"%s\"}}," +
                     "TrophyName:\"advancements.floramancer.%s.title\"}>",
                     flower.getBotaniaName(), flower.getBotaniaTweaksName());
 
             lines.add("");
             lines.add(String.format("setIcon(%s)", flowerItem));
-            lines.add(String.format("setTitle(%s)", advancementName));
+            lines.add(String.format("setTranslatedTitle(%s)", advancementName));
             lines.add(String.format("setDescription(\"Fill %d Mana Pools using the %s\")", flower.getPoolsRequired(), flower.getLocalizedName()));
             lines.add("addParent(\"triumph:floramancer/lexicon\")");
             lines.add("");

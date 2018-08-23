@@ -123,7 +123,7 @@ ManaInfusion.removeRecipe(<minecraft:gunpowder>);
 ManaInfusion.addAlchemy(<minecraft:gunpowder>, <minecraft:flint>, 200);
 
 // Creative Galactic Potato Recipe
-ManaInfusion.addInfusion(galacticPotato, <contenttweaker:tinygalacticpotato>.withTag({"Quark:RuneColor": 16, "Quark:RuneAttached": 1 as byte}), 1000001);
+ManaInfusion.addInfusion(galacticPotato, <contenttweaker:tinygalacticpotato>, 1000001);
 
 /*=========================
             Other
@@ -154,7 +154,7 @@ RuneAltar.addRecipe(creativeManaTablet, [
 
 // Creative Pool
 Agglomeration.addRecipe(
-	<contenttweaker:tinygalacticpotato>.withTag({"Quark:RuneColor": 16, "Quark:RuneAttached": 1 as byte}), 
+	<contenttweaker:tinygalacticpotato>,
 	[<botania:gaiahead>, creativeManaTablet, <botania_tweaks:compressed_tiny_potato_8>] as IIngredient[],
 	24000000,
 	0x00FF00,

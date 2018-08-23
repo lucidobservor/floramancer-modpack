@@ -1,13 +1,13 @@
 
 setIcon(<botania:specialflower, nbt:{type: "endoflame"}>)
-setTitle("advancements.floramancer.endoflame.title")
+setTranslatedTitle("advancements.floramancer.endoflame.title")
 setDescription("Fill 1000 Mana Pools using the Endoflame")
 addParent("triumph:floramancer/lexicon")
 
 setPos(5, 8)
 drawDirectLines(true)
 
-setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower",tag:{type:"endoflame"}},TrophyName:"advancements.floramancer.endoflame.title"}>)
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"endoflame"}},TrophyName:"advancements.floramancer.endoflame.title"}>)
 addRewardFunction("triumph:stages/stage-endoflame")
 
 criteria = addCriteria("endoflame_1", "botania_tweaks:flower_generated_mana")
