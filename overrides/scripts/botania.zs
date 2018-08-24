@@ -118,10 +118,6 @@ ManaInfusion.addAlchemy(<botania:overgrowthseed>, <minecraft:golden_apple:1>, 50
 ManaInfusion.removeRecipe(<botania:tinypotato>);
 ManaInfusion.addInfusion(<botania:tinypotato>, <minecraft:potato>, 250);
 
-// Reduce flint to gunpowder cost
-ManaInfusion.removeRecipe(<minecraft:gunpowder>);
-ManaInfusion.addAlchemy(<minecraft:gunpowder>, <minecraft:flint>, 200);
-
 // Creative Galactic Potato Recipe
 ManaInfusion.addInfusion(galacticPotato, <contenttweaker:tinygalacticpotato>, 1000001);
 

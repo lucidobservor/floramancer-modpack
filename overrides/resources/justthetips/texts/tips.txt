@@ -1,0 +1,19 @@
+Lava is infinite in the Nether below the level of the lava lakes.
+The Advancement page will provide some guidance through the pack. You can find it in the escape menu or by pressing "L" (default).
+Some recipes are slightly modified. Check JEI or the Lexica Botania to find the new recipes.
+Use F7 to see the light levels on the ground and F9 to see the chunk borders.
+If you die a Death Compass will spawn in your inventory this will point you to the direction of your grave.
+Shift/Sneak on your grave to retrieve your items.
+Craft an Antique Atlas before you go exploring so you don't get lost.
+Incorporeal adds lots of utilities for expanding your Corporea system.
+You can automatically move items between dimensions using the Ender Soul Core.
+Use minecarts to transport large amounts of mana quickly!
+Saddles can be crafted and have many possible upgrades.
+You can move chests and animals by using Carry On to pick them up.
+You can jump over fences, but mobs cannot!
+This pack doesn't have backpacks, but you can right click shulker boxes in your inventory with items to add the items to the box.
+The rare, tower-like structures in The End contain Enderman spawners! Move them back to the overworld for easier ender pearl farming.
+Certain structures in jungle and birch forest biomes contain creeper spawners. Use them for an easy source of gunpowder.
+Cobwebs can be destroyed easily with a torch.
+Tired of trampling your crops? Enchant your boots with Feather Falling!
+Use the Redstone PCB for fine-grained control over how your redstone connects.
