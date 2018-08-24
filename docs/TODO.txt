@@ -1,22 +1,10 @@
 
-Do:
-- Add Project: Vibrant Journeys
-    > Check that harvesting wheat still produces more seeds, and that prairies always generate close enough to spawn. Otherwise disable it.
-    > If possible, make cobwebs under trees roofed forest only. Otherwise make a feature request and disable it.
-    > Make sure new trees generate in Traverse biomes
-    > Check mob spawns in prairie and redwood forest
-    > Add shade/ghost spawners to recurrent complex
-    > Use spectral wrappings for something?
-    > Check and possibly disable snails, flies, fireflies
-
-
 ---------------
     Tweaks
 ---------------
 
 - Add/move advancement for final potato
 - Figure out why Lexicon crafting pages don't work
-- Go through all newish mods and check for anything to be added to carryon blacklist
 
 
 -------------------
