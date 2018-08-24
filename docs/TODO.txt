@@ -14,8 +14,7 @@ Do:
     Tweaks
 ---------------
 
-- Wait for quat to fix runic altar NBT
-- Why is creative pool recipe broken again?
+- Add/move advancement for final potato
 - Figure out why Lexicon crafting pages don't work
 - Go through all newish mods and check for anything to be added to carryon blacklist
 
