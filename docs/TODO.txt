@@ -1,11 +1,8 @@
 
-- Add JustTheTips
-
 ---------------
     Tweaks
 ---------------
 
-- Add/move advancement for final potato
 - Figure out why Lexicon crafting pages don't work
 
 

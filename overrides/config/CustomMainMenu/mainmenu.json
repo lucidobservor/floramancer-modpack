@@ -3,21 +3,11 @@
     {
         "title":
         {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
+            "image" : "custommainmenu:textures/gui/floramancer.png",
+            "posX" : -160,
             "posY" : 30,
-            "width" : 512,
-            "height" : 512,
-            "alignment" : "top_center"
-        },
-        
-        "edition":
-        {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
-            "posY" : 67,
-            "width" : 128,
-            "height" : 16,
+            "width" : 330,
+            "height" : 81,
             "alignment" : "top_center"
         }
     },
