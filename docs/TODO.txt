@@ -1,8 +1,6 @@
 
 Enhance:
 - Edit Custom Main Menu
-- Add trophy for the final advancement(s)
-- Add recipes to dye trophies to taste
 
 Fix:
 - Fix Recurrent complex trees

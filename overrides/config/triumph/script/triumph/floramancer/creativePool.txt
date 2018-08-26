@@ -8,6 +8,8 @@ setPos(10, 3)
 drawDirectLines(true)
 setFrameType("goal")
 
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:pool", Count: 1b, Damage: 1},TrophyName:"advancements.floramancer.creativePool.title"}>)
+
 criteria = addCriteria("hasPoolCreative", "minecraft:inventory_changed")
 criteria.addItem(<botania:pool, meta:1>)
 
