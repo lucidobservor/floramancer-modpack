@@ -1,18 +1,15 @@
 
----------------
-    Tweaks
----------------
+Enhance:
+- Edit Custom Main Menu
+- Add trophy for the final advancement(s)
+- Add recipes to dye trophies to taste
 
+Fix:
+- Fix Recurrent complex trees
 - Figure out why Lexicon crafting pages don't work
 
+Update Curse Description:
+- Remove NetherPortalFix
 
--------------------
-  Required Extras
--------------------
-
-- Create/Find a better pack icon
-- Edit Custom Main Menu
-- Make Curseforge Description (basically README + modlist)
-- Update README.md (rolling)
 
 
