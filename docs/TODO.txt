@@ -8,6 +8,7 @@ Fix:
 
 Update Curse Description:
 - Remove NetherPortalFix
+- Add Charset chests, transport, lib
 
 
 

@@ -16,7 +16,7 @@ recipes.addShaped("malisisdoors_rustyladder", <malisisdoors:rustyladder:0> * 2,
 // Chests
 recipes.removeShapeless(<minecraft:trapped_chest>);
 recipes.addShapeless("minecraft_trapped_chest_0", <minecraft:trapped_chest>,[<minecraft:chest>, <minecraft:tripwire_hook>], null, null);
-recipes.addShapeless("minecraft_trapped_chest_1", <minecraft:trapped_chest>,[<quark:custom_chest_trap:*>], null, null);
+recipes.addShapeless("minecraft_chest", <minecraft:chest>,[<charset:chest:*>], null, null);
 
 // Earthworks doesn't respond to bug reports
 recipes.removeShaped(<earthworks:itemslab_planks_vert_dark_oak> * 6);
