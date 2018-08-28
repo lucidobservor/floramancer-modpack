@@ -11,3 +11,4 @@ Added alchemy recipe to convert quark runes back into cave crystals
 Added alchemy recipe to cycle quark runes
 
 Bugfixes:
+Music disc duplication fixed
