@@ -1,4 +1,4 @@
-These are the functions which can be called on a triumph:player_harvest_block criteria 
+These are the functions which can be called on a triumph:player_destroy_block criteria 
 trigger. This criteria is triggered by a player destroying a block.
 
 
@@ -11,6 +11,22 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
+setBlock:
+    Arguments:
+        ItemBlockData
+    Usage:
+        block data
+    Notes:
+        Sets the required block.
+
+setWorldType:
+    Arguments:
+        String
+    Usage:
+        WorldType id
+    Notes:
+        Sets the WorldType id.
+
 setItem:
     Arguments:
         ItemBlockData
@@ -19,13 +35,9 @@ setItem:
     Notes:
         Sets the required item.
 
-setBlock:
-    Arguments:
-        ItemBlockData
-    Usage:
-        block data
+getLocationData:
     Notes:
-        Sets the required block.
+        Returns the LocationData object so functions can be called on it.
 
 setBiome:
     Arguments:
@@ -35,9 +47,21 @@ setBiome:
     Notes:
         Sets the biome id. Can be an int or String.
 
-getLocationData:
+setDimID:
+    Arguments:
+        int
+    Usage:
+        dimension id
     Notes:
-        Returns the LocationData object so functions can be called on it.
+        Sets the dimension id.
+
+setGeneratorOptions:
+    Arguments:
+        String
+    Usage:
+        generator string
+    Notes:
+        Sets the generator options string.
 
 setCount:
     Arguments:

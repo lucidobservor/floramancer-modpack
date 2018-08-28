@@ -3,25 +3,17 @@ trigger.
 
 
 
-setParentType:
-    Arguments:
-        String
-    Usage:
-        entity type
+getPartnerData:
     Notes:
-        Sets the parent entity type.
-
-getParentData:
-    Notes:
-        Returns the EntityData object for the parent so functions can be called on it.
+        Returns the EntityData object for the partner so functions can be called on it.
 
 getChildData:
     Notes:
         Returns the EntityData object for the child so functions can be called on it.
 
-getPartnerData:
+getParentData:
     Notes:
-        Returns the EntityData object for the partner so functions can be called on it.
+        Returns the EntityData object for the parent so functions can be called on it.
 
 setPartnerType:
     Arguments:
@@ -38,6 +30,14 @@ setChildType:
         entity type
     Notes:
         Sets the child entity type.
+
+setParentType:
+    Arguments:
+        String
+    Usage:
+        entity type
+    Notes:
+        Sets the parent entity type.
 
 setCount:
     Arguments:

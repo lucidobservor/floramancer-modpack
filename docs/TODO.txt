@@ -1,13 +1,13 @@
 
 Enhance:
 - Edit Custom Main Menu
+- Recipe for cave crystals
+- Move Triumph Advancements
+- More chest recipes
 
 Fix:
 - Figure out why Lexicon crafting pages don't work
 
-Update Curse Description:
-- Remove NetherPortalFix
-- Add Charset chests, transport, lib
 
 
 

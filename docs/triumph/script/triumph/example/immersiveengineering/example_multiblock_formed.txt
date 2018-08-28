@@ -1,3 +1,4 @@
+
 //This tells the script parser that the script requires Immersive Engineering. If the mod is not loaded, the script will be canceled.
 Parser.addRequiredMod("immersiveengineering")
 
@@ -14,10 +15,10 @@ setDescription("Form a crusher multiblock")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(12, 5.5)
+setPos(149,113)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "formed" with the trigger type "immersiveengineering:multiblock_formed". This function returns the criteria as an object
 criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")

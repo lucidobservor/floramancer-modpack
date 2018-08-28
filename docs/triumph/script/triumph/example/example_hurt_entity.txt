@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:wooden_sword>)
 
@@ -11,10 +12,10 @@ setDescription("Damage a wolf.")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(7, 12)
+setPos(34,65)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "hurt_wolf" with the trigger type "minecraft:player_hurt_entity". This function returns the criteria as an object
 criteria = addCriteria("hurt_wolf", "minecraft:player_hurt_entity")

@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:iron_sword>)
 
@@ -11,10 +12,10 @@ setDescription("Crush a spider.")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(8, 7)
+setPos(34,41)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "killed_spider" with the trigger type "minecraft:player_killed_entity". This function returns the criteria as an object
 criteria = addCriteria("killed_spider", "minecraft:player_killed_entity")

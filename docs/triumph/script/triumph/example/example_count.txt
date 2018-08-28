@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:iron_ore>)
 
@@ -11,10 +12,10 @@ setDescription("Right click an iron ore block 5 times")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(14.4, 8.1)
+setPos(126,17)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
 criteria = addCriteria("clickedBlock", "triumph:right_click_block")

@@ -2,13 +2,13 @@ These are the functions which can be called on an LocationData object.
 
 
 
-setFeature:
+setXMinMax:
     Arguments:
-        String
+        float, float
     Usage:
-        feature id
+        min, max
     Notes:
-        Sets the feature id. Used for things like structures.
+        Sets the min and max X coordinates.
 
 setXMax:
     Arguments:
@@ -18,13 +18,13 @@ setXMax:
     Notes:
         Sets the max X coordinate.
 
-setYMin:
+setYMax:
     Arguments:
         float
     Usage:
-        min
+        max
     Notes:
-        Sets the min Y coordinate.
+        Sets the max Y coordinate.
 
 setZMin:
     Arguments:
@@ -34,6 +34,14 @@ setZMin:
     Notes:
         Sets the min Z coordinate.
 
+setZMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Z coordinate.
+
 setXMin:
     Arguments:
         float
@@ -41,14 +49,6 @@ setXMin:
         min
     Notes:
         Sets the min X coordinate.
-
-setBiome:
-    Arguments:
-        Non_Null_Biome_ID
-    Usage:
-        biome id
-    Notes:
-        Sets the biome id. Can be an int or String.
 
 setYMinMax:
     Arguments:
@@ -58,21 +58,45 @@ setYMinMax:
     Notes:
         Sets the min and max Y coordinates.
 
-setZMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max Z coordinate.
-
-setXMinMax:
+setZMinMax:
     Arguments:
         float, float
     Usage:
         min, max
     Notes:
-        Sets the min and max X coordinates.
+        Sets the min and max Z coordinates.
+
+setYMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min Y coordinate.
+
+setFeature:
+    Arguments:
+        String
+    Usage:
+        feature id
+    Notes:
+        Sets the feature id. Used for things like structures.
+
+setWorldType:
+    Arguments:
+        String
+    Usage:
+        WorldType id
+    Notes:
+        Sets the WorldType id.
+
+setBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id. Can be an int or String.
 
 setDimensionType:
     Arguments:
@@ -82,19 +106,19 @@ setDimensionType:
     Notes:
         Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
 
-setYMax:
+setDimID:
     Arguments:
-        float
+        int
     Usage:
-        max
+        dimension id
     Notes:
-        Sets the max Y coordinate.
+        Sets the dimension id.
 
-setZMinMax:
+setGeneratorOptions:
     Arguments:
-        float, float
+        String
     Usage:
-        min, max
+        generator string
     Notes:
-        Sets the min and max Z coordinates.
+        Sets the generator options string.
 

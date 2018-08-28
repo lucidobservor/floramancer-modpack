@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:stick, nbt:{ench:[{lvl:1s,id:51s}],display:{Name:"The Stick of Truth"}}>)
 
@@ -11,10 +12,10 @@ setDescription("Acquire the The Stick of Truth")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(5, 10)
+setPos(149,41)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "hasStickOfTruth" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
 criteria = addCriteria("hasStickOfTruth", "minecraft:inventory_changed")

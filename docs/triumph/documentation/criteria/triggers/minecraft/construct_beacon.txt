@@ -3,13 +3,13 @@ trigger.
 
 
 
-setLevelsMax:
+setLevelsMinMax:
     Arguments:
-        float
+        float, float
     Usage:
-        max
+        min, max
     Notes:
-        Sets the max levels for the beacon.
+        Sets the min and max levels for the beacon.
 
 setLevelsMin:
     Arguments:
@@ -19,13 +19,13 @@ setLevelsMin:
     Notes:
         Sets the min levels for the beacon.
 
-setLevelsMinMax:
+setLevelsMax:
     Arguments:
-        float, float
+        float
     Usage:
-        min, max
+        max
     Notes:
-        Sets the min and max levels for the beacon.
+        Sets the max levels for the beacon.
 
 setCount:
     Arguments:

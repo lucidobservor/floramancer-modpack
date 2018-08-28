@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:dirt>)
 
@@ -11,10 +12,10 @@ setDescription("Place a dirt, coarse dirt or podzol block")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(13.3, 6.8)
+setPos(34,113)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "placedDirt" with the trigger type "minecraft:placed_block". This function returns the criteria as an object
 criteria = addCriteria("placedDirt", "minecraft:placed_block")

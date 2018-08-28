@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:log>)
 
@@ -11,10 +12,10 @@ setDescription("Break a log")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(13, 8)
+setPos(57,89)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "brokeLog" with the trigger type "triumph:player_break_block". This function returns the criteria as an object
 criteria = addCriteria("brokeLog", "triumph:player_break_block")

@@ -11,13 +11,13 @@ setItem:
     Notes:
         Sets the required item.
 
-setLevelsMax:
+setLevelsMinMax:
     Arguments:
-        float
+        float, float
     Usage:
-        max
+        min, max
     Notes:
-        Sets the max level for the enchantment.
+        Sets the min and max level for the enchantment.
 
 setLevelsMin:
     Arguments:
@@ -27,13 +27,13 @@ setLevelsMin:
     Notes:
         Sets the min level for the enchantment.
 
-setLevelsMinMax:
+setLevelsMax:
     Arguments:
-        float, float
+        float
     Usage:
-        min, max
+        max
     Notes:
-        Sets the min and max level for the enchantment.
+        Sets the max level for the enchantment.
 
 setCount:
     Arguments:

@@ -1,3 +1,4 @@
+
 //Set the icon item
 setIcon(<minecraft:melon>)
 
@@ -11,10 +12,10 @@ setDescription("Eat delicious melon")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(14, 11)
+setPos(11,41)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "consumed" with the trigger type "minecraft:consume_item". This function returns the criteria as an object
 criteria = addCriteria("consumed", "minecraft:consume_item")

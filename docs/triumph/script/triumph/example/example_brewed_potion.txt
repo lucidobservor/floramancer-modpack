@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:brewing_stand>)
 
@@ -11,10 +12,10 @@ setDescription("Brew a healing potion")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(15, 10)
+setPos(126,41)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "brewedPotion" with the trigger type "minecraft:brewed_potion". This function returns the criteria trigger as an object
 criteria = addCriteria("brewedPotion", "minecraft:brewed_potion")

@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:beacon>)
 
@@ -11,10 +12,10 @@ setDescription("Construct a 2 to 4 layer beacon")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(13, 12)
+setPos(11,65)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "beacon" with the trigger type "minecraft:construct_beacon". This function returns the criteria trigger as an object
 criteria = addCriteria("beacon", "minecraft:construct_beacon")

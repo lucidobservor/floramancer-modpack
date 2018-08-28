@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:skull>)
 
@@ -11,10 +12,10 @@ setDescription("Get killed by a creeper.")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(7, 8)
+setPos(57,41)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "killed_by_creeper" with the trigger type "minecraft:entity_killed_player". This function returns the criteria as an object
 criteria = addCriteria("killed_by_creeper", "minecraft:entity_killed_player")

@@ -2,14 +2,6 @@ These are the functions which can be called on a minecraft:entity_killed_player 
 
 
 
-getDamageSource:
-    Notes:
-        Returns the DamageSourceData object so functions can be called on it.
-
-getEntityData:
-    Notes:
-        Returns the EntityData object so functions can be called on it.
-
 setEntityType:
     Arguments:
         String
@@ -17,6 +9,14 @@ setEntityType:
         entity type
     Notes:
         Sets the entity type.
+
+getDamageSource:
+    Notes:
+        Returns the DamageSourceData object so functions can be called on it.
+
+getEntityData:
+    Notes:
+        Returns the EntityData object so functions can be called on it.
 
 setCount:
     Arguments:

@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:obsidian>)
 
@@ -11,10 +12,10 @@ setDescription("Enter the nether")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(9, 14)
+setPos(103,65)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "entered_nether" with the trigger type "minecraft:changed_dimension". This function returns the criteria as an object
 criteria = addCriteria("entered_nether", "minecraft:changed_dimension")

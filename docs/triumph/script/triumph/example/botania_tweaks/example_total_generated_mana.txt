@@ -1,3 +1,4 @@
+
 //This tells the script parser that the script requires Botania Tweaks. If the mod is not loaded, the script will be canceled.
 Parser.addRequiredMod("botania_tweaks")
 
@@ -15,10 +16,10 @@ setDescription("Generate 500k mana.")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(16, 9.3)
+setPos(126,113)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "generated" with the trigger type "botania_tweaks:total_generated_mana". This function returns the criteria as an object
 criteria = addCriteria("generated", "botania_tweaks:total_generated_mana")

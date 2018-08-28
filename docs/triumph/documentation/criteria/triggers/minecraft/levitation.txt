@@ -10,6 +10,10 @@ setDurationMinMax:
     Notes:
         Sets the min and max duration.
 
+getDistanceData:
+    Notes:
+        Returns the DistanceData object so functions can be called on it.
+
 setDurationMin:
     Arguments:
         float
@@ -25,10 +29,6 @@ setDurationMax:
         max
     Notes:
         Sets the max duration.
-
-getDistanceData:
-    Notes:
-        Returns the DistanceData object so functions can be called on it.
 
 setCount:
     Arguments:

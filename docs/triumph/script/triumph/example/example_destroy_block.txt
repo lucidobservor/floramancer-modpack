@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:netherrack>)
 
@@ -11,10 +12,10 @@ setDescription("Destroy a netherrack block")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(12, 13)
+setPos(103,17)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "destroyedBlock" with the trigger type "triumph:player_destroy_block". This function returns the criteria as an object
 criteria = addCriteria("destroyedBlock", "triumph:player_destroy_block")

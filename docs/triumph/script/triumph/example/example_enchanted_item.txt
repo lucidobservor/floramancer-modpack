@@ -1,3 +1,4 @@
+
 //Set the icon item
 setIcon(<minecraft:enchanted_book>)
 
@@ -11,10 +12,10 @@ setDescription("Enchant a golden sword")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(11, 14)
+setPos(80,41)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "enchanted" with the trigger type "minecraft:enchanted_item". This function returns the criteria as an object
 criteria = addCriteria("enchanted", "minecraft:enchanted_item")

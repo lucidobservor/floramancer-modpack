@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:grass>)
 
@@ -11,10 +12,10 @@ setDescription("Left click a grass block")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(9, 6)
+setPos(57,65)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "clickedBlock" with the trigger type "triumph:left_click_block". This function returns the criteria as an object
 criteria = addCriteria("clickedBlock", "triumph:left_click_block")

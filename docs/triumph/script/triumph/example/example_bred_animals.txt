@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:wool>)
 
@@ -11,10 +12,10 @@ setDescription("Breed a sheep, with a sheep, to produce... a sheep.")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(14, 9)
+setPos(34,89)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "bred_sheep" with the trigger type "minecraft:bred_animals". This function returns the criteria as an object
 criteria = addCriteria("bred_sheep", "minecraft:bred_animals")

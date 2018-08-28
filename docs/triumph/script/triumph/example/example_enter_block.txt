@@ -1,3 +1,4 @@
+
 //Set the icon item
 setIcon(<minecraft:sapling, meta:4>)
 
@@ -11,10 +12,10 @@ setDescription("Enter a sapling block")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(10, 5)
+setPos(149,17)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "entered" with the trigger type "minecraft:enter_block". This function returns the criteria as an object
 criteria = addCriteria("entered", "minecraft:enter_block")

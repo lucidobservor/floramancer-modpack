@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:netherrack>)
 
@@ -11,10 +12,10 @@ setDescription("Harvest a netherrack block")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(8, 13)
+setPos(103,41)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "harvestedBlock" with the trigger type "triumph:player_harvest_block". This function returns the criteria as an object
 criteria = addCriteria("harvestedBlock", "triumph:player_harvest_block")

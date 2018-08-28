@@ -1,3 +1,4 @@
+
 //Set the icon item
 setIcon(<minecraft:wooden_button>)
 
@@ -19,10 +20,10 @@ setCompletedLineColor(#ff00ff)
 addParent("triumph:example/root")
 
 //Set the position
-setPos(12, 7)
+setPos(34,17)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "crafted" with the trigger type "triumph:player_crafted_item". This function returns the criteria as an object
 criteria = addCriteria("crafted", "triumph:player_crafted_item")

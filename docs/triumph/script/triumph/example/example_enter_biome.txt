@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:map>)
 
@@ -11,10 +12,10 @@ setDescription("Enter a forest biome")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(10, 15)
+setPos(57,113)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "entered_forest" with the trigger type "minecraft:location". This function returns the criteria as an object
 criteria = addCriteria("entered_forest", "minecraft:location")

@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:flint>)
 
@@ -11,10 +12,10 @@ setDescription("Acquire flint")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(11, 6)
+setPos(80,65)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "hasFlint" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
 criteria = addCriteria("hasFlint", "minecraft:inventory_changed")

@@ -1,3 +1,4 @@
+
 //Set icon item
 setIcon(<minecraft:diamond_ore>)
 
@@ -11,10 +12,10 @@ setDescription("Right click a diamond ore block")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(9.3, 4)
+setPos(80,17)
 
-//Set this to use direct lines, so I can have a pretty shape
-drawDirectLines(true)
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
 
 //Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
 criteria = addCriteria("clickedBlock", "triumph:right_click_block")
