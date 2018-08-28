@@ -111,6 +111,34 @@ ManaInfusion.addAlchemy(<traverse:brown_autumnal_sapling>, <traverse:yellow_autu
 ManaInfusion.addAlchemy(<traverse:fir_sapling>, <traverse:brown_autumnal_sapling>, 120);
 ManaInfusion.addAlchemy(<minecraft:sapling>, <traverse:fir_sapling>, 120);
 
+// Convert Quark Runes back to Cave Crystal
+ManaInfusion.addAlchemy(<quark:crystal:0> * 8, <quark:rune:0>, 800);
+ManaInfusion.addAlchemy(<quark:crystal:1> * 8, <quark:rune:14>, 800);
+ManaInfusion.addAlchemy(<quark:crystal:2> * 8, <quark:rune:1>, 800);
+ManaInfusion.addAlchemy(<quark:crystal:3> * 8, <quark:rune:4>, 800);
+ManaInfusion.addAlchemy(<quark:crystal:4> * 8, <quark:rune:5>, 800);
+ManaInfusion.addAlchemy(<quark:crystal:5> * 8, <quark:rune:3>, 800);
+ManaInfusion.addAlchemy(<quark:crystal:6> * 8, <quark:rune:11>, 800);
+ManaInfusion.addAlchemy(<quark:crystal:7> * 8, <quark:rune:2>, 800);
+
+// Cycle Quark Runes
+ManaInfusion.addAlchemy(<quark:rune:1>, <quark:rune:0>, 400);
+ManaInfusion.addAlchemy(<quark:rune:2>, <quark:rune:1>, 400);
+ManaInfusion.addAlchemy(<quark:rune:3>, <quark:rune:2>, 400);
+ManaInfusion.addAlchemy(<quark:rune:4>, <quark:rune:3>, 400);
+ManaInfusion.addAlchemy(<quark:rune:5>, <quark:rune:4>, 400);
+ManaInfusion.addAlchemy(<quark:rune:6>, <quark:rune:5>, 400);
+ManaInfusion.addAlchemy(<quark:rune:7>, <quark:rune:6>, 400);
+ManaInfusion.addAlchemy(<quark:rune:8>, <quark:rune:7>, 400);
+ManaInfusion.addAlchemy(<quark:rune:9>, <quark:rune:8>, 400);
+ManaInfusion.addAlchemy(<quark:rune:10>, <quark:rune:9>, 400);
+ManaInfusion.addAlchemy(<quark:rune:11>, <quark:rune:10>, 400);
+ManaInfusion.addAlchemy(<quark:rune:12>, <quark:rune:11>, 400);
+ManaInfusion.addAlchemy(<quark:rune:13>, <quark:rune:12>, 400);
+ManaInfusion.addAlchemy(<quark:rune:14>, <quark:rune:13>, 400);
+ManaInfusion.addAlchemy(<quark:rune:15>, <quark:rune:14>, 400);
+ManaInfusion.addAlchemy(<quark:rune:0>, <quark:rune:15>, 400);
+
 // Notch Apple to Overgrowth Seed
 ManaInfusion.addAlchemy(<botania:overgrowthseed>, <minecraft:golden_apple:1>, 50000);
 

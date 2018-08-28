@@ -1,8 +1,6 @@
 
 Enhance:
 - Edit Custom Main Menu
-- Recipe for cave crystals
-- Move Triumph Advancements
 - Make moving a blaze spawner result in the kind of blaze that drops powder
 
 Fix:

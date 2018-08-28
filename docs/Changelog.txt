@@ -7,5 +7,7 @@ Triumph
 
 Enchancements:
 Added simple recipes for chests and hoppers using logs
+Added alchemy recipe to convert quark runes back into cave crystals
+Added alchemy recipe to cycle quark runes
 
 Bugfixes:
