@@ -3,6 +3,7 @@ setIcon(<botania_tweaks:compressed_tiny_potato_8>)
 setTranslatedTitle("advancements.floramancer.galactic.title")
 setTranslatedDescription("advancements.floramancer.galactic.description")
 
+addParent("triumph:floramancer/root")
 addParent("triumph:floramancer/flowers/kekimurus")
 addParent("triumph:floramancer/flowers/arcanerose")
 addParent("triumph:floramancer/flowers/dandelifeon")
@@ -21,7 +22,7 @@ addRewardFunction("triumph:stages/stage-creative")
 setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania_tweaks:compressed_tiny_potato_8", Count: 1b},TrophyName:"advancements.floramancer.galactic.title"}>)
 
 setRequiresParents()
-setPos(10, 6)
+setPos(0,0)
 drawDirectLines(true)
 
 criteria = addCriteria("hasPotato", "minecraft:inventory_changed")

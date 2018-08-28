@@ -2,10 +2,10 @@
 setIcon(<botania:specialflower, nbt:{type: "rafflowsia"}>)
 setTranslatedTitle("advancements.floramancer.rafflowsia.title")
 setDescription("Fill 1000 Mana Pools using the Rafflowsia")
-addParent("triumph:floramancer/lexicon")
+addParent("triumph:floramancer/root")
 
-setPos(14, 8)
-drawDirectLines(true)
+setPos(129,61)
+hideLines()
 
 setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"rafflowsia"}},TrophyName:"advancements.floramancer.rafflowsia.title"}>)
 addRewardFunction("triumph:stages/stage-rafflowsia")
@@ -4009,4 +4009,3 @@ criteria.setRequiredMana(999000000)
 criteria = addCriteria("rafflowsia_1000", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("rafflowsia")
 criteria.setRequiredMana(1000000000)
-

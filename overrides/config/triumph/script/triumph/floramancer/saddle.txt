@@ -7,7 +7,8 @@ addParent("triumph:floramancer/root")
 setAnnounceToChat(false)
 setFrameType("challenge")
 
-setPos(8, 11)
+setPos(-80,-50)
+hideLines()
 
 criteria = addCriteria("fullSaddle", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:saddle, nbt:{HorseTweaksUpgrades: {SWIMMING: 1b, FROST_WALKER: 1b, EASY_JUMP: 1b, FIRE_RESISTANCE: 1b, LEAF_WALKER: 1b, THORNS: 1b, FEATHER_FALL: 1b}}>)

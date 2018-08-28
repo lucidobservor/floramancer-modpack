@@ -7,7 +7,8 @@ addParent("triumph:floramancer/root")
 setAnnounceToChat(false)
 setFrameType("challenge")
 
-setPos(12, 11)
+setPos(80,-50)
+hideLines()
 
 criteria = addCriteria("pickedUpCreeperSpawner", "minecraft:inventory_changed")
 criteria.addItem(<botania:spawnermover, nbt:{spawner: {SpawnData: {id: "minecraft:creeper"}}}>)

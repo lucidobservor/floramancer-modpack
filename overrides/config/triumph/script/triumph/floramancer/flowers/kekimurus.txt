@@ -2,10 +2,10 @@
 setIcon(<botania:specialflower, nbt:{type: "kekimurus"}>)
 setTranslatedTitle("advancements.floramancer.kekimurus.title")
 setDescription("Fill 1000 Mana Pools using the Kekimurus")
-addParent("triumph:floramancer/lexicon")
+addParent("triumph:floramancer/root")
 
-setPos(10, 8)
-drawDirectLines(true)
+setPos(0,80)
+hideLines()
 
 setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"kekimurus"}},TrophyName:"advancements.floramancer.kekimurus.title"}>)
 addRewardFunction("triumph:stages/stage-kekimurus")
@@ -4009,4 +4009,3 @@ criteria.setRequiredMana(999000000)
 criteria = addCriteria("kekimurus_1000", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("kekimurus")
 criteria.setRequiredMana(1000000000)
-

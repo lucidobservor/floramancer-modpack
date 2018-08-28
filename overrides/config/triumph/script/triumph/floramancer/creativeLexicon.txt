@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.floramancer.creativeLexicon.description")
 
 addParent("triumph:floramancer/galactic")
 
-setPos(10, 5)
+setPos(0,-33)
 setRequiresParents()
 drawDirectLines(true)
 

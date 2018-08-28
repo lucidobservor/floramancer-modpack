@@ -3,7 +3,7 @@ Enhance:
 - Edit Custom Main Menu
 - Recipe for cave crystals
 - Move Triumph Advancements
-- More chest recipes
+- Make moving a blaze spawner result in the kind of blaze that drops powder
 
 Fix:
 - Figure out why Lexicon crafting pages don't work

@@ -2,10 +2,10 @@
 setIcon(<botania:specialflower, nbt:{type: "hydroangeas"}>)
 setTranslatedTitle("advancements.floramancer.hydroangeas.title")
 setDescription("Fill 1000 Mana Pools using the Hydroangeas")
-addParent("triumph:floramancer/lexicon")
+addParent("triumph:floramancer/root")
 
-setPos(4, 8)
-drawDirectLines(true)
+setPos(-185,30)
+hideLines()
 
 setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"hydroangeas"}},TrophyName:"advancements.floramancer.hydroangeas.title"}>)
 addRewardFunction("triumph:stages/stage-hydroangeas")
@@ -4009,4 +4009,3 @@ criteria.setRequiredMana(999000000)
 criteria = addCriteria("hydroangeas_1000", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("hydroangeas")
 criteria.setRequiredMana(1000000000)
-

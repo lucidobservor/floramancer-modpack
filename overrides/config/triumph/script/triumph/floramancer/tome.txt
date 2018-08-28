@@ -7,7 +7,8 @@ addParent("triumph:floramancer/root")
 setAnnounceToChat(false)
 setFrameType("challenge")
 
-setPos(6, 11)
+setPos(-120,-80)
+hideLines()
 
 criteria0 = addCriteria("ench0", "minecraft:inventory_changed")
 criteria0.addItem(<minecraft:enchanted_book, nbt:{StoredEnchantments: [{lvl: 5s, id: 0s}]}>)

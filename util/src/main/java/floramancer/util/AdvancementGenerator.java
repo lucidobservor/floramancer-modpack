@@ -30,7 +30,7 @@ public class AdvancementGenerator {
             lines.add(String.format("setIcon(%s)", flowerItem));
             lines.add(String.format("setTranslatedTitle(%s)", advancementName));
             lines.add(String.format("setDescription(\"Fill %d Mana Pools using the %s\")", flower.getPoolsRequired(), flower.getLocalizedName()));
-            lines.add("addParent(\"triumph:floramancer/lexicon\")");
+            lines.add("addParent(\"triumph:floramancer/root\")");
             lines.add("");
             lines.add(String.format("setPos(%d, 8)", X_OFFSET + flower.getId()));
             lines.add("drawDirectLines(true)");

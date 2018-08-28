@@ -4,7 +4,7 @@ setTranslatedTitle("advancements.floramancer.creativePool.title")
 setTranslatedDescription("advancements.floramancer.creativePool.description")
 addParent("triumph:floramancer/creativeTablet")
 
-setPos(10, 3)
+setPos(0,-100)
 drawDirectLines(true)
 setFrameType("goal")
 
@@ -12,4 +12,3 @@ setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:pool", Count
 
 criteria = addCriteria("hasPoolCreative", "minecraft:inventory_changed")
 criteria.addItem(<botania:pool, meta:1>)
-

@@ -2,10 +2,10 @@
 setIcon(<botania:specialflower, nbt:{type: "entropinnyum"}>)
 setTranslatedTitle("advancements.floramancer.entropinnyum.title")
 setDescription("Fill 1000 Mana Pools using the Entropinnyum")
-addParent("triumph:floramancer/lexicon")
+addParent("triumph:floramancer/root")
 
-setPos(9, 8)
-drawDirectLines(true)
+setPos(-35,79)
+hideLines()
 
 setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"entropinnyum"}},TrophyName:"advancements.floramancer.entropinnyum.title"}>)
 addRewardFunction("triumph:stages/stage-entropinnyum")
@@ -4009,4 +4009,3 @@ criteria.setRequiredMana(999000000)
 criteria = addCriteria("entropinnyum_1000", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("entropinnyum")
 criteria.setRequiredMana(1000000000)
-

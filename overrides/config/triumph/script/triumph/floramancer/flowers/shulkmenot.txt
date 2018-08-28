@@ -2,10 +2,10 @@
 setIcon(<botania:specialflower, nbt:{type: "shulk_me_not"}>)
 setTranslatedTitle("advancements.floramancer.shulkmenot.title")
 setDescription("Fill 1000 Mana Pools using the Shulk Me Not")
-addParent("triumph:floramancer/lexicon")
+addParent("triumph:floramancer/root")
 
-setPos(15, 8)
-drawDirectLines(true)
+setPos(158,49)
+hideLines()
 
 setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"shulk_me_not"}},TrophyName:"advancements.floramancer.shulkmenot.title"}>)
 addRewardFunction("triumph:stages/stage-shulkmenot")
@@ -4009,4 +4009,3 @@ criteria.setRequiredMana(999000000)
 criteria = addCriteria("shulk_me_not_1000", "botania_tweaks:flower_generated_mana")
 criteria.setFlower("shulkmenot")
 criteria.setRequiredMana(1000000000)
-

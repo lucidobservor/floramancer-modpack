@@ -4,7 +4,7 @@ setTranslatedTitle("advancements.floramancer.creativeTablet.title")
 setTranslatedDescription("advancements.floramancer.creativeTablet.description")
 addParent("triumph:floramancer/creativeLexicon")
 
-setPos(10, 4)
+setPos(0,-67)
 drawDirectLines(true)
 
 criteria = addCriteria("hasTabletCreative", "minecraft:inventory_changed")
