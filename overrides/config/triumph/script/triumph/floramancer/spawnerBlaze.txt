@@ -6,8 +6,10 @@ addParent("triumph:floramancer/root")
 setAnnounceToChat(false)
 setFrameType("challenge")
 
-setPos(128,-63)
+setPos(119,-50)
 hideLines()
 
-criteria = addCriteria("summoned_blaze", "minecraft:summoned_entity")
-criteria.setEntityType("minecraft:blaze")
+criteria = addCriteria("blaze", "minecraft:player_killed_entity")
+criteria.setEntityType("blaze")
+location = entityData.getLocationData()
+location.setDimensionType("overworld")

@@ -7,7 +7,7 @@ addParent("triumph:floramancer/root")
 setAnnounceToChat(false)
 setFrameType("challenge")
 
-setPos(-120,-80)
+setPos(-90,-79)
 hideLines()
 
 criteria0 = addCriteria("ench0", "minecraft:inventory_changed")

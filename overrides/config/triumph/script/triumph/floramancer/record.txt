@@ -1,0 +1,54 @@
+
+setIcon(<minecraft:record_cat>)
+setTranslatedTitle("advancements.floramancer.record.title")
+setTranslatedDescription("advancements.floramancer.record.description")
+addParent("triumph:floramancer/root")
+
+setAnnounceToChat(false)
+setFrameType("challenge")
+
+setPos(-119,-50)
+hideLines()
+
+criteria0 = addCriteria("record0", "minecraft:inventory_changed")
+criteria0.addItem(<minecraft:record_13>)
+
+criteria1 = addCriteria("record1", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:record_cat>)
+
+criteria2 = addCriteria("record2", "minecraft:inventory_changed")
+criteria2.addItem(<minecraft:record_blocks>)
+
+criteria3 = addCriteria("record3", "minecraft:inventory_changed")
+criteria3.addItem(<minecraft:record_chirp>)
+
+criteria4 = addCriteria("record4", "minecraft:inventory_changed")
+criteria4.addItem(<minecraft:record_far>)
+
+criteria5 = addCriteria("record5", "minecraft:inventory_changed")
+criteria5.addItem(<minecraft:record_mall>)
+
+criteria6 = addCriteria("record6", "minecraft:inventory_changed")
+criteria6.addItem(<minecraft:record_mellohi>)
+
+criteria7 = addCriteria("record7", "minecraft:inventory_changed")
+criteria7.addItem(<minecraft:record_stal>)
+
+criteria8 = addCriteria("record8", "minecraft:inventory_changed")
+criteria8.addItem(<minecraft:record_strad>)
+
+criteria9 = addCriteria("record9", "minecraft:inventory_changed")
+criteria9.addItem(<minecraft:record_ward>)
+
+criteria10 = addCriteria("record10", "minecraft:inventory_changed")
+criteria10.addItem(<minecraft:record_wait>)
+
+criteria11 = addCriteria("record11", "minecraft:inventory_changed")
+criteria11.addItem(<minecraft:record_11>)
+
+criteria12 = addCriteria("record12", "minecraft:inventory_changed")
+criteria12.addItem(<botania:recordgaia1>)
+
+criteria13 = addCriteria("record13", "minecraft:inventory_changed")
+criteria13.addItem(<botania:recordgaia2>)
+

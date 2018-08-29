@@ -6,7 +6,7 @@ addParent("triumph:floramancer/root")
 setAnnounceToChat(false)
 setFrameType("challenge")
 
-setPos(93,-98)
+setPos(90,-79)
 hideLines()
 
 criteria = addCriteria("pickedUpEndermanSpawner", "minecraft:inventory_changed")

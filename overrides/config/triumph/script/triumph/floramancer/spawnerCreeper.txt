@@ -7,7 +7,7 @@ addParent("triumph:floramancer/root")
 setAnnounceToChat(false)
 setFrameType("challenge")
 
-setPos(80,-50)
+setPos(80,-40)
 hideLines()
 
 criteria = addCriteria("pickedUpCreeperSpawner", "minecraft:inventory_changed")
