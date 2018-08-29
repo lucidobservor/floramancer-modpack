@@ -1,4 +1,4 @@
-# Floramancer [![Discord][discordImg]][discordLink]
+# Floramancer
 
 ## Info
 
@@ -24,7 +24,7 @@ grant you the secrets of the Creative Mana Tablet and Everlasting Guilty Pool!
   
 ## Minor Features
 
-- **Botania Tweaks** - The following miscellaneous tweaks are enabled:
+- **Botania Tweaks** 
     - Automate crafting Ender Air with a Dispenser in the End dimension.
     - Automatically place Corporea Sparks and decorate them with Floral Powder, when you place corporea blocks.
     - Powering the entropinnyum with a vanilla TNT duplicator is disabled
@@ -70,13 +70,12 @@ This means that when you play on multiplayer, everyone on the server is effectiv
 progression through the pack.
 
 
-## Downloads
+## Links
 
-This pack has not yet been released. However, you can test it by cloning this repository, zipping it into a .zip file,
-and importing it into the Twitch Launcher. 
-	
-	
-	
-[discordImg]: https://img.shields.io/discord/329440410839678986.svg?logo=discord&logoWidth=18&colorB=7289DA
+CurseForge Page: https://minecraft.curseforge.com/projects/floramancer
 
-[discordLink]: https://discord.gg/9eGp9fV
+Report Issues: https://github.com/lucidobservor/floramancer-modpack/issues
+
+Discord: https://discord.gg/9eGp9fV
+
+	
