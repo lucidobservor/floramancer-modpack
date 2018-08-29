@@ -1,0 +1,2 @@
+clear @p botania:lexicon
+give @p botania:lexicon 1 0
