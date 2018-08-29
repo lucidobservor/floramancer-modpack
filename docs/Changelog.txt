@@ -8,10 +8,11 @@ BNBGamingLib
 Botania (see https://botaniamod.net/changelog.php#r1.10-355)
 Triumph
 
-Enchancements:
+Enhancements:
 Added simple recipes for chests and hoppers using logs
 Added alchemy recipe to convert quark runes back into cave crystals
 Added alchemy recipe to cycle quark runes
+Player now receives Lexica Botania as part of initial inventory
 
 Bugfixes:
 Music disc duplication fixed

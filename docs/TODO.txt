@@ -1,8 +1,7 @@
 
 Enhance:
 - Edit Custom Main Menu
-- Make moving a blaze spawner result in the kind of blaze that drops powder
-- Add blaze spawner advancement
+- Add fel-spawned blaze advancement
 - Add music disc advancement?
 
 Fix:
