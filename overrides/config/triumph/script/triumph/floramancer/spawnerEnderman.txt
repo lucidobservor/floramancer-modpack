@@ -1,5 +1,4 @@
 setIcon(<minecraft:skull, meta:3, nbt:{SkullOwner:"MHF_Enderman"}>
-//setIcon(<minecraft:skull, meta:3, nbt:{SkullOwner:{Id:"0de98464-1274-4dd6-bba8-370efa5d41a8"}}>)
 setTranslatedTitle("advancements.floramancer.spawnerEnderman.title")
 setTranslatedDescription("advancements.floramancer.spawnerEnderman.description")
 addParent("triumph:floramancer/root")
@@ -7,7 +6,7 @@ addParent("triumph:floramancer/root")
 setAnnounceToChat(false)
 setFrameType("challenge")
 
-setPos(120,-80)
+setPos(93,-98)
 hideLines()
 
 criteria = addCriteria("pickedUpEndermanSpawner", "minecraft:inventory_changed")

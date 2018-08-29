@@ -1,0 +1,13 @@
+setIcon(<minecraft:skull, meta:3, nbt:{SkullOwner:"MHF_Blaze"}>
+setTranslatedTitle("advancements.floramancer.spawnerBlaze.title")
+setTranslatedDescription("advancements.floramancer.spawnerBlaze.description")
+addParent("triumph:floramancer/root")
+
+setAnnounceToChat(false)
+setFrameType("challenge")
+
+setPos(128,-63)
+hideLines()
+
+criteria = addCriteria("summoned_blaze", "minecraft:summoned_entity")
+criteria.setEntityType("minecraft:blaze")
