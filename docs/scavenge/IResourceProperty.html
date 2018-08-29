@@ -1,0 +1,999 @@
+<li><strong>require_Spawn</strong>:<br />
+<strong>Description</strong>: Allows to control if the Block should be inside or outside of the spawn Range<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+either<br />
+   <strong>"inside"</strong>: (If the Block needs to be inside or outside of the Spawn, Default: true) Boolean,<br />
+   <strong>"radius"</strong>: (The Distance in Blocks how close or far away the Player should be from the Spawn, Default: 128) IntNumber,<br />
+or<br />
+   <strong>"operations"</strong>: (RegistryName for the Math Operation) Registry Element,<br />
+   <strong>"jeiDesc"</strong>: (The Description for the JEI plugin) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_Biome</strong>:<br />
+<strong>Description</strong>: Allows to check for biomes to white or blacklist<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"biomes"</strong>: (The Biome(s) that should be compared with (It can be either a String or a StringArray)) OptionalStringArray,<br />
+<strong>"inverted"</strong>: (Decides if the List is a white or blacklist, Default: false) Boolean,<br />
+<strong>Incompatible With</strong>: Duplicate(Completely) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_dimension</strong>:<br />
+<strong>Description</strong>: Allows to control in which dimensions the block should be in and in which not<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"dimension"</strong>: (The dimensions that should be included or exluded (It can be either a Object or a ObjectArray)) OptionalObjectArray,<br />
+   <strong>"dim"</strong>: (The Dimension should be required or excluded) IntNumber,<br />
+   <strong>"required"</strong>: (If the dimension is required or exluded) Boolean,<br />
+<strong>"default"</strong>: (What should be returned if the Dimension isn't found, Default: false) Boolean,<br />
+<strong>Incompatible With</strong>: Duplicate(Completely) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_time</strong>:<br />
+<strong>Description</strong>: Allows to check if the World has a Certain Time of the Day<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+either<br />
+   <strong>"minValue"</strong>: (Minimum Time that should be checkt for) IntNumber,<br />
+   <strong>"maxValue"</strong>: (Maximum Time that should be checkt for) IntNumber,<br />
+   <strong>"inRange"</strong>: (If the Check range should be inclusive or exclusive, Default: true) Boolean,<br />
+or<br />
+   <strong>"operations"</strong>: (RegistryName for the Math Operation) Registry Element,<br />
+   <strong>"jeiDesc"</strong>: (The Description for the JEI plugin) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_worldExistence</strong>:<br />
+<strong>Description</strong>: Allows to check how long the world already Existed<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+either<br />
+   <strong>"minValue"</strong>: (Minimum Time that should be checkt for) LongNumber,<br />
+   <strong>"maxValue"</strong>: (Maximum Time that should be checkt for) LongNumber,<br />
+   <strong>"inRange"</strong>: (If the Check range should be inclusive or exclusive, Default: true) Boolean,<br />
+or<br />
+   <strong>"operations"</strong>: (RegistryName for the Math Operation) Registry Element,<br />
+   <strong>"jeiDesc"</strong>: (The Description for the JEI plugin) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_weather</strong>:<br />
+<strong>Description</strong>: Allows to check for the Weather and if the Block is directly effected by it<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"weather"</strong>: (Which type of Weather should be checkt for (rain/thunder/snowing)) String,<br />
+<strong>"required"</strong>: (If the Weather should be present or not, Default: true) Boolean,<br />
+<strong>"directly"</strong>: (If the Block should be directly in the Rain, Default: false) Boolean,<br />
+<strong>Incompatible With</strong>: Duplicate(Completely) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_entity</strong>:<br />
+<strong>Description</strong>: Allows to check for Entities to be in range of the position<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (Which type of Entities should be checkt for) String,<br />
+<strong>"radius"</strong>: (How far the Check Range should be, Default: 5) IntNumber,<br />
+either<br />
+   <strong>"required"</strong>: (If the Entity should be present or not, Default: true) Boolean,<br />
+or<br />
+   <strong>"operations"</strong>: (RegistryName for the Math Operation) Registry Element,<br />
+   <strong>"jeiDesc"</strong>: (The Description for the JEI plugin) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_block</strong>:<br />
+<strong>Description</strong>: Allows to check for Blocks around the Clicked Block<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (Which Block should be checked for) String,<br />
+<strong>"meta"</strong>: (Which metadata should be used to check with, Default: 32767) IntNumber,<br />
+<strong>"require"</strong>: (if the Block is required or should not be present, Default: true) Boolean,<br />
+<strong>"and"</strong>: (if All blocks should be that or any amount should be it, Default: true) Boolean,<br />
+<strong>"sides"</strong>: (which sides should be checked for) StringArray,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>per_chunk_limit</strong>:<br />
+<strong>Description</strong>: Allows to limit the Usage of a Block per Chunk<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"id"</strong>: (Custom ID for the Counter for the per Chunk Data, Default: ResourceID) String,<br />
+<strong>"increase"</strong>: (If the it should be used up or reduced, Default: true) Boolean,<br />
+either<br />
+   <strong>"usage"</strong>: (How much the Value should increase, Default: 1) IntNumber,<br />
+   <strong>"max"</strong>: (How much the limit should be) IntNumber,<br />
+or<br />
+   <strong>"usage"</strong>: (How much the Value should decrease, Default: 1) IntNumber,<br />
+   <strong>"max"</strong>: (What the max should be (for the progress-animation)) IntNumber,<br />
+   <strong>"min"</strong>: (What the lower value should be., Default: 0) IntNumber,<br />
+<strong>Incompatible With</strong>: per_block_limit(Completely) Duplicate(Completely) per_player_limit(Completely) <br />
+<strong>Type: Condition, Effect</strong><br />
+<br />
+</li><li><strong>require_Height</strong>:<br />
+<strong>Description</strong>: Allows to control if the Block should be inside or outside of the spawn Range<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+either<br />
+   <strong>"inside"</strong>: (If the Block Needs to be inside of the Y Levels, Default: true) Boolean,<br />
+   <strong>"minValue"</strong>: (The Lowest Level the Block should be at, Default: 0) IntNumber,<br />
+   <strong>"maxValue"</strong>: (The Heighest Level the Block should be at, Default: 255) IntNumber,<br />
+or<br />
+   <strong>"operations"</strong>: (RegistryName for the Math Operation) Registry Element,<br />
+   <strong>"jeiDesc"</strong>: (The Description for the JEI plugin) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Completely) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_structure</strong>:<br />
+<strong>Description</strong>: Allows to check if the Block is inside of a Structure<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (The Structure Type that should be checkt for) String,<br />
+<strong>"required"</strong>: (If the Structure is required or not, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: Duplicate(Completely) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_side</strong>:<br />
+<strong>Description</strong>: Allows to check which side the Player is clicking on<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"sides"</strong>: (Which sides can be clicked on) StringArray,<br />
+<strong>Incompatible With</strong>: Duplicate(Completely) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_distance</strong>:<br />
+<strong>Description</strong>: Allows to check how far from a distance Customized Position X&Z only<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"x"</strong>: (The XPosition that should be checkt for, Default: 0) IntNumber,<br />
+<strong>"y"</strong>: (The YPosition that should be checkt for, Default: 0) IntNumber,<br />
+<strong>"z"</strong>: (The ZPosition that should be checkt for, Default: 0) IntNumber,<br />
+either<br />
+   <strong>"bigger"</strong>: (, Default: true) Boolean,<br />
+   <strong>"value"</strong>: (How big/small the distance to the Position should be, Default: 0) IntNumber,<br />
+or<br />
+   <strong>"operations"</strong>: (RegistryName for the Math Operation) Registry Element,<br />
+   <strong>"jeiDesc"</strong>: (The Description for the JEI plugin) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>has_meta</strong>:<br />
+<strong>Description</strong>: Allows to check for if the Block has a Certain Metadata<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+either<br />
+   <strong>"required"</strong>: (If the Metadata is required or not, Default: true) Boolean,<br />
+   <strong>"meta"</strong>: (Which metadata should be required or not) IntNumber,<br />
+or<br />
+   <strong>"operations"</strong>: (RegistryName for the Math Operation) Registry Element,<br />
+   <strong>"jeiDesc"</strong>: (The Description for the JEI plugin) String,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>has_block_structure</strong>:<br />
+<strong>Description</strong>: Allows to check for a custom Made Structure.<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"blocks"</strong>: (It can be either a Object or a ObjectArray) OptionalObjectArray,<br />
+   <strong>"name"</strong>: (Which Block should be checked for) String,<br />
+   <strong>"meta"</strong>: (Which metadata should be used to check with, Default: 32767) IntNumber,<br />
+   <strong>"positions"</strong>: (It can be either a Object or a ObjectArray) OptionalObjectArray,<br />
+      <strong>"x"</strong>: (The XOffset for the Block that should be checkt for of the Clicked Block.) IntNumber,<br />
+      <strong>"y"</strong>: (The YOffset for the Block that should be checkt for of the Clicked Block.) IntNumber,<br />
+      <strong>"z"</strong>: (The ZOffset for the Block that should be checkt for of the Clicked Block.) IntNumber,<br />
+<strong>"require"</strong>: (If the Structure is required or not, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>per_block_limit</strong>:<br />
+<strong>Description</strong>: Allows to limit the Usage of a Block per Block<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"id"</strong>: (Custom ID for the Counter for the per Block Data, Default: ResourceID) String,<br />
+<strong>"increase"</strong>: (If the it should be used up or reduced, Default: true) Boolean,<br />
+either<br />
+   <strong>"usage"</strong>: (How much the Value should increase, Default: 1) IntNumber,<br />
+   <strong>"max"</strong>: (How much the limit should be) IntNumber,<br />
+or<br />
+   <strong>"usage"</strong>: (How much the Value should decrease, Default: 1) IntNumber,<br />
+   <strong>"max"</strong>: (What the max should be (for the progress-animation)) IntNumber,<br />
+   <strong>"min"</strong>: (What the lower value should be., Default: 0) IntNumber,<br />
+<strong>"replacement"</strong>: (Which replacement Block should be used) Object,<br />
+   <strong>"name"</strong>: (The Block that should be used as replacement) String,<br />
+   <strong>"meta"</strong>: (Metadata of the Block that should be used, Default: 0) IntNumber,<br />
+<strong>Incompatible With</strong>: Duplicate(Completely) per_chunk_limit(Completely) per_player_limit(Completely) <br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>mark_unbreakable</strong>:<br />
+<strong>Description</strong>: Makes the Block Unbreakable<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"set"</strong>: (Decides if the Block should be made unbreakable or remove the Unbreakable modifier, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>consume_block</strong>:<br />
+<strong>Description</strong>: Allows to consume the Clicked block or to transform it into another block<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"chance"</strong>: (How likely it is that the block gets consumed or transformed, Default: 100.0) FloatNumber,<br />
+<strong>"name"</strong>: (What Block Replacement block should be, Default: minecraft:air) String,<br />
+<strong>"meta"</strong>: (Which metadata the block should have, Default: 0) IntNumber,<br />
+<strong>"dropBlock"</strong>: (If the Block should drop or not, Default: false) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>spawn_explosion</strong>:<br />
+<strong>Description</strong>: Spawns a Explosion at the Blocks Position<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"power"</strong>: (How Powerful the Explosion should be) FloatNumber,<br />
+<strong>"flame"</strong>: (If the Explosion should spawn Flames, Default: false) Boolean,<br />
+<strong>"smoking"</strong>: (If the Explosion should spawn Smoke Particals, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>spawn_particles</strong>:<br />
+<strong>Description</strong>: <br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (The Partical that should be spawned) String,<br />
+<strong>"amount"</strong>: (How many should be spawned. 0 = No Random movement but only 1 partical, Default: 0) IntNumber,<br />
+<strong>"xOffset"</strong>: (The Offset and motion multiplier for the X Position, Default: 0.0) FloatNumber,<br />
+<strong>"yOffset"</strong>: (The Offset and motion multiplier for the Y Position, Default: 0.0) FloatNumber,<br />
+<strong>"zOffset"</strong>: (The Offset and motion multiplier for the Z Position, Default: 0.0) FloatNumber,<br />
+<strong>"speed"</strong>: (The Speed that the Particals should move at, Default: 1.0) FloatNumber,<br />
+<strong>"partical_args"</strong>: (Custom Partical Arguments. These are the same as the Command one) IntNumberArray,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>play_sound</strong>:<br />
+<strong>Description</strong>: Allows to play a sound at the Blocks position<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (The Sound ID that should be played) String,<br />
+<strong>"category"</strong>: (Which sound category the sound should play under, Default: master) String,<br />
+<strong>"volume"</strong>: (how loud the sound should play, Default: 1.0) FloatNumber,<br />
+<strong>"pitch"</strong>: (how high the pitch of the sound should be, Default: 1.0) FloatNumber,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>use_command</strong>:<br />
+<strong>Description</strong>: Allows to send a command at the Blocks position as admin<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (The Command name that should be executed) String,<br />
+<strong>"arguments"</strong>: (The Arguments for the command if a argument starts with 'nbt:' then it will access the NBTFiles to load NBTData) StringArray,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>modify_required</strong>:<br />
+<strong>Description</strong>: Allows to replace the blocks of the connection sides<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"chance"</strong>: (How likely it is that the Replacments happens, Default: 100.0) FloatNumber,<br />
+<strong>"name"</strong>: (Which block it should turn into, Default: minecraft:air) String,<br />
+<strong>"meta"</strong>: (The metadata the block should turn into, Default: 0) IntNumber,<br />
+<strong>"sides"</strong>: (The Sides that should be modified) StringArray,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>change_meta</strong>:<br />
+<strong>Description</strong>: Allows to change the Metadata of the block<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+either<br />
+   <strong>"meta"</strong>: (The meta the block should turn into) IntNumber,<br />
+or<br />
+   <strong>"metas"</strong>: (A Pool where a random meta is pickt from) IntNumberArray,<br />
+or<br />
+   <strong>"metaMap"</strong>: (It can be either a Object or a ObjectArray) OptionalObjectArray,<br />
+      <strong>"target"</strong>: (Metas that should be checkt for) IntNumberArray,<br />
+      <strong>"result"</strong>: (What the BlockMeta should turn into) IntNumber,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>place_block_structure</strong>:<br />
+<strong>Description</strong>: Allows to place a customized Structure<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"blocks"</strong>: (It can be either a Object or a ObjectArray) OptionalObjectArray,<br />
+   <strong>"name"</strong>: (The Block that should be placed) String,<br />
+   <strong>"meta"</strong>: (The Metadata that should be placed with the block, Default: 0) IntNumber,<br />
+   <strong>"positions"</strong>: (It can be either a Object or a ObjectArray) OptionalObjectArray,<br />
+      <strong>"x"</strong>: (The XOffset for the Block that should be placed of the Clicked Block.) IntNumber,<br />
+      <strong>"y"</strong>: (The YOffset for the Block that should be placed of the Clicked Block.) IntNumber,<br />
+      <strong>"z"</strong>: (The ZOffset for the Block that should be placed of the Clicked Block.) IntNumber,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>random_chance</strong>:<br />
+<strong>Description</strong>: Allows to add a Random Factor into your condition<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"chance"</strong>: (How likely it is in % that the Random returns true, Default: 100.0) FloatNumber,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>default_Condition</strong>:<br />
+<strong>Description</strong>: Allows to always return true or false<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"value"</strong>: (If it should return true or false, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>if_else_condition</strong>:<br />
+<strong>Description</strong>: Allows to do make a condition that decides which condition is being used<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"check"</strong>: (The Object for the Decider Condition) Object,<br />
+<strong>"trueValue"</strong>: (The Object for Condition if the Decider is true) Object,<br />
+<strong>"falseValue"</strong>: (The Object for Condition if the Decider is false) Object,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>invert_Condition</strong>:<br />
+<strong>Description</strong>: Allows to invert any other condition<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"value"</strong>: (The Container where the condition is stored in that needs to be inverted) Object,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>array_condition</strong>:<br />
+<strong>Description</strong>: Allows to combine conditions together<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>""</strong>: (The Conditions that should be added) ObjectArray,<br />
+<strong>"and"</strong>: (If all conditions are required or just 1 of them, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>modify_luck</strong>:<br />
+<strong>Description</strong>: Allows to modify chance of Loot Drop, for reducing negative numbers are used since its added on top of base chance<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"multiplier"</strong>: (the Multiplier thats being added on top of the base chance, Default: 0.0) FloatNumber,<br />
+<strong>"points"</strong>: (Adds Exact % on top of base chance, Default: 0) IntNumber,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>set_rools</strong>:<br />
+<strong>Description</strong>: Allows to set a Fixed or Random Loot Rools<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+either<br />
+   <strong>"amount"</strong>: (The Amount of Rools that the loot pools should get) IntNumber,<br />
+or<br />
+   <strong>"pool"</strong>: (Pool of Numbers which 1 gets pickt randomly from) IntNumberArray,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>conditional_Effect</strong>:<br />
+<strong>Description</strong>: Allows to make optional Effect based on 1 condition<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"condition"</strong>: (The Condition object thats being checkt for) Object,<br />
+<strong>"effects"</strong>: (The Effects that should be applied) ObjectArray,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>offset_effect</strong>:<br />
+<strong>Description</strong>: Allows to offset a Effect to another position<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"direction"</strong>: (The Side the Effect should be shifted to) String,<br />
+<strong>"effect"</strong>: (The Effect that should be offset to another position) Object,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>if_else_effect</strong>:<br />
+<strong>Description</strong>: Allows to apply a effect based of if a condition is true or false<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"check"</strong>: (The Condition that decides which effect should be applied) Object,<br />
+<strong>"trueValue"</strong>: (The Effect that is applied when the condition is true) Object,<br />
+<strong>"falseValue"</strong>: (The Effect that is applied when the condition is false) Object,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>offset_effect_adv</strong>:<br />
+<strong>Description</strong>: <br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"effects"</strong>: (It can be either a Object or a ObjectArray) OptionalObjectArray,<br />
+   <strong>"positions"</strong>: (It can be either a Object or a ObjectArray) OptionalObjectArray,<br />
+      <strong>"x"</strong>: (The XOffset of the Effect that should be applied) IntNumber,<br />
+      <strong>"y"</strong>: (The YOffset of the Effect that should be applied) IntNumber,<br />
+      <strong>"z"</strong>: (The ZOffset of the Effect that should be applied) IntNumber,<br />
+   <strong>"effect"</strong>: (The Effect that should be applied) Object,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>sendFlagToLoot</strong>:<br />
+<strong>Description</strong>: Allows to send a flag to the Loot Generator to be processed<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"flagID"</strong>: (The ID that should be send to the LootGenerator) String,<br />
+<strong>"value"</strong>: (What the Value should be thats being send, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>sendNumberToLoot</strong>:<br />
+<strong>Description</strong>: Allows to send a Number to the Loot Generator to be processed<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"NumberID"</strong>: (The ID that should be send to the LootGenerator) String,<br />
+<strong>"value"</strong>: (What the Value should be thats being send, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>require_player</strong>:<br />
+<strong>Description</strong>: Allows to check for a Fake Player or Real Player<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"require"</strong>: (If the Player should be a RealPlayer, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_XP</strong>:<br />
+<strong>Description</strong>: Allows to check if the Player has a Certain amount of XP<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+either<br />
+   <strong>"required"</strong>: (If the Player requires that amount of XP or if it should be below the amount, Default: true) Boolean,<br />
+   <strong>"value"</strong>: (how much XP should be checked for, Default: 0) IntNumber,<br />
+or<br />
+   <strong>"operations"</strong>: (RegistryName for the Math Operation) Registry Element,<br />
+   <strong>"jeiDesc"</strong>: (The Description for the JEI plugin) String,<br />
+<strong>Incompatible With</strong>: require_XP_Level(Completely) Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_XP_Level</strong>:<br />
+<strong>Description</strong>: Allows to Check for Experience levels<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+either<br />
+   <strong>"required"</strong>: (If the player should require that amount or stay below it, Default: true) Boolean,<br />
+   <strong>"value"</strong>: (How many Experience levels should be checked for, Default: 0) IntNumber,<br />
+or<br />
+   <strong>"operations"</strong>: (RegistryName for the Math Operation) Registry Element,<br />
+   <strong>"jeiDesc"</strong>: (The Description for the JEI plugin) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) require_XP(Completely) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_sneak</strong>:<br />
+<strong>Description</strong>: Allows to check if a player is sneaking<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"sneak"</strong>: (If the Player should sneak or not, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: Duplicate(Completely) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_empty_hand</strong>:<br />
+<strong>Description</strong>: Allows to Check if the players hand is empty or not<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"required"</strong>: (If the players hand should be empty or any item, Default: true) Boolean,<br />
+<strong>"offHand"</strong>: (If the Offhand or MainHand Should be empty or not, Default: false) Boolean,<br />
+<strong>Incompatible With</strong>: require_item(Completely) require_tool(Completely) require_item_list(Completely) Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_left</strong>:<br />
+<strong>Description</strong>: Allows to check if it the currentclick is a left or rightclick<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"leftClick"</strong>: (Allows to decide if the Left or Rightclick is required, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: Duplicate(Completely) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_tool</strong>:<br />
+<strong>Description</strong>: Allows to check if a player has a tool in the hand<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"tool"</strong>: (Which tool should be required) String,<br />
+<strong>"level"</strong>: (Which level the tool should have) IntNumber,<br />
+<strong>Incompatible With</strong>: require_item(Completely) Duplicate(Completely) require_item_list(Completely) require_empty_Hand(Completely) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_potion</strong>:<br />
+<strong>Description</strong>: Allows to check for if the Player has a PotionEffect<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (PotionRegistryName that should be checkt for) String,<br />
+<strong>"required"</strong>: (if the Potion is required or not, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_item</strong>:<br />
+<strong>Description</strong>: Allows to check if the Player has a Item in his main or offHand<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (Item that should be compared with) String,<br />
+<strong>"meta"</strong>: (The Metadata that should be compared with. 32767 = IgnoreMeta, Default: 32767) IntNumber,<br />
+<strong>"amount"</strong>: (The Stacksize that is required, Default: 1) IntNumber,<br />
+<strong>"offhand"</strong>: (If the Item should be at the Offhand or not, Default: false) Boolean,<br />
+<strong>"required_durability"</strong>: (The Durability that is required, Default: -1) IntNumber,<br />
+<strong>"tags"</strong>: (Required NBTTags that the item should have) StringArray,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) require_tool(Completely) require_item_list(Completely) require_empty_Hand(Completely) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_item_list</strong>:<br />
+<strong>Description</strong>: Allows to check if a player has 1 of the items in a list<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"items"</strong>: (The Items that should be compared with (It can be either a Object or a ObjectArray)) OptionalObjectArray,<br />
+   <strong>"name"</strong>: (Item that should be checkt for) String,<br />
+   <strong>"amount"</strong>: (The Stacksize that should be checkt for, Default: 1) IntNumber,<br />
+   <strong>"meta"</strong>: (The Metadata that should be compared with, (32767 == Ignore Meta), Default: 32767) IntNumber,<br />
+<strong>"offHand"</strong>: (If the Item should be present in the Offhand or mainHand, Default: false) Boolean,<br />
+<strong>Incompatible With</strong>: require_item(Completely) require_tool(Completely) Duplicate(Partly) require_empty_Hand(Completely) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_air</strong>:<br />
+<strong>Description</strong>: Allows to check the players Air Level (between -20 and 300)<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+either<br />
+   <strong>"bigger"</strong>: (If the Air should be bigger then the given value, Default: true) Boolean,<br />
+   <strong>"value"</strong>: (how much air should be required or not, Default: 0) IntNumber,<br />
+or<br />
+   <strong>"operations"</strong>: (RegistryName for the Math Operation) Registry Element,<br />
+   <strong>"jeiDesc"</strong>: (The Description for the JEI plugin) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_health</strong>:<br />
+<strong>Description</strong>: Allows to check the players Health<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+either<br />
+   <strong>"bigger"</strong>: (If the Health should be bigger then the given value, Default: true) Boolean,<br />
+   <strong>"value"</strong>: (how much health should be required or not, Default: 0) IntNumber,<br />
+or<br />
+   <strong>"operations"</strong>: (RegistryName for the Math Operation) Registry Element,<br />
+   <strong>"jeiDesc"</strong>: (The Description for the JEI plugin) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_wet</strong>:<br />
+<strong>Description</strong>: Allows if the Player is wet (in rain or water)<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"required"</strong>: (If the Player should be wet or not, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: Duplicate(Completely) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>is_burning</strong>:<br />
+<strong>Description</strong>: Allows to check if the Player is burning<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"required"</strong>: (if the player has to burn or not, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: Duplicate(Completely) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>player_has_items</strong>:<br />
+<strong>Description</strong>: Allows to Check for Items inside of the Players inventory<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"items"</strong>: (It can be either a Object or a ObjectArray) OptionalObjectArray,<br />
+   <strong>"name"</strong>: (The Item that should be searched for) String,<br />
+   <strong>"meta"</strong>: (The Metadata that should be searched for, Default: 32767) IntNumber,<br />
+   <strong>"amount"</strong>: (The Stacksize that should be searched for, Default: 1) IntNumber,<br />
+   <strong>"nbt"</strong>: (The NBTData that should be checkt for. Defaults to ignore, Default: null) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Completely) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_hunger</strong>:<br />
+<strong>Description</strong>: Allows to check for the Players Hunger<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+either<br />
+   <strong>"bigger"</strong>: (If the Hunger should be bigger then the given value, Default: true) Boolean,<br />
+   <strong>"value"</strong>: (how much Hunger should be required or not, Default: 0) IntNumber,<br />
+or<br />
+   <strong>"operations"</strong>: (RegistryName for the Math Operation) Registry Element,<br />
+   <strong>"jeiDesc"</strong>: (The Description for the JEI plugin) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_max_health</strong>:<br />
+<strong>Description</strong>: Allows to check the players Max-Health<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+either<br />
+   <strong>"bigger"</strong>: (If the Max-Health should be bigger then the given value, Default: true) Boolean,<br />
+   <strong>"value"</strong>: (how much Max-Health should be required or not, Default: 0) IntNumber,<br />
+or<br />
+   <strong>"operations"</strong>: (RegistryName for the Math Operation) Registry Element,<br />
+   <strong>"jeiDesc"</strong>: (The Description for the JEI plugin) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>player_has_tag</strong>:<br />
+<strong>Description</strong>: Allows to check if a Player has a Unique Stored. (Good for Per player Treasure)<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"tagID"</strong>: (The TagID that should be checkt for) String,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>item_has_nbt</strong>:<br />
+<strong>Description</strong>: Allows you to check if a Item has a NBTTagCompound<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"require"</strong>: (If the NBTTagCompound is required or not, Default: true) Boolean,<br />
+<strong>"offHand"</strong>: (If the Item to use should be from the Main or Offhand, Default: false) Boolean,<br />
+<strong>"name"</strong>: (The id of the NBTFile Reference for the NBTTagCompound to use) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>add_XP</strong>:<br />
+<strong>Description</strong>: Allows to add or remove XP from a Player<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"amount"</strong>: (The Amount of XP that should be added or removed) IntNumber,<br />
+<strong>"remove"</strong>: (If the XP should be added or removed, Default: false) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>add_XP_Level</strong>:<br />
+<strong>Description</strong>: Allows to Add or Remove XP Levels<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"amount"</strong>: (How many XP Levels should be added or removed) IntNumber,<br />
+<strong>"remove"</strong>: (If XP Levels should be added or Removed, Default: false) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>add_hunger</strong>:<br />
+<strong>Description</strong>: Allows to add Hunger/Exhaustion to the Player<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"exhaustion"</strong>: (If the Effect should add Exhaustion or remove Hunger directly, Default: true) Boolean,<br />
+<strong>"amount"</strong>: (How much Exaustion should be added or how much hunger should be removed) FloatNumber,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>add_Potions</strong>:<br />
+<strong>Description</strong>: Allows to apply a Potion Effect to a Player<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"chance"</strong>: (how likely it is that these Potions get applied, Default: 100.0) FloatNumber,<br />
+<strong>"potions"</strong>: (The Potion Effects that should be applied (It can be either a Object or a ObjectArray)) OptionalObjectArray,<br />
+   <strong>"name"</strong>: (Potion Registry name of the Potion that you want to apply) String,<br />
+   <strong>"duration"</strong>: (The Duration of the Potion Effect in game ticks) IntNumber,<br />
+   <strong>"amplifier"</strong>: (How Strong the Potion should be, Default: 0) IntNumber,<br />
+   <strong>"particals"</strong>: (If the Potion Effect should show Particals, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>swing_hand</strong>:<br />
+<strong>Description</strong>: Allows to make that the Player swings his hand<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>drop_items</strong>:<br />
+<strong>Description</strong>: Allows to decide if the Loot Items drop or get added to the Players Inventory<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"doDrop"</strong>: (If the Loot should drop or not, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>damage_item</strong>:<br />
+<strong>Description</strong>: Allows to damage the held item<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"amount"</strong>: (How much damage should be applied) IntNumber,<br />
+<strong>"chance"</strong>: (How likely it is that the damage gets applied, Default: 100.0) FloatNumber,<br />
+<strong>"offHand"</strong>: (If the Item should be damaged from the Main or OffHand, Default: false) Boolean,<br />
+<strong>Incompatible With</strong>: consume_item(Completely) <br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>consume_item</strong>:<br />
+<strong>Description</strong>: Allows to consume the held item<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"amount"</strong>: (How many items should be consumed) IntNumber,<br />
+<strong>"chance"</strong>: (how likely it is that the items get consumed, Default: 100.0) FloatNumber,<br />
+<strong>"offHand"</strong>: (If the Item should be removed from the Main or OffHand, Default: false) Boolean,<br />
+<strong>Incompatible With</strong>: damage_item(Completely) <br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>consume_player_items</strong>:<br />
+<strong>Description</strong>: Allows to consume items from a Players inventory<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"items"</strong>: (It can be either a Object or a ObjectArray) OptionalObjectArray,<br />
+   <strong>"name"</strong>: (The Item that should be consumed) String,<br />
+   <strong>"meta"</strong>: (The Metadata of the item that should be consumed 32767 = any meta, Default: 32767) IntNumber,<br />
+   <strong>"amount"</strong>: (How many items should be consumed, Default: 1) IntNumber,<br />
+   <strong>"nbt"</strong>: (The NBTData the item should have that should be consumed, Default: null) String,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>change_health</strong>:<br />
+<strong>Description</strong>: Allows to increase/decrease the Players health<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"increase"</strong>: (If the health should be increased or not, Default: true) Boolean,<br />
+<strong>"amount"</strong>: (How much the health should be increased or decreased) FloatNumber,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>remove_potion</strong>:<br />
+<strong>Description</strong>: Allows to remove Potion Effects from a Player<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"chance"</strong>: (The Chance of how likely the Potion Effects will be removed, Default: 100.0) FloatNumber,<br />
+<strong>"potions"</strong>: (The Potion Registry names of the Potions that should be removed) StringArray,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>set_air_level</strong>:<br />
+<strong>Description</strong>: Allows to set the Players Air Level [between -10 and 300]<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"amount"</strong>: (The Air Value that should be set, Default: 300) IntNumber,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>set_XP</strong>:<br />
+<strong>Description</strong>: Allows to set the Player Experience to a certain level or points<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"level"</strong>: (If the Set of XP should be amount or Level, Default: true) Boolean,<br />
+<strong>"amount"</strong>: (How much the player XP or XP Level should be set to, Default: 1) IntNumber,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>set_player_tag</strong>:<br />
+<strong>Description</strong>: Allows to set a Tag to a player<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"tagID"</strong>: (The Tag you want to add or remove from the Player) String,<br />
+<strong>"remove"</strong>: (If the tag should be added or removed, Default: false) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>consume_random_item</strong>:<br />
+<strong>Description</strong>: Allows to consume 1 random item out of the Players inventory<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"items"</strong>: (It can be either a Object or a ObjectArray) OptionalObjectArray,<br />
+   <strong>"name"</strong>: (The Item that should be consumed) String,<br />
+   <strong>"meta"</strong>: (The Metadata of the item that should be consumed 32767 = any meta, Default: 32767) IntNumber,<br />
+   <strong>"amount"</strong>: (How many items should be consumed, Default: 1) IntNumber,<br />
+   <strong>"nbt"</strong>: (The NBTData the item should have that should be consumed, Default: null) String,<br />
+   <strong>"weight"</strong>: (The Weight how likely it is that this item should be consumed) IntNumber,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>per_player_limit</strong>:<br />
+<strong>Description</strong>: Allows to limit the Usage of a Block per Player<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"id"</strong>: (Custom ID for the Counter for the per Player Data, Default: ResourceID) String,<br />
+<strong>"increase"</strong>: (If the it should be used up or reduced, Default: true) Boolean,<br />
+either<br />
+   <strong>"usage"</strong>: (How much the Value should increase, Default: 1) IntNumber,<br />
+   <strong>"max"</strong>: (How much the limit should be) IntNumber,<br />
+or<br />
+   <strong>"usage"</strong>: (How much the Value should decrease, Default: 1) IntNumber,<br />
+   <strong>"max"</strong>: (What the max should be (for the progress-animation)) IntNumber,<br />
+   <strong>"min"</strong>: (What the lower value should be., Default: 0) IntNumber,<br />
+<strong>Incompatible With</strong>: per_block_limit(Completely) per_chunk_limit(Completely) Duplicate(Completely) <br />
+<strong>Type: Condition, Effect</strong><br />
+<br />
+</li><li><strong>clicks_per_time</strong>:<br />
+<strong>Description</strong>: Allows to check how often a Block was clickt per a certain amount of time<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"tabs"</strong>: (How many Clicks per tick should be allowed, Default: 1) IntNumber,<br />
+<strong>"time"</strong>: (How many game ticks between the Click Limit should be, Default: 1) IntNumber,<br />
+<strong>"amount"</strong>: (How many Clicks should be 1 click worth, Default: 1) IntNumber,<br />
+<strong>"trackerID"</strong>: (Which id the click per time should have, Default: ResourceID) String,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Condition, Effect</strong><br />
+<br />
+</li><li><strong>require_stage</strong>:<br />
+<strong>Description</strong>: Allows to check if a Player has reached a GameStage<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (Which game Stage should be checkt for) String,<br />
+<strong>"required"</strong>: (If the Stage is required or not allowed, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>set_stage</strong>:<br />
+<strong>Description</strong>: Allows to grant or take a gamestage from a player<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (Which game Stage should be granted and which should be taken) String,<br />
+<strong>"give"</strong>: (If the Game Stage should be granted or taken, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>require_multi_stage</strong>:<br />
+<strong>Description</strong>: Allows to check if a Player has reached a GameStage<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"names"</strong>: (Which game Stages should be checkt for) StringArray,<br />
+<strong>"all"</strong>: (If all the Stages are required or not, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>has_score</strong>:<br />
+<strong>Description</strong>: Allows to check the if the player has a certain score<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (The Score ID that should be compared with) String,<br />
+either<br />
+   <strong>"bigger"</strong>: (If the Score should be bigger or smaller then the requested value, Default: true) Boolean,<br />
+   <strong>"value"</strong>: (how big or small the score should be, Default: 0) IntNumber,<br />
+or<br />
+   <strong>"operations"</strong>: (RegistryName for the Math Operation) Registry Element,<br />
+   <strong>"jeiDesc"</strong>: (The Description for the JEI plugin) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_stat</strong>:<br />
+<strong>Description</strong>: Allows to check the if the player has a certain Stat<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (The StatID that should be compared with) String,<br />
+either<br />
+   <strong>"bigger"</strong>: (If the Stat should be bigger or smaller then the requested value, Default: true) Boolean,<br />
+   <strong>"value"</strong>: (how big or small the score should be, Default: 0) IntNumber,<br />
+or<br />
+   <strong>"operations"</strong>: (RegistryName for the Math Operation) Registry Element,<br />
+   <strong>"jeiDesc"</strong>: (The Description for the JEI plugin) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>require_achievement</strong>:<br />
+<strong>Description</strong>: Allows to check for a Achievement<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (The Achievement Registy name of the Achievment that should be checkt for) String,<br />
+<strong>"required"</strong>: (If the achievement should be required or not, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>add_stat</strong>:<br />
+<strong>Description</strong>: Allows to Modify Stat Points<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (The StatRegistry name that should be changed) String,<br />
+<strong>"increase"</strong>: (If the Stat should be increased or decreased, Default: true) Boolean,<br />
+<strong>"amount"</strong>: (How much the stat should be modified, Default: 1) IntNumber,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>add_score</strong>:<br />
+<strong>Description</strong>: Allows to modify a Score<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (The Score id of the Score that you want to change) String,<br />
+<strong>"increase"</strong>: (If the Score should increase or decrease, Default: true) Boolean,<br />
+<strong>"amount"</strong>: (How much the score should increase or decrease, Default: 1) IntNumber,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>add_Achievement</strong>:<br />
+<strong>Description</strong>: Allows to Add Achievements to a Player<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (The Achievement that should be given) String,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>require_tile_items</strong>:<br />
+<strong>Description</strong>: Allows to check if the Block TileEntity has a set of items present<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"items"</strong>: (It can be either a Object or a ObjectArray) OptionalObjectArray,<br />
+   <strong>"name"</strong>: (The Item that should be searched for) String,<br />
+   <strong>"meta"</strong>: (The Metadata that should be searched for, Default: 32767) IntNumber,<br />
+   <strong>"amount"</strong>: (The Stacksize that should be searched for, Default: 1) IntNumber,<br />
+   <strong>"nbt"</strong>: (The NBTData that should be checkt for. Defaults to ignore, Default: null) String,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>tile_has_fluid</strong>:<br />
+<strong>Description</strong>: Allows to check if the TileEntity has a Fluid stored<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (The Fluid Registry name of the Fluid that should be checkt for) String,<br />
+<strong>"amount"</strong>: (How much the liquid should be checkt for, Default: 1000) IntNumber,<br />
+<strong>"exact"</strong>: (If the Exact amount should be present or any Amount, Default: true) Boolean,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>tile_has_FE</strong>:<br />
+<strong>Description</strong>: Allows to check for Forge Energy inside of a Block<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"bigger"</strong>: (If the Block should have more or less ForgeEnergy then requested, Default: true) Boolean,<br />
+<strong>"amount"</strong>: (How much forge Energy Should be checkt for, Default: 0) IntNumber,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>item_has_FE</strong>:<br />
+<strong>Description</strong>: Allows to check for Forge Energy inside of a Block<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"bigger"</strong>: (If the Block should have more or less ForgeEnergy then requested, Default: true) Boolean,<br />
+<strong>"amount"</strong>: (How much forge Energy Should be checkt for, Default: 0) IntNumber,<br />
+<strong>Incompatible With</strong>: Duplicate(Partly) <br />
+<strong>Type: Condition</strong><br />
+<br />
+</li><li><strong>consume_tile_items</strong>:<br />
+<strong>Description</strong>: Allows to consume items from a TileEntities inventory<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"side"</strong>: (Which side the items should be taken from, Default: Null) String,<br />
+<strong>"items"</strong>: (It can be either a Object or a ObjectArray) OptionalObjectArray,<br />
+   <strong>"name"</strong>: (The Item that should be consumed) String,<br />
+   <strong>"meta"</strong>: (The Metadata of the item that should be consumed 32767 = any meta, Default: 32767) IntNumber,<br />
+   <strong>"amount"</strong>: (How many items should be consumed, Default: 1) IntNumber,<br />
+   <strong>"nbt"</strong>: (The NBTData the item should have that should be consumed, Default: null) String,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>tile_consume_fluid</strong>:<br />
+<strong>Description</strong>: Allows to consume Fluid from the TileEntity<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (The Fluid Registry name of the Fluid that should be consumed) String,<br />
+<strong>"amount"</strong>: (How much the liquid should be consumed, Default: 1000) IntNumber,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>tile_add_fluid</strong>:<br />
+<strong>Description</strong>: Allows to Fill Fluid to the TileEntity<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"name"</strong>: (The Fluid Registry name of the Fluid that should be added) String,<br />
+<strong>"amount"</strong>: (How much the liquid should be added, Default: 1000) IntNumber,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>add_tile_items</strong>:<br />
+<strong>Description</strong>: Allows to add Items into slots of a TileInventory<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"side"</strong>: (Which side the items should be added from, Default: Null) String,<br />
+<strong>"items"</strong>: (The Items that should be inserted) ObjectArray,<br />
+      <strong>"name"</strong>: (The ItemRegistryName of the Item that should be inserted) String,<br />
+      <strong>"meta"</strong>: (The Metadata of the Item that should be inserted, Default: 0) IntNumber,<br />
+      <strong>"amount"</strong>: (The Amount of the Item that should be inserted, Default: 1) IntNumber,<br />
+      <strong>"nbt"</strong>: (The NBTData the Item should have. Optional) String,<br />
+      <strong>"slots"</strong>: (The Slots the Item should be in) IntNumberArray,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>modify_Block_FE</strong>:<br />
+<strong>Description</strong>: Allows to add or remove FE to a BlockTileEntity<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"consume"</strong>: (If Forge Energy should be added or removed, Default: true) Boolean,<br />
+<strong>"amount"</strong>: (How much should be added or removed, Default: 0) IntNumber,<br />
+<strong>Incompatible With</strong>: None<br />
+<strong>Type: Effect</strong><br />
+<br />
+</li><li><strong>modify_Item_FE</strong>:<br />
+<strong>Description</strong>: Allows to add or remove FE to a Item<br />
+<strong>Parameters</strong>:<br />
+<strong>"disableJEI"</strong>: (Decides if the Condition is visible in JEI, Default: false) Boolean,<br />
+<strong>"consume"</strong>: (If Forge Energy should be added or removed, Default: true) Boolean,<br />
+<strong>"amount"</strong>: (How much should be added or removed, Default: 0) IntNumber,<br />
+<strong>Incompatible With</strong>: consume_item(Completely) <br />
+<strong>Type: Effect</strong><br />
+<br />
+</li>

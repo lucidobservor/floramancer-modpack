@@ -1,6 +1,8 @@
 
 Mods Added:
 <li><a href="https://minecraft.curseforge.com/mc-mods/224712">Wawla - What Are We Looking At (by Darkhax)</a></li>
+Scavenge
+Scavenge - Game Stages
 
 Mods Updated:
 Better Advancements
