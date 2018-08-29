@@ -7,6 +7,7 @@ Better Advancements
 BNBGamingLib
 Botania (see https://botaniamod.net/changelog.php#r1.10-355)
 Triumph
+Worley's Caves
 
 Enhancements:
 Added simple recipes for chests and hoppers using logs
