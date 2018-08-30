@@ -111,16 +111,6 @@ ManaInfusion.addAlchemy(<traverse:brown_autumnal_sapling>, <traverse:yellow_autu
 ManaInfusion.addAlchemy(<traverse:fir_sapling>, <traverse:brown_autumnal_sapling>, 120);
 ManaInfusion.addAlchemy(<minecraft:sapling>, <traverse:fir_sapling>, 120);
 
-// Convert Quark Runes back to Cave Crystal
-ManaInfusion.addAlchemy(<quark:crystal:0> * 8, <quark:rune:0>, 800);
-ManaInfusion.addAlchemy(<quark:crystal:1> * 8, <quark:rune:14>, 800);
-ManaInfusion.addAlchemy(<quark:crystal:2> * 8, <quark:rune:1>, 800);
-ManaInfusion.addAlchemy(<quark:crystal:3> * 8, <quark:rune:4>, 800);
-ManaInfusion.addAlchemy(<quark:crystal:4> * 8, <quark:rune:5>, 800);
-ManaInfusion.addAlchemy(<quark:crystal:5> * 8, <quark:rune:3>, 800);
-ManaInfusion.addAlchemy(<quark:crystal:6> * 8, <quark:rune:11>, 800);
-ManaInfusion.addAlchemy(<quark:crystal:7> * 8, <quark:rune:2>, 800);
-
 // Cycle Quark Runes
 ManaInfusion.addAlchemy(<quark:rune:1>, <quark:rune:0>, 400);
 ManaInfusion.addAlchemy(<quark:rune:2>, <quark:rune:1>, 400);

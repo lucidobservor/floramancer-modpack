@@ -109,14 +109,8 @@ Lexicon.addAlchemyPage("botania.page.manaAlchemy4", "botania.entry.manaAlchemy",
 	[<traverse:fir_sapling>, <traverse:brown_autumnal_sapling>, <traverse:yellow_autumnal_sapling>, <traverse:orange_autumnal_sapling>, <traverse:red_autumnal_sapling>, <minecraft:sapling:5>, <minecraft:sapling:4>, <minecraft:sapling:3>, <minecraft:sapling:2>, <minecraft:sapling:1>, <minecraft:sapling>] as IIngredient[], 
 	[120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]);
 	
-// Convert Quark Runes back to Cave Crystal
-Lexicon.addAlchemyPage("botania.page.manaAlchemy28", "botania.entry.manaAlchemy", 28, 
-	[<quark:crystal:0> * 8, <quark:crystal:1> * 8, <quark:crystal:2> * 8, <quark:crystal:3> * 8, <quark:crystal:4> * 8, <quark:crystal:5> * 8, <quark:crystal:6> * 8, <quark:crystal:7> * 8] as IItemStack[], 
-	[<quark:rune:0>, <quark:rune:14>, <quark:rune:1>, <quark:rune:4>, <quark:rune:5>, <quark:rune:3>, <quark:rune:11>, <quark:rune:2>] as IIngredient[], 
-	[800, 800, 800, 800, 800, 800, 800, 800]);
-	
 // Cycle quark runes
-Lexicon.addAlchemyPage("botania.page.manaAlchemy29", "botania.entry.manaAlchemy", 29, 
+Lexicon.addAlchemyPage("botania.page.manaAlchemy28", "botania.entry.manaAlchemy", 28,
 	[<quark:rune:1>, <quark:rune:2>, <quark:rune:3>, <quark:rune:4>, <quark:rune:5>, <quark:rune:6>, <quark:rune:7>, <quark:rune:8>, <quark:rune:9>, <quark:rune:10>, <quark:rune:11>, <quark:rune:12>, <quark:rune:13>, <quark:rune:14>, <quark:rune:15>, <quark:rune:0>] as IItemStack[], 
 	[<quark:rune:0>, <quark:rune:1>, <quark:rune:2>, <quark:rune:3>, <quark:rune:4>, <quark:rune:5>, <quark:rune:6>, <quark:rune:7>, <quark:rune:8>, <quark:rune:9>, <quark:rune:10>, <quark:rune:11>, <quark:rune:12>, <quark:rune:13>, <quark:rune:14>, <quark:rune:15>] as IIngredient[], 
 	[400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400]);

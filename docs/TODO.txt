@@ -1,10 +1,10 @@
 
 Test:
 - Initial Lexica
+- Rune to Crystal and alchemy
 
 Enhance:
 - Edit Custom Main Menu
-- Fix rune recipes
 - Make better blaze advancement
 
 Fix:
