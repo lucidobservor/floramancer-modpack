@@ -2,10 +2,10 @@
 Test:
 - Initial Lexica
 - Rune to Crystal and alchemy
+- Blaze Advancement
 
 Enhance:
 - Edit Custom Main Menu
-- Make better blaze advancement
 
 Fix:
 - Figure out why Lexicon crafting pages don't work

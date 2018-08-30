@@ -9,7 +9,19 @@ setFrameType("challenge")
 setPos(119,-50)
 hideLines()
 
+criteria = addCriteria("placedIronBars", "minecraft:placed_block")
+criteria.setBlock(<minecraft:iron_bars>)
+criteria.setCount(2)
+criteria.setDimID(0)
+
+criteria = addCriteria("placedFelPumpkin", "minecraft:placed_block")
+criteria.setBlock(<botania:felpumpkin>)
+criteria.setCount(1)
+criteria.setDimID(0)
+
 criteria = addCriteria("blaze", "minecraft:player_killed_entity")
 criteria.setEntityType("blaze")
 location = entityData.getLocationData()
 location.setDimensionType("overworld")
+
+
