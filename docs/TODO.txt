@@ -1,8 +1,4 @@
 
-Test:
-- Rune to Crystal and alchemy
-- Blaze Advancement
-
 Enhance:
 - Edit Custom Main Menu
 
