@@ -1,2 +1,3 @@
 gamestage add @p spectrolus
 advancement revoke @p only triumph:hidden/lexiconpotatoclick clickedPotatoWithLexica
+summon minecraft:fireworks_rocket ~ ~ ~

@@ -1,1 +1,2 @@
 tellraw @p ["",{"text":"[Galactic Potato] "},{"text":"Ahhh, much better! Thank you ","color":"aqua"},{"selector":"@p","color":"aqua"},{"text":", you truly are a Master Floramancer now!","color":"aqua"}]
+summon minecraft:fireworks_rocket ~ ~ ~

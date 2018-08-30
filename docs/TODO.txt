@@ -1,6 +1,11 @@
 
+Test:
+- Initial Lexica
+
 Enhance:
 - Edit Custom Main Menu
+- Fix rune recipes
+- Make better blaze advancement
 
 Fix:
 - Figure out why Lexicon crafting pages don't work
