@@ -1,0 +1,34 @@
+// Awards an initial lexica botania if the world type is not GoG
+
+addParent("triumph:hidden/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+addRewardFunction("triumph:initiallexicon")
+
+criteria = addCriteria("amplified", "minecraft:location")
+criteria.setWorldType("amplified")
+
+criteria = addCriteria("customized", "minecraft:location")
+criteria.setWorldType("customized")
+
+criteria = addCriteria("debug_all_block_states", "minecraft:location")
+criteria.setWorldType("debug_all_block_states")
+
+criteria = addCriteria("default", "minecraft:location")
+criteria.setWorldType("default")
+
+criteria = addCriteria("default_1_1", "minecraft:location")
+criteria.setWorldType("default_1_1")
+
+criteria = addCriteria("flat", "minecraft:location")
+criteria.setWorldType("flat")
+
+criteria = addCriteria("largeBiomes", "minecraft:location")
+criteria.setWorldType("largeBiomes")
+
+criteria = addCriteria("quark_realistic", "minecraft:location")
+criteria.setWorldType("quark_realistic")
+
+setRequirements("any")

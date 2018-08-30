@@ -8,7 +8,6 @@ setBackground("botania:textures/blocks/chiseledmanaquartz0.png")
 setShowToast(false)
 setAnnounceToChat(false)
 setHidden(true)
-addRewardFunction("triumph:initiallexicon")
 
 setPos(0,120)
 

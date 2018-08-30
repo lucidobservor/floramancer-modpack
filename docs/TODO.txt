@@ -1,6 +1,5 @@
 
 Test:
-- Initial Lexica
 - Rune to Crystal and alchemy
 - Blaze Advancement
 
