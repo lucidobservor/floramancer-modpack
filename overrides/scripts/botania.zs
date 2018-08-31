@@ -156,7 +156,7 @@ recipes.addShaped("botania_flighttiara_0", <botania:flighttiara>,
   =========================*/
 
 // Add Item Stages to Creative Items
-mods.ItemStages.addItemStage("creative", creativeManaTablet);
+// mods.ItemStages.addItemStage("creative", creativeManaTablet); // Currently broken, hides normal mana tablet as well
 mods.ItemStages.addItemStage("creative", creativeManaPool);
 
 // Creative Tablet

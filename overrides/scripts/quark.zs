@@ -7,3 +7,4 @@ recipes.addShapeless("quark_crystal_4", <quark:crystal:4> * 8, [<quark:rune:5>],
 recipes.addShapeless("quark_crystal_5", <quark:crystal:5> * 8, [<quark:rune:3>], null, null);
 recipes.addShapeless("quark_crystal_6", <quark:crystal:6> * 8, [<quark:rune:11>], null, null);
 recipes.addShapeless("quark_crystal_7", <quark:crystal:7> * 8, [<quark:rune:2>], null, null);
+

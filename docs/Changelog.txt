@@ -1,11 +1,12 @@
 
 Mods Added:
-<li><a href="https://minecraft.curseforge.com/mc-mods/224712">Wawla - What Are We Looking At (by Darkhax)</a></li>
+Wawla - What Are We Looking At (by Darkhax)
 
 Mods Updated:
 Better Advancements
 BNBGamingLib
 Botania (see https://botaniamod.net/changelog.php#r1.10-355)
+Comforts
 Triumph
 Worley's Caves
 
@@ -18,3 +19,5 @@ Added advancement for spawning a Fel-Spawned Blaze, to direct players to do that
 
 Bugfixes:
 Music disc duplication fixed
+Mana Tablet hidden from JEI by item stages incorrectly
+Chunk animator doing weird things in GoG
