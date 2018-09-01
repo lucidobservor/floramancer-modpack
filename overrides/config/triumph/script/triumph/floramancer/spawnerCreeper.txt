@@ -12,3 +12,8 @@ hideLines()
 
 criteria = addCriteria("pickedUpCreeperSpawner", "minecraft:inventory_changed")
 criteria.addItem(<botania:spawnermover, nbt:{spawner: {SpawnData: {id: "minecraft:creeper"}}}>)
+
+criteria = addCriteria("botania-skyblock", "minecraft:location")
+criteria.setWorldType("botania-skyblock")
+
+setRequirements("any")
