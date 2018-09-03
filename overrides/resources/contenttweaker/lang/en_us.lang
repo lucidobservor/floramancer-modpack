@@ -1,6 +1,7 @@
 
 # Why is this even broken?
 entity.EnderCrystal.name=End Crystal
+entity.ItemFrame.name=Item Frame
 
 # Knowledge Type
 botania.knowledge.creative=&1Creative&7 Knowledge

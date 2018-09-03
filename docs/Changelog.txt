@@ -1,4 +1,5 @@
 
 Bugfixes:
-- Horses, brewing stands, and signs blacklisted from carryon
+- Horses, brewing stands, enchanting tables, and signs blacklisted from carryon
 - Removed the currently useless mana fluxfield
+- Fixed some vanilla localization bugs
