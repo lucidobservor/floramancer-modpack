@@ -1,13 +1,4 @@
 
-Mods Updates:
-Botania (important bugfix)
-Quark
-Worley's Caves
-
-Enchancements:
-Enabled quark speleothems now that they won't spawn above ground
-Made Worley's Caves break through to the surface super rarely, given how bad it looks when that happens
-Re-profiled with JER, so Earthworks blocks are shown
-
 Bugfixes:
-Creeper spawner advancement is unacheivable in GoG. Added a note to that effect and made it autocomplete in that case.
+- Horses, brewing stands, and signs blacklisted from carryon
+- Removed the currently useless mana fluxfield
