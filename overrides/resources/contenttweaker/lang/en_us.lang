@@ -1,4 +1,7 @@
 
+# Why is this even broken?
+entity.EnderCrystal.name=End Crystal
+
 # Knowledge Type
 botania.knowledge.creative=&1Creative&7 Knowledge
 
