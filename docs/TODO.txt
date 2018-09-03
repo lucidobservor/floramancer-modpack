@@ -1,6 +1,8 @@
 
 Enhance:
 - Edit Custom Main Menu
+- Tweak mob spawning (too many horses and bears)
+- Two recipes for orechid, one GoG and one not
 
 Fix:
 - Figure out why Lexicon crafting pages don't work
