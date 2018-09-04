@@ -1,9 +1,11 @@
 
 Enhance:
 - Orechid now has two recipes, one for GoG and one for Overworld
+- Ores now drop XP when automatically broken with Quark's iron rod. The bore lens will work once the next version of Botania is released.
 
 Bugfixes:
 - Horses, brewing stands, enchanting tables, and signs blacklisted from carryon
 - Removed the currently useless mana fluxfield
 - Fixed some vanilla localization bugs
 - Let quark regenerate fairy ring config (lowered spawn rate)
+- Fixed invalid JSON for JER world profile
