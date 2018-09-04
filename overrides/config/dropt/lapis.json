@@ -1,0 +1,126 @@
+{
+	"rules": [
+
+		{
+			"match": {
+				"drops": {
+					"drops": [
+						"ore:gemLapis"
+					]
+				}
+			},
+			"drops": [
+				{
+					"selector": {
+						"weight": {
+							"value": 2
+						}
+					},
+					"item": {
+						"items": [
+							"minecraft:dye:4"
+						],
+						"quantity": {
+							"min": 4,
+							"max": 8
+						}
+					},
+					"xp": {
+						"min": 2,
+						"max": 5
+					},
+					"xpReplaceStrategy": "REPLACE"
+				},
+				{
+					"selector": {
+						"weight": {
+							"value": 1
+						},
+						"fortuneLevelRequired": 1
+					},
+					"item": {
+						"items": [
+							"minecraft:dye:4"
+						],
+						"quantity": {
+							"min": 8,
+							"max": 16
+						}
+					},
+					"xp": {
+						"min": 2,
+						"max": 5
+					},
+					"xpReplaceStrategy": "REPLACE"
+
+				},
+				{
+					"selector": {
+						"weight": {
+							"value": 1
+						},
+						"fortuneLevelRequired": 2
+					},
+					"item": {
+						"items": [
+							"minecraft:dye:4"
+						],
+						"quantity": {
+							"min": 12,
+							"max": 24
+						}
+					},
+					"xp": {
+						"min": 2,
+						"max": 5
+					},
+					"xpReplaceStrategy": "REPLACE"
+				},
+				{
+					"selector": {
+						"weight": {
+							"value": 1
+						},
+						"fortuneLevelRequired": 3
+					},
+					"item": {
+						"items": [
+							"minecraft:dye:4"
+						],
+						"quantity": {
+							"min": 16,
+							"max": 32
+						}
+					},
+					"xp": {
+						"min": 2,
+						"max": 5
+					},
+					"xpReplaceStrategy": "REPLACE"
+				},
+				{
+					"selector": {
+						"weight": {
+							"value": 1
+						},
+						"fortuneLevelRequired": 4
+					},
+					"item": {
+						"items": [
+							"minecraft:dye:4"
+						],
+						"quantity": {
+							"min": 20,
+							"max": 40
+						}
+					},
+					"xp": {
+						"min": 2,
+						"max": 5
+					},
+					"xpReplaceStrategy": "REPLACE"
+				}
+			]
+		}
+	]
+}

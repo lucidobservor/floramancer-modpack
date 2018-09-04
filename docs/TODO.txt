@@ -5,6 +5,6 @@ Enhance:
 Fix:
 - Figure out why Lexicon crafting pages don't work
 - Bore lens block drops
-
+- JER
 
 

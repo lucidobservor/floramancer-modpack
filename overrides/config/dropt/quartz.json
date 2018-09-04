@@ -1,0 +1,126 @@
+{
+	"rules": [
+
+		{
+			"match": {
+				"drops": {
+					"drops": [
+						"minecraft:quartz"
+					]
+				}
+			},
+			"drops": [
+				{
+					"selector": {
+						"weight": {
+							"value": 2
+						}
+					},
+					"item": {
+						"items": [
+							"minecraft:quartz"
+						],
+						"quantity": {
+							"min": 1,
+							"max": 1
+						}
+					},
+					"xp": {
+						"min": 2,
+						"max": 5
+					},
+					"xpReplaceStrategy": "REPLACE"
+				},
+				{
+					"selector": {
+						"weight": {
+							"value": 1
+						},
+						"fortuneLevelRequired": 1
+					},
+					"item": {
+						"items": [
+							"minecraft:quartz"
+						],
+						"quantity": {
+							"min": 2,
+							"max": 2
+						}
+					},
+					"xp": {
+						"min": 2,
+						"max": 5
+					},
+					"xpReplaceStrategy": "REPLACE"
+
+				},
+				{
+					"selector": {
+						"weight": {
+							"value": 1
+						},
+						"fortuneLevelRequired": 2
+					},
+					"item": {
+						"items": [
+							"minecraft:quartz"
+						],
+						"quantity": {
+							"min": 3,
+							"max": 3
+						}
+					},
+					"xp": {
+						"min": 2,
+						"max": 5
+					},
+					"xpReplaceStrategy": "REPLACE"
+				},
+				{
+					"selector": {
+						"weight": {
+							"value": 1
+						},
+						"fortuneLevelRequired": 3
+					},
+					"item": {
+						"items": [
+							"minecraft:quartz"
+						],
+						"quantity": {
+							"min": 4,
+							"max": 4
+						}
+					},
+					"xp": {
+						"min": 2,
+						"max": 5
+					},
+					"xpReplaceStrategy": "REPLACE"
+				},
+				{
+					"selector": {
+						"weight": {
+							"value": 1
+						},
+						"fortuneLevelRequired": 4
+					},
+					"item": {
+						"items": [
+							"minecraft:quartz"
+						],
+						"quantity": {
+							"min": 5,
+							"max": 5
+						}
+					},
+					"xp": {
+						"min": 2,
+						"max": 5
+					},
+					"xpReplaceStrategy": "REPLACE"
+				}
+			]
+		}
+	]
+}
