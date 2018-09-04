@@ -1,4 +1,7 @@
 
+Enhance:
+- Orechid now has two recipes, one for GoG and one for Overworld
+
 Bugfixes:
 - Horses, brewing stands, enchanting tables, and signs blacklisted from carryon
 - Removed the currently useless mana fluxfield

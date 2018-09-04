@@ -22,7 +22,9 @@ Apothecary.removeRecipe(munchdew);
 Apothecary.removeRecipe(narslimmus);
 Apothecary.removeRecipe(dandelifeon);
 Apothecary.removeRecipe(shulkmenot);
+Apothecary.removeRecipe(orechid);
 
+// Generating Flora
 Apothecary.addRecipe(munchdew,
 	[<ore:petalLime>, <ore:petalLime>, <ore:petalRed>, <ore:petalRed>, <ore:petalGreen>,
 	<ore:runeGluttonyB>, <ore:runeWaterB>]);
@@ -38,7 +40,14 @@ Apothecary.addRecipe(shulkmenot,
 Apothecary.addRecipe(dandelifeon,
 	[<ore:petalPurple>, <ore:petalPurple>, <ore:petalLime>, <ore:petalGreen>,
 	<ore:runeWaterB>, <ore:runeFireB>, <ore:runeEarthB>, <ore:runeAirB>, <ore:runeSpringB>, <ore:runeSummerB>, <ore:runeAutumnB>, <ore:runeWinterB>, <ore:elvenPixieDust>, <ore:bEnderAirBottle>]);
+	
+// Orechid Recipes for both GoG and Overworld
+Apothecary.addRecipe(orechid, 
+	[<ore:petalGray>, <ore:petalGray>, <ore:petalYellow>, <ore:petalGreen>, <ore:petalRed>, <ore:runePrideB>, <ore:runeGreedB>, <ore:redstoneRoot>, <ore:elvenPixieDust>]);
+Apothecary.addRecipe(orechid, 
+	[<ore:petalGray>, <ore:petalGray>, <ore:petalYellow>, <ore:petalYellow>, <ore:petalGreen>, <ore:petalGreen>, <ore:petalRed>, <ore:petalRed>, <ore:livingRoot>]);
 
+	
 /*==========================
   Runic Altar Recipe Tweaks
  ==========================*/

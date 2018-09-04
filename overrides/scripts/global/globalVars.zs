@@ -22,6 +22,7 @@ global arcanerose as IItemStack =  <botania:specialflower>.withTag({type: "arcan
 global shulkmenot as IItemStack =  <botania:specialflower>.withTag({type: "shulk_me_not"});
 global spectrolus as IItemStack =  <botania:specialflower>.withTag({type: "spectrolus"});
 global thermalily as IItemStack =  <botania:specialflower>.withTag({type: "thermalily"});
+global orechid as IItemStack =  <botania:specialflower>.withTag({type: "orechid"});
 
 // Flower Trophies
 global dandelifeontrophy as IItemStack = <simple_trophies:trophy>.withTag(
