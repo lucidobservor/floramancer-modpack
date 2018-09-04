@@ -6,3 +6,4 @@ Bugfixes:
 - Horses, brewing stands, enchanting tables, and signs blacklisted from carryon
 - Removed the currently useless mana fluxfield
 - Fixed some vanilla localization bugs
+- Let quark regenerate fairy ring config (lowered spawn rate)
