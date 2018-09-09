@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Floramancer",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "author": "lucidobservor",
   "files": [
     {
@@ -21,12 +21,12 @@
     },
     {
       "projectID": 251407,
-      "fileID": 2562133,
+      "fileID": 2611999,
       "required": true
     },
     {
       "projectID": 267769,
-      "fileID": 2590503,
+      "fileID": 2613657,
       "required": true
     },
     {
@@ -116,7 +116,7 @@
     },
     {
       "projectID": 288885,
-      "fileID": 2579685,
+      "fileID": 2614071,
       "required": true
     },
     {
@@ -151,7 +151,7 @@
     },
     {
       "projectID": 241895,
-      "fileID": 2562131,
+      "fileID": 2611981,
       "required": true
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "projectID": 271740,
-      "fileID": 2574517,
+      "fileID": 2613730,
       "required": true
     },
     {
@@ -261,12 +261,12 @@
     },
     {
       "projectID": 243121,
-      "fileID": 2611333,
+      "fileID": 2612195,
       "required": true
     },
     {
       "projectID": 295114,
-      "fileID": 2607997,
+      "fileID": 2613180,
       "required": true
     },
     {
@@ -391,7 +391,7 @@
     },
     {
       "projectID": 245755,
-      "fileID": 2595479,
+      "fileID": 2613865,
       "required": true
     },
     {
@@ -416,7 +416,7 @@
     },
     {
       "projectID": 233342,
-      "fileID": 2513426,
+      "fileID": 2614275,
       "required": true
     },
     {
@@ -571,7 +571,7 @@
     },
     {
       "projectID": 299815,
-      "fileID": 2611655,
+      "fileID": 2613897,
       "required": true
     },
     {
@@ -641,7 +641,7 @@
     },
     {
       "projectID": 224712,
-      "fileID": 2569612,
+      "fileID": 2613509,
       "required": true
     },
     {
