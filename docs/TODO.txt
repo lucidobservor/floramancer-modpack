@@ -1,8 +1,0 @@
-
-Enhance:
-- Edit Custom Main Menu
-
-Fix:
-- Figure out why Lexicon crafting pages don't work
-
-
