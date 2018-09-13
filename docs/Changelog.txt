@@ -11,3 +11,6 @@ Mods Updated:
 - WAWLA
 - Waystones
 - Worley's Caves
+
+Enhancements:
+- Disallow breaking generated waystones
