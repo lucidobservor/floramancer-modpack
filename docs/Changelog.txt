@@ -18,3 +18,6 @@ Mods Updated:
 Enhancements:
 - Disallow breaking generated waystones
 - Added taglines to Lexicon entries
+
+Bugfixes:
+- Quark note block interface now requires an empty hand, because otherwise it breaks AFK fishing setups
