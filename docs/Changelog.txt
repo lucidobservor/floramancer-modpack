@@ -3,6 +3,9 @@ Mods Added:
 - Better Invisibility
 - Worse Barrels
 
+Mods Removed:
+- Enchantment Descriptions
+
 Mods Updated:
 - Botania Tweaks
 - Client Tweaks
