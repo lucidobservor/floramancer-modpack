@@ -1,0 +1,58 @@
+{
+  "block_pools" :
+  [
+    {
+      "name": "Return Scroll",
+      "type":
+      {
+        "type": "block",
+        "name": "waystones:waystone"
+      },
+      "clicktype": "rightclick",
+      "blockRightClick": true,
+      "properties":
+      [
+        {
+          "type": "require_XP_Level",
+          "value": 2
+        },
+        {
+          "type": "add_XP_Level",
+          "value": 2,
+          "remove": true
+        },
+        {
+          "type": "require_item",
+          "name": "minecraft:paper"
+        },
+        {
+          "type": "consume_item",
+          "amount": 1
+        },
+        {
+          "type": "play_sound",
+          "name": "minecraft:entity.enderpearl.throw"
+        },
+        {
+          "type": "swing_hand"
+        },
+        {
+          "type": "drop_items"
+        }
+      ],
+      "drops":
+      [
+        {
+          "name": "waystones:return_scroll"
+        }
+      ],
+      "messages":
+      [
+        {
+          "id": "require_XP_Level",
+          "message": "Not enough experience, two levels required"
+        }
+      ]
+    }
+  ]
+}
