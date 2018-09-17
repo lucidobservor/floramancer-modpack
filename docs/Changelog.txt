@@ -1,4 +1,8 @@
 
+Mods Added:
+- Better Invisibility
+- Worse Barrels
+
 Mods Updated:
 - Botania Tweaks
 - Client Tweaks
