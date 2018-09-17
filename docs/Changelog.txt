@@ -5,8 +5,11 @@ Mods Updated:
 - Fairy Lights
 - FastWorkbench
 - KleeSlabs
+- ModTweaker
 - Quark
+- SmoothFont
 - Toast Control
+- Trample Stopper
 - Traverse
 - WAWLA
 - Waystones
@@ -14,3 +17,4 @@ Mods Updated:
 
 Enhancements:
 - Disallow breaking generated waystones
+- Added taglines to Lexicon entries
