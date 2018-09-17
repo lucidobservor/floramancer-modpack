@@ -1,6 +1,7 @@
 
 Mods Added:
 - Better Invisibility
+- Scavenge
 - Worse Barrels
 
 Mods Removed:
@@ -24,7 +25,9 @@ Mods Updated:
 
 Enhancements:
 - Disallow breaking generated waystones
+- Rebalanced all waystones recipes around Botania progression
 - Added taglines to Lexicon entries
+- Added gravel -> sand anvil smashing recipe
 
 Bugfixes:
 - Quark note block interface now requires an empty hand, because otherwise it breaks AFK fishing setups
