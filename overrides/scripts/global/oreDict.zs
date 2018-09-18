@@ -75,4 +75,10 @@ var scrollBasic = <ore:scrollBasic>;
 scrollBasic.add(<waystones:return_scroll>);
 scrollBasic.add(<waystones:bound_scroll>);
 
+// Add water container oredict
+oreDict.get("containerWater");
+var containerWater = <ore:containerWater>;
+containerWater.add(<minecraft:water_bucket>);
+containerWater.add(<minecraft:potion>.withTag({Potion: "minecraft:water"}));
+
 

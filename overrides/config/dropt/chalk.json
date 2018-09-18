@@ -1,0 +1,31 @@
+{
+	"rules": [
+
+		{
+			"match": {
+				"drops": {
+					"drops": [
+						"earthworks:item_chalk"
+					]
+				}
+			},
+			"drops": [
+				{
+					"selector": {
+						"weight": {
+							"value": 1
+						}
+					},
+					"item": {
+						"items": [
+							"earthworks:block_chalk"
+						],
+						"quantity": {
+							"fixed": 1
+						}
+					}
+				}
+			]
+		}
+	]
+}

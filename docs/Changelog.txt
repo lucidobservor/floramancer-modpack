@@ -33,6 +33,7 @@ Enhancements:
 - Added taglines to Lexicon entries
 - Added gravel -> sand anvil smashing recipe
 - Added recipes to (inefficiently) recycle damaged leather armor and saddles back into leather
+- Removed some microcrafting in Earthworks
 
 Bugfixes:
 - Quark note block interface now requires an empty hand, because otherwise it breaks AFK fishing setups

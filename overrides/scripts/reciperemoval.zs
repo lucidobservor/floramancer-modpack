@@ -5,7 +5,7 @@ mods.jei.JEI.removeAndHide(<botania:manasteelhelmreveal>);
 mods.jei.JEI.removeAndHide(<botania:elementiumhelmreveal>);
 mods.jei.JEI.removeAndHide(<botania:terrasteelhelmreveal>);
 
-// Remove WIther Tweaks Sword
+// Remove Wither Tweaks Sword
 mods.jei.JEI.removeAndHide(<witherskelefix:blade>);
 mods.jei.JEI.removeAndHide(<witherskelefix:blade2>);
 
@@ -42,3 +42,4 @@ mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_black:*>);
 
 // Remove Deco Cobweb
 mods.jei.JEI.removeAndHide(<cobwebs:deco_web>);
+
