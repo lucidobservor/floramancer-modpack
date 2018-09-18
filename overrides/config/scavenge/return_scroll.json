@@ -8,18 +8,18 @@
         "type": "block",
         "name": "waystones:waystone"
       },
-      "clicktype": "rightclick",
-      "blockRightClick": true,
+      "clicktype": "leftclick",
       "properties":
       [
         {
           "type": "require_XP_Level",
-          "value": 2
+          "value": 1,
+		  "disableJEI": true
         },
         {
           "type": "add_XP_Level",
-          "value": 2,
-          "remove": true
+          "amount": -2,
+          "remove": false
         },
         {
           "type": "require_item",
@@ -31,13 +31,12 @@
         },
         {
           "type": "play_sound",
-          "name": "minecraft:entity.enderpearl.throw"
+          "name": "minecraft:entity.enderpearl.throw",
+		  "disableJEI": true
         },
         {
-          "type": "swing_hand"
-        },
-        {
-          "type": "drop_items"
+          "type": "swing_hand",
+		  "disableJEI": true
         }
       ],
       "drops":

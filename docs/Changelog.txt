@@ -8,7 +8,10 @@ Mods Removed:
 - Enchantment Descriptions
 
 Mods Updated:
+- Better Advancements
+- Bookshelf
 - Botania Tweaks
+- Charset Lib
 - Client Tweaks
 - Fairy Lights
 - FastWorkbench
@@ -19,6 +22,7 @@ Mods Updated:
 - Toast Control
 - Trample Stopper
 - Traverse
+- Triumph
 - WAWLA
 - Waystones
 - Worley's Caves

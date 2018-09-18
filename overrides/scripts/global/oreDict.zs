@@ -69,21 +69,10 @@ treeSapling.add(<traverse:orange_autumnal_sapling>);
 treeSapling.add(<traverse:yellow_autumnal_sapling>);
 treeSapling.add(<traverse:brown_autumnal_sapling>);
 
-// Add shears to OreDict
-oreDict.get("toolShears");
-var toolShears = <ore:toolShears>;
-toolShears.add(<minecraft:shears>);
-toolShears.add(<botania:elementiumshears>);
-toolShears.add(<botania:manasteelshears>);
-
-
-
-
-
-
-
-
-
-
+// Add basic waystone scroll oredict
+oreDict.get("scrollBasic");
+var scrollBasic = <ore:scrollBasic>;
+scrollBasic.add(<waystones:return_scroll>);
+scrollBasic.add(<waystones:bound_scroll>);
 
 
