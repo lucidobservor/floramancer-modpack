@@ -4,7 +4,11 @@
   "pages": [
     {
       "title": "Getting Started",
-      "file": "page_1"
+      "file": "page1"
+    },
+    {
+      "title": "Tips, Tricks, and Tweaks",
+      "file": "page2"
     }
   ]
 }
