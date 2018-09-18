@@ -1,6 +1,8 @@
 
 Mods Added:
 - Better Invisibility
+- MPUtils
+- MPUtils Basic Tools
 - Scavenge
 - Worse Barrels
 
@@ -34,6 +36,7 @@ Enhancements:
 - Added gravel -> sand anvil smashing recipe
 - Added recipes to (inefficiently) recycle damaged leather armor and saddles back into leather
 - Removed some microcrafting in Earthworks
+- Added Welcome screen to the pack, and in game changelog
 
 Bugfixes:
 - Quark note block interface now requires an empty hand, because otherwise it breaks AFK fishing setups

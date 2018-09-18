@@ -1,0 +1,5 @@
+														Welcome to Floramancer!
+
+Open the Advancements Window to find out how to progress (Default key "L")
+
+This information and changelogs can be accessed again by pausing the game and opening the "What's New" icon on the right side of the screen.
