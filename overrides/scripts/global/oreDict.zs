@@ -69,12 +69,6 @@ treeSapling.add(<traverse:orange_autumnal_sapling>);
 treeSapling.add(<traverse:yellow_autumnal_sapling>);
 treeSapling.add(<traverse:brown_autumnal_sapling>);
 
-// Add basic waystone scroll oredict
-oreDict.get("scrollBasic");
-var scrollBasic = <ore:scrollBasic>;
-scrollBasic.add(<waystones:return_scroll>);
-scrollBasic.add(<waystones:bound_scroll>);
-
 // Add water container oredict
 oreDict.get("containerWater");
 var containerWater = <ore:containerWater>;

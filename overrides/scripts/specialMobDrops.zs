@@ -13,7 +13,7 @@ import mods.ctutils.entity.Experience;
 
 <entity:minecraft:blaze>.addDropFunction(function(entity, dmgSource) {
 	if (dmgSource.damageType == "generic") {
-		return <minecraft:blaze:rod>;
+		return <minecraft:blaze_rod>;
 	} else {
 		return null;
 	}
