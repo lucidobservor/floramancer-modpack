@@ -5,50 +5,61 @@ Here you can also find some Tips, Tricks, and Tweaks. Many of these are the same
 ---------------------------------------------------------------------
 
 General:
-* The Advancement page will provide some guidance through the pack. You can find it in the escape menu or by pressing "L" (default).
-* Some recipes are slightly modified. Check JEI or the Lexica Botania to find the new recipes.
-* Use F7 to see the light levels on the ground and F9 to see the chunk borders.
-* Players can jump over fences, but mobs cannot!
-* Enchant your boots with Feather Falling in order to stop accidentally trampling your crops.
-* You can move chests and animals by using Carry On to pick them up.
-* The invisibility status effect now ends if you make an attack or are discovered. Be sure to sneak when moving past mobs!
-* Fast Leaf Decay isn't in this pack because it interferes with munchdews. If you need to break a lot of leaves, craft a Horn of the Canopy.
-* [GoG] Falling into the void won't kill you.
+- The Advancement page will provide some guidance through the pack. You can find it in the escape menu or by pressing 
+  "L" (default).
+- Some recipes are slightly modified. Check JEI or the Lexica Botania to find the new recipes.
+- Use F7 to see the light levels on the ground and F9 to see the chunk borders.
+- Players can jump over fences, but mobs cannot!
+- Enchant your boots with Feather Falling in order to stop accidentally trampling your crops.
+- You can move chests and animals by using Carry On to pick them up.
+- Your invisibility now breaks if you make an attack or are discovered. Be sure to sneak when moving past mobs!
+- Fast Leaf Decay isn't in this pack because it interferes with munchdews. If you need to break a lot of leaves, craft 
+  a Horn of the Canopy.
+- [GoG] Falling into the void won't kill you.
 
 Exploration:
-* Craft an Antique Atlas before you go exploring so you don't get lost.
-* The caves in this pack are enormous and largely interconnected. Leave a trail of breadcrumbs so you can find your way back out.
-* If you die, a Death Compass will spawn in your inventory. This will point you to the direction of your grave.
-* Shift/Sneak while standing on top of your grave to retrieve your items.
-* Waystones generate in villages and are free to use, though they cannot be broken. Later in the game, you can craft your own waystones, and a warp stone to travel to any of them from anywhere for free.
-* Cobwebs can be destroyed easily with a torch.
-* Certain structures in jungle and birch forest biomes contain creeper spawners. Use them for an easy source of gunpowder.
-* The rare, tower-like structures in The End contain Enderman spawners! Move them back to the overworld for easier ender pearl farming.
+- Craft an Antique Atlas before you go exploring so you don't get lost.
+- The caves in this pack are enormous and largely interconnected. Leave a trail so you can find your way back out.
+- If you die, a Death Compass will spawn in your inventory. This will point you to the direction of your grave.
+- Shift/Sneak while standing on top of your grave to retrieve your items.
+- Waystones generate in villages and are free to use, though they cannot be broken. Later in the game, you can craft 
+  your own waystones, and a warp stone to travel to any of them from anywhere for free.
+- Cobwebs can be destroyed easily with a torch.
+- Some structures in jungle and birch forest biomes contain creeper spawners. Use them for an easy source of gunpowder.
+- The rare, tower-like structures in The End contain Enderman spawners! Move them back to the overworld for easier 
+  ender pearl farming.
 
 Transport:
-* You can automatically move items between dimensions using the Ender Soul Core.
-* Use minecarts to transport large amounts of mana quickly.
-* Minecarts can by dyed by shift-right clicking them with a vanilla dye.
-* There are several new kinds of rails to make constructing a rail network easier.
+- You can automatically move items between dimensions using the Ender Soul Core.
+- Use minecarts to transport large amounts of mana quickly.
+- Minecarts can by dyed by shift-right clicking them with a vanilla dye.
+- There are several new kinds of rails to make constructing a rail network easier.
 
 Mob Farming:
-* Wither skeletons drop wither skull fragments, even when not killed by a player.
-* You can move a skeleton spawner from the overworld to the Nether to turn it into a wither skeleton spawner
-* Blazes only drop blaze rods when killed by a player or livingwood avatar. This is expensive in terms of mana, so for blaze powder it is recommended that you create blazes with Fel Pumpkins instead.
+- Wither skeletons drop wither skull fragments, even when not killed by a player.
+- You can move a skeleton spawner from the overworld to the Nether to turn it into a wither skeleton spawner
+- Blazes only drop blaze rods when killed by a player or livingwood avatar. This is expensive in terms of mana, so for 
+  blaze powder it is recommended that you create blazes with Fel Pumpkins instead.
 
 Mining:
-* This pack doesn't have backpacks. When going on long mining trips, take some barrels from Worse Barrels with you. They only hold a few stacks, but they keep their contents when broken, and barrels with identical content stack in your inventory. Later, you can also use shulker boxes, which you can add items to directly from your inventory by right clicking.
-* The elementium pickaxe automatically voids cobblestone and dirt. Craft it together with a terra shatterer to give your terra shatterer the same property.
-* The black hole talisman can hold a ludicrous amount of a single item
+- This pack doesn't have backpacks. When going on long mining trips, take some barrels from Worse Barrels with you. 
+  They only hold a few stacks, but they keep their contents when broken, and barrels with identical content stack in 
+  your inventory. Later, you can also use shulker boxes, which you can add items to directly from your inventory by 
+  right clicking.
+- The elementium pickaxe automatically voids cobblestone and dirt. Craft it together with a terra shatterer to give 
+  your terra shatterer the same property.
+- The black hole talisman can hold a ludicrous amount of a single item
 
 Automation:
-* Lava is infinite in the Nether below the level of the lava lakes. Use dispensers to automatically collect it into buckets, transport it to the overworld using minecarts, and use it to power your Thermalilies.
-* You have several options for automating the Rosa Arcana.
-    - Fortune ores drop experience orbs, even when not broken by a player
-    - Hostile mobs drop orbs even when not killed by a player
-    - The Wither drops a LOT more experience than usual, even when not killed by a player, and nether stars can be converted into Bottles o' Enchanting. In this pack, it's possible to fully automate the spawning and killing of the Wither, though it's not easy.
-* Use the Redstone PCB for fine-grained control over how your redstone connects.
-* You can use a petal apothecary containing lava as an automatic trash can.
-* Incorporeal adds lots of utilities for expanding your Corporea system.
-
+- Lava is infinite in the Nether below the level of the lava lakes. Use dispensers to automatically collect it into 
+  buckets, transport it to the overworld using minecarts, and use it to power your Thermalilies.
+- You have several options for automating the Rosa Arcana.
+    > Fortune ores drop experience orbs, even when not broken by a player
+    > Hostile mobs drop orbs even when not killed by a player
+    > The Wither drops a LOT more experience than usual, even when not killed by a player, and nether stars can be 
+	  converted into Bottles o' Enchanting. In this pack, it's possible to fully automate the spawning and killing of 
+	  the Wither, though it's not easy.
+- Use the Redstone PCB for fine-grained control over how your redstone connects.
+- You can use a petal apothecary containing lava as an automatic trash can.
+- Incorporeal adds lots of utilities for expanding your Corporea system.
 
