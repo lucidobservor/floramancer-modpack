@@ -4,7 +4,7 @@ Flower          Generation (mana/s)         Recipe Cost     Lifetime Generation
 Entropinnyum    2167 (1 TNT / 3s)            88,850          7,801,200
 Gourmaryllis    1120                         29,850          4,032,000
 Rafflowsia      1050                         94,850          3,780,000
-Rosa Arcana     800                         134,000          2,880,000
+Rosa Arcana     992 (experimental)          134,000          3,570,000
 Munchdew        800                          67,000          2,880,000
 Dandelifeon     720                          87,400          2,592,000
 Shulk Me Not    580 (1 shulker/50s)         134,000          2,088,000
@@ -29,7 +29,7 @@ Mana Powder        500 mana
 Mana Diamond    10,000 mana
 Mana Pearl       6,000 mana
 
-
+Maximum spreader rate = 1 pool / 2:38
 
 
 --hydroangeas--
