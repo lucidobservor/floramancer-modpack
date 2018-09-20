@@ -69,10 +69,3 @@ treeSapling.add(<traverse:orange_autumnal_sapling>);
 treeSapling.add(<traverse:yellow_autumnal_sapling>);
 treeSapling.add(<traverse:brown_autumnal_sapling>);
 
-// Add water container oredict
-oreDict.get("containerWater");
-var containerWater = <ore:containerWater>;
-containerWater.add(<minecraft:water_bucket>);
-containerWater.add(<minecraft:potion>.withTag({Potion: "minecraft:water"}));
-
-

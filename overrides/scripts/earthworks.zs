@@ -1,4 +1,8 @@
 
+import crafttweaker.item.IIngredient;
+
+var waterContainer = (<minecraft:water_bucket> | <minecraft:potion>.withTag({Potion: "minecraft:water"})) as IIngredient;
+
 // Remove All Earthworks Tools
 mods.jei.JEI.removeAndHide(<earthworks:tool_square>);
 mods.jei.JEI.removeAndHide(<earthworks:tool_hand_axe>);
@@ -36,10 +40,10 @@ recipes.removeByRecipeName("earthworks:block_wattle_alt");
 
 // Replace Recipes
 recipes.addShapeless("earthworks_item_lime_plaster", <earthworks:item_lime_plaster> * 16, 
-	[<minecraft:sand>, <minecraft:sand>, <earthworks:item_quicklime>, <earthworks:item_quicklime>, <ore:containerWater>], null, null);
+	[<minecraft:sand>, <minecraft:sand>, <earthworks:item_quicklime>, <earthworks:item_quicklime>, waterContainer], null, null);
 recipes.addShaped("earthworks_block_mud", <earthworks:block_mud> * 8,
 	[[<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>],
-	 [<minecraft:dirt>, <ore:containerWater>, <minecraft:dirt>],
+	 [<minecraft:dirt>, waterContainer, <minecraft:dirt>],
 	 [<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]]);
 recipes.addShapeless("earthworks_item_adobe", <earthworks:item_adobe> * 16, 
 	[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>, <minecraft:sand>, <ore:materialBinding>, <ore:materialBinding>], null, null);

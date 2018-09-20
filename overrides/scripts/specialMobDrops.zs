@@ -1,42 +1,32 @@
 
-import crafttweaker.events.IEventManager;
-import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityXp;
-import crafttweaker.world.IBlockPos;
+
 import crafttweaker.world.IWorld;
+
 import crafttweaker.damage.IDamageSource;
 
 import mods.ctutils.entity.Experience;
 
 
-
 <entity:minecraft:blaze>.addDropFunction(function(entity, dmgSource) {
+	// Spawn XP orb
+	val xporb = Experience.createEntityXp(entity.world, 10) as IEntityXp;
+	xporb.posX = entity.x;
+	xporb.posY = entity.y;
+	xporb.posZ = entity.z;
+	entity.world.spawnEntity(xporb);
+
+	// 1 in 8 chance of spawning a blaze rod if killed by livingwood avatar
 	if (dmgSource.damageType == "generic") {
-		return <minecraft:blaze_rod>;
+		if (entity.world.time % 8 == 0) {
+			return <minecraft:blaze_rod>;
+		} else {
+			return null;
+		}
 	} else {
 		return null;
 	}
 });
 
 
-
-/*
-events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
-	// var orb as IEntityXp = <entity:minecraft:xp_orb>.spawnEntity(event.entity.world as IWorld, event.entity.position as IBlockPos);
-	// orb.xp = 1.0;
-	Experience.createEntityXp(entity.world, 10);
-});
-*/
-
-/*
-	//var xp = <entity:minecraft:xp_orb>;
-	//xp.xp = 10;
-	//xp.spawnEntity(IWorld.getFromID(entity.dimension), entity.position3f as IBlockPos);
-
-
-<entity:minecraft:blaze>.addDropFunction(function(entity, dmgSource) {
-	<entity:minecraft:xp_orb>.spawnEntity(IWorld.getFromID(entity.dimension), entity.position3f as IBlockPos);
-    return null;
-});
-*/
