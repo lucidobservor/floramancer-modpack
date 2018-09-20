@@ -48,6 +48,7 @@ Enhancements:
   — Removed some microcrafting in Earthworks
   — Added Welcome screen to the pack, and in game changelog
   — Blaze rods can now be farmed, inefficiently, with a livingwood avatar holding a Rod of the Unstable Reservoir
+  — Most hostile mobs now drop xp on death, regardless of kill method
 
 Bugfixes:
   — Quark note block interface now requires an empty hand, because otherwise it breaks AFK fishing setups
