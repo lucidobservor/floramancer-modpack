@@ -25,13 +25,18 @@ Mods Updated:
   — Botania Tweaks
   — Charset Lib
   — Client Tweaks
+  — CodeChickenLib
+  — CraftTweaker Utils
   — Fairy Lights
   — FastWorkbench
   — KleeSlabs
+  — LootTweaker
   — ModTweaker
+  — Pretty Beaches
   — Quark
   — SmoothFont
   — Toast Control
+  — Tomb Many Graves 2
   — Trample Stopper
   — Traverse
   — Triumph
