@@ -22,4 +22,4 @@ Fortune ores drop experience orbs, even when not broken by a player. You can use
 Hostile mobs drop experience orbs, even when not killed by a player. You can use this to automate the rosa arcana.
 The invisibility status effect now ends if you make an attack or are discovered. Be sure to sneak when moving past mobs!
 Falling into the void won't kill you.
-Caves are enormous and largely interconnected. Leave a trail of breadcrumbs so you can find your way back out!
+Caves are enormous and largely interconnected. Leave a trail so you can find your way back out!

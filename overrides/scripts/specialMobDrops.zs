@@ -2,12 +2,11 @@
 import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityDefinition;
 import crafttweaker.entity.IEntityXp;
-
 import crafttweaker.world.IWorld;
-
 import crafttweaker.damage.IDamageSource;
 
 import mods.ctutils.entity.Experience;
+
 
 // Drop 5 extra xp for most hostile mobs
 val entityList = [
@@ -26,22 +25,19 @@ val entityList = [
 
 for entity in entityList {
     entity.addDropFunction(function(entity, dmgSource) {
-		val xporb = Experience.createEntityXp(entity.world, 5) as IEntityXp;
-		xporb.posX = entity.x;
-		xporb.posY = entity.y;
-		xporb.posZ = entity.z;
-		entity.world.spawnEntity(xporb);
+		spawnXpInWorld(entity, 3);
+		spawnXpInWorld(entity, 1);
+		spawnXpInWorld(entity, 1);
 		return null;
 	});
 }
 
 // The wither drops a LOT more xp
 <entity:minecraft:wither>.addDropFunction(function(entity, dmgSource) {
-	val xporb = Experience.createEntityXp(entity.world, 500) as IEntityXp;
-	xporb.posX = entity.x;
-	xporb.posY = entity.y;
-	xporb.posZ = entity.z;
-	entity.world.spawnEntity(xporb);
+	spawnXpInWorld(entity, 307);
+	spawnXpInWorld(entity, 149);
+	spawnXpInWorld(entity, 37);
+	spawnXpInWorld(entity, 7);
 	return null;
 });
 
@@ -49,11 +45,8 @@ for entity in entityList {
 // Blazes drop 10 xp, and if killed by livingwood avatar, blaze rods
 <entity:minecraft:blaze>.addDropFunction(function(entity, dmgSource) {
 	// Spawn XP orb
-	val xporb = Experience.createEntityXp(entity.world, 10) as IEntityXp;
-	xporb.posX = entity.x;
-	xporb.posY = entity.y;
-	xporb.posZ = entity.z;
-	entity.world.spawnEntity(xporb);
+	spawnXpInWorld(entity, 7);
+	spawnXpInWorld(entity, 3);
 
 	// 1 in 8 chance of spawning a blaze rod if killed by livingwood avatar
 	if (dmgSource.damageType == "generic") {
@@ -67,4 +60,11 @@ for entity in entityList {
 	}
 });
 
-// minecraft:xp_bottle -- ThrownExpBottle
+// Helper method to spawn xp in world
+function spawnXpInWorld (entity as IEntity, xp as int) {
+    val xporb = Experience.createEntityXp(entity.world, xp) as IEntityXp;
+	xporb.posX = entity.x;
+	xporb.posY = entity.y;
+	xporb.posZ = entity.z;
+	entity.world.spawnEntity(xporb);
+}
