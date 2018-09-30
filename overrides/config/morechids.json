@@ -4,8 +4,8 @@
         "timeCost": 600,
         "cooldown": 0,
         "color": "40FF00",
-        "range": 1,
-        "rangeY": 0,
+        "range": 3,
+        "rangeY": 1,
 		"rangeCheckInterval": 5,
         "playSound": false
     },

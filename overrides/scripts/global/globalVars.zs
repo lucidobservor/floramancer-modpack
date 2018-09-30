@@ -23,6 +23,8 @@ global shulkmenot as IItemStack =  <botania:specialflower>.withTag({type: "shulk
 global spectrolus as IItemStack =  <botania:specialflower>.withTag({type: "spectrolus"});
 global thermalily as IItemStack =  <botania:specialflower>.withTag({type: "thermalily"});
 global orechid as IItemStack =  <botania:specialflower>.withTag({type: "orechid"});
+global orechidPetram as IItemStack =  <botania:specialflower>.withTag({type: "orechid_petram"});
+global orechidTerram as IItemStack =  <botania:specialflower>.withTag({type: "orechid_terram"});
 
 // Flower Trophies
 global dandelifeontrophy as IItemStack = <simple_trophies:trophy>.withTag(
