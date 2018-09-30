@@ -1,5 +1,6 @@
 
 import mods.botania.Apothecary;
+import mods.botania.Lexicon;
 import mods.morechids.Registry;
 
 // --------------------------------------------
@@ -73,6 +74,19 @@ Apothecary.addRecipe(orechidTerram,
 // Lexicon Entries
 // --------------------------------------------
 
-
+Lexicon.addEntry("botania.entry.orechid_petram", "botania.category.functionalFlowers", orechidPetram);
+Lexicon.addTextPage("botania.page.orechid_petram0", "botania.entry.orechid_petram", 0);
+Lexicon.addPetalPage("botania.page.orechid_petram1", "botania.entry.orechid_petram", 1, 
+	[orechidPetram], 
+	[[<ore:petalGray>, <ore:petalGray>, <ore:petalBlue>, <ore:petalGreen>, <ore:petalPurple>,
+	<ore:redstoneRoot>, <ore:runeFireB>, <ore:runeEarthB>, <ore:runeWinterB>]]);
+	
+Lexicon.addEntry("botania.entry.orechid_terram", "botania.category.functionalFlowers", orechidTerram);
+Lexicon.addTextPage("botania.page.orechid_terram0", "botania.entry.orechid_terram", 0);
+Lexicon.addTextPage("botania.page.orechid_terram1", "botania.entry.orechid_terram", 1);
+Lexicon.addPetalPage("botania.page.orechid_terram2", "botania.entry.orechid_terram", 2, 
+	[orechidTerram], 
+	[[<ore:petalLightBlue>, <ore:petalLightBlue>, <ore:petalWhite>, <ore:petalGreen>, <ore:petalBrown>, 
+	<ore:redstoneRoot>, <ore:runeSpringB>, <ore:runeWaterB>]]);
 
 

@@ -7,3 +7,15 @@ morechids:orechid_petram.reference=Stoneward bound
 morechids:orechid_terram.name=Orechid Terram
 morechids:orechid_terram.reference=Always greener
 
+# Orechid Petram Lexicon
+botania.entry.orechid_petram=Orechid Petram
+botania.page.orechid_petram0=The &1Orechid&0 can create raw ores with &4Mana&0, but there are plenty of non-ore blocks you find yourself wanting to create as well. By adjusting the recipe a bit, you've managed to create a variant on the &1Orechid&0 which turns stone into other kinds of decorative stone, such as &4Granite&0, &4Marble&0, or &4Slate&0. As a bonus, it seems to cost a lot less &4Mana&0 to run than the standard &1Orechid&0.
+botania.page.orechid_petram1=&oStones for the stone god! Rocks for the rock throne!&r
+botania.tagline.botania.entry.orechid_petram=Creates decorative stone from stone
+
+# Orechid Terram Lexicon
+botania.entry.orechid_terram=Orechid Terram
+botania.page.orechid_terram0=Is there anything more boring than watching grass grow? A botanist has better things to do. The &1Orechid Terram&0 accelerates the growth and decay of the natural world. &4Dirt&0 blocks are transformed into &4Grass&0, &4Dry Grass&0, or &4Vibrant Grass&0, while &4Coarse Dirt&0 is transformed into &4Podzol&0, &4Mycelium&0, or &4Mud&0. 
+botania.page.orechid_terram1=This flower, like the &1Pure Daisy&0, performs it's transformations without using any &4Mana&0. However, there's a catch. On any given cycle, only half of the available blocks in range are transformed.
+botania.page.orechid_terram2=&oLandscaping for the lazy&r
+botania.tagline.botania.entry.orechid_terram=Creates dirts and grasses from dirt
