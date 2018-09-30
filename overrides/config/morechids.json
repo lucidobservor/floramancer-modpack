@@ -1,0 +1,18 @@
+{
+	"orechid_terram": {
+        "manaCost": 0,
+        "timeCost": 600,
+        "cooldown": 0,
+        "color": "40FF00",
+        "range": 1,
+        "rangeY": 0,
+		"rangeCheckInterval": 5,
+        "playSound": false
+    },
+    "orechid_petram": {
+        "manaCost": 100,
+		"maxMana": 800,
+		"rangeCheckInterval": 5,
+		"cooldown": 20
+    }
+}

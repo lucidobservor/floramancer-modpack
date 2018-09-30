@@ -11,6 +11,7 @@ Underneath the Changelogs, you can also find some Tips, Tricks, and Tweaks. Many
 
 Mods Added:
   — Better Invisibility
+  — Morechids
   — MPUtils
   — MPUtils Basic Tools
   — Scavenge
