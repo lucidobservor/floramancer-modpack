@@ -31,7 +31,12 @@
             "posY" : -60,
             "width" : 90,
             "height" : 20,
-            "alignment" : "left_center"
+            "alignment" : "left_center",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
         },
         
         "multiplayer":
@@ -41,7 +46,12 @@
             "posY" : -35,
             "width" : 90,
             "height" : 20,
-            "alignment" : "left_center"
+            "alignment" : "left_center",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
         },
         
         "mods":
@@ -51,7 +61,12 @@
             "posY" : -10,
             "width" : 90,
             "height" : 20,
-            "alignment" : "left_center"
+            "alignment" : "left_center",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
         },
             
         "options":

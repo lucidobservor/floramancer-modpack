@@ -57,6 +57,7 @@ Enhancements:
   — The Wither drops a LOT more xp on death, and nether stars can be converted into bottles o' enchanting
   — A Wither farm powering a rosa arcana is now mana positive 
   — A Life Imbuer can now sustain itself via produced XP drops
+  — Nicer Main Menu
 
 Bugfixes:
   — Quark note block interface now requires an empty hand, because otherwise it breaks AFK fishing setups
