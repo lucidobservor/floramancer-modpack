@@ -45,20 +45,23 @@ Mods Updated:
   — Waystones
   — Worley's Caves
 
-Enhancements:
-  — Disallow breaking generated waystones
+Major Enhancements:
+  — Added the Orechid Petram, to generate decorative stones, and the Orechid Terram, to generate grasses and dirts.
   — Rebalanced all waystones recipes around Botania progression
-  — Added taglines to Lexicon entries
-  — Added gravel -> sand anvil smashing recipe
-  — Added recipes to (inefficiently) recycle damaged leather armor and saddles back into leather
-  — Removed some microcrafting in Earthworks
-  — Added Welcome screen to the pack, and in game changelog
   — Blaze rods can now be farmed, inefficiently, with a livingwood avatar holding a Rod of the Unstable Reservoir. Advancement refactored to match.
   — Most hostile mobs now drop xp on death, regardless of kill method
   — The Wither drops a LOT more xp on death, and nether stars can be converted into bottles o' enchanting
   — A Wither farm powering a rosa arcana is now mana positive 
   — A Life Imbuer can now sustain itself via produced XP drops
-  — Nicer Main Menu
+  
+Minor Tweaks:
+  — Added Welcome screen to the pack, and in game changelog
+  — Added taglines to Lexicon entries
+  — Added gravel -> sand anvil smashing recipe
+  — Added recipes to (inefficiently) recycle damaged leather armor and saddles back into leather
+  — Removed some microcrafting in Earthworks
+  — Disallow breaking generated waystones
+  — Rearranged the Main Menu as a first step towards making a final one
 
 Bugfixes:
   — Quark note block interface now requires an empty hand, because otherwise it breaks AFK fishing setups
