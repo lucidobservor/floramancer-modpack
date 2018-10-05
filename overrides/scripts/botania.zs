@@ -141,8 +141,6 @@ ManaInfusion.addInfusion(<botania:tinypotato>, <minecraft:potato>, 250);
 ManaInfusion.addInfusion(galacticPotato, <contenttweaker:tinygalacticpotato>, 1000001);
 
 // GoG recipes that should be available in all world types
-ManaInfusion.removeRecipe(<minecraft:prismarine_shard>);
-ManaInfusion.removeRecipe(<minecraft:prismarine_crystals>);
 ManaInfusion.addAlchemy(<minecraft:prismarine_shard>, <minecraft:quartz>, 1000);
 ManaInfusion.addAlchemy(<minecraft:prismarine_crystals>, <minecraft:prismarine_shard>, 500);
 
