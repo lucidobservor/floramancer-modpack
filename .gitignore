@@ -7,5 +7,6 @@ overrides/config/fmlModState.properties
 overrides/config/BiomeTweaker/output/
 overrides/resources/pack.mcmeta
 overrides/config/presets
+overrides/config/antiqueatlas/biome_textures.json
 *.lnk
 */target/
