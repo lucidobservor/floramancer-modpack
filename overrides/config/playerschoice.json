@@ -1,0 +1,13 @@
+[
+  {
+    "id": "gardenofglass",
+    "name": "Garden of Glass",
+    "desc": "Garden of Glass is an addon for Botania which allows it to be played in skyblock mode.\n\nIf playing single player, enable this option only if you plan to play in Garden of Glass mode. Enabling it for non-GoG play will make certain parts of the pack significantly easier than they were intended to be. If playing on a server, you must enable this only if it is enabled on the server as well.\n\nTo return to this selection screen later, exit your game, then delete the playerschoice.marker file in your instance directory before restarting.",
+    "website": "https://vazkii.us/",
+    "category": "",
+    "group": "",
+    "base": false,
+    "extraMods": [],
+    "copyFiles": []
+  }
+]

@@ -15,6 +15,7 @@ Mods Added:
   — Morechids
   — MPUtils
   — MPUtils Basic Tools
+  — Player's Choice
   — Scavenge
   — Worse Barrels
 

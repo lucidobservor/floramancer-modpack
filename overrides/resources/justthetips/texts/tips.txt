@@ -21,5 +21,5 @@ Waystones generate in villages and are free to use, though they cannot be broken
 Fortune ores drop experience orbs, even when not broken by a player. You can use this to automate the rosa arcana.
 Hostile mobs drop experience orbs, even when not killed by a player. You can use this to automate the rosa arcana.
 The invisibility status effect now ends if you make an attack or are discovered. Be sure to sneak when moving past mobs!
-Falling into the void won't kill you.
+Falling into the void won't kill you in Garden of Glass mode.
 Caves are enormous and largely interconnected. Leave a trail so you can find your way back out!
