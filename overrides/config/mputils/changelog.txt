@@ -60,8 +60,11 @@ Major Enhancements:
   — The Wither drops a LOT more xp on death, and nether stars can be converted into bottles o' enchanting
   — A Wither farm powering a rosa arcana is now mana positive 
   — A Life Imbuer can now sustain itself via produced XP drops
+  — Added Player's Choice to allow players to select whether to play with Garden of Glass or not. 
+  — Added recipes for prismarine and end portal frames so those will be available regardless of GoG status
   
 Minor Tweaks:
+  
   — Added Welcome screen to the pack, and in game changelog
   — Added taglines to Lexicon entries
   — Added gravel -> sand anvil smashing recipe

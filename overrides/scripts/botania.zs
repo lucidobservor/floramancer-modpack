@@ -140,6 +140,12 @@ ManaInfusion.addInfusion(<botania:tinypotato>, <minecraft:potato>, 250);
 // Creative Galactic Potato Recipe
 ManaInfusion.addInfusion(galacticPotato, <contenttweaker:tinygalacticpotato>, 1000001);
 
+// GoG recipes that should be available in all world types
+ManaInfusion.removeRecipe(<minecraft:prismarine_shard>);
+ManaInfusion.removeRecipe(<minecraft:prismarine_crystals>);
+ManaInfusion.addAlchemy(<minecraft:prismarine_shard>, <minecraft:quartz>, 1000);
+ManaInfusion.addAlchemy(<minecraft:prismarine_crystals>, <minecraft:prismarine_shard>, 500);
+
 /*=========================
             Other
  =========================*/
@@ -150,6 +156,12 @@ recipes.addShaped("botania_flighttiara_0", <botania:flighttiara>,
 	[[<ore:eternalLifeEssence>, <ore:eternalLifeEssence>, <ore:eternalLifeEssence>],
 	[<ore:ingotElvenElementium>, <minecraft:elytra>, <ore:ingotElvenElementium>],
 	[<minecraft:feather>, <ore:bEnderAirBottle>, <minecraft:feather>]]);
+	
+recipes.removeShaped(<minecraft:end_portal_frame>);
+recipes.addShaped("end_portal_frame", <minecraft:end_portal_frame>, 
+	[[<ore:eternalLifeEssence>, <minecraft:ender_eye>, <ore:eternalLifeEssence>],
+	[<minecraft:sandstone:1>, <quark:midori_block>, <minecraft:sandstone:1>,],
+	[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 
 
  /*=========================
