@@ -11,6 +11,7 @@ Underneath the Changelogs, you can also find some Tips, Tricks, and Tweaks. Many
 
 Mods Added:
   — Better Invisibility
+  — CraftTweaker Utils
   — Morechids
   — MPUtils
   — MPUtils Basic Tools
@@ -22,14 +23,19 @@ Mods Removed:
 
 Mods Updated:
   — Better Advancements
+  — BnBGamingLib
   — Bookshelf
   — Botania Tweaks
+  — Carry On
   — Charset Lib
   — Client Tweaks
   — CodeChickenLib
-  — CraftTweaker Utils
+  — CraftTweaker
   — Fairy Lights
   — FastWorkbench
+  — FoamFix
+  — Forgiving Void
+  — JEI
   — KleeSlabs
   — LootTweaker
   — ModTweaker
