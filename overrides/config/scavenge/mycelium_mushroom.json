@@ -1,0 +1,44 @@
+{
+  "block_pools" :
+  [
+    {
+      "name": "Mycelium Mushroom",
+      "type":
+      {
+        "type": "block",
+        "name": "minecraft:mycelium"
+      },
+      "clicktype": "rightclick",
+      "properties":
+      [
+        {
+          "type": "require_item",
+          "name": "minecraft:dye",
+          "meta": 15
+        },
+        {
+          "type": "consume_item",
+          "amount": 1
+        },
+        {
+          "type": "swing_hand",
+		  "disableJEI": true
+        },
+        {
+          "type": "drop_items"
+        }
+      ],
+      "drops": [
+        {
+          "name": "minecraft:red_mushroom",
+          "chance": 20
+        },
+        {
+          "name": "minecraft:brown_mushroom",
+          "chance": 20
+        }
+      ],
+      "messages": []
+    }
+  ]
+}
