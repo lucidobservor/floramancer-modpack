@@ -5,6 +5,7 @@ recipes.removeByRecipeName("quark:trapdoor");
 recipes.removeByRecipeName("quark:bookshelf");
 recipes.removeByRecipeName("minecraft:chest");
 recipes.removeByRecipeName("traverse:fir_boat");
+recipes.removeByRecipeName("essentials:sorting_hopper_0");
 
 // Rusty Iron Ladder
 recipes.removeShaped(<malisisdoors:rustyladder:0> * 2);

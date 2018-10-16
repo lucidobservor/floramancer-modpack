@@ -5,133 +5,144 @@ Those are long term goals though. To start off, you'll want to start gathering y
 
 Underneath the Changelogs, you can also find some Tips, Tricks, and Tweaks. Many of these are the same tips you see on your loading screen, but better organized and with some additional explanation. Use them to discover features of the pack you may not be aware of, to help you on your journey!
 
-———————————————————————————————————————————————————
+------------------------------------------------------------------------------------------------------------------------------------------
 
-§nVersion 0.4.0§r
-
-Mods Added:
-  — Better Invisibility
-  — CraftTweaker Utils
-  — Morechids
-  — MPUtils
-  — MPUtils Basic Tools
-  — Player's Choice
-  — Scavenge
-  — Worse Barrels
-
-Mods Removed:
-  — Enchantment Descriptions
-
-Mods Updated:
-  — Better Advancements
-  — BnBGamingLib
-  — Bookshelf
-  — Botania Tweaks
-  — Carry On
-  — Charset Lib
-  — Client Tweaks
-  — CodeChickenLib
-  — CraftTweaker
-  — Fairy Lights
-  — FastWorkbench
-  — FoamFix
-  — Forgiving Void
-  — JEI
-  — KleeSlabs
-  — LootTweaker
-  — ModTweaker
-  — Pretty Beaches
-  — Quark
-  — SmoothFont
-  — Toast Control
-  — Tomb Many Graves 2
-  — Trample Stopper
-  — Traverse
-  — Triumph
-  — WAWLA
-  — Waystones
-  — Worley's Caves
+§n0.4.1§r
 
 Major Enhancements:
-  — Added the Orechid Petram, to generate decorative stones, and the Orechid Terram, to generate grasses and dirts.
-  — Rebalanced all waystones recipes around Botania progression
-  — Blaze rods can now be farmed, inefficiently, with a livingwood avatar holding a Rod of the Unstable Reservoir. Advancement refactored to match.
-  — Most hostile mobs now drop xp on death, regardless of kill method
-  — The Wither drops a LOT more xp on death, and nether stars can be converted into bottles o' enchanting
-  — A Wither farm powering a rosa arcana is now mana positive 
-  — A Life Imbuer can now sustain itself via produced XP drops
-  — Added Player's Choice to allow players to select whether to play with Garden of Glass or not. 
-  — Added recipes for prismarine and end portal frames so those will be available regardless of GoG status
+• 
   
 Minor Tweaks:
-  
-  — Added Welcome screen to the pack, and in game changelog
-  — Added taglines to Lexicon entries
-  — Added gravel -> sand anvil smashing recipe
-  — Added recipes to (inefficiently) recycle damaged leather armor and saddles back into leather
-  — Removed some microcrafting in Earthworks
-  — Disallow breaking generated waystones
-  — Rearranged the Main Menu as a first step towards making a final one
+• Added Essentials and disabled almost everything except the sorting hopper, which allows for filtering of non-stackable items
 
 Bugfixes:
-  — Quark note block interface now requires an empty hand, because otherwise it breaks AFK fishing setups
+• 
 
-———————————————————————————————————————————————————
+Mods Added:
+• Essentials
+
+Mods Removed:
+• Fairy Lights
+
+Mods Updated:
+• 
+  
+------------------------------------------------------------------------------------------------------------------------------------------
+
+§n0.4.0§r
+
+Major Enhancements:
+• Added the Orechid Petram, to generate decorative stones, and the Orechid Terram, to generate grasses and dirts.
+• Rebalanced all waystones recipes around Botania progression
+• Blaze rods can now be farmed, inefficiently, with a livingwood avatar holding a Rod of the Unstable Reservoir. 
+• Blaze advancement refactored to match the above point.
+• Most hostile mobs now drop xp on death, regardless of kill method
+• The Wither drops a LOT more xp on death, and nether stars can be converted into bottles o' enchanting
+• A Wither farm powering a rosa arcana is now mana positive 
+• A Life Imbuer can now sustain itself via produced XP drops
+• Added Player's Choice to allow players to select whether to play with Garden of Glass or not. 
+• Added recipes for prismarine and end portal frames so those will be available regardless of GoG status
+  
+Minor Tweaks:
+• Added Welcome screen to the pack, and in game changelog
+• Added taglines to Lexicon entries
+• Added gravel -> sand anvil smashing recipe
+• Added recipes to (inefficiently) recycle damaged leather armor and saddles back into leather
+• Removed some microcrafting in Earthworks
+• Disallow breaking generated waystones
+• Rearranged the Main Menu as a first step towards making a final one
+
+Bugfixes:
+• Quark note block interface now requires an empty hand, because otherwise it breaks AFK fishing setups
+
+Mods Added:
+• Better Invisibility
+• CraftTweaker Utils
+• Morechids
+• MPUtils
+• MPUtils Basic Tools
+• Player's Choice
+• Scavenge
+• Worse Barrels
+
+Mods Removed:
+• Enchantment Descriptions
+
+Mods Updated:
+• Better Advancements
+• BnBGamingLib
+• Bookshelf
+• Botania Tweaks
+• Carry On
+• Charset Lib
+• Client Tweaks
+• CodeChickenLib
+• CraftTweaker
+• Fairy Lights
+• FastWorkbench
+• FoamFix
+• Forgiving Void
+• JEI
+• KleeSlabs
+• LootTweaker
+• ModTweaker
+• Pretty Beaches
+• Quark
+• SmoothFont
+• Toast Control
+• Tomb Many Graves 2
+• Trample Stopper
+• Traverse
+• Triumph
+• WAWLA
+• Waystones
+• Worley's Caves
+
+------------------------------------------------------------------------------------------------------------------------------------------
 
 §nTips, Tricks, and Tweaks§r
 
 General:
-  — The Advancement page will provide some guidance through the pack. You can find it in the escape menu or 
-       by pressing "L" (default).
-  — Some recipes are slightly modified. Check JEI or the Lexica Botania to find the new recipes.
-  — Use F7 to see the light levels on the ground and F9 to see the chunk borders.
-  — Players can jump over fences, but mobs cannot!
-  — Enchant your boots with Feather Falling in order to stop accidentally trampling your crops.
-  — You can move chests and animals by using Carry On to pick them up.
-  — Your invisibility now breaks if you make an attack or are discovered. Be sure to sneak when moving past mobs!
-  — Fast Leaf Decay isn't in this pack because it interferes with munchdews. If you need to break a lot of leaves, 
-       craft a Horn of the Canopy.
-  — [GoG] Falling into the void won't kill you.
+• The Advancement page will provide some guidance through the pack. You can find it in the escape menu or by pressing "L" (default).
+• Some recipes are slightly modified. Check JEI or the Lexica Botania to find the new recipes.
+• Use F7 to see the light levels on the ground and F9 to see the chunk borders.
+• Players can jump over fences, but mobs cannot!
+• Enchant your boots with Feather Falling in order to stop accidentally trampling your crops.
+• You can move chests and animals by using Carry On to pick them up.
+• Your invisibility now breaks if you make an attack or are discovered. Be sure to sneak when moving past mobs!
+• Fast Leaf Decay isn't in this pack because it interferes with munchdews. If you need to break a lot of leaves, craft a Horn of the Canopy.
+• [GoG] Falling into the void won't kill you.
 
 Exploration:
-  — Craft an Antique Atlas before you go exploring so you don't get lost.
-  — The caves in this pack are enormous and largely interconnected. Leave a trail so you can find your way back out.
-  — If you die, a Death Compass will spawn in your inventory. This will point you to the direction of your grave.
-  — Shift/Sneak while standing on top of your grave to retrieve your items.
-  — Waystones generate in villages and are free to use, though they cannot be broken. Later in the game, you can 
-       craft your own waystones, and a warp stone to travel to any of them from anywhere for free.
-  — Cobwebs can be destroyed easily with a torch.
-  — Some structures in jungle and birch forest biomes contain creeper spawners. Use them for an easy source of 
-       gunpowder.
-  — The rare, tower-like structures in The End contain Enderman spawners! Move them back to the overworld 
-       for easier ender pearl farming.
+• Craft an Antique Atlas before you go exploring so you don't get lost.
+• The caves in this pack are enormous and largely interconnected. Leave a trail so you can find your way back out.
+• If you die, a Death Compass will spawn in your inventory. This will point you to the direction of your grave.
+• Shift/Sneak while standing on top of your grave to retrieve your items.
+• Waystones generate in villages and are free to use, though they cannot be broken. Later in the game, you can craft your own waystones, and a warp stone to travel to any of them from anywhere for free.
+• Cobwebs can be destroyed easily with a torch.
+• Some structures in jungle and birch forest biomes contain creeper spawners. Use them for an easy source of gunpowder.
+• The rare, tower-like structures in The End contain Enderman spawners! Move them back to the overworld for easier ender pearl farming.
 
 Transport:
-  — You can automatically move items between dimensions using the Ender Soul Core.
-  — Use minecarts to transport large amounts of mana quickly.
-  — Minecarts can by dyed by shift-right clicking them with a vanilla dye.
-  — There are several new kinds of rails to make constructing a rail network easier.
+• You can automatically move items between dimensions using the Ender Soul Core.
+• Use minecarts to transport large amounts of mana quickly.
+• Minecarts can by dyed by shift-right clicking them with a vanilla dye.
+• There are several new kinds of rails to make constructing a rail network easier.
 
 Mob Farming:
-  — Wither skeletons drop wither skull fragments, even when not killed by a player.
-  — You can move a skeleton spawner from the overworld to the Nether to turn it into a wither skeleton spawner
-  — Blazes only drop blaze rods when killed by a player or livingwood avatar. This is expensive in terms of mana, 
-       so for blaze powder it is recommended that you create blazes with Fel Pumpkins instead.
-  — The Wither can be fully automated, and doing so can produce a lot of experience.
+• Wither skeletons drop wither skull fragments, even when not killed by a player.
+• You can move a skeleton spawner from the overworld to the Nether to turn it into a wither skeleton spawner
+• Blazes only drop blaze rods when killed by a player or livingwood avatar. This is expensive in terms of mana, so for blaze powder it is recommended that you create blazes with Fel Pumpkins instead.
+• The Wither can be fully automated, and doing so can produce a lot of experience.
 
 Mining:
-  — This pack doesn't have backpacks. When going on long mining trips, take some barrels from Worse Barrels 
-       with you. They only hold a few stacks, but they keep their contents when broken, and barrels with identical 
-       content stack in your inventory. Later, you can also use shulker boxes, which you can add items to directly 
-       from your inventory by right clicking.
-  — The elementium pickaxe automatically voids cobblestone and dirt. Craft it together with a terra shatterer 
-       to give your terra shatterer the same property.
-  — The black hole talisman can hold a ludicrous amount of a single item.
+• This pack doesn't have backpacks. When going on long mining trips, take some barrels from Worse Barrels with you. They only hold a few stacks, but they keep their contents when broken, and barrels with identical content stack in your inventory. Later, you can also use shulker boxes, which you can add items to directly from your inventory by right clicking.
+• The elementium pickaxe automatically voids cobblestone and dirt. Craft it together with a terra shatterer to give your terra shatterer the same property.
+• The black hole talisman can hold a ludicrous amount of a single item.
 
 Automation:
-  — Lava is infinite in the Nether below the level of the lava lakes. Use dispensers to automatically collect it into 
-       buckets, transport it to the overworld using minecarts, and use it to power your Thermalilies.
-  — You have several options for automating the Rosa Arcana.
+• Lava is infinite in the Nether below the level of the lava lakes. Use dispensers to automatically collect it into buckets, transport it to the overworld using minecarts, and use it to power your Thermalilies.
+• You have several options for automating the Rosa Arcana.
       > Fortune ores drop experience orbs, even when not broken by a player.
       > Hostile mobs drop orbs even when not killed by a player.
       > Life Imbuers can be sustained by the XP drops of the spawned mobs, making large, chunkloaded spawner
@@ -140,6 +151,6 @@ Automation:
          be converted into Bottles o' Enchanting. In this pack, it's possible to fully automate the spawning and killing 
          of the Wither, though it's not easy, and doing so is a mana-positive process when all resulting XP is fed to a 
          rosa arcana.
-  — Use the Redstone PCB for fine-grained control over how your redstone connects.
-  — You can use a petal apothecary containing lava as an automatic trash can.
-  — Incorporeal adds lots of utilities for expanding your Corporea system.
+• Use the Redstone PCB for fine-grained control over how your redstone connects.
+• You can use a petal apothecary containing lava as an automatic trash can.
+• Incorporeal adds lots of utilities for expanding your Corporea system.

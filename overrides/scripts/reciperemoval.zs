@@ -49,6 +49,16 @@ recipes.removeShapeless(<minecraft:stone:3>);
 recipes.removeShapeless(<minecraft:stone:5>);
 recipes.removeShapeless(<quark:basalt>);
 
+// Remove most of the mod Essentials
+mods.jei.JEI.removeAndHide(<essentials:brazier>);
+mods.jei.JEI.removeAndHide(<essentials:fertile_soil:*>);
+mods.jei.JEI.removeAndHide(<essentials:port_extender>);
+mods.jei.JEI.removeAndHide(<essentials:item_chute>);
+mods.jei.JEI.removeAndHide(<essentials:item_chute_port>);
+mods.jei.JEI.removeAndHide(<essentials:obsidian_cutting_kit>);
+mods.jei.JEI.removeAndHide(<essentials:slotted_chest>);
+mods.jei.JEI.removeAndHide(<essentials:wrench>);
+
 
 
 
