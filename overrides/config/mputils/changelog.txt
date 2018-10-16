@@ -13,8 +13,10 @@ Major Enhancements:
 • 
   
 Minor Tweaks:
-• Added Essentials and disabled almost everything except the sorting hopper, which allows for filtering of non-stackable items
+• Added Essentials and disabled almost everything except the sorting hopper, which allows for filtering of non-stackable items.
 • Added shapeless recipe to convert wool into string using shears. Especially useful for GoG worlds.
+• The GoG world preset now forces a seed which, around spawn, is almost entirely Woodlands biome, which is capable of spawning all useful passive mobs.
+• Morechids now have simpler recipes in GoG, similar to the Orechid
 
 Bugfixes:
 • 

@@ -62,12 +62,21 @@ terram.addRecipe(<minecraft:dirt:1>, <minecraft:mycelium>, 1);
 // Recipes
 // --------------------------------------------
 
-Apothecary.addRecipe(orechidPetram,
-	[<ore:petalGray>, <ore:petalGray>, <ore:petalBlue>, <ore:petalGreen>, <ore:petalPurple>,
-	<ore:redstoneRoot>, <ore:runeFireB>, <ore:runeEarthB>, <ore:runeWinterB>]);
-Apothecary.addRecipe(orechidTerram,
-	[<ore:petalLightBlue>, <ore:petalLightBlue>, <ore:petalWhite>, <ore:petalGreen>, <ore:petalBrown>, 
-	<ore:redstoneRoot>, <ore:runeSpringB>, <ore:runeWaterB>]);
+if (loadedMods in "gardenofglass") {
+    Apothecary.addRecipe(orechidPetram,
+    	[<ore:petalGray>, <ore:petalGray>, <ore:petalBlue>,  <ore:petalBlue>, <ore:petalGreen>, <ore:petalGreen>, <ore:petalPurple>, <ore:petalPurple>]);
+    Apothecary.addRecipe(orechidTerram,
+    	[<ore:petalLightBlue>, <ore:petalLightBlue>, <ore:petalWhite>, <ore:petalWhite>, <ore:petalGreen>, <ore:petalGreen>, <ore:petalBrown>, <ore:petalBrown>]);
+} else {
+    Apothecary.addRecipe(orechidPetram,
+    	[<ore:petalGray>, <ore:petalGray>, <ore:petalBlue>, <ore:petalGreen>, <ore:petalPurple>,
+    	<ore:redstoneRoot>, <ore:runeFireB>, <ore:runeEarthB>, <ore:runeWinterB>]);
+    Apothecary.addRecipe(orechidTerram,
+    	[<ore:petalLightBlue>, <ore:petalLightBlue>, <ore:petalWhite>, <ore:petalGreen>, <ore:petalBrown>,
+    	<ore:redstoneRoot>, <ore:runeSpringB>, <ore:runeWaterB>]);
+}
+
+
 
 
 // --------------------------------------------
