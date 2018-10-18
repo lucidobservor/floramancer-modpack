@@ -1,0 +1,1 @@
+give @p minecraft:blaze_powder 1 0

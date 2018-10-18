@@ -1,0 +1,19 @@
+// Makes blazes in the overworld drop blaze powder when damaged by a player in melee combat
+
+addParent("triumph:hidden/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+setRepeatTime(0)
+
+addRewardFunction("triumph:dropblazepowder")
+
+criteria = addCriteria("hurt_blaze", "minecraft:player_hurt_entity")
+criteria.setEntityType("minecraft:blaze")
+
+damage = criteria.getDamageData()
+damageSource = damage.getDamageSourceData()
+damageSource.isProjectile(false)
+damageSource.isExplosion(false)
+damageSource.isMagic(false)
+damageSource.isFire(false)
