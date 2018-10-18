@@ -12,30 +12,29 @@
       "properties":
       [
         {
-          "type": "require_item",
-          "name": "minecraft:dye",
-          "meta": 15
-        },
-        {
-          "type": "consume_item",
-          "amount": 1
-        },
-        {
           "type": "swing_hand",
 		  "disableJEI": true
         },
         {
           "type": "drop_items"
-        }
+        },
+		{
+		  "type": "require_sneak"
+		}
       ],
       "drops": [
         {
           "name": "minecraft:red_mushroom",
-          "chance": 20
+          "weight": 1
         },
         {
           "name": "minecraft:brown_mushroom",
-          "chance": 20
+          "weight": 1
+        },
+        {
+          "name": "botania:manaresource",
+		  "meta": 21,
+          "weight": 18
         }
       ],
       "messages": []

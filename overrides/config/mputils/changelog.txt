@@ -10,14 +10,13 @@ Underneath the Changelogs, you can also find some Tips, Tricks, and Tweaks. Many
 §n0.4.1§r
 
 Major Enhancements:
-• 
+• You can now get mushrooms by scavenging mycelium (just as you would for pebbles on grass). This allows for the Rune of Earth to be crafted pre-Nether in GoG.
   
 Minor Tweaks:
 • Added Essentials and disabled almost everything except the sorting hopper, which allows for filtering of non-stackable items.
 • Added shapeless recipe to convert wool into string using shears. Especially useful for GoG worlds.
 • The GoG world preset now forces a seed which, around spawn, is almost entirely Woodlands biome, which is capable of spawning all useful passive mobs.
 • Morechids now have simpler recipes in GoG, similar to the Orechid
-• You can now get mushrooms from using bonemeal on mycelium. This allows for the Rune of Earth to be crafted pre-Nether in GoG.
 
 Bugfixes:
 • Fixed splash screen not showing up when you start the pack

@@ -12,7 +12,10 @@ General:
 • You can move chests and animals by using Carry On to pick them up.
 • Your invisibility now breaks if you make an attack or are discovered. Be sure to sneak when moving past mobs!
 • Fast Leaf Decay isn't in this pack because it interferes with munchdews. If you need to break a lot of leaves, craft a Horn of the Canopy.
-• [GoG] Falling into the void won't kill you.
+
+Garden of Glass:
+• Falling into the void won't kill you.
+• You can find mushrooms while scavenging for pebbles on mycelium
 
 Exploration:
 • Craft an Antique Atlas before you go exploring so you don't get lost.
