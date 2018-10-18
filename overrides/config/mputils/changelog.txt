@@ -20,7 +20,7 @@ Minor Tweaks:
 • You can now get mushrooms from using bonemeal on mycelium. This allows for the Rune of Earth to be crafted pre-Nether in GoG.
 
 Bugfixes:
-• 
+• Fixed splash screen not showing up when you start the pack
 
 Mods Added:
 • Essentials
@@ -29,7 +29,8 @@ Mods Removed:
 • Fairy Lights
 
 Mods Updated:
-• 
+• MPUtils
+• MPUtils Basic Tools
   
 ------------------------------------------------------------------------------------------------------------------------------------------
 
