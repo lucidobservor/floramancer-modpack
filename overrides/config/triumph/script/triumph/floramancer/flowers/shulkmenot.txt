@@ -7,7 +7,7 @@ addParent("triumph:floramancer/root")
 setPos(158,49)
 hideLines()
 
-setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"shulk_me_not"}},TrophyName:"advancements.floramancer.shulkmenot.title"}>)
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"shulk_me_not"}},TrophyName:"advancements.floramancer.shulkmenot.title",TrophyVariant:"neon"}>)
 addRewardFunction("triumph:stages/stage-shulkmenot")
 
 criteria = addCriteria("shulk_me_not_1", "botania_tweaks:flower_generated_mana")

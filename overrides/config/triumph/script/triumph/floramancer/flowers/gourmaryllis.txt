@@ -7,7 +7,7 @@ addParent("triumph:floramancer/root")
 setPos(35,79)
 hideLines()
 
-setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"gourmaryllis"}},TrophyName:"advancements.floramancer.gourmaryllis.title"}>)
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"gourmaryllis"}},TrophyName:"advancements.floramancer.gourmaryllis.title",TrophyVariant:"neon"}>)
 addRewardFunction("triumph:stages/stage-gourmaryllis")
 
 criteria = addCriteria("gourmaryllis_1", "botania_tweaks:flower_generated_mana")

@@ -7,7 +7,7 @@ addParent("triumph:floramancer/root")
 setPos(100,69)
 hideLines()
 
-setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"spectrolus"}},TrophyName:"advancements.floramancer.spectrolus.title"}>)
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"spectrolus"}},TrophyName:"advancements.floramancer.spectrolus.title",TrophyVariant:"neon"}>)
 addRewardFunction("triumph:stages/stage-spectrolus")
 
 criteria = addCriteria("spectrolus_1", "botania_tweaks:flower_generated_mana")

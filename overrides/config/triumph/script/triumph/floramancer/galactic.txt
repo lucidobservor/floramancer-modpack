@@ -19,7 +19,7 @@ addParent("triumph:floramancer/flowers/thermalily")
 addParent("triumph:floramancer/flowers/hydroangeas")
 
 addRewardFunction("triumph:stages/stage-creative")
-setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania_tweaks:compressed_tiny_potato_8", Count: 1b},TrophyName:"advancements.floramancer.galactic.title"}>)
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania_tweaks:compressed_tiny_potato_8", Count: 1b},TrophyName:"advancements.floramancer.galactic.title",TrophyVariant:"neon"}>)
 
 setRequiresParents()
 setPos(0,0)

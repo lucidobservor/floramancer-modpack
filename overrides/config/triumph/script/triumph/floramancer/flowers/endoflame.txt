@@ -7,7 +7,7 @@ addParent("triumph:floramancer/root")
 setPos(-158,49)
 hideLines()
 
-setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"endoflame"}},TrophyName:"advancements.floramancer.endoflame.title"}>)
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"endoflame"}},TrophyName:"advancements.floramancer.endoflame.title",TrophyVariant:"neon"}>)
 addRewardFunction("triumph:stages/stage-endoflame")
 
 criteria = addCriteria("endoflame_1", "botania_tweaks:flower_generated_mana")

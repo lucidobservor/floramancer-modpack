@@ -7,7 +7,7 @@ addParent("triumph:floramancer/root")
 setPos(68,75)
 hideLines()
 
-setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"narslimmus"}},TrophyName:"advancements.floramancer.narslimmus.title"}>)
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"narslimmus"}},TrophyName:"advancements.floramancer.narslimmus.title",TrophyVariant:"neon"}>)
 addRewardFunction("triumph:stages/stage-narslimmus")
 
 criteria = addCriteria("narslimmus_1", "botania_tweaks:flower_generated_mana")

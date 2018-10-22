@@ -1,172 +1,156 @@
 {
-    "images":
-    {
-        "title":
-        {
-            "image" : "custommainmenu:textures/gui/floramancer.png",
-            "posX" : -100,
-            "posY" : 30,
-            "width" : 330,
-            "height" : 81,
-            "alignment" : "top_center"
-        },
-        
-        "black":
-        {
-            "image" : "custommainmenu:textures/gui/blacktransparent.png",
-            "posX" : 45,
-            "posY" : 0,
-            "width" : 109,
-            "height" : 2000,
-            "alignment" : "top_left"
-        }
-    },
-    
-    "buttons":
-    {
-        "singleplayer":
-        {
-            "text" : "menu.singleplayer",
-            "posX" : 55,
-            "posY" : -60,
-            "width" : 90,
-            "height" : 20,
-            "alignment" : "left_center",
-			"action" : 
-            {
-                "type" : "openGui",
-                "gui" : "singleplayer"
-            }
-        },
-        
-        "multiplayer":
-        {
-            "text" : "menu.multiplayer",
-            "posX" : 55,
-            "posY" : -35,
-            "width" : 90,
-            "height" : 20,
-            "alignment" : "left_center",
-			"action" : 
-            {
-                "type" : "openGui",
-                "gui" : "multiplayer"
-            }
-        },
-        
-        "mods":
-        {
-            "text" : "fml.menu.mods",
-            "posX" : 55,
-            "posY" : -10,
-            "width" : 90,
-            "height" : 20,
-            "alignment" : "left_center",
-			"action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
-            
-        "options":
-        {
-            "text" : "menu.options",
-            "posX" : 55,
-            "posY" : 15,
-            "width" : 90,
-            "height" : 20,
-			"alignment" : "left_center",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "options"
-            }
-        },
-        
-        "quit":
-        {
-            "text" : "menu.quit",
-            "posX" : 55,
-            "posY" : 40,
-            "width" : 90,
-            "height" : 20,
-			"alignment" : "left_center",
-            "action" : 
-            {
-                "type" : "quit"
-            }
-        },
-		
-		"curse":
-        {
-            "text" : "",
-            "posX" : 55,
-            "posY" : -35,
-            "width" : 25,
-            "height" : 25,
-			"imageWidth" : 150,
-			"imageHeight" : 150,
-			"alignment" : "bottom_left",
-            "texture" : "custommainmenu:textures/gui/curse.png",
-            "action" : 
-            {
-                "type": "openLink",
-                "link": "https://minecraft.curseforge.com/projects/floramancer"
-            }
-        },
-		"discord":
-        {
-            "text" : "",
-            "posX" : 87,
-            "posY" : -35,
-            "width" : 25,
-            "height" : 25,
-			"imageWidth" : 150,
-			"imageHeight" : 150,
-			"alignment" : "bottom_left",
-            "texture" : "custommainmenu:textures/gui/discord.png",
-            "action" : 
-            {
-                "type": "openLink",
-                "link": "https://discord.gg/9eGp9fV"
-            }
-        },
-		"bug":
-        {
-            "text" : "",
-            "posX" : 119,
-            "posY" : -35,
-            "width" : 25,
-            "height" : 25,
-			"imageWidth" : 150,
-			"imageHeight" : 150,
-			"alignment" : "bottom_left",
-            "texture" : "custommainmenu:textures/gui/bug.png",
-            "action" : 
-            {
-                "type": "openLink",
-                "link": "https://github.com/lucidobservor/floramancer-modpack/issues"
-            }
-        }
-        
-        
-    },
-    
-    "labels":
-    {
+	"images": {
+		"title": {
+			"image": "custommainmenu:textures/gui/floramancer.png",
+			"posX": -100,
+			"posY": 30,
+			"width": 330,
+			"height": 81,
+			"alignment": "top_center"
+		},
 
-    },
-    
-    "other":
-    {
-        "panorama":
-        {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
-        }
-    }
+		"black": {
+			"image": "custommainmenu:textures/gui/blacktransparent.png",
+			"posX": 45,
+			"posY": 0,
+			"width": 109,
+			"height": 2000,
+			"alignment": "top_left"
+		}
+	},
+
+	"buttons": {
+		"singleplayer": {
+			"text": "menu.singleplayer",
+			"posX": 55,
+			"posY": -60,
+			"width": 90,
+			"height": 20,
+			"alignment": "left_center",
+			"action": {
+				"type": "openGui",
+				"gui": "singleplayer"
+			}
+		},
+
+		"multiplayer": {
+			"text": "menu.multiplayer",
+			"posX": 55,
+			"posY": -35,
+			"width": 90,
+			"height": 20,
+			"alignment": "left_center",
+			"action": {
+				"type": "openGui",
+				"gui": "multiplayer"
+			}
+		},
+
+		"mods": {
+			"text": "fml.menu.mods",
+			"posX": 55,
+			"posY": -10,
+			"width": 90,
+			"height": 20,
+			"alignment": "left_center",
+			"action": {
+				"type": "openGui",
+				"gui": "mods"
+			}
+		},
+
+		"options": {
+			"text": "menu.options",
+			"posX": 55,
+			"posY": 15,
+			"width": 90,
+			"height": 20,
+			"alignment": "left_center",
+			"action": {
+				"type": "openGui",
+				"gui": "options"
+			}
+		},
+
+		"quit": {
+			"text": "menu.quit",
+			"posX": 55,
+			"posY": 40,
+			"width": 90,
+			"height": 20,
+			"alignment": "left_center",
+			"action": {
+				"type": "quit"
+			}
+		},
+
+		"curse": {
+			"text": "",
+			"posX": 55,
+			"posY": -35,
+			"width": 25,
+			"height": 25,
+			"imageWidth": 150,
+			"imageHeight": 150,
+			"alignment": "bottom_left",
+			"texture": "custommainmenu:textures/gui/curse.png",
+			"action": {
+				"type": "openLink",
+				"link": "https://minecraft.curseforge.com/projects/floramancer"
+			}
+		},
+		"discord": {
+			"text": "",
+			"posX": 87,
+			"posY": -35,
+			"width": 25,
+			"height": 25,
+			"imageWidth": 150,
+			"imageHeight": 150,
+			"alignment": "bottom_left",
+			"texture": "custommainmenu:textures/gui/discord.png",
+			"action": {
+				"type": "openLink",
+				"link": "https://discord.gg/9eGp9fV"
+			}
+		},
+		"bug": {
+			"text": "",
+			"posX": 119,
+			"posY": -35,
+			"width": 25,
+			"height": 25,
+			"imageWidth": 150,
+			"imageHeight": 150,
+			"alignment": "bottom_left",
+			"texture": "custommainmenu:textures/gui/bug.png",
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/lucidobservor/floramancer-modpack/issues"
+			}
+		}
+
+
+	},
+
+	"labels": {
+
+	},
+	"other": {
+
+		"background": {
+			"image": "",
+			"slideshow": {
+				"images": [
+					"custommainmenu:textures/background/screenshot1.png",
+					"custommainmenu:textures/background/screenshot2.png",
+					"custommainmenu:textures/background/screenshot3.png"
+				],
+				"displayDuration": 100,
+				"fadeDuration": 30,
+				"shuffle": true
+			}
+		}
+
+	}
 }

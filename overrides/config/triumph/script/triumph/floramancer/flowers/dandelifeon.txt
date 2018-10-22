@@ -7,7 +7,7 @@ addParent("triumph:floramancer/root")
 setPos(185,30)
 hideLines()
 
-setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"dandelifeon"}},TrophyName:"advancements.floramancer.dandelifeon.title"}>)
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"dandelifeon"}},TrophyName:"advancements.floramancer.dandelifeon.title",TrophyVariant:"neon"}>)
 addRewardFunction("triumph:stages/stage-dandelifeon")
 
 criteria = addCriteria("dandelifeon_1", "botania_tweaks:flower_generated_mana")
