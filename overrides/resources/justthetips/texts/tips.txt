@@ -23,3 +23,4 @@ Hostile mobs drop experience orbs, even when not killed by a player. You can use
 The invisibility status effect now ends if you make an attack or are discovered. Be sure to sneak when moving past mobs!
 Falling into the void won't kill you in Garden of Glass mode.
 Caves are enormous and largely interconnected. Leave a trail so you can find your way back out!
+Punching blazes to death yields more blaze powder.

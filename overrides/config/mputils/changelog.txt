@@ -18,6 +18,7 @@ Minor Tweaks:
 • The GoG world preset now forces a seed which, around spawn, is almost entirely Woodlands biome, which is capable of spawning all useful passive mobs.
 • Morechids now have simpler recipes in GoG, similar to the Orechid
 • Simple Trophies now uses the "neon" variant
+• Punching blazes to death now yields a lot more blaze powder than just killing them. In GoG, reduces the minimum number of blazes killed to open the Nether Portal from 15 to 4. 
 
 Bugfixes:
 • Fixed splash screen not showing up when you start the pack
@@ -27,6 +28,7 @@ Mods Added:
 
 Mods Removed:
 • Fairy Lights
+• Item Stages
 
 Mods Updated:
 • MPUtils

@@ -179,10 +179,6 @@ if(loadedMods in "gardenofglass") {
        Creative Recipes
   =========================*/
 
-// Add Item Stages to Creative Items
-// mods.ItemStages.addItemStage("creative", creativeManaTablet); // Currently broken, hides normal mana tablet as well
-mods.ItemStages.addItemStage("creative", creativeManaPool);
-
 // Creative Tablet
 RuneAltar.addRecipe(creativeManaTablet, [
 	<botania:dice>, <botania:manatablet>, <botania:dice>,

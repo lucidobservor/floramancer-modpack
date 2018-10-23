@@ -16,6 +16,7 @@ General:
 Garden of Glass:
 • Falling into the void won't kill you.
 • You can find mushrooms while scavenging for pebbles on mycelium
+• Punching blazes to death yields more blaze powder.
 
 Exploration:
 • Craft an Antique Atlas before you go exploring so you don't get lost.
