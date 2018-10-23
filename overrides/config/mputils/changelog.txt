@@ -19,6 +19,7 @@ Minor Tweaks:
 • Morechids now have simpler recipes in GoG, similar to the Orechid
 • Simple Trophies now uses the "neon" variant
 • Punching blazes to death now yields a lot more blaze powder than just killing them. In GoG, reduces the minimum number of blazes killed to open the Nether Portal from 15 to 4. 
+• Main menu has a background now (eventually to be a slideshow)
 
 Bugfixes:
 • Fixed splash screen not showing up when you start the pack
