@@ -144,7 +144,16 @@
 				"images": [
 					"custommainmenu:textures/background/screenshot1.png",
 					"custommainmenu:textures/background/screenshot2.png",
-					"custommainmenu:textures/background/screenshot3.png"
+					"custommainmenu:textures/background/screenshot3.png",
+					"custommainmenu:textures/background/screenshot4.png",
+					"custommainmenu:textures/background/screenshot5.png",
+					"custommainmenu:textures/background/screenshot6.png",
+					"custommainmenu:textures/background/screenshot7.png",
+					"custommainmenu:textures/background/screenshot8.png",
+					"custommainmenu:textures/background/screenshot9.png",
+					"custommainmenu:textures/background/screenshot10.png",
+					"custommainmenu:textures/background/screenshot11.png",
+					"custommainmenu:textures/background/screenshot12.png"
 				],
 				"displayDuration": 100,
 				"fadeDuration": 30,

@@ -7,6 +7,16 @@ Underneath the Changelogs, you can also find some Tips, Tricks, and Tweaks. Many
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
+§n0.4.2§r
+
+Minor Tweaks:
+• Custom Main Menu background is now a slideshow
+
+Mods Removed:
+• No Recipe Book
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
 §n0.4.1§r
 
 Major Enhancements:
