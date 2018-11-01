@@ -11,9 +11,44 @@ Underneath the Changelogs, you can also find some Tips, Tricks, and Tweaks. Many
 
 Minor Tweaks:
 • Custom Main Menu background is now a slideshow
+• New logo
 
 Mods Removed:
+• Mystical World
 • No Recipe Book
+
+Mods Updated:
+• Blockcraftery
+• BnBGamingCore
+• BNBGamingLib
+• Bookshelf
+• Botania
+• Botania Tweaks
+• Carry On
+• Charset Lib
+• Charset Storage
+• Charset Transport
+• Client Tweaks
+• Comforts
+• CraftTweaker
+• CraftTweaker Utils
+• Dropt
+• FastFurnace
+• Game Stages
+• Inspirations
+• Mantle
+• ModTweaker
+• MouseTweaks
+• ModTweaker
+• MPUtils Basic Tools
+• MysticalLib
+• Placebo
+• Shadowfacts' Forgelin
+• SmoothFont
+• Triumph
+• WAWLA
+• Waystones
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
