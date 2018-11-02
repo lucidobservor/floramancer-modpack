@@ -2,10 +2,10 @@
 	"images": {
 		"title": {
 			"image": "custommainmenu:textures/gui/floramancer.png",
-			"posX": 190,
-			"posY": 0,
-			"width": 420,
-			"height": 140,
+			"posX": 200,
+			"posY": 10,
+			"width": 360,
+			"height": 120,
 			"alignment": "top_left"
 		},
 
