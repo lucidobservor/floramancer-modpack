@@ -1,7 +1,7 @@
 
 setIcon(<botania:specialflower, nbt:{type: "hydroangeas"}>)
 setTranslatedTitle("advancements.floramancer.hydroangeas.title")
-setDescription("Fill 100 Mana Pools using the Hydroangeas")
+setDescription("Fill 50 Mana Pools using the Hydroangeas")
 addParent("triumph:floramancer/root")
 
 setPos(-185,30)
