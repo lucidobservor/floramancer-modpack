@@ -153,7 +153,8 @@
 					"custommainmenu:textures/background/screenshot9.png",
 					"custommainmenu:textures/background/screenshot10.png",
 					"custommainmenu:textures/background/screenshot11.png",
-					"custommainmenu:textures/background/screenshot12.png"
+					"custommainmenu:textures/background/screenshot12.png",
+					"custommainmenu:textures/background/screenshot13.png"
 				],
 				"displayDuration": 100,
 				"fadeDuration": 30,
