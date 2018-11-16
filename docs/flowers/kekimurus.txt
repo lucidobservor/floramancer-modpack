@@ -1,0 +1,4011 @@
+
+setIcon(<botania:specialflower, nbt:{type: "kekimurus"}>)
+setTranslatedTitle("advancements.floramancer.kekimurus.title")
+setDescription("Fill 1000 Mana Pools using the Kekimurus")
+addParent("triumph:floramancer/root")
+
+setPos(0,80)
+hideLines()
+
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"kekimurus"}},TrophyName:"advancements.floramancer.kekimurus.title",TrophyVariant:"neon", TrophyColorRed:102, TrophyColorGreen:137, TrophyColorBlue:211}>)
+addRewardFunction("triumph:stages/stage-kekimurus")
+
+criteria = addCriteria("kekimurus_1", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(1000000)
+
+criteria = addCriteria("kekimurus_2", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(2000000)
+
+criteria = addCriteria("kekimurus_3", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(3000000)
+
+criteria = addCriteria("kekimurus_4", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(4000000)
+
+criteria = addCriteria("kekimurus_5", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(5000000)
+
+criteria = addCriteria("kekimurus_6", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(6000000)
+
+criteria = addCriteria("kekimurus_7", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(7000000)
+
+criteria = addCriteria("kekimurus_8", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(8000000)
+
+criteria = addCriteria("kekimurus_9", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(9000000)
+
+criteria = addCriteria("kekimurus_10", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(10000000)
+
+criteria = addCriteria("kekimurus_11", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(11000000)
+
+criteria = addCriteria("kekimurus_12", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(12000000)
+
+criteria = addCriteria("kekimurus_13", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(13000000)
+
+criteria = addCriteria("kekimurus_14", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(14000000)
+
+criteria = addCriteria("kekimurus_15", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(15000000)
+
+criteria = addCriteria("kekimurus_16", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(16000000)
+
+criteria = addCriteria("kekimurus_17", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(17000000)
+
+criteria = addCriteria("kekimurus_18", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(18000000)
+
+criteria = addCriteria("kekimurus_19", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(19000000)
+
+criteria = addCriteria("kekimurus_20", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(20000000)
+
+criteria = addCriteria("kekimurus_21", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(21000000)
+
+criteria = addCriteria("kekimurus_22", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(22000000)
+
+criteria = addCriteria("kekimurus_23", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(23000000)
+
+criteria = addCriteria("kekimurus_24", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(24000000)
+
+criteria = addCriteria("kekimurus_25", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(25000000)
+
+criteria = addCriteria("kekimurus_26", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(26000000)
+
+criteria = addCriteria("kekimurus_27", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(27000000)
+
+criteria = addCriteria("kekimurus_28", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(28000000)
+
+criteria = addCriteria("kekimurus_29", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(29000000)
+
+criteria = addCriteria("kekimurus_30", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(30000000)
+
+criteria = addCriteria("kekimurus_31", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(31000000)
+
+criteria = addCriteria("kekimurus_32", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(32000000)
+
+criteria = addCriteria("kekimurus_33", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(33000000)
+
+criteria = addCriteria("kekimurus_34", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(34000000)
+
+criteria = addCriteria("kekimurus_35", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(35000000)
+
+criteria = addCriteria("kekimurus_36", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(36000000)
+
+criteria = addCriteria("kekimurus_37", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(37000000)
+
+criteria = addCriteria("kekimurus_38", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(38000000)
+
+criteria = addCriteria("kekimurus_39", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(39000000)
+
+criteria = addCriteria("kekimurus_40", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(40000000)
+
+criteria = addCriteria("kekimurus_41", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(41000000)
+
+criteria = addCriteria("kekimurus_42", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(42000000)
+
+criteria = addCriteria("kekimurus_43", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(43000000)
+
+criteria = addCriteria("kekimurus_44", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(44000000)
+
+criteria = addCriteria("kekimurus_45", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(45000000)
+
+criteria = addCriteria("kekimurus_46", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(46000000)
+
+criteria = addCriteria("kekimurus_47", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(47000000)
+
+criteria = addCriteria("kekimurus_48", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(48000000)
+
+criteria = addCriteria("kekimurus_49", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(49000000)
+
+criteria = addCriteria("kekimurus_50", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(50000000)
+
+criteria = addCriteria("kekimurus_51", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(51000000)
+
+criteria = addCriteria("kekimurus_52", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(52000000)
+
+criteria = addCriteria("kekimurus_53", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(53000000)
+
+criteria = addCriteria("kekimurus_54", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(54000000)
+
+criteria = addCriteria("kekimurus_55", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(55000000)
+
+criteria = addCriteria("kekimurus_56", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(56000000)
+
+criteria = addCriteria("kekimurus_57", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(57000000)
+
+criteria = addCriteria("kekimurus_58", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(58000000)
+
+criteria = addCriteria("kekimurus_59", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(59000000)
+
+criteria = addCriteria("kekimurus_60", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(60000000)
+
+criteria = addCriteria("kekimurus_61", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(61000000)
+
+criteria = addCriteria("kekimurus_62", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(62000000)
+
+criteria = addCriteria("kekimurus_63", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(63000000)
+
+criteria = addCriteria("kekimurus_64", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(64000000)
+
+criteria = addCriteria("kekimurus_65", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(65000000)
+
+criteria = addCriteria("kekimurus_66", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(66000000)
+
+criteria = addCriteria("kekimurus_67", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(67000000)
+
+criteria = addCriteria("kekimurus_68", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(68000000)
+
+criteria = addCriteria("kekimurus_69", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(69000000)
+
+criteria = addCriteria("kekimurus_70", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(70000000)
+
+criteria = addCriteria("kekimurus_71", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(71000000)
+
+criteria = addCriteria("kekimurus_72", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(72000000)
+
+criteria = addCriteria("kekimurus_73", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(73000000)
+
+criteria = addCriteria("kekimurus_74", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(74000000)
+
+criteria = addCriteria("kekimurus_75", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(75000000)
+
+criteria = addCriteria("kekimurus_76", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(76000000)
+
+criteria = addCriteria("kekimurus_77", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(77000000)
+
+criteria = addCriteria("kekimurus_78", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(78000000)
+
+criteria = addCriteria("kekimurus_79", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(79000000)
+
+criteria = addCriteria("kekimurus_80", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(80000000)
+
+criteria = addCriteria("kekimurus_81", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(81000000)
+
+criteria = addCriteria("kekimurus_82", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(82000000)
+
+criteria = addCriteria("kekimurus_83", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(83000000)
+
+criteria = addCriteria("kekimurus_84", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(84000000)
+
+criteria = addCriteria("kekimurus_85", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(85000000)
+
+criteria = addCriteria("kekimurus_86", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(86000000)
+
+criteria = addCriteria("kekimurus_87", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(87000000)
+
+criteria = addCriteria("kekimurus_88", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(88000000)
+
+criteria = addCriteria("kekimurus_89", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(89000000)
+
+criteria = addCriteria("kekimurus_90", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(90000000)
+
+criteria = addCriteria("kekimurus_91", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(91000000)
+
+criteria = addCriteria("kekimurus_92", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(92000000)
+
+criteria = addCriteria("kekimurus_93", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(93000000)
+
+criteria = addCriteria("kekimurus_94", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(94000000)
+
+criteria = addCriteria("kekimurus_95", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(95000000)
+
+criteria = addCriteria("kekimurus_96", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(96000000)
+
+criteria = addCriteria("kekimurus_97", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(97000000)
+
+criteria = addCriteria("kekimurus_98", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(98000000)
+
+criteria = addCriteria("kekimurus_99", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(99000000)
+
+criteria = addCriteria("kekimurus_100", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(100000000)
+
+criteria = addCriteria("kekimurus_101", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(101000000)
+
+criteria = addCriteria("kekimurus_102", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(102000000)
+
+criteria = addCriteria("kekimurus_103", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(103000000)
+
+criteria = addCriteria("kekimurus_104", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(104000000)
+
+criteria = addCriteria("kekimurus_105", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(105000000)
+
+criteria = addCriteria("kekimurus_106", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(106000000)
+
+criteria = addCriteria("kekimurus_107", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(107000000)
+
+criteria = addCriteria("kekimurus_108", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(108000000)
+
+criteria = addCriteria("kekimurus_109", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(109000000)
+
+criteria = addCriteria("kekimurus_110", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(110000000)
+
+criteria = addCriteria("kekimurus_111", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(111000000)
+
+criteria = addCriteria("kekimurus_112", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(112000000)
+
+criteria = addCriteria("kekimurus_113", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(113000000)
+
+criteria = addCriteria("kekimurus_114", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(114000000)
+
+criteria = addCriteria("kekimurus_115", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(115000000)
+
+criteria = addCriteria("kekimurus_116", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(116000000)
+
+criteria = addCriteria("kekimurus_117", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(117000000)
+
+criteria = addCriteria("kekimurus_118", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(118000000)
+
+criteria = addCriteria("kekimurus_119", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(119000000)
+
+criteria = addCriteria("kekimurus_120", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(120000000)
+
+criteria = addCriteria("kekimurus_121", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(121000000)
+
+criteria = addCriteria("kekimurus_122", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(122000000)
+
+criteria = addCriteria("kekimurus_123", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(123000000)
+
+criteria = addCriteria("kekimurus_124", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(124000000)
+
+criteria = addCriteria("kekimurus_125", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(125000000)
+
+criteria = addCriteria("kekimurus_126", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(126000000)
+
+criteria = addCriteria("kekimurus_127", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(127000000)
+
+criteria = addCriteria("kekimurus_128", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(128000000)
+
+criteria = addCriteria("kekimurus_129", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(129000000)
+
+criteria = addCriteria("kekimurus_130", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(130000000)
+
+criteria = addCriteria("kekimurus_131", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(131000000)
+
+criteria = addCriteria("kekimurus_132", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(132000000)
+
+criteria = addCriteria("kekimurus_133", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(133000000)
+
+criteria = addCriteria("kekimurus_134", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(134000000)
+
+criteria = addCriteria("kekimurus_135", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(135000000)
+
+criteria = addCriteria("kekimurus_136", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(136000000)
+
+criteria = addCriteria("kekimurus_137", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(137000000)
+
+criteria = addCriteria("kekimurus_138", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(138000000)
+
+criteria = addCriteria("kekimurus_139", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(139000000)
+
+criteria = addCriteria("kekimurus_140", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(140000000)
+
+criteria = addCriteria("kekimurus_141", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(141000000)
+
+criteria = addCriteria("kekimurus_142", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(142000000)
+
+criteria = addCriteria("kekimurus_143", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(143000000)
+
+criteria = addCriteria("kekimurus_144", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(144000000)
+
+criteria = addCriteria("kekimurus_145", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(145000000)
+
+criteria = addCriteria("kekimurus_146", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(146000000)
+
+criteria = addCriteria("kekimurus_147", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(147000000)
+
+criteria = addCriteria("kekimurus_148", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(148000000)
+
+criteria = addCriteria("kekimurus_149", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(149000000)
+
+criteria = addCriteria("kekimurus_150", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(150000000)
+
+criteria = addCriteria("kekimurus_151", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(151000000)
+
+criteria = addCriteria("kekimurus_152", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(152000000)
+
+criteria = addCriteria("kekimurus_153", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(153000000)
+
+criteria = addCriteria("kekimurus_154", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(154000000)
+
+criteria = addCriteria("kekimurus_155", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(155000000)
+
+criteria = addCriteria("kekimurus_156", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(156000000)
+
+criteria = addCriteria("kekimurus_157", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(157000000)
+
+criteria = addCriteria("kekimurus_158", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(158000000)
+
+criteria = addCriteria("kekimurus_159", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(159000000)
+
+criteria = addCriteria("kekimurus_160", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(160000000)
+
+criteria = addCriteria("kekimurus_161", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(161000000)
+
+criteria = addCriteria("kekimurus_162", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(162000000)
+
+criteria = addCriteria("kekimurus_163", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(163000000)
+
+criteria = addCriteria("kekimurus_164", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(164000000)
+
+criteria = addCriteria("kekimurus_165", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(165000000)
+
+criteria = addCriteria("kekimurus_166", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(166000000)
+
+criteria = addCriteria("kekimurus_167", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(167000000)
+
+criteria = addCriteria("kekimurus_168", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(168000000)
+
+criteria = addCriteria("kekimurus_169", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(169000000)
+
+criteria = addCriteria("kekimurus_170", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(170000000)
+
+criteria = addCriteria("kekimurus_171", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(171000000)
+
+criteria = addCriteria("kekimurus_172", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(172000000)
+
+criteria = addCriteria("kekimurus_173", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(173000000)
+
+criteria = addCriteria("kekimurus_174", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(174000000)
+
+criteria = addCriteria("kekimurus_175", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(175000000)
+
+criteria = addCriteria("kekimurus_176", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(176000000)
+
+criteria = addCriteria("kekimurus_177", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(177000000)
+
+criteria = addCriteria("kekimurus_178", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(178000000)
+
+criteria = addCriteria("kekimurus_179", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(179000000)
+
+criteria = addCriteria("kekimurus_180", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(180000000)
+
+criteria = addCriteria("kekimurus_181", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(181000000)
+
+criteria = addCriteria("kekimurus_182", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(182000000)
+
+criteria = addCriteria("kekimurus_183", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(183000000)
+
+criteria = addCriteria("kekimurus_184", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(184000000)
+
+criteria = addCriteria("kekimurus_185", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(185000000)
+
+criteria = addCriteria("kekimurus_186", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(186000000)
+
+criteria = addCriteria("kekimurus_187", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(187000000)
+
+criteria = addCriteria("kekimurus_188", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(188000000)
+
+criteria = addCriteria("kekimurus_189", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(189000000)
+
+criteria = addCriteria("kekimurus_190", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(190000000)
+
+criteria = addCriteria("kekimurus_191", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(191000000)
+
+criteria = addCriteria("kekimurus_192", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(192000000)
+
+criteria = addCriteria("kekimurus_193", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(193000000)
+
+criteria = addCriteria("kekimurus_194", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(194000000)
+
+criteria = addCriteria("kekimurus_195", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(195000000)
+
+criteria = addCriteria("kekimurus_196", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(196000000)
+
+criteria = addCriteria("kekimurus_197", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(197000000)
+
+criteria = addCriteria("kekimurus_198", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(198000000)
+
+criteria = addCriteria("kekimurus_199", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(199000000)
+
+criteria = addCriteria("kekimurus_200", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(200000000)
+
+criteria = addCriteria("kekimurus_201", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(201000000)
+
+criteria = addCriteria("kekimurus_202", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(202000000)
+
+criteria = addCriteria("kekimurus_203", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(203000000)
+
+criteria = addCriteria("kekimurus_204", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(204000000)
+
+criteria = addCriteria("kekimurus_205", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(205000000)
+
+criteria = addCriteria("kekimurus_206", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(206000000)
+
+criteria = addCriteria("kekimurus_207", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(207000000)
+
+criteria = addCriteria("kekimurus_208", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(208000000)
+
+criteria = addCriteria("kekimurus_209", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(209000000)
+
+criteria = addCriteria("kekimurus_210", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(210000000)
+
+criteria = addCriteria("kekimurus_211", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(211000000)
+
+criteria = addCriteria("kekimurus_212", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(212000000)
+
+criteria = addCriteria("kekimurus_213", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(213000000)
+
+criteria = addCriteria("kekimurus_214", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(214000000)
+
+criteria = addCriteria("kekimurus_215", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(215000000)
+
+criteria = addCriteria("kekimurus_216", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(216000000)
+
+criteria = addCriteria("kekimurus_217", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(217000000)
+
+criteria = addCriteria("kekimurus_218", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(218000000)
+
+criteria = addCriteria("kekimurus_219", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(219000000)
+
+criteria = addCriteria("kekimurus_220", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(220000000)
+
+criteria = addCriteria("kekimurus_221", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(221000000)
+
+criteria = addCriteria("kekimurus_222", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(222000000)
+
+criteria = addCriteria("kekimurus_223", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(223000000)
+
+criteria = addCriteria("kekimurus_224", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(224000000)
+
+criteria = addCriteria("kekimurus_225", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(225000000)
+
+criteria = addCriteria("kekimurus_226", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(226000000)
+
+criteria = addCriteria("kekimurus_227", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(227000000)
+
+criteria = addCriteria("kekimurus_228", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(228000000)
+
+criteria = addCriteria("kekimurus_229", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(229000000)
+
+criteria = addCriteria("kekimurus_230", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(230000000)
+
+criteria = addCriteria("kekimurus_231", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(231000000)
+
+criteria = addCriteria("kekimurus_232", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(232000000)
+
+criteria = addCriteria("kekimurus_233", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(233000000)
+
+criteria = addCriteria("kekimurus_234", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(234000000)
+
+criteria = addCriteria("kekimurus_235", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(235000000)
+
+criteria = addCriteria("kekimurus_236", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(236000000)
+
+criteria = addCriteria("kekimurus_237", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(237000000)
+
+criteria = addCriteria("kekimurus_238", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(238000000)
+
+criteria = addCriteria("kekimurus_239", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(239000000)
+
+criteria = addCriteria("kekimurus_240", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(240000000)
+
+criteria = addCriteria("kekimurus_241", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(241000000)
+
+criteria = addCriteria("kekimurus_242", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(242000000)
+
+criteria = addCriteria("kekimurus_243", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(243000000)
+
+criteria = addCriteria("kekimurus_244", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(244000000)
+
+criteria = addCriteria("kekimurus_245", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(245000000)
+
+criteria = addCriteria("kekimurus_246", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(246000000)
+
+criteria = addCriteria("kekimurus_247", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(247000000)
+
+criteria = addCriteria("kekimurus_248", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(248000000)
+
+criteria = addCriteria("kekimurus_249", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(249000000)
+
+criteria = addCriteria("kekimurus_250", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(250000000)
+
+criteria = addCriteria("kekimurus_251", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(251000000)
+
+criteria = addCriteria("kekimurus_252", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(252000000)
+
+criteria = addCriteria("kekimurus_253", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(253000000)
+
+criteria = addCriteria("kekimurus_254", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(254000000)
+
+criteria = addCriteria("kekimurus_255", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(255000000)
+
+criteria = addCriteria("kekimurus_256", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(256000000)
+
+criteria = addCriteria("kekimurus_257", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(257000000)
+
+criteria = addCriteria("kekimurus_258", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(258000000)
+
+criteria = addCriteria("kekimurus_259", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(259000000)
+
+criteria = addCriteria("kekimurus_260", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(260000000)
+
+criteria = addCriteria("kekimurus_261", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(261000000)
+
+criteria = addCriteria("kekimurus_262", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(262000000)
+
+criteria = addCriteria("kekimurus_263", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(263000000)
+
+criteria = addCriteria("kekimurus_264", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(264000000)
+
+criteria = addCriteria("kekimurus_265", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(265000000)
+
+criteria = addCriteria("kekimurus_266", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(266000000)
+
+criteria = addCriteria("kekimurus_267", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(267000000)
+
+criteria = addCriteria("kekimurus_268", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(268000000)
+
+criteria = addCriteria("kekimurus_269", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(269000000)
+
+criteria = addCriteria("kekimurus_270", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(270000000)
+
+criteria = addCriteria("kekimurus_271", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(271000000)
+
+criteria = addCriteria("kekimurus_272", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(272000000)
+
+criteria = addCriteria("kekimurus_273", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(273000000)
+
+criteria = addCriteria("kekimurus_274", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(274000000)
+
+criteria = addCriteria("kekimurus_275", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(275000000)
+
+criteria = addCriteria("kekimurus_276", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(276000000)
+
+criteria = addCriteria("kekimurus_277", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(277000000)
+
+criteria = addCriteria("kekimurus_278", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(278000000)
+
+criteria = addCriteria("kekimurus_279", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(279000000)
+
+criteria = addCriteria("kekimurus_280", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(280000000)
+
+criteria = addCriteria("kekimurus_281", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(281000000)
+
+criteria = addCriteria("kekimurus_282", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(282000000)
+
+criteria = addCriteria("kekimurus_283", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(283000000)
+
+criteria = addCriteria("kekimurus_284", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(284000000)
+
+criteria = addCriteria("kekimurus_285", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(285000000)
+
+criteria = addCriteria("kekimurus_286", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(286000000)
+
+criteria = addCriteria("kekimurus_287", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(287000000)
+
+criteria = addCriteria("kekimurus_288", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(288000000)
+
+criteria = addCriteria("kekimurus_289", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(289000000)
+
+criteria = addCriteria("kekimurus_290", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(290000000)
+
+criteria = addCriteria("kekimurus_291", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(291000000)
+
+criteria = addCriteria("kekimurus_292", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(292000000)
+
+criteria = addCriteria("kekimurus_293", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(293000000)
+
+criteria = addCriteria("kekimurus_294", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(294000000)
+
+criteria = addCriteria("kekimurus_295", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(295000000)
+
+criteria = addCriteria("kekimurus_296", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(296000000)
+
+criteria = addCriteria("kekimurus_297", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(297000000)
+
+criteria = addCriteria("kekimurus_298", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(298000000)
+
+criteria = addCriteria("kekimurus_299", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(299000000)
+
+criteria = addCriteria("kekimurus_300", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(300000000)
+
+criteria = addCriteria("kekimurus_301", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(301000000)
+
+criteria = addCriteria("kekimurus_302", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(302000000)
+
+criteria = addCriteria("kekimurus_303", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(303000000)
+
+criteria = addCriteria("kekimurus_304", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(304000000)
+
+criteria = addCriteria("kekimurus_305", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(305000000)
+
+criteria = addCriteria("kekimurus_306", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(306000000)
+
+criteria = addCriteria("kekimurus_307", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(307000000)
+
+criteria = addCriteria("kekimurus_308", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(308000000)
+
+criteria = addCriteria("kekimurus_309", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(309000000)
+
+criteria = addCriteria("kekimurus_310", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(310000000)
+
+criteria = addCriteria("kekimurus_311", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(311000000)
+
+criteria = addCriteria("kekimurus_312", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(312000000)
+
+criteria = addCriteria("kekimurus_313", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(313000000)
+
+criteria = addCriteria("kekimurus_314", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(314000000)
+
+criteria = addCriteria("kekimurus_315", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(315000000)
+
+criteria = addCriteria("kekimurus_316", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(316000000)
+
+criteria = addCriteria("kekimurus_317", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(317000000)
+
+criteria = addCriteria("kekimurus_318", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(318000000)
+
+criteria = addCriteria("kekimurus_319", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(319000000)
+
+criteria = addCriteria("kekimurus_320", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(320000000)
+
+criteria = addCriteria("kekimurus_321", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(321000000)
+
+criteria = addCriteria("kekimurus_322", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(322000000)
+
+criteria = addCriteria("kekimurus_323", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(323000000)
+
+criteria = addCriteria("kekimurus_324", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(324000000)
+
+criteria = addCriteria("kekimurus_325", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(325000000)
+
+criteria = addCriteria("kekimurus_326", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(326000000)
+
+criteria = addCriteria("kekimurus_327", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(327000000)
+
+criteria = addCriteria("kekimurus_328", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(328000000)
+
+criteria = addCriteria("kekimurus_329", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(329000000)
+
+criteria = addCriteria("kekimurus_330", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(330000000)
+
+criteria = addCriteria("kekimurus_331", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(331000000)
+
+criteria = addCriteria("kekimurus_332", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(332000000)
+
+criteria = addCriteria("kekimurus_333", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(333000000)
+
+criteria = addCriteria("kekimurus_334", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(334000000)
+
+criteria = addCriteria("kekimurus_335", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(335000000)
+
+criteria = addCriteria("kekimurus_336", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(336000000)
+
+criteria = addCriteria("kekimurus_337", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(337000000)
+
+criteria = addCriteria("kekimurus_338", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(338000000)
+
+criteria = addCriteria("kekimurus_339", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(339000000)
+
+criteria = addCriteria("kekimurus_340", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(340000000)
+
+criteria = addCriteria("kekimurus_341", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(341000000)
+
+criteria = addCriteria("kekimurus_342", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(342000000)
+
+criteria = addCriteria("kekimurus_343", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(343000000)
+
+criteria = addCriteria("kekimurus_344", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(344000000)
+
+criteria = addCriteria("kekimurus_345", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(345000000)
+
+criteria = addCriteria("kekimurus_346", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(346000000)
+
+criteria = addCriteria("kekimurus_347", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(347000000)
+
+criteria = addCriteria("kekimurus_348", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(348000000)
+
+criteria = addCriteria("kekimurus_349", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(349000000)
+
+criteria = addCriteria("kekimurus_350", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(350000000)
+
+criteria = addCriteria("kekimurus_351", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(351000000)
+
+criteria = addCriteria("kekimurus_352", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(352000000)
+
+criteria = addCriteria("kekimurus_353", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(353000000)
+
+criteria = addCriteria("kekimurus_354", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(354000000)
+
+criteria = addCriteria("kekimurus_355", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(355000000)
+
+criteria = addCriteria("kekimurus_356", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(356000000)
+
+criteria = addCriteria("kekimurus_357", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(357000000)
+
+criteria = addCriteria("kekimurus_358", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(358000000)
+
+criteria = addCriteria("kekimurus_359", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(359000000)
+
+criteria = addCriteria("kekimurus_360", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(360000000)
+
+criteria = addCriteria("kekimurus_361", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(361000000)
+
+criteria = addCriteria("kekimurus_362", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(362000000)
+
+criteria = addCriteria("kekimurus_363", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(363000000)
+
+criteria = addCriteria("kekimurus_364", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(364000000)
+
+criteria = addCriteria("kekimurus_365", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(365000000)
+
+criteria = addCriteria("kekimurus_366", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(366000000)
+
+criteria = addCriteria("kekimurus_367", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(367000000)
+
+criteria = addCriteria("kekimurus_368", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(368000000)
+
+criteria = addCriteria("kekimurus_369", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(369000000)
+
+criteria = addCriteria("kekimurus_370", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(370000000)
+
+criteria = addCriteria("kekimurus_371", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(371000000)
+
+criteria = addCriteria("kekimurus_372", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(372000000)
+
+criteria = addCriteria("kekimurus_373", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(373000000)
+
+criteria = addCriteria("kekimurus_374", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(374000000)
+
+criteria = addCriteria("kekimurus_375", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(375000000)
+
+criteria = addCriteria("kekimurus_376", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(376000000)
+
+criteria = addCriteria("kekimurus_377", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(377000000)
+
+criteria = addCriteria("kekimurus_378", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(378000000)
+
+criteria = addCriteria("kekimurus_379", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(379000000)
+
+criteria = addCriteria("kekimurus_380", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(380000000)
+
+criteria = addCriteria("kekimurus_381", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(381000000)
+
+criteria = addCriteria("kekimurus_382", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(382000000)
+
+criteria = addCriteria("kekimurus_383", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(383000000)
+
+criteria = addCriteria("kekimurus_384", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(384000000)
+
+criteria = addCriteria("kekimurus_385", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(385000000)
+
+criteria = addCriteria("kekimurus_386", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(386000000)
+
+criteria = addCriteria("kekimurus_387", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(387000000)
+
+criteria = addCriteria("kekimurus_388", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(388000000)
+
+criteria = addCriteria("kekimurus_389", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(389000000)
+
+criteria = addCriteria("kekimurus_390", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(390000000)
+
+criteria = addCriteria("kekimurus_391", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(391000000)
+
+criteria = addCriteria("kekimurus_392", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(392000000)
+
+criteria = addCriteria("kekimurus_393", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(393000000)
+
+criteria = addCriteria("kekimurus_394", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(394000000)
+
+criteria = addCriteria("kekimurus_395", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(395000000)
+
+criteria = addCriteria("kekimurus_396", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(396000000)
+
+criteria = addCriteria("kekimurus_397", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(397000000)
+
+criteria = addCriteria("kekimurus_398", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(398000000)
+
+criteria = addCriteria("kekimurus_399", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(399000000)
+
+criteria = addCriteria("kekimurus_400", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(400000000)
+
+criteria = addCriteria("kekimurus_401", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(401000000)
+
+criteria = addCriteria("kekimurus_402", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(402000000)
+
+criteria = addCriteria("kekimurus_403", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(403000000)
+
+criteria = addCriteria("kekimurus_404", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(404000000)
+
+criteria = addCriteria("kekimurus_405", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(405000000)
+
+criteria = addCriteria("kekimurus_406", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(406000000)
+
+criteria = addCriteria("kekimurus_407", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(407000000)
+
+criteria = addCriteria("kekimurus_408", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(408000000)
+
+criteria = addCriteria("kekimurus_409", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(409000000)
+
+criteria = addCriteria("kekimurus_410", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(410000000)
+
+criteria = addCriteria("kekimurus_411", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(411000000)
+
+criteria = addCriteria("kekimurus_412", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(412000000)
+
+criteria = addCriteria("kekimurus_413", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(413000000)
+
+criteria = addCriteria("kekimurus_414", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(414000000)
+
+criteria = addCriteria("kekimurus_415", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(415000000)
+
+criteria = addCriteria("kekimurus_416", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(416000000)
+
+criteria = addCriteria("kekimurus_417", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(417000000)
+
+criteria = addCriteria("kekimurus_418", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(418000000)
+
+criteria = addCriteria("kekimurus_419", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(419000000)
+
+criteria = addCriteria("kekimurus_420", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(420000000)
+
+criteria = addCriteria("kekimurus_421", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(421000000)
+
+criteria = addCriteria("kekimurus_422", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(422000000)
+
+criteria = addCriteria("kekimurus_423", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(423000000)
+
+criteria = addCriteria("kekimurus_424", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(424000000)
+
+criteria = addCriteria("kekimurus_425", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(425000000)
+
+criteria = addCriteria("kekimurus_426", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(426000000)
+
+criteria = addCriteria("kekimurus_427", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(427000000)
+
+criteria = addCriteria("kekimurus_428", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(428000000)
+
+criteria = addCriteria("kekimurus_429", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(429000000)
+
+criteria = addCriteria("kekimurus_430", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(430000000)
+
+criteria = addCriteria("kekimurus_431", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(431000000)
+
+criteria = addCriteria("kekimurus_432", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(432000000)
+
+criteria = addCriteria("kekimurus_433", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(433000000)
+
+criteria = addCriteria("kekimurus_434", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(434000000)
+
+criteria = addCriteria("kekimurus_435", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(435000000)
+
+criteria = addCriteria("kekimurus_436", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(436000000)
+
+criteria = addCriteria("kekimurus_437", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(437000000)
+
+criteria = addCriteria("kekimurus_438", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(438000000)
+
+criteria = addCriteria("kekimurus_439", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(439000000)
+
+criteria = addCriteria("kekimurus_440", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(440000000)
+
+criteria = addCriteria("kekimurus_441", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(441000000)
+
+criteria = addCriteria("kekimurus_442", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(442000000)
+
+criteria = addCriteria("kekimurus_443", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(443000000)
+
+criteria = addCriteria("kekimurus_444", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(444000000)
+
+criteria = addCriteria("kekimurus_445", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(445000000)
+
+criteria = addCriteria("kekimurus_446", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(446000000)
+
+criteria = addCriteria("kekimurus_447", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(447000000)
+
+criteria = addCriteria("kekimurus_448", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(448000000)
+
+criteria = addCriteria("kekimurus_449", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(449000000)
+
+criteria = addCriteria("kekimurus_450", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(450000000)
+
+criteria = addCriteria("kekimurus_451", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(451000000)
+
+criteria = addCriteria("kekimurus_452", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(452000000)
+
+criteria = addCriteria("kekimurus_453", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(453000000)
+
+criteria = addCriteria("kekimurus_454", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(454000000)
+
+criteria = addCriteria("kekimurus_455", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(455000000)
+
+criteria = addCriteria("kekimurus_456", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(456000000)
+
+criteria = addCriteria("kekimurus_457", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(457000000)
+
+criteria = addCriteria("kekimurus_458", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(458000000)
+
+criteria = addCriteria("kekimurus_459", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(459000000)
+
+criteria = addCriteria("kekimurus_460", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(460000000)
+
+criteria = addCriteria("kekimurus_461", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(461000000)
+
+criteria = addCriteria("kekimurus_462", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(462000000)
+
+criteria = addCriteria("kekimurus_463", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(463000000)
+
+criteria = addCriteria("kekimurus_464", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(464000000)
+
+criteria = addCriteria("kekimurus_465", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(465000000)
+
+criteria = addCriteria("kekimurus_466", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(466000000)
+
+criteria = addCriteria("kekimurus_467", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(467000000)
+
+criteria = addCriteria("kekimurus_468", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(468000000)
+
+criteria = addCriteria("kekimurus_469", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(469000000)
+
+criteria = addCriteria("kekimurus_470", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(470000000)
+
+criteria = addCriteria("kekimurus_471", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(471000000)
+
+criteria = addCriteria("kekimurus_472", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(472000000)
+
+criteria = addCriteria("kekimurus_473", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(473000000)
+
+criteria = addCriteria("kekimurus_474", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(474000000)
+
+criteria = addCriteria("kekimurus_475", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(475000000)
+
+criteria = addCriteria("kekimurus_476", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(476000000)
+
+criteria = addCriteria("kekimurus_477", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(477000000)
+
+criteria = addCriteria("kekimurus_478", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(478000000)
+
+criteria = addCriteria("kekimurus_479", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(479000000)
+
+criteria = addCriteria("kekimurus_480", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(480000000)
+
+criteria = addCriteria("kekimurus_481", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(481000000)
+
+criteria = addCriteria("kekimurus_482", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(482000000)
+
+criteria = addCriteria("kekimurus_483", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(483000000)
+
+criteria = addCriteria("kekimurus_484", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(484000000)
+
+criteria = addCriteria("kekimurus_485", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(485000000)
+
+criteria = addCriteria("kekimurus_486", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(486000000)
+
+criteria = addCriteria("kekimurus_487", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(487000000)
+
+criteria = addCriteria("kekimurus_488", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(488000000)
+
+criteria = addCriteria("kekimurus_489", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(489000000)
+
+criteria = addCriteria("kekimurus_490", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(490000000)
+
+criteria = addCriteria("kekimurus_491", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(491000000)
+
+criteria = addCriteria("kekimurus_492", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(492000000)
+
+criteria = addCriteria("kekimurus_493", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(493000000)
+
+criteria = addCriteria("kekimurus_494", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(494000000)
+
+criteria = addCriteria("kekimurus_495", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(495000000)
+
+criteria = addCriteria("kekimurus_496", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(496000000)
+
+criteria = addCriteria("kekimurus_497", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(497000000)
+
+criteria = addCriteria("kekimurus_498", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(498000000)
+
+criteria = addCriteria("kekimurus_499", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(499000000)
+
+criteria = addCriteria("kekimurus_500", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(500000000)
+
+criteria = addCriteria("kekimurus_501", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(501000000)
+
+criteria = addCriteria("kekimurus_502", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(502000000)
+
+criteria = addCriteria("kekimurus_503", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(503000000)
+
+criteria = addCriteria("kekimurus_504", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(504000000)
+
+criteria = addCriteria("kekimurus_505", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(505000000)
+
+criteria = addCriteria("kekimurus_506", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(506000000)
+
+criteria = addCriteria("kekimurus_507", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(507000000)
+
+criteria = addCriteria("kekimurus_508", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(508000000)
+
+criteria = addCriteria("kekimurus_509", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(509000000)
+
+criteria = addCriteria("kekimurus_510", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(510000000)
+
+criteria = addCriteria("kekimurus_511", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(511000000)
+
+criteria = addCriteria("kekimurus_512", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(512000000)
+
+criteria = addCriteria("kekimurus_513", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(513000000)
+
+criteria = addCriteria("kekimurus_514", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(514000000)
+
+criteria = addCriteria("kekimurus_515", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(515000000)
+
+criteria = addCriteria("kekimurus_516", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(516000000)
+
+criteria = addCriteria("kekimurus_517", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(517000000)
+
+criteria = addCriteria("kekimurus_518", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(518000000)
+
+criteria = addCriteria("kekimurus_519", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(519000000)
+
+criteria = addCriteria("kekimurus_520", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(520000000)
+
+criteria = addCriteria("kekimurus_521", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(521000000)
+
+criteria = addCriteria("kekimurus_522", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(522000000)
+
+criteria = addCriteria("kekimurus_523", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(523000000)
+
+criteria = addCriteria("kekimurus_524", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(524000000)
+
+criteria = addCriteria("kekimurus_525", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(525000000)
+
+criteria = addCriteria("kekimurus_526", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(526000000)
+
+criteria = addCriteria("kekimurus_527", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(527000000)
+
+criteria = addCriteria("kekimurus_528", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(528000000)
+
+criteria = addCriteria("kekimurus_529", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(529000000)
+
+criteria = addCriteria("kekimurus_530", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(530000000)
+
+criteria = addCriteria("kekimurus_531", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(531000000)
+
+criteria = addCriteria("kekimurus_532", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(532000000)
+
+criteria = addCriteria("kekimurus_533", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(533000000)
+
+criteria = addCriteria("kekimurus_534", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(534000000)
+
+criteria = addCriteria("kekimurus_535", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(535000000)
+
+criteria = addCriteria("kekimurus_536", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(536000000)
+
+criteria = addCriteria("kekimurus_537", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(537000000)
+
+criteria = addCriteria("kekimurus_538", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(538000000)
+
+criteria = addCriteria("kekimurus_539", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(539000000)
+
+criteria = addCriteria("kekimurus_540", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(540000000)
+
+criteria = addCriteria("kekimurus_541", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(541000000)
+
+criteria = addCriteria("kekimurus_542", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(542000000)
+
+criteria = addCriteria("kekimurus_543", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(543000000)
+
+criteria = addCriteria("kekimurus_544", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(544000000)
+
+criteria = addCriteria("kekimurus_545", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(545000000)
+
+criteria = addCriteria("kekimurus_546", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(546000000)
+
+criteria = addCriteria("kekimurus_547", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(547000000)
+
+criteria = addCriteria("kekimurus_548", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(548000000)
+
+criteria = addCriteria("kekimurus_549", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(549000000)
+
+criteria = addCriteria("kekimurus_550", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(550000000)
+
+criteria = addCriteria("kekimurus_551", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(551000000)
+
+criteria = addCriteria("kekimurus_552", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(552000000)
+
+criteria = addCriteria("kekimurus_553", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(553000000)
+
+criteria = addCriteria("kekimurus_554", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(554000000)
+
+criteria = addCriteria("kekimurus_555", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(555000000)
+
+criteria = addCriteria("kekimurus_556", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(556000000)
+
+criteria = addCriteria("kekimurus_557", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(557000000)
+
+criteria = addCriteria("kekimurus_558", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(558000000)
+
+criteria = addCriteria("kekimurus_559", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(559000000)
+
+criteria = addCriteria("kekimurus_560", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(560000000)
+
+criteria = addCriteria("kekimurus_561", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(561000000)
+
+criteria = addCriteria("kekimurus_562", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(562000000)
+
+criteria = addCriteria("kekimurus_563", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(563000000)
+
+criteria = addCriteria("kekimurus_564", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(564000000)
+
+criteria = addCriteria("kekimurus_565", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(565000000)
+
+criteria = addCriteria("kekimurus_566", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(566000000)
+
+criteria = addCriteria("kekimurus_567", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(567000000)
+
+criteria = addCriteria("kekimurus_568", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(568000000)
+
+criteria = addCriteria("kekimurus_569", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(569000000)
+
+criteria = addCriteria("kekimurus_570", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(570000000)
+
+criteria = addCriteria("kekimurus_571", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(571000000)
+
+criteria = addCriteria("kekimurus_572", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(572000000)
+
+criteria = addCriteria("kekimurus_573", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(573000000)
+
+criteria = addCriteria("kekimurus_574", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(574000000)
+
+criteria = addCriteria("kekimurus_575", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(575000000)
+
+criteria = addCriteria("kekimurus_576", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(576000000)
+
+criteria = addCriteria("kekimurus_577", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(577000000)
+
+criteria = addCriteria("kekimurus_578", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(578000000)
+
+criteria = addCriteria("kekimurus_579", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(579000000)
+
+criteria = addCriteria("kekimurus_580", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(580000000)
+
+criteria = addCriteria("kekimurus_581", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(581000000)
+
+criteria = addCriteria("kekimurus_582", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(582000000)
+
+criteria = addCriteria("kekimurus_583", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(583000000)
+
+criteria = addCriteria("kekimurus_584", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(584000000)
+
+criteria = addCriteria("kekimurus_585", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(585000000)
+
+criteria = addCriteria("kekimurus_586", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(586000000)
+
+criteria = addCriteria("kekimurus_587", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(587000000)
+
+criteria = addCriteria("kekimurus_588", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(588000000)
+
+criteria = addCriteria("kekimurus_589", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(589000000)
+
+criteria = addCriteria("kekimurus_590", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(590000000)
+
+criteria = addCriteria("kekimurus_591", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(591000000)
+
+criteria = addCriteria("kekimurus_592", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(592000000)
+
+criteria = addCriteria("kekimurus_593", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(593000000)
+
+criteria = addCriteria("kekimurus_594", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(594000000)
+
+criteria = addCriteria("kekimurus_595", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(595000000)
+
+criteria = addCriteria("kekimurus_596", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(596000000)
+
+criteria = addCriteria("kekimurus_597", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(597000000)
+
+criteria = addCriteria("kekimurus_598", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(598000000)
+
+criteria = addCriteria("kekimurus_599", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(599000000)
+
+criteria = addCriteria("kekimurus_600", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(600000000)
+
+criteria = addCriteria("kekimurus_601", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(601000000)
+
+criteria = addCriteria("kekimurus_602", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(602000000)
+
+criteria = addCriteria("kekimurus_603", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(603000000)
+
+criteria = addCriteria("kekimurus_604", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(604000000)
+
+criteria = addCriteria("kekimurus_605", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(605000000)
+
+criteria = addCriteria("kekimurus_606", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(606000000)
+
+criteria = addCriteria("kekimurus_607", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(607000000)
+
+criteria = addCriteria("kekimurus_608", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(608000000)
+
+criteria = addCriteria("kekimurus_609", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(609000000)
+
+criteria = addCriteria("kekimurus_610", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(610000000)
+
+criteria = addCriteria("kekimurus_611", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(611000000)
+
+criteria = addCriteria("kekimurus_612", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(612000000)
+
+criteria = addCriteria("kekimurus_613", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(613000000)
+
+criteria = addCriteria("kekimurus_614", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(614000000)
+
+criteria = addCriteria("kekimurus_615", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(615000000)
+
+criteria = addCriteria("kekimurus_616", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(616000000)
+
+criteria = addCriteria("kekimurus_617", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(617000000)
+
+criteria = addCriteria("kekimurus_618", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(618000000)
+
+criteria = addCriteria("kekimurus_619", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(619000000)
+
+criteria = addCriteria("kekimurus_620", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(620000000)
+
+criteria = addCriteria("kekimurus_621", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(621000000)
+
+criteria = addCriteria("kekimurus_622", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(622000000)
+
+criteria = addCriteria("kekimurus_623", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(623000000)
+
+criteria = addCriteria("kekimurus_624", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(624000000)
+
+criteria = addCriteria("kekimurus_625", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(625000000)
+
+criteria = addCriteria("kekimurus_626", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(626000000)
+
+criteria = addCriteria("kekimurus_627", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(627000000)
+
+criteria = addCriteria("kekimurus_628", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(628000000)
+
+criteria = addCriteria("kekimurus_629", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(629000000)
+
+criteria = addCriteria("kekimurus_630", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(630000000)
+
+criteria = addCriteria("kekimurus_631", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(631000000)
+
+criteria = addCriteria("kekimurus_632", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(632000000)
+
+criteria = addCriteria("kekimurus_633", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(633000000)
+
+criteria = addCriteria("kekimurus_634", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(634000000)
+
+criteria = addCriteria("kekimurus_635", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(635000000)
+
+criteria = addCriteria("kekimurus_636", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(636000000)
+
+criteria = addCriteria("kekimurus_637", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(637000000)
+
+criteria = addCriteria("kekimurus_638", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(638000000)
+
+criteria = addCriteria("kekimurus_639", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(639000000)
+
+criteria = addCriteria("kekimurus_640", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(640000000)
+
+criteria = addCriteria("kekimurus_641", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(641000000)
+
+criteria = addCriteria("kekimurus_642", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(642000000)
+
+criteria = addCriteria("kekimurus_643", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(643000000)
+
+criteria = addCriteria("kekimurus_644", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(644000000)
+
+criteria = addCriteria("kekimurus_645", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(645000000)
+
+criteria = addCriteria("kekimurus_646", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(646000000)
+
+criteria = addCriteria("kekimurus_647", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(647000000)
+
+criteria = addCriteria("kekimurus_648", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(648000000)
+
+criteria = addCriteria("kekimurus_649", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(649000000)
+
+criteria = addCriteria("kekimurus_650", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(650000000)
+
+criteria = addCriteria("kekimurus_651", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(651000000)
+
+criteria = addCriteria("kekimurus_652", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(652000000)
+
+criteria = addCriteria("kekimurus_653", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(653000000)
+
+criteria = addCriteria("kekimurus_654", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(654000000)
+
+criteria = addCriteria("kekimurus_655", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(655000000)
+
+criteria = addCriteria("kekimurus_656", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(656000000)
+
+criteria = addCriteria("kekimurus_657", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(657000000)
+
+criteria = addCriteria("kekimurus_658", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(658000000)
+
+criteria = addCriteria("kekimurus_659", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(659000000)
+
+criteria = addCriteria("kekimurus_660", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(660000000)
+
+criteria = addCriteria("kekimurus_661", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(661000000)
+
+criteria = addCriteria("kekimurus_662", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(662000000)
+
+criteria = addCriteria("kekimurus_663", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(663000000)
+
+criteria = addCriteria("kekimurus_664", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(664000000)
+
+criteria = addCriteria("kekimurus_665", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(665000000)
+
+criteria = addCriteria("kekimurus_666", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(666000000)
+
+criteria = addCriteria("kekimurus_667", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(667000000)
+
+criteria = addCriteria("kekimurus_668", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(668000000)
+
+criteria = addCriteria("kekimurus_669", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(669000000)
+
+criteria = addCriteria("kekimurus_670", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(670000000)
+
+criteria = addCriteria("kekimurus_671", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(671000000)
+
+criteria = addCriteria("kekimurus_672", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(672000000)
+
+criteria = addCriteria("kekimurus_673", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(673000000)
+
+criteria = addCriteria("kekimurus_674", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(674000000)
+
+criteria = addCriteria("kekimurus_675", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(675000000)
+
+criteria = addCriteria("kekimurus_676", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(676000000)
+
+criteria = addCriteria("kekimurus_677", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(677000000)
+
+criteria = addCriteria("kekimurus_678", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(678000000)
+
+criteria = addCriteria("kekimurus_679", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(679000000)
+
+criteria = addCriteria("kekimurus_680", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(680000000)
+
+criteria = addCriteria("kekimurus_681", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(681000000)
+
+criteria = addCriteria("kekimurus_682", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(682000000)
+
+criteria = addCriteria("kekimurus_683", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(683000000)
+
+criteria = addCriteria("kekimurus_684", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(684000000)
+
+criteria = addCriteria("kekimurus_685", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(685000000)
+
+criteria = addCriteria("kekimurus_686", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(686000000)
+
+criteria = addCriteria("kekimurus_687", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(687000000)
+
+criteria = addCriteria("kekimurus_688", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(688000000)
+
+criteria = addCriteria("kekimurus_689", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(689000000)
+
+criteria = addCriteria("kekimurus_690", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(690000000)
+
+criteria = addCriteria("kekimurus_691", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(691000000)
+
+criteria = addCriteria("kekimurus_692", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(692000000)
+
+criteria = addCriteria("kekimurus_693", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(693000000)
+
+criteria = addCriteria("kekimurus_694", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(694000000)
+
+criteria = addCriteria("kekimurus_695", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(695000000)
+
+criteria = addCriteria("kekimurus_696", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(696000000)
+
+criteria = addCriteria("kekimurus_697", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(697000000)
+
+criteria = addCriteria("kekimurus_698", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(698000000)
+
+criteria = addCriteria("kekimurus_699", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(699000000)
+
+criteria = addCriteria("kekimurus_700", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(700000000)
+
+criteria = addCriteria("kekimurus_701", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(701000000)
+
+criteria = addCriteria("kekimurus_702", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(702000000)
+
+criteria = addCriteria("kekimurus_703", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(703000000)
+
+criteria = addCriteria("kekimurus_704", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(704000000)
+
+criteria = addCriteria("kekimurus_705", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(705000000)
+
+criteria = addCriteria("kekimurus_706", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(706000000)
+
+criteria = addCriteria("kekimurus_707", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(707000000)
+
+criteria = addCriteria("kekimurus_708", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(708000000)
+
+criteria = addCriteria("kekimurus_709", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(709000000)
+
+criteria = addCriteria("kekimurus_710", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(710000000)
+
+criteria = addCriteria("kekimurus_711", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(711000000)
+
+criteria = addCriteria("kekimurus_712", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(712000000)
+
+criteria = addCriteria("kekimurus_713", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(713000000)
+
+criteria = addCriteria("kekimurus_714", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(714000000)
+
+criteria = addCriteria("kekimurus_715", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(715000000)
+
+criteria = addCriteria("kekimurus_716", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(716000000)
+
+criteria = addCriteria("kekimurus_717", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(717000000)
+
+criteria = addCriteria("kekimurus_718", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(718000000)
+
+criteria = addCriteria("kekimurus_719", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(719000000)
+
+criteria = addCriteria("kekimurus_720", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(720000000)
+
+criteria = addCriteria("kekimurus_721", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(721000000)
+
+criteria = addCriteria("kekimurus_722", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(722000000)
+
+criteria = addCriteria("kekimurus_723", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(723000000)
+
+criteria = addCriteria("kekimurus_724", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(724000000)
+
+criteria = addCriteria("kekimurus_725", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(725000000)
+
+criteria = addCriteria("kekimurus_726", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(726000000)
+
+criteria = addCriteria("kekimurus_727", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(727000000)
+
+criteria = addCriteria("kekimurus_728", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(728000000)
+
+criteria = addCriteria("kekimurus_729", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(729000000)
+
+criteria = addCriteria("kekimurus_730", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(730000000)
+
+criteria = addCriteria("kekimurus_731", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(731000000)
+
+criteria = addCriteria("kekimurus_732", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(732000000)
+
+criteria = addCriteria("kekimurus_733", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(733000000)
+
+criteria = addCriteria("kekimurus_734", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(734000000)
+
+criteria = addCriteria("kekimurus_735", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(735000000)
+
+criteria = addCriteria("kekimurus_736", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(736000000)
+
+criteria = addCriteria("kekimurus_737", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(737000000)
+
+criteria = addCriteria("kekimurus_738", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(738000000)
+
+criteria = addCriteria("kekimurus_739", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(739000000)
+
+criteria = addCriteria("kekimurus_740", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(740000000)
+
+criteria = addCriteria("kekimurus_741", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(741000000)
+
+criteria = addCriteria("kekimurus_742", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(742000000)
+
+criteria = addCriteria("kekimurus_743", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(743000000)
+
+criteria = addCriteria("kekimurus_744", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(744000000)
+
+criteria = addCriteria("kekimurus_745", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(745000000)
+
+criteria = addCriteria("kekimurus_746", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(746000000)
+
+criteria = addCriteria("kekimurus_747", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(747000000)
+
+criteria = addCriteria("kekimurus_748", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(748000000)
+
+criteria = addCriteria("kekimurus_749", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(749000000)
+
+criteria = addCriteria("kekimurus_750", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(750000000)
+
+criteria = addCriteria("kekimurus_751", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(751000000)
+
+criteria = addCriteria("kekimurus_752", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(752000000)
+
+criteria = addCriteria("kekimurus_753", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(753000000)
+
+criteria = addCriteria("kekimurus_754", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(754000000)
+
+criteria = addCriteria("kekimurus_755", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(755000000)
+
+criteria = addCriteria("kekimurus_756", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(756000000)
+
+criteria = addCriteria("kekimurus_757", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(757000000)
+
+criteria = addCriteria("kekimurus_758", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(758000000)
+
+criteria = addCriteria("kekimurus_759", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(759000000)
+
+criteria = addCriteria("kekimurus_760", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(760000000)
+
+criteria = addCriteria("kekimurus_761", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(761000000)
+
+criteria = addCriteria("kekimurus_762", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(762000000)
+
+criteria = addCriteria("kekimurus_763", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(763000000)
+
+criteria = addCriteria("kekimurus_764", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(764000000)
+
+criteria = addCriteria("kekimurus_765", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(765000000)
+
+criteria = addCriteria("kekimurus_766", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(766000000)
+
+criteria = addCriteria("kekimurus_767", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(767000000)
+
+criteria = addCriteria("kekimurus_768", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(768000000)
+
+criteria = addCriteria("kekimurus_769", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(769000000)
+
+criteria = addCriteria("kekimurus_770", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(770000000)
+
+criteria = addCriteria("kekimurus_771", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(771000000)
+
+criteria = addCriteria("kekimurus_772", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(772000000)
+
+criteria = addCriteria("kekimurus_773", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(773000000)
+
+criteria = addCriteria("kekimurus_774", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(774000000)
+
+criteria = addCriteria("kekimurus_775", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(775000000)
+
+criteria = addCriteria("kekimurus_776", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(776000000)
+
+criteria = addCriteria("kekimurus_777", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(777000000)
+
+criteria = addCriteria("kekimurus_778", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(778000000)
+
+criteria = addCriteria("kekimurus_779", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(779000000)
+
+criteria = addCriteria("kekimurus_780", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(780000000)
+
+criteria = addCriteria("kekimurus_781", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(781000000)
+
+criteria = addCriteria("kekimurus_782", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(782000000)
+
+criteria = addCriteria("kekimurus_783", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(783000000)
+
+criteria = addCriteria("kekimurus_784", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(784000000)
+
+criteria = addCriteria("kekimurus_785", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(785000000)
+
+criteria = addCriteria("kekimurus_786", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(786000000)
+
+criteria = addCriteria("kekimurus_787", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(787000000)
+
+criteria = addCriteria("kekimurus_788", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(788000000)
+
+criteria = addCriteria("kekimurus_789", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(789000000)
+
+criteria = addCriteria("kekimurus_790", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(790000000)
+
+criteria = addCriteria("kekimurus_791", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(791000000)
+
+criteria = addCriteria("kekimurus_792", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(792000000)
+
+criteria = addCriteria("kekimurus_793", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(793000000)
+
+criteria = addCriteria("kekimurus_794", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(794000000)
+
+criteria = addCriteria("kekimurus_795", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(795000000)
+
+criteria = addCriteria("kekimurus_796", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(796000000)
+
+criteria = addCriteria("kekimurus_797", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(797000000)
+
+criteria = addCriteria("kekimurus_798", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(798000000)
+
+criteria = addCriteria("kekimurus_799", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(799000000)
+
+criteria = addCriteria("kekimurus_800", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(800000000)
+
+criteria = addCriteria("kekimurus_801", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(801000000)
+
+criteria = addCriteria("kekimurus_802", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(802000000)
+
+criteria = addCriteria("kekimurus_803", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(803000000)
+
+criteria = addCriteria("kekimurus_804", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(804000000)
+
+criteria = addCriteria("kekimurus_805", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(805000000)
+
+criteria = addCriteria("kekimurus_806", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(806000000)
+
+criteria = addCriteria("kekimurus_807", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(807000000)
+
+criteria = addCriteria("kekimurus_808", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(808000000)
+
+criteria = addCriteria("kekimurus_809", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(809000000)
+
+criteria = addCriteria("kekimurus_810", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(810000000)
+
+criteria = addCriteria("kekimurus_811", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(811000000)
+
+criteria = addCriteria("kekimurus_812", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(812000000)
+
+criteria = addCriteria("kekimurus_813", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(813000000)
+
+criteria = addCriteria("kekimurus_814", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(814000000)
+
+criteria = addCriteria("kekimurus_815", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(815000000)
+
+criteria = addCriteria("kekimurus_816", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(816000000)
+
+criteria = addCriteria("kekimurus_817", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(817000000)
+
+criteria = addCriteria("kekimurus_818", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(818000000)
+
+criteria = addCriteria("kekimurus_819", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(819000000)
+
+criteria = addCriteria("kekimurus_820", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(820000000)
+
+criteria = addCriteria("kekimurus_821", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(821000000)
+
+criteria = addCriteria("kekimurus_822", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(822000000)
+
+criteria = addCriteria("kekimurus_823", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(823000000)
+
+criteria = addCriteria("kekimurus_824", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(824000000)
+
+criteria = addCriteria("kekimurus_825", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(825000000)
+
+criteria = addCriteria("kekimurus_826", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(826000000)
+
+criteria = addCriteria("kekimurus_827", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(827000000)
+
+criteria = addCriteria("kekimurus_828", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(828000000)
+
+criteria = addCriteria("kekimurus_829", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(829000000)
+
+criteria = addCriteria("kekimurus_830", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(830000000)
+
+criteria = addCriteria("kekimurus_831", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(831000000)
+
+criteria = addCriteria("kekimurus_832", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(832000000)
+
+criteria = addCriteria("kekimurus_833", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(833000000)
+
+criteria = addCriteria("kekimurus_834", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(834000000)
+
+criteria = addCriteria("kekimurus_835", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(835000000)
+
+criteria = addCriteria("kekimurus_836", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(836000000)
+
+criteria = addCriteria("kekimurus_837", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(837000000)
+
+criteria = addCriteria("kekimurus_838", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(838000000)
+
+criteria = addCriteria("kekimurus_839", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(839000000)
+
+criteria = addCriteria("kekimurus_840", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(840000000)
+
+criteria = addCriteria("kekimurus_841", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(841000000)
+
+criteria = addCriteria("kekimurus_842", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(842000000)
+
+criteria = addCriteria("kekimurus_843", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(843000000)
+
+criteria = addCriteria("kekimurus_844", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(844000000)
+
+criteria = addCriteria("kekimurus_845", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(845000000)
+
+criteria = addCriteria("kekimurus_846", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(846000000)
+
+criteria = addCriteria("kekimurus_847", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(847000000)
+
+criteria = addCriteria("kekimurus_848", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(848000000)
+
+criteria = addCriteria("kekimurus_849", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(849000000)
+
+criteria = addCriteria("kekimurus_850", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(850000000)
+
+criteria = addCriteria("kekimurus_851", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(851000000)
+
+criteria = addCriteria("kekimurus_852", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(852000000)
+
+criteria = addCriteria("kekimurus_853", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(853000000)
+
+criteria = addCriteria("kekimurus_854", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(854000000)
+
+criteria = addCriteria("kekimurus_855", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(855000000)
+
+criteria = addCriteria("kekimurus_856", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(856000000)
+
+criteria = addCriteria("kekimurus_857", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(857000000)
+
+criteria = addCriteria("kekimurus_858", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(858000000)
+
+criteria = addCriteria("kekimurus_859", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(859000000)
+
+criteria = addCriteria("kekimurus_860", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(860000000)
+
+criteria = addCriteria("kekimurus_861", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(861000000)
+
+criteria = addCriteria("kekimurus_862", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(862000000)
+
+criteria = addCriteria("kekimurus_863", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(863000000)
+
+criteria = addCriteria("kekimurus_864", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(864000000)
+
+criteria = addCriteria("kekimurus_865", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(865000000)
+
+criteria = addCriteria("kekimurus_866", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(866000000)
+
+criteria = addCriteria("kekimurus_867", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(867000000)
+
+criteria = addCriteria("kekimurus_868", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(868000000)
+
+criteria = addCriteria("kekimurus_869", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(869000000)
+
+criteria = addCriteria("kekimurus_870", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(870000000)
+
+criteria = addCriteria("kekimurus_871", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(871000000)
+
+criteria = addCriteria("kekimurus_872", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(872000000)
+
+criteria = addCriteria("kekimurus_873", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(873000000)
+
+criteria = addCriteria("kekimurus_874", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(874000000)
+
+criteria = addCriteria("kekimurus_875", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(875000000)
+
+criteria = addCriteria("kekimurus_876", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(876000000)
+
+criteria = addCriteria("kekimurus_877", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(877000000)
+
+criteria = addCriteria("kekimurus_878", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(878000000)
+
+criteria = addCriteria("kekimurus_879", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(879000000)
+
+criteria = addCriteria("kekimurus_880", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(880000000)
+
+criteria = addCriteria("kekimurus_881", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(881000000)
+
+criteria = addCriteria("kekimurus_882", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(882000000)
+
+criteria = addCriteria("kekimurus_883", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(883000000)
+
+criteria = addCriteria("kekimurus_884", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(884000000)
+
+criteria = addCriteria("kekimurus_885", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(885000000)
+
+criteria = addCriteria("kekimurus_886", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(886000000)
+
+criteria = addCriteria("kekimurus_887", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(887000000)
+
+criteria = addCriteria("kekimurus_888", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(888000000)
+
+criteria = addCriteria("kekimurus_889", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(889000000)
+
+criteria = addCriteria("kekimurus_890", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(890000000)
+
+criteria = addCriteria("kekimurus_891", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(891000000)
+
+criteria = addCriteria("kekimurus_892", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(892000000)
+
+criteria = addCriteria("kekimurus_893", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(893000000)
+
+criteria = addCriteria("kekimurus_894", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(894000000)
+
+criteria = addCriteria("kekimurus_895", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(895000000)
+
+criteria = addCriteria("kekimurus_896", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(896000000)
+
+criteria = addCriteria("kekimurus_897", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(897000000)
+
+criteria = addCriteria("kekimurus_898", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(898000000)
+
+criteria = addCriteria("kekimurus_899", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(899000000)
+
+criteria = addCriteria("kekimurus_900", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(900000000)
+
+criteria = addCriteria("kekimurus_901", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(901000000)
+
+criteria = addCriteria("kekimurus_902", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(902000000)
+
+criteria = addCriteria("kekimurus_903", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(903000000)
+
+criteria = addCriteria("kekimurus_904", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(904000000)
+
+criteria = addCriteria("kekimurus_905", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(905000000)
+
+criteria = addCriteria("kekimurus_906", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(906000000)
+
+criteria = addCriteria("kekimurus_907", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(907000000)
+
+criteria = addCriteria("kekimurus_908", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(908000000)
+
+criteria = addCriteria("kekimurus_909", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(909000000)
+
+criteria = addCriteria("kekimurus_910", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(910000000)
+
+criteria = addCriteria("kekimurus_911", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(911000000)
+
+criteria = addCriteria("kekimurus_912", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(912000000)
+
+criteria = addCriteria("kekimurus_913", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(913000000)
+
+criteria = addCriteria("kekimurus_914", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(914000000)
+
+criteria = addCriteria("kekimurus_915", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(915000000)
+
+criteria = addCriteria("kekimurus_916", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(916000000)
+
+criteria = addCriteria("kekimurus_917", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(917000000)
+
+criteria = addCriteria("kekimurus_918", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(918000000)
+
+criteria = addCriteria("kekimurus_919", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(919000000)
+
+criteria = addCriteria("kekimurus_920", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(920000000)
+
+criteria = addCriteria("kekimurus_921", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(921000000)
+
+criteria = addCriteria("kekimurus_922", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(922000000)
+
+criteria = addCriteria("kekimurus_923", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(923000000)
+
+criteria = addCriteria("kekimurus_924", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(924000000)
+
+criteria = addCriteria("kekimurus_925", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(925000000)
+
+criteria = addCriteria("kekimurus_926", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(926000000)
+
+criteria = addCriteria("kekimurus_927", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(927000000)
+
+criteria = addCriteria("kekimurus_928", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(928000000)
+
+criteria = addCriteria("kekimurus_929", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(929000000)
+
+criteria = addCriteria("kekimurus_930", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(930000000)
+
+criteria = addCriteria("kekimurus_931", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(931000000)
+
+criteria = addCriteria("kekimurus_932", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(932000000)
+
+criteria = addCriteria("kekimurus_933", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(933000000)
+
+criteria = addCriteria("kekimurus_934", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(934000000)
+
+criteria = addCriteria("kekimurus_935", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(935000000)
+
+criteria = addCriteria("kekimurus_936", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(936000000)
+
+criteria = addCriteria("kekimurus_937", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(937000000)
+
+criteria = addCriteria("kekimurus_938", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(938000000)
+
+criteria = addCriteria("kekimurus_939", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(939000000)
+
+criteria = addCriteria("kekimurus_940", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(940000000)
+
+criteria = addCriteria("kekimurus_941", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(941000000)
+
+criteria = addCriteria("kekimurus_942", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(942000000)
+
+criteria = addCriteria("kekimurus_943", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(943000000)
+
+criteria = addCriteria("kekimurus_944", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(944000000)
+
+criteria = addCriteria("kekimurus_945", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(945000000)
+
+criteria = addCriteria("kekimurus_946", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(946000000)
+
+criteria = addCriteria("kekimurus_947", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(947000000)
+
+criteria = addCriteria("kekimurus_948", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(948000000)
+
+criteria = addCriteria("kekimurus_949", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(949000000)
+
+criteria = addCriteria("kekimurus_950", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(950000000)
+
+criteria = addCriteria("kekimurus_951", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(951000000)
+
+criteria = addCriteria("kekimurus_952", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(952000000)
+
+criteria = addCriteria("kekimurus_953", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(953000000)
+
+criteria = addCriteria("kekimurus_954", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(954000000)
+
+criteria = addCriteria("kekimurus_955", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(955000000)
+
+criteria = addCriteria("kekimurus_956", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(956000000)
+
+criteria = addCriteria("kekimurus_957", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(957000000)
+
+criteria = addCriteria("kekimurus_958", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(958000000)
+
+criteria = addCriteria("kekimurus_959", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(959000000)
+
+criteria = addCriteria("kekimurus_960", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(960000000)
+
+criteria = addCriteria("kekimurus_961", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(961000000)
+
+criteria = addCriteria("kekimurus_962", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(962000000)
+
+criteria = addCriteria("kekimurus_963", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(963000000)
+
+criteria = addCriteria("kekimurus_964", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(964000000)
+
+criteria = addCriteria("kekimurus_965", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(965000000)
+
+criteria = addCriteria("kekimurus_966", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(966000000)
+
+criteria = addCriteria("kekimurus_967", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(967000000)
+
+criteria = addCriteria("kekimurus_968", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(968000000)
+
+criteria = addCriteria("kekimurus_969", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(969000000)
+
+criteria = addCriteria("kekimurus_970", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(970000000)
+
+criteria = addCriteria("kekimurus_971", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(971000000)
+
+criteria = addCriteria("kekimurus_972", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(972000000)
+
+criteria = addCriteria("kekimurus_973", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(973000000)
+
+criteria = addCriteria("kekimurus_974", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(974000000)
+
+criteria = addCriteria("kekimurus_975", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(975000000)
+
+criteria = addCriteria("kekimurus_976", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(976000000)
+
+criteria = addCriteria("kekimurus_977", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(977000000)
+
+criteria = addCriteria("kekimurus_978", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(978000000)
+
+criteria = addCriteria("kekimurus_979", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(979000000)
+
+criteria = addCriteria("kekimurus_980", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(980000000)
+
+criteria = addCriteria("kekimurus_981", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(981000000)
+
+criteria = addCriteria("kekimurus_982", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(982000000)
+
+criteria = addCriteria("kekimurus_983", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(983000000)
+
+criteria = addCriteria("kekimurus_984", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(984000000)
+
+criteria = addCriteria("kekimurus_985", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(985000000)
+
+criteria = addCriteria("kekimurus_986", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(986000000)
+
+criteria = addCriteria("kekimurus_987", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(987000000)
+
+criteria = addCriteria("kekimurus_988", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(988000000)
+
+criteria = addCriteria("kekimurus_989", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(989000000)
+
+criteria = addCriteria("kekimurus_990", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(990000000)
+
+criteria = addCriteria("kekimurus_991", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(991000000)
+
+criteria = addCriteria("kekimurus_992", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(992000000)
+
+criteria = addCriteria("kekimurus_993", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(993000000)
+
+criteria = addCriteria("kekimurus_994", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(994000000)
+
+criteria = addCriteria("kekimurus_995", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(995000000)
+
+criteria = addCriteria("kekimurus_996", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(996000000)
+
+criteria = addCriteria("kekimurus_997", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(997000000)
+
+criteria = addCriteria("kekimurus_998", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(998000000)
+
+criteria = addCriteria("kekimurus_999", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(999000000)
+
+criteria = addCriteria("kekimurus_1000", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("kekimurus")
+criteria.setRequiredMana(1000000000)

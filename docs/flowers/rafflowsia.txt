@@ -1,0 +1,4011 @@
+
+setIcon(<botania:specialflower, nbt:{type: "rafflowsia"}>)
+setTranslatedTitle("advancements.floramancer.rafflowsia.title")
+setDescription("Fill 1000 Mana Pools using the Rafflowsia")
+addParent("triumph:floramancer/root")
+
+setPos(129,61)
+hideLines()
+
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"rafflowsia"}},TrophyName:"advancements.floramancer.rafflowsia.title",TrophyVariant:"neon", TrophyColorRed:123, TrophyColorGreen:47, TrophyColorBlue:190}>)
+addRewardFunction("triumph:stages/stage-rafflowsia")
+
+criteria = addCriteria("rafflowsia_1", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(1000000)
+
+criteria = addCriteria("rafflowsia_2", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(2000000)
+
+criteria = addCriteria("rafflowsia_3", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(3000000)
+
+criteria = addCriteria("rafflowsia_4", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(4000000)
+
+criteria = addCriteria("rafflowsia_5", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(5000000)
+
+criteria = addCriteria("rafflowsia_6", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(6000000)
+
+criteria = addCriteria("rafflowsia_7", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(7000000)
+
+criteria = addCriteria("rafflowsia_8", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(8000000)
+
+criteria = addCriteria("rafflowsia_9", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(9000000)
+
+criteria = addCriteria("rafflowsia_10", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(10000000)
+
+criteria = addCriteria("rafflowsia_11", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(11000000)
+
+criteria = addCriteria("rafflowsia_12", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(12000000)
+
+criteria = addCriteria("rafflowsia_13", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(13000000)
+
+criteria = addCriteria("rafflowsia_14", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(14000000)
+
+criteria = addCriteria("rafflowsia_15", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(15000000)
+
+criteria = addCriteria("rafflowsia_16", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(16000000)
+
+criteria = addCriteria("rafflowsia_17", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(17000000)
+
+criteria = addCriteria("rafflowsia_18", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(18000000)
+
+criteria = addCriteria("rafflowsia_19", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(19000000)
+
+criteria = addCriteria("rafflowsia_20", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(20000000)
+
+criteria = addCriteria("rafflowsia_21", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(21000000)
+
+criteria = addCriteria("rafflowsia_22", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(22000000)
+
+criteria = addCriteria("rafflowsia_23", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(23000000)
+
+criteria = addCriteria("rafflowsia_24", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(24000000)
+
+criteria = addCriteria("rafflowsia_25", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(25000000)
+
+criteria = addCriteria("rafflowsia_26", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(26000000)
+
+criteria = addCriteria("rafflowsia_27", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(27000000)
+
+criteria = addCriteria("rafflowsia_28", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(28000000)
+
+criteria = addCriteria("rafflowsia_29", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(29000000)
+
+criteria = addCriteria("rafflowsia_30", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(30000000)
+
+criteria = addCriteria("rafflowsia_31", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(31000000)
+
+criteria = addCriteria("rafflowsia_32", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(32000000)
+
+criteria = addCriteria("rafflowsia_33", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(33000000)
+
+criteria = addCriteria("rafflowsia_34", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(34000000)
+
+criteria = addCriteria("rafflowsia_35", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(35000000)
+
+criteria = addCriteria("rafflowsia_36", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(36000000)
+
+criteria = addCriteria("rafflowsia_37", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(37000000)
+
+criteria = addCriteria("rafflowsia_38", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(38000000)
+
+criteria = addCriteria("rafflowsia_39", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(39000000)
+
+criteria = addCriteria("rafflowsia_40", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(40000000)
+
+criteria = addCriteria("rafflowsia_41", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(41000000)
+
+criteria = addCriteria("rafflowsia_42", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(42000000)
+
+criteria = addCriteria("rafflowsia_43", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(43000000)
+
+criteria = addCriteria("rafflowsia_44", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(44000000)
+
+criteria = addCriteria("rafflowsia_45", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(45000000)
+
+criteria = addCriteria("rafflowsia_46", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(46000000)
+
+criteria = addCriteria("rafflowsia_47", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(47000000)
+
+criteria = addCriteria("rafflowsia_48", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(48000000)
+
+criteria = addCriteria("rafflowsia_49", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(49000000)
+
+criteria = addCriteria("rafflowsia_50", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(50000000)
+
+criteria = addCriteria("rafflowsia_51", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(51000000)
+
+criteria = addCriteria("rafflowsia_52", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(52000000)
+
+criteria = addCriteria("rafflowsia_53", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(53000000)
+
+criteria = addCriteria("rafflowsia_54", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(54000000)
+
+criteria = addCriteria("rafflowsia_55", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(55000000)
+
+criteria = addCriteria("rafflowsia_56", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(56000000)
+
+criteria = addCriteria("rafflowsia_57", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(57000000)
+
+criteria = addCriteria("rafflowsia_58", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(58000000)
+
+criteria = addCriteria("rafflowsia_59", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(59000000)
+
+criteria = addCriteria("rafflowsia_60", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(60000000)
+
+criteria = addCriteria("rafflowsia_61", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(61000000)
+
+criteria = addCriteria("rafflowsia_62", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(62000000)
+
+criteria = addCriteria("rafflowsia_63", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(63000000)
+
+criteria = addCriteria("rafflowsia_64", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(64000000)
+
+criteria = addCriteria("rafflowsia_65", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(65000000)
+
+criteria = addCriteria("rafflowsia_66", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(66000000)
+
+criteria = addCriteria("rafflowsia_67", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(67000000)
+
+criteria = addCriteria("rafflowsia_68", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(68000000)
+
+criteria = addCriteria("rafflowsia_69", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(69000000)
+
+criteria = addCriteria("rafflowsia_70", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(70000000)
+
+criteria = addCriteria("rafflowsia_71", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(71000000)
+
+criteria = addCriteria("rafflowsia_72", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(72000000)
+
+criteria = addCriteria("rafflowsia_73", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(73000000)
+
+criteria = addCriteria("rafflowsia_74", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(74000000)
+
+criteria = addCriteria("rafflowsia_75", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(75000000)
+
+criteria = addCriteria("rafflowsia_76", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(76000000)
+
+criteria = addCriteria("rafflowsia_77", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(77000000)
+
+criteria = addCriteria("rafflowsia_78", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(78000000)
+
+criteria = addCriteria("rafflowsia_79", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(79000000)
+
+criteria = addCriteria("rafflowsia_80", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(80000000)
+
+criteria = addCriteria("rafflowsia_81", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(81000000)
+
+criteria = addCriteria("rafflowsia_82", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(82000000)
+
+criteria = addCriteria("rafflowsia_83", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(83000000)
+
+criteria = addCriteria("rafflowsia_84", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(84000000)
+
+criteria = addCriteria("rafflowsia_85", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(85000000)
+
+criteria = addCriteria("rafflowsia_86", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(86000000)
+
+criteria = addCriteria("rafflowsia_87", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(87000000)
+
+criteria = addCriteria("rafflowsia_88", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(88000000)
+
+criteria = addCriteria("rafflowsia_89", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(89000000)
+
+criteria = addCriteria("rafflowsia_90", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(90000000)
+
+criteria = addCriteria("rafflowsia_91", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(91000000)
+
+criteria = addCriteria("rafflowsia_92", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(92000000)
+
+criteria = addCriteria("rafflowsia_93", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(93000000)
+
+criteria = addCriteria("rafflowsia_94", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(94000000)
+
+criteria = addCriteria("rafflowsia_95", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(95000000)
+
+criteria = addCriteria("rafflowsia_96", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(96000000)
+
+criteria = addCriteria("rafflowsia_97", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(97000000)
+
+criteria = addCriteria("rafflowsia_98", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(98000000)
+
+criteria = addCriteria("rafflowsia_99", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(99000000)
+
+criteria = addCriteria("rafflowsia_100", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(100000000)
+
+criteria = addCriteria("rafflowsia_101", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(101000000)
+
+criteria = addCriteria("rafflowsia_102", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(102000000)
+
+criteria = addCriteria("rafflowsia_103", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(103000000)
+
+criteria = addCriteria("rafflowsia_104", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(104000000)
+
+criteria = addCriteria("rafflowsia_105", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(105000000)
+
+criteria = addCriteria("rafflowsia_106", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(106000000)
+
+criteria = addCriteria("rafflowsia_107", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(107000000)
+
+criteria = addCriteria("rafflowsia_108", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(108000000)
+
+criteria = addCriteria("rafflowsia_109", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(109000000)
+
+criteria = addCriteria("rafflowsia_110", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(110000000)
+
+criteria = addCriteria("rafflowsia_111", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(111000000)
+
+criteria = addCriteria("rafflowsia_112", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(112000000)
+
+criteria = addCriteria("rafflowsia_113", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(113000000)
+
+criteria = addCriteria("rafflowsia_114", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(114000000)
+
+criteria = addCriteria("rafflowsia_115", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(115000000)
+
+criteria = addCriteria("rafflowsia_116", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(116000000)
+
+criteria = addCriteria("rafflowsia_117", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(117000000)
+
+criteria = addCriteria("rafflowsia_118", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(118000000)
+
+criteria = addCriteria("rafflowsia_119", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(119000000)
+
+criteria = addCriteria("rafflowsia_120", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(120000000)
+
+criteria = addCriteria("rafflowsia_121", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(121000000)
+
+criteria = addCriteria("rafflowsia_122", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(122000000)
+
+criteria = addCriteria("rafflowsia_123", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(123000000)
+
+criteria = addCriteria("rafflowsia_124", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(124000000)
+
+criteria = addCriteria("rafflowsia_125", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(125000000)
+
+criteria = addCriteria("rafflowsia_126", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(126000000)
+
+criteria = addCriteria("rafflowsia_127", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(127000000)
+
+criteria = addCriteria("rafflowsia_128", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(128000000)
+
+criteria = addCriteria("rafflowsia_129", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(129000000)
+
+criteria = addCriteria("rafflowsia_130", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(130000000)
+
+criteria = addCriteria("rafflowsia_131", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(131000000)
+
+criteria = addCriteria("rafflowsia_132", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(132000000)
+
+criteria = addCriteria("rafflowsia_133", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(133000000)
+
+criteria = addCriteria("rafflowsia_134", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(134000000)
+
+criteria = addCriteria("rafflowsia_135", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(135000000)
+
+criteria = addCriteria("rafflowsia_136", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(136000000)
+
+criteria = addCriteria("rafflowsia_137", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(137000000)
+
+criteria = addCriteria("rafflowsia_138", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(138000000)
+
+criteria = addCriteria("rafflowsia_139", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(139000000)
+
+criteria = addCriteria("rafflowsia_140", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(140000000)
+
+criteria = addCriteria("rafflowsia_141", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(141000000)
+
+criteria = addCriteria("rafflowsia_142", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(142000000)
+
+criteria = addCriteria("rafflowsia_143", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(143000000)
+
+criteria = addCriteria("rafflowsia_144", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(144000000)
+
+criteria = addCriteria("rafflowsia_145", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(145000000)
+
+criteria = addCriteria("rafflowsia_146", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(146000000)
+
+criteria = addCriteria("rafflowsia_147", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(147000000)
+
+criteria = addCriteria("rafflowsia_148", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(148000000)
+
+criteria = addCriteria("rafflowsia_149", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(149000000)
+
+criteria = addCriteria("rafflowsia_150", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(150000000)
+
+criteria = addCriteria("rafflowsia_151", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(151000000)
+
+criteria = addCriteria("rafflowsia_152", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(152000000)
+
+criteria = addCriteria("rafflowsia_153", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(153000000)
+
+criteria = addCriteria("rafflowsia_154", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(154000000)
+
+criteria = addCriteria("rafflowsia_155", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(155000000)
+
+criteria = addCriteria("rafflowsia_156", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(156000000)
+
+criteria = addCriteria("rafflowsia_157", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(157000000)
+
+criteria = addCriteria("rafflowsia_158", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(158000000)
+
+criteria = addCriteria("rafflowsia_159", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(159000000)
+
+criteria = addCriteria("rafflowsia_160", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(160000000)
+
+criteria = addCriteria("rafflowsia_161", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(161000000)
+
+criteria = addCriteria("rafflowsia_162", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(162000000)
+
+criteria = addCriteria("rafflowsia_163", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(163000000)
+
+criteria = addCriteria("rafflowsia_164", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(164000000)
+
+criteria = addCriteria("rafflowsia_165", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(165000000)
+
+criteria = addCriteria("rafflowsia_166", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(166000000)
+
+criteria = addCriteria("rafflowsia_167", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(167000000)
+
+criteria = addCriteria("rafflowsia_168", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(168000000)
+
+criteria = addCriteria("rafflowsia_169", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(169000000)
+
+criteria = addCriteria("rafflowsia_170", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(170000000)
+
+criteria = addCriteria("rafflowsia_171", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(171000000)
+
+criteria = addCriteria("rafflowsia_172", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(172000000)
+
+criteria = addCriteria("rafflowsia_173", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(173000000)
+
+criteria = addCriteria("rafflowsia_174", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(174000000)
+
+criteria = addCriteria("rafflowsia_175", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(175000000)
+
+criteria = addCriteria("rafflowsia_176", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(176000000)
+
+criteria = addCriteria("rafflowsia_177", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(177000000)
+
+criteria = addCriteria("rafflowsia_178", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(178000000)
+
+criteria = addCriteria("rafflowsia_179", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(179000000)
+
+criteria = addCriteria("rafflowsia_180", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(180000000)
+
+criteria = addCriteria("rafflowsia_181", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(181000000)
+
+criteria = addCriteria("rafflowsia_182", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(182000000)
+
+criteria = addCriteria("rafflowsia_183", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(183000000)
+
+criteria = addCriteria("rafflowsia_184", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(184000000)
+
+criteria = addCriteria("rafflowsia_185", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(185000000)
+
+criteria = addCriteria("rafflowsia_186", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(186000000)
+
+criteria = addCriteria("rafflowsia_187", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(187000000)
+
+criteria = addCriteria("rafflowsia_188", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(188000000)
+
+criteria = addCriteria("rafflowsia_189", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(189000000)
+
+criteria = addCriteria("rafflowsia_190", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(190000000)
+
+criteria = addCriteria("rafflowsia_191", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(191000000)
+
+criteria = addCriteria("rafflowsia_192", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(192000000)
+
+criteria = addCriteria("rafflowsia_193", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(193000000)
+
+criteria = addCriteria("rafflowsia_194", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(194000000)
+
+criteria = addCriteria("rafflowsia_195", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(195000000)
+
+criteria = addCriteria("rafflowsia_196", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(196000000)
+
+criteria = addCriteria("rafflowsia_197", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(197000000)
+
+criteria = addCriteria("rafflowsia_198", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(198000000)
+
+criteria = addCriteria("rafflowsia_199", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(199000000)
+
+criteria = addCriteria("rafflowsia_200", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(200000000)
+
+criteria = addCriteria("rafflowsia_201", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(201000000)
+
+criteria = addCriteria("rafflowsia_202", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(202000000)
+
+criteria = addCriteria("rafflowsia_203", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(203000000)
+
+criteria = addCriteria("rafflowsia_204", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(204000000)
+
+criteria = addCriteria("rafflowsia_205", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(205000000)
+
+criteria = addCriteria("rafflowsia_206", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(206000000)
+
+criteria = addCriteria("rafflowsia_207", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(207000000)
+
+criteria = addCriteria("rafflowsia_208", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(208000000)
+
+criteria = addCriteria("rafflowsia_209", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(209000000)
+
+criteria = addCriteria("rafflowsia_210", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(210000000)
+
+criteria = addCriteria("rafflowsia_211", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(211000000)
+
+criteria = addCriteria("rafflowsia_212", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(212000000)
+
+criteria = addCriteria("rafflowsia_213", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(213000000)
+
+criteria = addCriteria("rafflowsia_214", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(214000000)
+
+criteria = addCriteria("rafflowsia_215", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(215000000)
+
+criteria = addCriteria("rafflowsia_216", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(216000000)
+
+criteria = addCriteria("rafflowsia_217", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(217000000)
+
+criteria = addCriteria("rafflowsia_218", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(218000000)
+
+criteria = addCriteria("rafflowsia_219", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(219000000)
+
+criteria = addCriteria("rafflowsia_220", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(220000000)
+
+criteria = addCriteria("rafflowsia_221", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(221000000)
+
+criteria = addCriteria("rafflowsia_222", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(222000000)
+
+criteria = addCriteria("rafflowsia_223", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(223000000)
+
+criteria = addCriteria("rafflowsia_224", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(224000000)
+
+criteria = addCriteria("rafflowsia_225", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(225000000)
+
+criteria = addCriteria("rafflowsia_226", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(226000000)
+
+criteria = addCriteria("rafflowsia_227", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(227000000)
+
+criteria = addCriteria("rafflowsia_228", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(228000000)
+
+criteria = addCriteria("rafflowsia_229", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(229000000)
+
+criteria = addCriteria("rafflowsia_230", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(230000000)
+
+criteria = addCriteria("rafflowsia_231", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(231000000)
+
+criteria = addCriteria("rafflowsia_232", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(232000000)
+
+criteria = addCriteria("rafflowsia_233", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(233000000)
+
+criteria = addCriteria("rafflowsia_234", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(234000000)
+
+criteria = addCriteria("rafflowsia_235", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(235000000)
+
+criteria = addCriteria("rafflowsia_236", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(236000000)
+
+criteria = addCriteria("rafflowsia_237", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(237000000)
+
+criteria = addCriteria("rafflowsia_238", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(238000000)
+
+criteria = addCriteria("rafflowsia_239", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(239000000)
+
+criteria = addCriteria("rafflowsia_240", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(240000000)
+
+criteria = addCriteria("rafflowsia_241", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(241000000)
+
+criteria = addCriteria("rafflowsia_242", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(242000000)
+
+criteria = addCriteria("rafflowsia_243", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(243000000)
+
+criteria = addCriteria("rafflowsia_244", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(244000000)
+
+criteria = addCriteria("rafflowsia_245", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(245000000)
+
+criteria = addCriteria("rafflowsia_246", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(246000000)
+
+criteria = addCriteria("rafflowsia_247", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(247000000)
+
+criteria = addCriteria("rafflowsia_248", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(248000000)
+
+criteria = addCriteria("rafflowsia_249", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(249000000)
+
+criteria = addCriteria("rafflowsia_250", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(250000000)
+
+criteria = addCriteria("rafflowsia_251", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(251000000)
+
+criteria = addCriteria("rafflowsia_252", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(252000000)
+
+criteria = addCriteria("rafflowsia_253", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(253000000)
+
+criteria = addCriteria("rafflowsia_254", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(254000000)
+
+criteria = addCriteria("rafflowsia_255", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(255000000)
+
+criteria = addCriteria("rafflowsia_256", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(256000000)
+
+criteria = addCriteria("rafflowsia_257", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(257000000)
+
+criteria = addCriteria("rafflowsia_258", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(258000000)
+
+criteria = addCriteria("rafflowsia_259", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(259000000)
+
+criteria = addCriteria("rafflowsia_260", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(260000000)
+
+criteria = addCriteria("rafflowsia_261", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(261000000)
+
+criteria = addCriteria("rafflowsia_262", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(262000000)
+
+criteria = addCriteria("rafflowsia_263", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(263000000)
+
+criteria = addCriteria("rafflowsia_264", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(264000000)
+
+criteria = addCriteria("rafflowsia_265", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(265000000)
+
+criteria = addCriteria("rafflowsia_266", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(266000000)
+
+criteria = addCriteria("rafflowsia_267", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(267000000)
+
+criteria = addCriteria("rafflowsia_268", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(268000000)
+
+criteria = addCriteria("rafflowsia_269", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(269000000)
+
+criteria = addCriteria("rafflowsia_270", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(270000000)
+
+criteria = addCriteria("rafflowsia_271", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(271000000)
+
+criteria = addCriteria("rafflowsia_272", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(272000000)
+
+criteria = addCriteria("rafflowsia_273", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(273000000)
+
+criteria = addCriteria("rafflowsia_274", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(274000000)
+
+criteria = addCriteria("rafflowsia_275", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(275000000)
+
+criteria = addCriteria("rafflowsia_276", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(276000000)
+
+criteria = addCriteria("rafflowsia_277", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(277000000)
+
+criteria = addCriteria("rafflowsia_278", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(278000000)
+
+criteria = addCriteria("rafflowsia_279", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(279000000)
+
+criteria = addCriteria("rafflowsia_280", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(280000000)
+
+criteria = addCriteria("rafflowsia_281", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(281000000)
+
+criteria = addCriteria("rafflowsia_282", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(282000000)
+
+criteria = addCriteria("rafflowsia_283", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(283000000)
+
+criteria = addCriteria("rafflowsia_284", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(284000000)
+
+criteria = addCriteria("rafflowsia_285", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(285000000)
+
+criteria = addCriteria("rafflowsia_286", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(286000000)
+
+criteria = addCriteria("rafflowsia_287", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(287000000)
+
+criteria = addCriteria("rafflowsia_288", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(288000000)
+
+criteria = addCriteria("rafflowsia_289", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(289000000)
+
+criteria = addCriteria("rafflowsia_290", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(290000000)
+
+criteria = addCriteria("rafflowsia_291", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(291000000)
+
+criteria = addCriteria("rafflowsia_292", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(292000000)
+
+criteria = addCriteria("rafflowsia_293", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(293000000)
+
+criteria = addCriteria("rafflowsia_294", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(294000000)
+
+criteria = addCriteria("rafflowsia_295", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(295000000)
+
+criteria = addCriteria("rafflowsia_296", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(296000000)
+
+criteria = addCriteria("rafflowsia_297", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(297000000)
+
+criteria = addCriteria("rafflowsia_298", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(298000000)
+
+criteria = addCriteria("rafflowsia_299", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(299000000)
+
+criteria = addCriteria("rafflowsia_300", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(300000000)
+
+criteria = addCriteria("rafflowsia_301", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(301000000)
+
+criteria = addCriteria("rafflowsia_302", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(302000000)
+
+criteria = addCriteria("rafflowsia_303", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(303000000)
+
+criteria = addCriteria("rafflowsia_304", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(304000000)
+
+criteria = addCriteria("rafflowsia_305", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(305000000)
+
+criteria = addCriteria("rafflowsia_306", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(306000000)
+
+criteria = addCriteria("rafflowsia_307", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(307000000)
+
+criteria = addCriteria("rafflowsia_308", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(308000000)
+
+criteria = addCriteria("rafflowsia_309", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(309000000)
+
+criteria = addCriteria("rafflowsia_310", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(310000000)
+
+criteria = addCriteria("rafflowsia_311", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(311000000)
+
+criteria = addCriteria("rafflowsia_312", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(312000000)
+
+criteria = addCriteria("rafflowsia_313", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(313000000)
+
+criteria = addCriteria("rafflowsia_314", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(314000000)
+
+criteria = addCriteria("rafflowsia_315", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(315000000)
+
+criteria = addCriteria("rafflowsia_316", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(316000000)
+
+criteria = addCriteria("rafflowsia_317", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(317000000)
+
+criteria = addCriteria("rafflowsia_318", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(318000000)
+
+criteria = addCriteria("rafflowsia_319", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(319000000)
+
+criteria = addCriteria("rafflowsia_320", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(320000000)
+
+criteria = addCriteria("rafflowsia_321", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(321000000)
+
+criteria = addCriteria("rafflowsia_322", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(322000000)
+
+criteria = addCriteria("rafflowsia_323", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(323000000)
+
+criteria = addCriteria("rafflowsia_324", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(324000000)
+
+criteria = addCriteria("rafflowsia_325", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(325000000)
+
+criteria = addCriteria("rafflowsia_326", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(326000000)
+
+criteria = addCriteria("rafflowsia_327", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(327000000)
+
+criteria = addCriteria("rafflowsia_328", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(328000000)
+
+criteria = addCriteria("rafflowsia_329", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(329000000)
+
+criteria = addCriteria("rafflowsia_330", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(330000000)
+
+criteria = addCriteria("rafflowsia_331", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(331000000)
+
+criteria = addCriteria("rafflowsia_332", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(332000000)
+
+criteria = addCriteria("rafflowsia_333", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(333000000)
+
+criteria = addCriteria("rafflowsia_334", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(334000000)
+
+criteria = addCriteria("rafflowsia_335", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(335000000)
+
+criteria = addCriteria("rafflowsia_336", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(336000000)
+
+criteria = addCriteria("rafflowsia_337", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(337000000)
+
+criteria = addCriteria("rafflowsia_338", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(338000000)
+
+criteria = addCriteria("rafflowsia_339", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(339000000)
+
+criteria = addCriteria("rafflowsia_340", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(340000000)
+
+criteria = addCriteria("rafflowsia_341", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(341000000)
+
+criteria = addCriteria("rafflowsia_342", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(342000000)
+
+criteria = addCriteria("rafflowsia_343", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(343000000)
+
+criteria = addCriteria("rafflowsia_344", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(344000000)
+
+criteria = addCriteria("rafflowsia_345", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(345000000)
+
+criteria = addCriteria("rafflowsia_346", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(346000000)
+
+criteria = addCriteria("rafflowsia_347", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(347000000)
+
+criteria = addCriteria("rafflowsia_348", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(348000000)
+
+criteria = addCriteria("rafflowsia_349", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(349000000)
+
+criteria = addCriteria("rafflowsia_350", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(350000000)
+
+criteria = addCriteria("rafflowsia_351", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(351000000)
+
+criteria = addCriteria("rafflowsia_352", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(352000000)
+
+criteria = addCriteria("rafflowsia_353", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(353000000)
+
+criteria = addCriteria("rafflowsia_354", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(354000000)
+
+criteria = addCriteria("rafflowsia_355", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(355000000)
+
+criteria = addCriteria("rafflowsia_356", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(356000000)
+
+criteria = addCriteria("rafflowsia_357", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(357000000)
+
+criteria = addCriteria("rafflowsia_358", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(358000000)
+
+criteria = addCriteria("rafflowsia_359", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(359000000)
+
+criteria = addCriteria("rafflowsia_360", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(360000000)
+
+criteria = addCriteria("rafflowsia_361", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(361000000)
+
+criteria = addCriteria("rafflowsia_362", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(362000000)
+
+criteria = addCriteria("rafflowsia_363", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(363000000)
+
+criteria = addCriteria("rafflowsia_364", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(364000000)
+
+criteria = addCriteria("rafflowsia_365", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(365000000)
+
+criteria = addCriteria("rafflowsia_366", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(366000000)
+
+criteria = addCriteria("rafflowsia_367", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(367000000)
+
+criteria = addCriteria("rafflowsia_368", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(368000000)
+
+criteria = addCriteria("rafflowsia_369", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(369000000)
+
+criteria = addCriteria("rafflowsia_370", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(370000000)
+
+criteria = addCriteria("rafflowsia_371", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(371000000)
+
+criteria = addCriteria("rafflowsia_372", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(372000000)
+
+criteria = addCriteria("rafflowsia_373", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(373000000)
+
+criteria = addCriteria("rafflowsia_374", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(374000000)
+
+criteria = addCriteria("rafflowsia_375", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(375000000)
+
+criteria = addCriteria("rafflowsia_376", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(376000000)
+
+criteria = addCriteria("rafflowsia_377", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(377000000)
+
+criteria = addCriteria("rafflowsia_378", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(378000000)
+
+criteria = addCriteria("rafflowsia_379", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(379000000)
+
+criteria = addCriteria("rafflowsia_380", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(380000000)
+
+criteria = addCriteria("rafflowsia_381", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(381000000)
+
+criteria = addCriteria("rafflowsia_382", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(382000000)
+
+criteria = addCriteria("rafflowsia_383", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(383000000)
+
+criteria = addCriteria("rafflowsia_384", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(384000000)
+
+criteria = addCriteria("rafflowsia_385", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(385000000)
+
+criteria = addCriteria("rafflowsia_386", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(386000000)
+
+criteria = addCriteria("rafflowsia_387", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(387000000)
+
+criteria = addCriteria("rafflowsia_388", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(388000000)
+
+criteria = addCriteria("rafflowsia_389", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(389000000)
+
+criteria = addCriteria("rafflowsia_390", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(390000000)
+
+criteria = addCriteria("rafflowsia_391", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(391000000)
+
+criteria = addCriteria("rafflowsia_392", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(392000000)
+
+criteria = addCriteria("rafflowsia_393", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(393000000)
+
+criteria = addCriteria("rafflowsia_394", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(394000000)
+
+criteria = addCriteria("rafflowsia_395", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(395000000)
+
+criteria = addCriteria("rafflowsia_396", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(396000000)
+
+criteria = addCriteria("rafflowsia_397", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(397000000)
+
+criteria = addCriteria("rafflowsia_398", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(398000000)
+
+criteria = addCriteria("rafflowsia_399", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(399000000)
+
+criteria = addCriteria("rafflowsia_400", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(400000000)
+
+criteria = addCriteria("rafflowsia_401", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(401000000)
+
+criteria = addCriteria("rafflowsia_402", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(402000000)
+
+criteria = addCriteria("rafflowsia_403", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(403000000)
+
+criteria = addCriteria("rafflowsia_404", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(404000000)
+
+criteria = addCriteria("rafflowsia_405", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(405000000)
+
+criteria = addCriteria("rafflowsia_406", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(406000000)
+
+criteria = addCriteria("rafflowsia_407", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(407000000)
+
+criteria = addCriteria("rafflowsia_408", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(408000000)
+
+criteria = addCriteria("rafflowsia_409", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(409000000)
+
+criteria = addCriteria("rafflowsia_410", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(410000000)
+
+criteria = addCriteria("rafflowsia_411", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(411000000)
+
+criteria = addCriteria("rafflowsia_412", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(412000000)
+
+criteria = addCriteria("rafflowsia_413", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(413000000)
+
+criteria = addCriteria("rafflowsia_414", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(414000000)
+
+criteria = addCriteria("rafflowsia_415", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(415000000)
+
+criteria = addCriteria("rafflowsia_416", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(416000000)
+
+criteria = addCriteria("rafflowsia_417", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(417000000)
+
+criteria = addCriteria("rafflowsia_418", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(418000000)
+
+criteria = addCriteria("rafflowsia_419", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(419000000)
+
+criteria = addCriteria("rafflowsia_420", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(420000000)
+
+criteria = addCriteria("rafflowsia_421", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(421000000)
+
+criteria = addCriteria("rafflowsia_422", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(422000000)
+
+criteria = addCriteria("rafflowsia_423", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(423000000)
+
+criteria = addCriteria("rafflowsia_424", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(424000000)
+
+criteria = addCriteria("rafflowsia_425", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(425000000)
+
+criteria = addCriteria("rafflowsia_426", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(426000000)
+
+criteria = addCriteria("rafflowsia_427", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(427000000)
+
+criteria = addCriteria("rafflowsia_428", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(428000000)
+
+criteria = addCriteria("rafflowsia_429", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(429000000)
+
+criteria = addCriteria("rafflowsia_430", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(430000000)
+
+criteria = addCriteria("rafflowsia_431", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(431000000)
+
+criteria = addCriteria("rafflowsia_432", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(432000000)
+
+criteria = addCriteria("rafflowsia_433", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(433000000)
+
+criteria = addCriteria("rafflowsia_434", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(434000000)
+
+criteria = addCriteria("rafflowsia_435", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(435000000)
+
+criteria = addCriteria("rafflowsia_436", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(436000000)
+
+criteria = addCriteria("rafflowsia_437", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(437000000)
+
+criteria = addCriteria("rafflowsia_438", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(438000000)
+
+criteria = addCriteria("rafflowsia_439", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(439000000)
+
+criteria = addCriteria("rafflowsia_440", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(440000000)
+
+criteria = addCriteria("rafflowsia_441", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(441000000)
+
+criteria = addCriteria("rafflowsia_442", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(442000000)
+
+criteria = addCriteria("rafflowsia_443", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(443000000)
+
+criteria = addCriteria("rafflowsia_444", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(444000000)
+
+criteria = addCriteria("rafflowsia_445", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(445000000)
+
+criteria = addCriteria("rafflowsia_446", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(446000000)
+
+criteria = addCriteria("rafflowsia_447", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(447000000)
+
+criteria = addCriteria("rafflowsia_448", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(448000000)
+
+criteria = addCriteria("rafflowsia_449", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(449000000)
+
+criteria = addCriteria("rafflowsia_450", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(450000000)
+
+criteria = addCriteria("rafflowsia_451", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(451000000)
+
+criteria = addCriteria("rafflowsia_452", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(452000000)
+
+criteria = addCriteria("rafflowsia_453", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(453000000)
+
+criteria = addCriteria("rafflowsia_454", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(454000000)
+
+criteria = addCriteria("rafflowsia_455", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(455000000)
+
+criteria = addCriteria("rafflowsia_456", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(456000000)
+
+criteria = addCriteria("rafflowsia_457", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(457000000)
+
+criteria = addCriteria("rafflowsia_458", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(458000000)
+
+criteria = addCriteria("rafflowsia_459", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(459000000)
+
+criteria = addCriteria("rafflowsia_460", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(460000000)
+
+criteria = addCriteria("rafflowsia_461", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(461000000)
+
+criteria = addCriteria("rafflowsia_462", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(462000000)
+
+criteria = addCriteria("rafflowsia_463", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(463000000)
+
+criteria = addCriteria("rafflowsia_464", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(464000000)
+
+criteria = addCriteria("rafflowsia_465", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(465000000)
+
+criteria = addCriteria("rafflowsia_466", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(466000000)
+
+criteria = addCriteria("rafflowsia_467", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(467000000)
+
+criteria = addCriteria("rafflowsia_468", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(468000000)
+
+criteria = addCriteria("rafflowsia_469", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(469000000)
+
+criteria = addCriteria("rafflowsia_470", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(470000000)
+
+criteria = addCriteria("rafflowsia_471", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(471000000)
+
+criteria = addCriteria("rafflowsia_472", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(472000000)
+
+criteria = addCriteria("rafflowsia_473", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(473000000)
+
+criteria = addCriteria("rafflowsia_474", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(474000000)
+
+criteria = addCriteria("rafflowsia_475", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(475000000)
+
+criteria = addCriteria("rafflowsia_476", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(476000000)
+
+criteria = addCriteria("rafflowsia_477", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(477000000)
+
+criteria = addCriteria("rafflowsia_478", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(478000000)
+
+criteria = addCriteria("rafflowsia_479", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(479000000)
+
+criteria = addCriteria("rafflowsia_480", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(480000000)
+
+criteria = addCriteria("rafflowsia_481", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(481000000)
+
+criteria = addCriteria("rafflowsia_482", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(482000000)
+
+criteria = addCriteria("rafflowsia_483", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(483000000)
+
+criteria = addCriteria("rafflowsia_484", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(484000000)
+
+criteria = addCriteria("rafflowsia_485", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(485000000)
+
+criteria = addCriteria("rafflowsia_486", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(486000000)
+
+criteria = addCriteria("rafflowsia_487", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(487000000)
+
+criteria = addCriteria("rafflowsia_488", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(488000000)
+
+criteria = addCriteria("rafflowsia_489", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(489000000)
+
+criteria = addCriteria("rafflowsia_490", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(490000000)
+
+criteria = addCriteria("rafflowsia_491", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(491000000)
+
+criteria = addCriteria("rafflowsia_492", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(492000000)
+
+criteria = addCriteria("rafflowsia_493", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(493000000)
+
+criteria = addCriteria("rafflowsia_494", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(494000000)
+
+criteria = addCriteria("rafflowsia_495", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(495000000)
+
+criteria = addCriteria("rafflowsia_496", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(496000000)
+
+criteria = addCriteria("rafflowsia_497", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(497000000)
+
+criteria = addCriteria("rafflowsia_498", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(498000000)
+
+criteria = addCriteria("rafflowsia_499", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(499000000)
+
+criteria = addCriteria("rafflowsia_500", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(500000000)
+
+criteria = addCriteria("rafflowsia_501", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(501000000)
+
+criteria = addCriteria("rafflowsia_502", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(502000000)
+
+criteria = addCriteria("rafflowsia_503", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(503000000)
+
+criteria = addCriteria("rafflowsia_504", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(504000000)
+
+criteria = addCriteria("rafflowsia_505", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(505000000)
+
+criteria = addCriteria("rafflowsia_506", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(506000000)
+
+criteria = addCriteria("rafflowsia_507", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(507000000)
+
+criteria = addCriteria("rafflowsia_508", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(508000000)
+
+criteria = addCriteria("rafflowsia_509", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(509000000)
+
+criteria = addCriteria("rafflowsia_510", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(510000000)
+
+criteria = addCriteria("rafflowsia_511", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(511000000)
+
+criteria = addCriteria("rafflowsia_512", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(512000000)
+
+criteria = addCriteria("rafflowsia_513", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(513000000)
+
+criteria = addCriteria("rafflowsia_514", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(514000000)
+
+criteria = addCriteria("rafflowsia_515", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(515000000)
+
+criteria = addCriteria("rafflowsia_516", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(516000000)
+
+criteria = addCriteria("rafflowsia_517", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(517000000)
+
+criteria = addCriteria("rafflowsia_518", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(518000000)
+
+criteria = addCriteria("rafflowsia_519", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(519000000)
+
+criteria = addCriteria("rafflowsia_520", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(520000000)
+
+criteria = addCriteria("rafflowsia_521", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(521000000)
+
+criteria = addCriteria("rafflowsia_522", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(522000000)
+
+criteria = addCriteria("rafflowsia_523", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(523000000)
+
+criteria = addCriteria("rafflowsia_524", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(524000000)
+
+criteria = addCriteria("rafflowsia_525", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(525000000)
+
+criteria = addCriteria("rafflowsia_526", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(526000000)
+
+criteria = addCriteria("rafflowsia_527", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(527000000)
+
+criteria = addCriteria("rafflowsia_528", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(528000000)
+
+criteria = addCriteria("rafflowsia_529", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(529000000)
+
+criteria = addCriteria("rafflowsia_530", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(530000000)
+
+criteria = addCriteria("rafflowsia_531", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(531000000)
+
+criteria = addCriteria("rafflowsia_532", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(532000000)
+
+criteria = addCriteria("rafflowsia_533", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(533000000)
+
+criteria = addCriteria("rafflowsia_534", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(534000000)
+
+criteria = addCriteria("rafflowsia_535", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(535000000)
+
+criteria = addCriteria("rafflowsia_536", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(536000000)
+
+criteria = addCriteria("rafflowsia_537", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(537000000)
+
+criteria = addCriteria("rafflowsia_538", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(538000000)
+
+criteria = addCriteria("rafflowsia_539", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(539000000)
+
+criteria = addCriteria("rafflowsia_540", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(540000000)
+
+criteria = addCriteria("rafflowsia_541", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(541000000)
+
+criteria = addCriteria("rafflowsia_542", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(542000000)
+
+criteria = addCriteria("rafflowsia_543", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(543000000)
+
+criteria = addCriteria("rafflowsia_544", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(544000000)
+
+criteria = addCriteria("rafflowsia_545", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(545000000)
+
+criteria = addCriteria("rafflowsia_546", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(546000000)
+
+criteria = addCriteria("rafflowsia_547", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(547000000)
+
+criteria = addCriteria("rafflowsia_548", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(548000000)
+
+criteria = addCriteria("rafflowsia_549", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(549000000)
+
+criteria = addCriteria("rafflowsia_550", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(550000000)
+
+criteria = addCriteria("rafflowsia_551", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(551000000)
+
+criteria = addCriteria("rafflowsia_552", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(552000000)
+
+criteria = addCriteria("rafflowsia_553", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(553000000)
+
+criteria = addCriteria("rafflowsia_554", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(554000000)
+
+criteria = addCriteria("rafflowsia_555", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(555000000)
+
+criteria = addCriteria("rafflowsia_556", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(556000000)
+
+criteria = addCriteria("rafflowsia_557", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(557000000)
+
+criteria = addCriteria("rafflowsia_558", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(558000000)
+
+criteria = addCriteria("rafflowsia_559", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(559000000)
+
+criteria = addCriteria("rafflowsia_560", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(560000000)
+
+criteria = addCriteria("rafflowsia_561", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(561000000)
+
+criteria = addCriteria("rafflowsia_562", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(562000000)
+
+criteria = addCriteria("rafflowsia_563", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(563000000)
+
+criteria = addCriteria("rafflowsia_564", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(564000000)
+
+criteria = addCriteria("rafflowsia_565", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(565000000)
+
+criteria = addCriteria("rafflowsia_566", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(566000000)
+
+criteria = addCriteria("rafflowsia_567", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(567000000)
+
+criteria = addCriteria("rafflowsia_568", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(568000000)
+
+criteria = addCriteria("rafflowsia_569", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(569000000)
+
+criteria = addCriteria("rafflowsia_570", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(570000000)
+
+criteria = addCriteria("rafflowsia_571", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(571000000)
+
+criteria = addCriteria("rafflowsia_572", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(572000000)
+
+criteria = addCriteria("rafflowsia_573", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(573000000)
+
+criteria = addCriteria("rafflowsia_574", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(574000000)
+
+criteria = addCriteria("rafflowsia_575", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(575000000)
+
+criteria = addCriteria("rafflowsia_576", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(576000000)
+
+criteria = addCriteria("rafflowsia_577", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(577000000)
+
+criteria = addCriteria("rafflowsia_578", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(578000000)
+
+criteria = addCriteria("rafflowsia_579", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(579000000)
+
+criteria = addCriteria("rafflowsia_580", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(580000000)
+
+criteria = addCriteria("rafflowsia_581", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(581000000)
+
+criteria = addCriteria("rafflowsia_582", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(582000000)
+
+criteria = addCriteria("rafflowsia_583", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(583000000)
+
+criteria = addCriteria("rafflowsia_584", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(584000000)
+
+criteria = addCriteria("rafflowsia_585", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(585000000)
+
+criteria = addCriteria("rafflowsia_586", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(586000000)
+
+criteria = addCriteria("rafflowsia_587", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(587000000)
+
+criteria = addCriteria("rafflowsia_588", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(588000000)
+
+criteria = addCriteria("rafflowsia_589", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(589000000)
+
+criteria = addCriteria("rafflowsia_590", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(590000000)
+
+criteria = addCriteria("rafflowsia_591", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(591000000)
+
+criteria = addCriteria("rafflowsia_592", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(592000000)
+
+criteria = addCriteria("rafflowsia_593", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(593000000)
+
+criteria = addCriteria("rafflowsia_594", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(594000000)
+
+criteria = addCriteria("rafflowsia_595", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(595000000)
+
+criteria = addCriteria("rafflowsia_596", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(596000000)
+
+criteria = addCriteria("rafflowsia_597", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(597000000)
+
+criteria = addCriteria("rafflowsia_598", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(598000000)
+
+criteria = addCriteria("rafflowsia_599", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(599000000)
+
+criteria = addCriteria("rafflowsia_600", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(600000000)
+
+criteria = addCriteria("rafflowsia_601", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(601000000)
+
+criteria = addCriteria("rafflowsia_602", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(602000000)
+
+criteria = addCriteria("rafflowsia_603", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(603000000)
+
+criteria = addCriteria("rafflowsia_604", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(604000000)
+
+criteria = addCriteria("rafflowsia_605", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(605000000)
+
+criteria = addCriteria("rafflowsia_606", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(606000000)
+
+criteria = addCriteria("rafflowsia_607", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(607000000)
+
+criteria = addCriteria("rafflowsia_608", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(608000000)
+
+criteria = addCriteria("rafflowsia_609", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(609000000)
+
+criteria = addCriteria("rafflowsia_610", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(610000000)
+
+criteria = addCriteria("rafflowsia_611", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(611000000)
+
+criteria = addCriteria("rafflowsia_612", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(612000000)
+
+criteria = addCriteria("rafflowsia_613", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(613000000)
+
+criteria = addCriteria("rafflowsia_614", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(614000000)
+
+criteria = addCriteria("rafflowsia_615", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(615000000)
+
+criteria = addCriteria("rafflowsia_616", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(616000000)
+
+criteria = addCriteria("rafflowsia_617", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(617000000)
+
+criteria = addCriteria("rafflowsia_618", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(618000000)
+
+criteria = addCriteria("rafflowsia_619", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(619000000)
+
+criteria = addCriteria("rafflowsia_620", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(620000000)
+
+criteria = addCriteria("rafflowsia_621", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(621000000)
+
+criteria = addCriteria("rafflowsia_622", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(622000000)
+
+criteria = addCriteria("rafflowsia_623", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(623000000)
+
+criteria = addCriteria("rafflowsia_624", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(624000000)
+
+criteria = addCriteria("rafflowsia_625", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(625000000)
+
+criteria = addCriteria("rafflowsia_626", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(626000000)
+
+criteria = addCriteria("rafflowsia_627", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(627000000)
+
+criteria = addCriteria("rafflowsia_628", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(628000000)
+
+criteria = addCriteria("rafflowsia_629", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(629000000)
+
+criteria = addCriteria("rafflowsia_630", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(630000000)
+
+criteria = addCriteria("rafflowsia_631", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(631000000)
+
+criteria = addCriteria("rafflowsia_632", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(632000000)
+
+criteria = addCriteria("rafflowsia_633", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(633000000)
+
+criteria = addCriteria("rafflowsia_634", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(634000000)
+
+criteria = addCriteria("rafflowsia_635", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(635000000)
+
+criteria = addCriteria("rafflowsia_636", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(636000000)
+
+criteria = addCriteria("rafflowsia_637", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(637000000)
+
+criteria = addCriteria("rafflowsia_638", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(638000000)
+
+criteria = addCriteria("rafflowsia_639", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(639000000)
+
+criteria = addCriteria("rafflowsia_640", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(640000000)
+
+criteria = addCriteria("rafflowsia_641", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(641000000)
+
+criteria = addCriteria("rafflowsia_642", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(642000000)
+
+criteria = addCriteria("rafflowsia_643", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(643000000)
+
+criteria = addCriteria("rafflowsia_644", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(644000000)
+
+criteria = addCriteria("rafflowsia_645", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(645000000)
+
+criteria = addCriteria("rafflowsia_646", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(646000000)
+
+criteria = addCriteria("rafflowsia_647", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(647000000)
+
+criteria = addCriteria("rafflowsia_648", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(648000000)
+
+criteria = addCriteria("rafflowsia_649", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(649000000)
+
+criteria = addCriteria("rafflowsia_650", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(650000000)
+
+criteria = addCriteria("rafflowsia_651", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(651000000)
+
+criteria = addCriteria("rafflowsia_652", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(652000000)
+
+criteria = addCriteria("rafflowsia_653", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(653000000)
+
+criteria = addCriteria("rafflowsia_654", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(654000000)
+
+criteria = addCriteria("rafflowsia_655", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(655000000)
+
+criteria = addCriteria("rafflowsia_656", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(656000000)
+
+criteria = addCriteria("rafflowsia_657", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(657000000)
+
+criteria = addCriteria("rafflowsia_658", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(658000000)
+
+criteria = addCriteria("rafflowsia_659", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(659000000)
+
+criteria = addCriteria("rafflowsia_660", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(660000000)
+
+criteria = addCriteria("rafflowsia_661", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(661000000)
+
+criteria = addCriteria("rafflowsia_662", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(662000000)
+
+criteria = addCriteria("rafflowsia_663", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(663000000)
+
+criteria = addCriteria("rafflowsia_664", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(664000000)
+
+criteria = addCriteria("rafflowsia_665", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(665000000)
+
+criteria = addCriteria("rafflowsia_666", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(666000000)
+
+criteria = addCriteria("rafflowsia_667", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(667000000)
+
+criteria = addCriteria("rafflowsia_668", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(668000000)
+
+criteria = addCriteria("rafflowsia_669", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(669000000)
+
+criteria = addCriteria("rafflowsia_670", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(670000000)
+
+criteria = addCriteria("rafflowsia_671", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(671000000)
+
+criteria = addCriteria("rafflowsia_672", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(672000000)
+
+criteria = addCriteria("rafflowsia_673", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(673000000)
+
+criteria = addCriteria("rafflowsia_674", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(674000000)
+
+criteria = addCriteria("rafflowsia_675", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(675000000)
+
+criteria = addCriteria("rafflowsia_676", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(676000000)
+
+criteria = addCriteria("rafflowsia_677", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(677000000)
+
+criteria = addCriteria("rafflowsia_678", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(678000000)
+
+criteria = addCriteria("rafflowsia_679", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(679000000)
+
+criteria = addCriteria("rafflowsia_680", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(680000000)
+
+criteria = addCriteria("rafflowsia_681", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(681000000)
+
+criteria = addCriteria("rafflowsia_682", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(682000000)
+
+criteria = addCriteria("rafflowsia_683", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(683000000)
+
+criteria = addCriteria("rafflowsia_684", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(684000000)
+
+criteria = addCriteria("rafflowsia_685", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(685000000)
+
+criteria = addCriteria("rafflowsia_686", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(686000000)
+
+criteria = addCriteria("rafflowsia_687", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(687000000)
+
+criteria = addCriteria("rafflowsia_688", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(688000000)
+
+criteria = addCriteria("rafflowsia_689", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(689000000)
+
+criteria = addCriteria("rafflowsia_690", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(690000000)
+
+criteria = addCriteria("rafflowsia_691", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(691000000)
+
+criteria = addCriteria("rafflowsia_692", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(692000000)
+
+criteria = addCriteria("rafflowsia_693", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(693000000)
+
+criteria = addCriteria("rafflowsia_694", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(694000000)
+
+criteria = addCriteria("rafflowsia_695", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(695000000)
+
+criteria = addCriteria("rafflowsia_696", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(696000000)
+
+criteria = addCriteria("rafflowsia_697", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(697000000)
+
+criteria = addCriteria("rafflowsia_698", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(698000000)
+
+criteria = addCriteria("rafflowsia_699", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(699000000)
+
+criteria = addCriteria("rafflowsia_700", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(700000000)
+
+criteria = addCriteria("rafflowsia_701", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(701000000)
+
+criteria = addCriteria("rafflowsia_702", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(702000000)
+
+criteria = addCriteria("rafflowsia_703", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(703000000)
+
+criteria = addCriteria("rafflowsia_704", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(704000000)
+
+criteria = addCriteria("rafflowsia_705", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(705000000)
+
+criteria = addCriteria("rafflowsia_706", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(706000000)
+
+criteria = addCriteria("rafflowsia_707", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(707000000)
+
+criteria = addCriteria("rafflowsia_708", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(708000000)
+
+criteria = addCriteria("rafflowsia_709", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(709000000)
+
+criteria = addCriteria("rafflowsia_710", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(710000000)
+
+criteria = addCriteria("rafflowsia_711", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(711000000)
+
+criteria = addCriteria("rafflowsia_712", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(712000000)
+
+criteria = addCriteria("rafflowsia_713", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(713000000)
+
+criteria = addCriteria("rafflowsia_714", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(714000000)
+
+criteria = addCriteria("rafflowsia_715", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(715000000)
+
+criteria = addCriteria("rafflowsia_716", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(716000000)
+
+criteria = addCriteria("rafflowsia_717", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(717000000)
+
+criteria = addCriteria("rafflowsia_718", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(718000000)
+
+criteria = addCriteria("rafflowsia_719", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(719000000)
+
+criteria = addCriteria("rafflowsia_720", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(720000000)
+
+criteria = addCriteria("rafflowsia_721", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(721000000)
+
+criteria = addCriteria("rafflowsia_722", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(722000000)
+
+criteria = addCriteria("rafflowsia_723", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(723000000)
+
+criteria = addCriteria("rafflowsia_724", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(724000000)
+
+criteria = addCriteria("rafflowsia_725", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(725000000)
+
+criteria = addCriteria("rafflowsia_726", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(726000000)
+
+criteria = addCriteria("rafflowsia_727", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(727000000)
+
+criteria = addCriteria("rafflowsia_728", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(728000000)
+
+criteria = addCriteria("rafflowsia_729", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(729000000)
+
+criteria = addCriteria("rafflowsia_730", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(730000000)
+
+criteria = addCriteria("rafflowsia_731", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(731000000)
+
+criteria = addCriteria("rafflowsia_732", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(732000000)
+
+criteria = addCriteria("rafflowsia_733", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(733000000)
+
+criteria = addCriteria("rafflowsia_734", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(734000000)
+
+criteria = addCriteria("rafflowsia_735", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(735000000)
+
+criteria = addCriteria("rafflowsia_736", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(736000000)
+
+criteria = addCriteria("rafflowsia_737", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(737000000)
+
+criteria = addCriteria("rafflowsia_738", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(738000000)
+
+criteria = addCriteria("rafflowsia_739", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(739000000)
+
+criteria = addCriteria("rafflowsia_740", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(740000000)
+
+criteria = addCriteria("rafflowsia_741", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(741000000)
+
+criteria = addCriteria("rafflowsia_742", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(742000000)
+
+criteria = addCriteria("rafflowsia_743", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(743000000)
+
+criteria = addCriteria("rafflowsia_744", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(744000000)
+
+criteria = addCriteria("rafflowsia_745", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(745000000)
+
+criteria = addCriteria("rafflowsia_746", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(746000000)
+
+criteria = addCriteria("rafflowsia_747", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(747000000)
+
+criteria = addCriteria("rafflowsia_748", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(748000000)
+
+criteria = addCriteria("rafflowsia_749", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(749000000)
+
+criteria = addCriteria("rafflowsia_750", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(750000000)
+
+criteria = addCriteria("rafflowsia_751", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(751000000)
+
+criteria = addCriteria("rafflowsia_752", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(752000000)
+
+criteria = addCriteria("rafflowsia_753", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(753000000)
+
+criteria = addCriteria("rafflowsia_754", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(754000000)
+
+criteria = addCriteria("rafflowsia_755", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(755000000)
+
+criteria = addCriteria("rafflowsia_756", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(756000000)
+
+criteria = addCriteria("rafflowsia_757", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(757000000)
+
+criteria = addCriteria("rafflowsia_758", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(758000000)
+
+criteria = addCriteria("rafflowsia_759", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(759000000)
+
+criteria = addCriteria("rafflowsia_760", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(760000000)
+
+criteria = addCriteria("rafflowsia_761", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(761000000)
+
+criteria = addCriteria("rafflowsia_762", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(762000000)
+
+criteria = addCriteria("rafflowsia_763", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(763000000)
+
+criteria = addCriteria("rafflowsia_764", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(764000000)
+
+criteria = addCriteria("rafflowsia_765", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(765000000)
+
+criteria = addCriteria("rafflowsia_766", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(766000000)
+
+criteria = addCriteria("rafflowsia_767", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(767000000)
+
+criteria = addCriteria("rafflowsia_768", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(768000000)
+
+criteria = addCriteria("rafflowsia_769", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(769000000)
+
+criteria = addCriteria("rafflowsia_770", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(770000000)
+
+criteria = addCriteria("rafflowsia_771", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(771000000)
+
+criteria = addCriteria("rafflowsia_772", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(772000000)
+
+criteria = addCriteria("rafflowsia_773", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(773000000)
+
+criteria = addCriteria("rafflowsia_774", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(774000000)
+
+criteria = addCriteria("rafflowsia_775", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(775000000)
+
+criteria = addCriteria("rafflowsia_776", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(776000000)
+
+criteria = addCriteria("rafflowsia_777", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(777000000)
+
+criteria = addCriteria("rafflowsia_778", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(778000000)
+
+criteria = addCriteria("rafflowsia_779", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(779000000)
+
+criteria = addCriteria("rafflowsia_780", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(780000000)
+
+criteria = addCriteria("rafflowsia_781", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(781000000)
+
+criteria = addCriteria("rafflowsia_782", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(782000000)
+
+criteria = addCriteria("rafflowsia_783", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(783000000)
+
+criteria = addCriteria("rafflowsia_784", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(784000000)
+
+criteria = addCriteria("rafflowsia_785", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(785000000)
+
+criteria = addCriteria("rafflowsia_786", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(786000000)
+
+criteria = addCriteria("rafflowsia_787", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(787000000)
+
+criteria = addCriteria("rafflowsia_788", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(788000000)
+
+criteria = addCriteria("rafflowsia_789", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(789000000)
+
+criteria = addCriteria("rafflowsia_790", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(790000000)
+
+criteria = addCriteria("rafflowsia_791", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(791000000)
+
+criteria = addCriteria("rafflowsia_792", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(792000000)
+
+criteria = addCriteria("rafflowsia_793", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(793000000)
+
+criteria = addCriteria("rafflowsia_794", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(794000000)
+
+criteria = addCriteria("rafflowsia_795", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(795000000)
+
+criteria = addCriteria("rafflowsia_796", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(796000000)
+
+criteria = addCriteria("rafflowsia_797", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(797000000)
+
+criteria = addCriteria("rafflowsia_798", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(798000000)
+
+criteria = addCriteria("rafflowsia_799", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(799000000)
+
+criteria = addCriteria("rafflowsia_800", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(800000000)
+
+criteria = addCriteria("rafflowsia_801", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(801000000)
+
+criteria = addCriteria("rafflowsia_802", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(802000000)
+
+criteria = addCriteria("rafflowsia_803", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(803000000)
+
+criteria = addCriteria("rafflowsia_804", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(804000000)
+
+criteria = addCriteria("rafflowsia_805", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(805000000)
+
+criteria = addCriteria("rafflowsia_806", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(806000000)
+
+criteria = addCriteria("rafflowsia_807", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(807000000)
+
+criteria = addCriteria("rafflowsia_808", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(808000000)
+
+criteria = addCriteria("rafflowsia_809", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(809000000)
+
+criteria = addCriteria("rafflowsia_810", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(810000000)
+
+criteria = addCriteria("rafflowsia_811", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(811000000)
+
+criteria = addCriteria("rafflowsia_812", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(812000000)
+
+criteria = addCriteria("rafflowsia_813", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(813000000)
+
+criteria = addCriteria("rafflowsia_814", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(814000000)
+
+criteria = addCriteria("rafflowsia_815", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(815000000)
+
+criteria = addCriteria("rafflowsia_816", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(816000000)
+
+criteria = addCriteria("rafflowsia_817", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(817000000)
+
+criteria = addCriteria("rafflowsia_818", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(818000000)
+
+criteria = addCriteria("rafflowsia_819", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(819000000)
+
+criteria = addCriteria("rafflowsia_820", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(820000000)
+
+criteria = addCriteria("rafflowsia_821", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(821000000)
+
+criteria = addCriteria("rafflowsia_822", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(822000000)
+
+criteria = addCriteria("rafflowsia_823", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(823000000)
+
+criteria = addCriteria("rafflowsia_824", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(824000000)
+
+criteria = addCriteria("rafflowsia_825", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(825000000)
+
+criteria = addCriteria("rafflowsia_826", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(826000000)
+
+criteria = addCriteria("rafflowsia_827", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(827000000)
+
+criteria = addCriteria("rafflowsia_828", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(828000000)
+
+criteria = addCriteria("rafflowsia_829", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(829000000)
+
+criteria = addCriteria("rafflowsia_830", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(830000000)
+
+criteria = addCriteria("rafflowsia_831", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(831000000)
+
+criteria = addCriteria("rafflowsia_832", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(832000000)
+
+criteria = addCriteria("rafflowsia_833", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(833000000)
+
+criteria = addCriteria("rafflowsia_834", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(834000000)
+
+criteria = addCriteria("rafflowsia_835", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(835000000)
+
+criteria = addCriteria("rafflowsia_836", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(836000000)
+
+criteria = addCriteria("rafflowsia_837", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(837000000)
+
+criteria = addCriteria("rafflowsia_838", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(838000000)
+
+criteria = addCriteria("rafflowsia_839", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(839000000)
+
+criteria = addCriteria("rafflowsia_840", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(840000000)
+
+criteria = addCriteria("rafflowsia_841", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(841000000)
+
+criteria = addCriteria("rafflowsia_842", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(842000000)
+
+criteria = addCriteria("rafflowsia_843", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(843000000)
+
+criteria = addCriteria("rafflowsia_844", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(844000000)
+
+criteria = addCriteria("rafflowsia_845", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(845000000)
+
+criteria = addCriteria("rafflowsia_846", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(846000000)
+
+criteria = addCriteria("rafflowsia_847", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(847000000)
+
+criteria = addCriteria("rafflowsia_848", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(848000000)
+
+criteria = addCriteria("rafflowsia_849", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(849000000)
+
+criteria = addCriteria("rafflowsia_850", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(850000000)
+
+criteria = addCriteria("rafflowsia_851", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(851000000)
+
+criteria = addCriteria("rafflowsia_852", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(852000000)
+
+criteria = addCriteria("rafflowsia_853", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(853000000)
+
+criteria = addCriteria("rafflowsia_854", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(854000000)
+
+criteria = addCriteria("rafflowsia_855", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(855000000)
+
+criteria = addCriteria("rafflowsia_856", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(856000000)
+
+criteria = addCriteria("rafflowsia_857", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(857000000)
+
+criteria = addCriteria("rafflowsia_858", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(858000000)
+
+criteria = addCriteria("rafflowsia_859", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(859000000)
+
+criteria = addCriteria("rafflowsia_860", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(860000000)
+
+criteria = addCriteria("rafflowsia_861", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(861000000)
+
+criteria = addCriteria("rafflowsia_862", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(862000000)
+
+criteria = addCriteria("rafflowsia_863", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(863000000)
+
+criteria = addCriteria("rafflowsia_864", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(864000000)
+
+criteria = addCriteria("rafflowsia_865", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(865000000)
+
+criteria = addCriteria("rafflowsia_866", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(866000000)
+
+criteria = addCriteria("rafflowsia_867", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(867000000)
+
+criteria = addCriteria("rafflowsia_868", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(868000000)
+
+criteria = addCriteria("rafflowsia_869", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(869000000)
+
+criteria = addCriteria("rafflowsia_870", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(870000000)
+
+criteria = addCriteria("rafflowsia_871", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(871000000)
+
+criteria = addCriteria("rafflowsia_872", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(872000000)
+
+criteria = addCriteria("rafflowsia_873", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(873000000)
+
+criteria = addCriteria("rafflowsia_874", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(874000000)
+
+criteria = addCriteria("rafflowsia_875", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(875000000)
+
+criteria = addCriteria("rafflowsia_876", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(876000000)
+
+criteria = addCriteria("rafflowsia_877", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(877000000)
+
+criteria = addCriteria("rafflowsia_878", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(878000000)
+
+criteria = addCriteria("rafflowsia_879", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(879000000)
+
+criteria = addCriteria("rafflowsia_880", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(880000000)
+
+criteria = addCriteria("rafflowsia_881", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(881000000)
+
+criteria = addCriteria("rafflowsia_882", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(882000000)
+
+criteria = addCriteria("rafflowsia_883", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(883000000)
+
+criteria = addCriteria("rafflowsia_884", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(884000000)
+
+criteria = addCriteria("rafflowsia_885", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(885000000)
+
+criteria = addCriteria("rafflowsia_886", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(886000000)
+
+criteria = addCriteria("rafflowsia_887", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(887000000)
+
+criteria = addCriteria("rafflowsia_888", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(888000000)
+
+criteria = addCriteria("rafflowsia_889", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(889000000)
+
+criteria = addCriteria("rafflowsia_890", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(890000000)
+
+criteria = addCriteria("rafflowsia_891", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(891000000)
+
+criteria = addCriteria("rafflowsia_892", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(892000000)
+
+criteria = addCriteria("rafflowsia_893", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(893000000)
+
+criteria = addCriteria("rafflowsia_894", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(894000000)
+
+criteria = addCriteria("rafflowsia_895", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(895000000)
+
+criteria = addCriteria("rafflowsia_896", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(896000000)
+
+criteria = addCriteria("rafflowsia_897", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(897000000)
+
+criteria = addCriteria("rafflowsia_898", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(898000000)
+
+criteria = addCriteria("rafflowsia_899", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(899000000)
+
+criteria = addCriteria("rafflowsia_900", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(900000000)
+
+criteria = addCriteria("rafflowsia_901", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(901000000)
+
+criteria = addCriteria("rafflowsia_902", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(902000000)
+
+criteria = addCriteria("rafflowsia_903", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(903000000)
+
+criteria = addCriteria("rafflowsia_904", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(904000000)
+
+criteria = addCriteria("rafflowsia_905", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(905000000)
+
+criteria = addCriteria("rafflowsia_906", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(906000000)
+
+criteria = addCriteria("rafflowsia_907", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(907000000)
+
+criteria = addCriteria("rafflowsia_908", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(908000000)
+
+criteria = addCriteria("rafflowsia_909", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(909000000)
+
+criteria = addCriteria("rafflowsia_910", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(910000000)
+
+criteria = addCriteria("rafflowsia_911", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(911000000)
+
+criteria = addCriteria("rafflowsia_912", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(912000000)
+
+criteria = addCriteria("rafflowsia_913", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(913000000)
+
+criteria = addCriteria("rafflowsia_914", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(914000000)
+
+criteria = addCriteria("rafflowsia_915", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(915000000)
+
+criteria = addCriteria("rafflowsia_916", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(916000000)
+
+criteria = addCriteria("rafflowsia_917", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(917000000)
+
+criteria = addCriteria("rafflowsia_918", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(918000000)
+
+criteria = addCriteria("rafflowsia_919", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(919000000)
+
+criteria = addCriteria("rafflowsia_920", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(920000000)
+
+criteria = addCriteria("rafflowsia_921", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(921000000)
+
+criteria = addCriteria("rafflowsia_922", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(922000000)
+
+criteria = addCriteria("rafflowsia_923", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(923000000)
+
+criteria = addCriteria("rafflowsia_924", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(924000000)
+
+criteria = addCriteria("rafflowsia_925", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(925000000)
+
+criteria = addCriteria("rafflowsia_926", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(926000000)
+
+criteria = addCriteria("rafflowsia_927", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(927000000)
+
+criteria = addCriteria("rafflowsia_928", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(928000000)
+
+criteria = addCriteria("rafflowsia_929", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(929000000)
+
+criteria = addCriteria("rafflowsia_930", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(930000000)
+
+criteria = addCriteria("rafflowsia_931", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(931000000)
+
+criteria = addCriteria("rafflowsia_932", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(932000000)
+
+criteria = addCriteria("rafflowsia_933", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(933000000)
+
+criteria = addCriteria("rafflowsia_934", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(934000000)
+
+criteria = addCriteria("rafflowsia_935", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(935000000)
+
+criteria = addCriteria("rafflowsia_936", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(936000000)
+
+criteria = addCriteria("rafflowsia_937", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(937000000)
+
+criteria = addCriteria("rafflowsia_938", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(938000000)
+
+criteria = addCriteria("rafflowsia_939", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(939000000)
+
+criteria = addCriteria("rafflowsia_940", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(940000000)
+
+criteria = addCriteria("rafflowsia_941", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(941000000)
+
+criteria = addCriteria("rafflowsia_942", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(942000000)
+
+criteria = addCriteria("rafflowsia_943", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(943000000)
+
+criteria = addCriteria("rafflowsia_944", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(944000000)
+
+criteria = addCriteria("rafflowsia_945", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(945000000)
+
+criteria = addCriteria("rafflowsia_946", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(946000000)
+
+criteria = addCriteria("rafflowsia_947", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(947000000)
+
+criteria = addCriteria("rafflowsia_948", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(948000000)
+
+criteria = addCriteria("rafflowsia_949", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(949000000)
+
+criteria = addCriteria("rafflowsia_950", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(950000000)
+
+criteria = addCriteria("rafflowsia_951", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(951000000)
+
+criteria = addCriteria("rafflowsia_952", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(952000000)
+
+criteria = addCriteria("rafflowsia_953", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(953000000)
+
+criteria = addCriteria("rafflowsia_954", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(954000000)
+
+criteria = addCriteria("rafflowsia_955", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(955000000)
+
+criteria = addCriteria("rafflowsia_956", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(956000000)
+
+criteria = addCriteria("rafflowsia_957", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(957000000)
+
+criteria = addCriteria("rafflowsia_958", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(958000000)
+
+criteria = addCriteria("rafflowsia_959", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(959000000)
+
+criteria = addCriteria("rafflowsia_960", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(960000000)
+
+criteria = addCriteria("rafflowsia_961", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(961000000)
+
+criteria = addCriteria("rafflowsia_962", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(962000000)
+
+criteria = addCriteria("rafflowsia_963", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(963000000)
+
+criteria = addCriteria("rafflowsia_964", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(964000000)
+
+criteria = addCriteria("rafflowsia_965", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(965000000)
+
+criteria = addCriteria("rafflowsia_966", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(966000000)
+
+criteria = addCriteria("rafflowsia_967", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(967000000)
+
+criteria = addCriteria("rafflowsia_968", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(968000000)
+
+criteria = addCriteria("rafflowsia_969", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(969000000)
+
+criteria = addCriteria("rafflowsia_970", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(970000000)
+
+criteria = addCriteria("rafflowsia_971", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(971000000)
+
+criteria = addCriteria("rafflowsia_972", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(972000000)
+
+criteria = addCriteria("rafflowsia_973", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(973000000)
+
+criteria = addCriteria("rafflowsia_974", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(974000000)
+
+criteria = addCriteria("rafflowsia_975", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(975000000)
+
+criteria = addCriteria("rafflowsia_976", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(976000000)
+
+criteria = addCriteria("rafflowsia_977", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(977000000)
+
+criteria = addCriteria("rafflowsia_978", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(978000000)
+
+criteria = addCriteria("rafflowsia_979", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(979000000)
+
+criteria = addCriteria("rafflowsia_980", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(980000000)
+
+criteria = addCriteria("rafflowsia_981", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(981000000)
+
+criteria = addCriteria("rafflowsia_982", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(982000000)
+
+criteria = addCriteria("rafflowsia_983", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(983000000)
+
+criteria = addCriteria("rafflowsia_984", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(984000000)
+
+criteria = addCriteria("rafflowsia_985", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(985000000)
+
+criteria = addCriteria("rafflowsia_986", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(986000000)
+
+criteria = addCriteria("rafflowsia_987", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(987000000)
+
+criteria = addCriteria("rafflowsia_988", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(988000000)
+
+criteria = addCriteria("rafflowsia_989", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(989000000)
+
+criteria = addCriteria("rafflowsia_990", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(990000000)
+
+criteria = addCriteria("rafflowsia_991", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(991000000)
+
+criteria = addCriteria("rafflowsia_992", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(992000000)
+
+criteria = addCriteria("rafflowsia_993", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(993000000)
+
+criteria = addCriteria("rafflowsia_994", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(994000000)
+
+criteria = addCriteria("rafflowsia_995", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(995000000)
+
+criteria = addCriteria("rafflowsia_996", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(996000000)
+
+criteria = addCriteria("rafflowsia_997", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(997000000)
+
+criteria = addCriteria("rafflowsia_998", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(998000000)
+
+criteria = addCriteria("rafflowsia_999", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(999000000)
+
+criteria = addCriteria("rafflowsia_1000", "botania_tweaks:flower_generated_mana")
+criteria.setFlower("rafflowsia")
+criteria.setRequiredMana(1000000000)
