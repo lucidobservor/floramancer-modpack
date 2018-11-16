@@ -7,7 +7,7 @@ addParent("triumph:floramancer/root")
 setPos(-68,75)
 hideLines()
 
-setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"munchdew"}},TrophyName:"advancements.floramancer.munchdew.title",TrophyVariant:"neon"}>)
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"munchdew"}},TrophyName:"advancements.floramancer.munchdew.title",TrophyVariant:"neon", TrophyColorRed:65, TrophyColorGreen:205, TrophyColorBlue:62}>)
 addRewardFunction("triumph:stages/stage-munchdew")
 
 criteria = addCriteria("munchdew_1", "botania_tweaks:flower_generated_mana")

@@ -7,7 +7,7 @@ addParent("triumph:floramancer/root")
 setPos(0,80)
 hideLines()
 
-setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"kekimurus"}},TrophyName:"advancements.floramancer.kekimurus.title",TrophyVariant:"neon"}>)
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"kekimurus"}},TrophyName:"advancements.floramancer.kekimurus.title",TrophyVariant:"neon", TrophyColorRed:102, TrophyColorGreen:137, TrophyColorBlue:211}>)
 addRewardFunction("triumph:stages/stage-kekimurus")
 
 criteria = addCriteria("kekimurus_1", "botania_tweaks:flower_generated_mana")

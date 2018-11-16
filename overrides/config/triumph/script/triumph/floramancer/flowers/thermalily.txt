@@ -7,7 +7,7 @@ addParent("triumph:floramancer/root")
 setPos(-129,61)
 hideLines()
 
-setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"thermalily"}},TrophyName:"advancements.floramancer.thermalily.title",TrophyVariant:"neon"}>)
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"thermalily"}},TrophyName:"advancements.floramancer.thermalily.title",TrophyVariant:"neon", TrophyColorRed:200, TrophyColorGreen:40, TrophyColorBlue:40}>)
 addRewardFunction("triumph:stages/stage-thermalily")
 
 criteria = addCriteria("thermalily_1", "botania_tweaks:flower_generated_mana")

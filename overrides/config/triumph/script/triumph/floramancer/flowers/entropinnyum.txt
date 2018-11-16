@@ -7,7 +7,7 @@ addParent("triumph:floramancer/root")
 setPos(-35,79)
 hideLines()
 
-setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"entropinnyum"}},TrophyName:"advancements.floramancer.entropinnyum.title",TrophyVariant:"neon"}>)
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"entropinnyum"}},TrophyName:"advancements.floramancer.entropinnyum.title",TrophyVariant:"neon", TrophyColorRed:155, TrophyColorGreen:20, TrophyColorBlue:20}>)
 addRewardFunction("triumph:stages/stage-entropinnyum")
 
 criteria = addCriteria("entropinnyum_1", "botania_tweaks:flower_generated_mana")

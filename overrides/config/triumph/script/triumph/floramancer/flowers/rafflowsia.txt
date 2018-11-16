@@ -7,7 +7,7 @@ addParent("triumph:floramancer/root")
 setPos(129,61)
 hideLines()
 
-setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"rafflowsia"}},TrophyName:"advancements.floramancer.rafflowsia.title",TrophyVariant:"neon"}>)
+setRewardItem(<simple_trophies:trophy, nbt:{TrophyItem:{id:"botania:specialflower", Count: 1b, tag:{type:"rafflowsia"}},TrophyName:"advancements.floramancer.rafflowsia.title",TrophyVariant:"neon", TrophyColorRed:123, TrophyColorGreen:47, TrophyColorBlue:190}>)
 addRewardFunction("triumph:stages/stage-rafflowsia")
 
 criteria = addCriteria("rafflowsia_1", "botania_tweaks:flower_generated_mana")
