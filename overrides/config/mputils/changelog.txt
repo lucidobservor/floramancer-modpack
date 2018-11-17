@@ -77,6 +77,7 @@ Major Enhancements:
 	- The three most-powerful/easiest-to-automate flowers (endoflame, entropinnyum, kekimurus) now require 200 pools
 	- All other flowers require 100 mana pools
 • Reduced mana requirement of galactic potato by an aditional 80%
+• Flowers decay in 30 minutes instead of 1 hour
 
 Minor Tweaks:
 • Trophies are now awarded with colors matching their flowers
