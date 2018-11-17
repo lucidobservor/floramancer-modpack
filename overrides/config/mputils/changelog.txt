@@ -71,6 +71,12 @@ Automation:
 
 §n1.0.1§r
 
+Major Enhancements:
+• Balanced requirements for flower achievements as follows
+    - The three least-powerful/hardest-to-automate flowers (hydroangeas, narslimmus, rosa arcana) now require 50 pools
+	- The three most-powerful/easiest-to-automate flowers (endoflame, entropinnyum, kekimurus) now require 200 pools
+	- All other flowers require 100 mana pools
+
 Minor Tweaks:
 • Trophies are now awarded with colors matching their flowers
 
