@@ -3,10 +3,10 @@
 
 		{
 			"match": {
-				"drops": {
-					"drops": [
-						"minecraft:redstone"
-					]
+				"blocks": {
+					"blocks": [
+						"minecraft:redstone_ore:*"
+					] 
 				}
 			},
 			"drops": [
