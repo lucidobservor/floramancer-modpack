@@ -12,4 +12,4 @@ creativeManaPool.addTooltip(format.gray("Check the upgraded Lexica for more info
 <quark:soul_powder>.addTooltip(format.gray("Used to find the nearest Nether Fortress"));
 
 <minecraft:flower_pot>.addTooltip(format.gray("Try using with a comparator"));
-
+<minecraft:mycelium>.addTooltip(format.gray("Made from coarse dirt using the orechid terram"));

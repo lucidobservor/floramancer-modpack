@@ -11,8 +11,9 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Floramancer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "lucidobservor",
+  "projectID": 301575,
   "files": [
     {
       "projectID": 245889,
@@ -471,7 +472,7 @@
     },
     {
       "projectID": 295114,
-      "fileID": 2633348,
+      "fileID": 2637143,
       "required": true
     },
     {
