@@ -12,8 +12,16 @@ criteria = addCriteria("hurt_blaze", "minecraft:player_hurt_entity")
 criteria.setEntityType("minecraft:blaze")
 
 damage = criteria.getDamageData()
+entity = criteria.getEntityData()
+
 damageSource = damage.getDamageSourceData()
 damageSource.isProjectile(false)
 damageSource.isExplosion(false)
 damageSource.isMagic(false)
 damageSource.isFire(false)
+
+location = entity.getLocationData()
+location.setDimensionType("overworld")
+
+criteria = addCriteria("botania-skyblock", "minecraft:location")
+criteria.setWorldType("botania-skyblock")
