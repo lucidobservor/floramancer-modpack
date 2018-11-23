@@ -6,3 +6,5 @@ recipes.addShapeless("experience_bottle", <minecraft:experience_bottle> * 64, [<
 recipes.removeShapeless(<essentials:candle_lilypad>);
 recipes.addShapeless("essentials_candle_lilypad", <essentials:candle_lilypad>,[<minecraft:waterlily>, <quark:candle:*>], null, null);
 
+// Log to stick recipe
+recipes.addShaped("minecraft_stick_log", <minecraft:stick> * 16, [[<ore:logWood>], [<ore:logWood>]]);

@@ -66,6 +66,16 @@ Automation:
 • You can use a petal apothecary containing lava as an automatic trash can.
 • Incorporeal adds lots of utilities for expanding your Corporea system.
 
+------------------------------------------------------------------------------------------------------------------------------------------
+
+§n1.1.1§r
+
+Minor Tweaks:
+• Added recipe for 2 logs -> 16 sticks
+
+Bugfixes:
+• Fixed blaze punch quest to only work in GoG Overworld (as initially intended)
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
