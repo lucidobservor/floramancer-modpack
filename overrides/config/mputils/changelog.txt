@@ -71,7 +71,7 @@ Automation:
 §n1.1.1§r
 
 Minor Tweaks:
-• Added recipe for 2 logs -> 16 sticks
+• Added recipes to make sticks directly from logs and seeds from wheat
 
 Bugfixes:
 • Fixed blaze punch quest to only work in GoG Overworld (as initially intended)

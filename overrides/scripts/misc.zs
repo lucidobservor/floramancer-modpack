@@ -8,3 +8,6 @@ recipes.addShapeless("essentials_candle_lilypad", <essentials:candle_lilypad>,[<
 
 // Log to stick recipe
 recipes.addShaped("minecraft_stick_log", <minecraft:stick> * 16, [[<ore:logWood>], [<ore:logWood>]]);
+
+// Log to stick recipe
+recipes.addShapeless("seeds_from_wheat", <minecraft:wheat_seeds>, [<minecraft:wheat>], null, null);
