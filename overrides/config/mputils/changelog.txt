@@ -76,6 +76,11 @@ Minor Tweaks:
 Bugfixes:
 • Fixed blaze punch quest to only work in GoG Overworld (as initially intended)
 
+Mods Updated:
+• Botania
+• Botania Tweaks
+• Foamfix
+• JEI
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
