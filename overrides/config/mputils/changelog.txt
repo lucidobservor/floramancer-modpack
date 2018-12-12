@@ -68,6 +68,14 @@ Automation:
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
+§n1.1.3§r
+
+Minor Tweaks:
+• Now using Quark's food tooltip instead of AppleSkin's
+• Disabled several configuration options for AppleSkin for immersion
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
 §n1.1.2§r
 
 Reverted updates to Botania and Botania Tweaks due to it breaking existing petal apothecary automation.
