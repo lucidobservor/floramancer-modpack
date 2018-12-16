@@ -19,9 +19,9 @@ Garden of Glass:
 • Punching blazes to death yields more blaze powder.
 
 Exploration:
-• Craft an Antique Atlas before you go exploring so you don't get lost.
+• Craft an Antique Atlas before you go exploring so you don't get lost, and so you can easily fid your grave if you die.
 • The caves in this pack are enormous and largely interconnected. Leave a trail so you can find your way back out.
-• If you die, a Death Compass will spawn in your inventory. This will point you to the direction of your grave.
+• If you die, a craft a Soul Compass. This will point you to the direction of your grave.
 • Shift/Sneak while standing on top of your grave to retrieve your items.
 • Waystones generate in villages and are free to use, though they cannot be broken. Later in the game, you can craft your own waystones, and a warp stone to travel to any of them from anywhere for free.
 • Cobwebs can be destroyed easily with a torch.

@@ -74,6 +74,18 @@ Minor Tweaks:
 • Now using Quark's food tooltip instead of AppleSkin's
 • Disabled several configuration options for AppleSkin for immersion
 
+Mods Updated:
+• AutoRegLib
+• Quark
+
+Mods Added:
+• Quark Oddities
+
+Mods Removed:
+• Death Compass
+• Tomb Many Graves 2
+• Tomb Many Graves API
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 §n1.1.2§r
