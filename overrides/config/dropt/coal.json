@@ -3,10 +3,10 @@
 
 		{
 			"match": {
-				"drops": {
-					"drops": [
-						"minecraft:coal"
-					]
+				"blocks": {
+					"blocks": [
+						"minecraft:coal_ore:*"
+					] 
 				}
 			},
 			"drops": [

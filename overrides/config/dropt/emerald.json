@@ -3,10 +3,10 @@
 
 		{
 			"match": {
-				"drops": {
-					"drops": [
-						"minecraft:emerald"
-					]
+				"blocks": {
+					"blocks": [
+						"minecraft:emerald_ore:*"
+					] 
 				}
 			},
 			"drops": [

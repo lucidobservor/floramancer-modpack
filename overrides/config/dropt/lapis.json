@@ -3,10 +3,10 @@
 
 		{
 			"match": {
-				"drops": {
-					"drops": [
-						"ore:gemLapis"
-					]
+				"blocks": {
+					"blocks": [
+						"minecraft:lapis_ore:*"
+					] 
 				}
 			},
 			"drops": [
