@@ -1,7 +1,7 @@
 
 §lWelcome to Floramancer!§r
 
-In this pack, your goal is to fully automate every generating flower in Botania, despite the fact that all generating flora suffer passive decay. You'll need to produce one thousand mana pools worth of mana with every flower, so plan to have a lot of flowers running at all times. You can track your progress towards these goals in the Advancements Window (Default key "L").
+In this pack, your goal is to fully automate every generating flower in Botania, despite the fact that all generating flora suffer passive decay. You'll need to produce several hundred mana pools worth of mana with every flower, so plan to have a lot of flowers running at all times. You can track your progress towards these goals in the Advancements Window (Default key "L").
 
 Those are long term goals though. To start off, you'll want to start gathering your basic vanilla resources and mystical flowers. Read the Lexica Botania and follow the Botania advancements to start progressing through the mod. Some recipes are tweaked, but if you've played with Botania before, the basic progression is unchanged. Making a fully automatic mana generation setup is a lot harder in this pack, due to the passive flower decay, but it's entirely possible to do even before unlocking Elven technology! You may need to be more frugal with your mana though, at least to start with.
 

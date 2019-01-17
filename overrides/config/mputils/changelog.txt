@@ -25,10 +25,11 @@ Garden of Glass:
 • Punching blazes to death yields more blaze powder.
 
 Exploration:
-• Craft an Antique Atlas before you go exploring so you don't get lost.
+• Craft an Antique Atlas before you go exploring so you don't get lost, and so you can easily fid your grave if you die.
 • The caves in this pack are enormous and largely interconnected. Leave a trail so you can find your way back out.
-• If you die, a Death Compass will spawn in your inventory. This will point you to the direction of your grave.
-• Shift/Sneak while standing on top of your grave to retrieve your items.
+• If you die, a craft a Soul Compass. This will point you to the direction of your grave.
+• A Totem of Holding will spawn when you die. Punch it a few times to retrieve your items.
+• Saddles can be crafted and have many possible upgrades. Exploring the world by horse has never been easier!
 • Waystones generate in villages and are free to use, though they cannot be broken. Later in the game, you can craft your own waystones, and a warp stone to travel to any of them from anywhere for free.
 • Cobwebs can be destroyed easily with a torch.
 • Some structures in jungle and birch forest biomes contain creeper spawners. Use them for an easy source of gunpowder.
@@ -39,6 +40,7 @@ Transport:
 • Use minecarts to transport large amounts of mana quickly.
 • Minecarts can by dyed by shift-right clicking them with a vanilla dye.
 • There are several new kinds of rails to make constructing a rail network easier.
+• You can move chests and animals by using Carry On to pick them up.
 
 Mob Farming:
 • Wither skeletons drop wither skull fragments, even when not killed by a player.
@@ -72,6 +74,7 @@ Automation:
 
 Bugfixes:
 • Fixed polar bears dropping polar bear hide instead of leather
+• Changelog, Tips, and Tricks updated to reflect previous changes
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
