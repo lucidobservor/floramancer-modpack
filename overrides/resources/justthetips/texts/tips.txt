@@ -3,6 +3,7 @@ The Advancement page will provide some guidance through the pack. You can find i
 Some recipes are slightly modified. Check JEI or the Lexica Botania to find the new recipes.
 Use F7 to see the light levels on the ground and F9 to see the chunk borders.
 If you die, a craft a Soul Compass. This will point you to the direction of your grave.
+Need to find a specific biome? Craft a Nature's Compass.
 A Totem of Holding will spawn when you die. Punch it a few times to retrieve your items.
 Craft an Antique Atlas before you go exploring so you don't get lost and can easily find your graves.
 Incorporeal adds lots of utilities for expanding your Corporea system.
