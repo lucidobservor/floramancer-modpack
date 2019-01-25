@@ -1,9 +1,19 @@
+/*
+ * By default, the mod Earthworks adds a lot of intermediate crafting 
+ * components to all its recipes. This script removes the extraneous items and
+ * adds recipes that use the block forms of those items instead, where
+ * appropriate.
+ *
+ * Mods Required: Earthworks, JEI
+ * 
+ * Author: lucidbservor
+ */
 
 import crafttweaker.item.IIngredient;
 
 var waterContainer = (<minecraft:water_bucket> | <minecraft:potion>.withTag({Potion: "minecraft:water"})) as IIngredient;
 
-// Remove All Earthworks Tools
+// Remove All Earthworks Tools (not necessary when any other wrench is present)
 mods.jei.JEI.removeAndHide(<earthworks:tool_square>);
 mods.jei.JEI.removeAndHide(<earthworks:tool_hand_axe>);
 mods.jei.JEI.removeAndHide(<earthworks:tool_adz>);

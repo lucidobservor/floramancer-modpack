@@ -1,4 +1,16 @@
 
+/*
+ * By default, the mod Bear With Me adds different types of bear hide to the 
+ * drops of Minecraft polar bears and the three new types of bear added by the
+ * mod. Bear With Me then adds a recipe to convert each type of bear leather 
+ * into minecraft:leather. This script cuts out the middleman, and causes bears
+ * to drop leather directly.
+ *
+ * Mods Required: Bear With Me, LootTweaker
+ * 
+ * Author: lucidbservor
+ */
+
 import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.Functions;
 
@@ -25,6 +37,4 @@ blackBear.addItemEntryHelper(<minecraft:leather> * 1, 4, 0, [Functions.setCount(
 grizzlyBear.addItemEntryHelper(<minecraft:leather> * 1, 4, 0, [Functions.setCount(1, 4), Functions.lootingEnchantBonus(0, 1, 0)], []);
 pandaBear.addItemEntryHelper(<minecraft:leather> * 1, 4, 0, [Functions.setCount(1, 4), Functions.lootingEnchantBonus(0, 1, 0)], []);
 polarBear.addItemEntryHelper(<minecraft:leather> * 1, 4, 0, [Functions.setCount(1, 4), Functions.lootingEnchantBonus(0, 1, 0)], []);
-
-
 
