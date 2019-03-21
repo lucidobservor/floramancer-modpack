@@ -15,6 +15,7 @@ You can jump over fences, but mobs cannot!
 This pack doesn't have backpacks, but both barrels and shulker boxes keep their inventory when broken.
 The rare, tower-like structures in The End contain Enderman spawners! Move them back to the overworld for easier ender pearl farming.
 Certain structures in jungle and birch forest biomes contain creeper spawners. Use them for an easy source of gunpowder.
+Certain structures in swamp and roofed forest biomes contain witch spawners. Use them for an easy source of spider eyes, redstone, and glowstone.
 Cobwebs can be destroyed easily with a torch.
 Tired of trampling your crops? Enchant your boots with Feather Falling!
 Use the Redstone PCB for fine-grained control over how your redstone connects.
@@ -25,3 +26,5 @@ The invisibility status effect now ends if you make an attack or are discovered.
 Falling into the void won't kill you in Garden of Glass mode.
 Caves are enormous and largely interconnected. Leave a trail so you can find your way back out!
 Punching blazes to death yields more blaze powder in Garden of Glass mode.
+Blaze rods can be automated by killing blazes with a Livingwood Avatar.
+Spider eyes can be automated by killing spiders with a Livingwood Avatar.

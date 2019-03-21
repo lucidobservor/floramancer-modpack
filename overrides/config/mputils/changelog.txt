@@ -33,6 +33,7 @@ Exploration:
 • Waystones generate in villages and are free to use, though they cannot be broken. Later in the game, you can craft your own waystones, and a warp stone to travel to any of them from anywhere for free.
 • Cobwebs can be destroyed easily with a torch.
 • Some structures in jungle and birch forest biomes contain creeper spawners. Use them for an easy source of gunpowder.
+• Some structures in swamp and roofed forest biomes contain witch spawners. Use them for an easy source of spider eyes, redstone, and glowstone.
 • The rare, tower-like structures in The End contain Enderman spawners! Move them back to the overworld for easier ender pearl farming.
 
 Transport:
@@ -46,6 +47,7 @@ Mob Farming:
 • Wither skeletons drop wither skull fragments, even when not killed by a player.
 • You can move a skeleton spawner from the overworld to the Nether to turn it into a wither skeleton spawner
 • Blazes only drop blaze rods when killed by a player or livingwood avatar. This is expensive in terms of mana, so for blaze powder it is recommended that you create blazes with Fel Pumpkins instead.
+• Spiders and Cave Spiders will drop spider eyes when killed by a player or livingwood avatar. Alternatively, witches drop spider eyes very rarely even when not killed by a player.
 • The Wither can be fully automated, and doing so can produce a lot of experience.
 
 Mining:
@@ -71,6 +73,9 @@ Automation:
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 §n1.2.2§r
+
+Minor Tweaks:
+• Spider eyes now drop from spiders and cave spiders when killed by a livingwood avatar
 
 Bugfixes:
 • Fixed polar bears dropping polar bear hide instead of leather

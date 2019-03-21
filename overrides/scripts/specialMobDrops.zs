@@ -8,7 +8,6 @@ import crafttweaker.damage.IDamageSource;
 import mods.ctutils.entity.Experience;
 
 
-// Drop 5 extra xp for most hostile mobs
 val entityList = [
 	<entity:minecraft:cave_spider>,
 	<entity:minecraft:creeper>,
@@ -23,12 +22,33 @@ val entityList = [
 	<entity:minecraft:zombie_pigman>
 ] as IEntityDefinition[];
 
+val spiderEntityList = [
+	<entity:minecraft:cave_spider>,
+	<entity:minecraft:spider>
+] as IEntityDefinition[];
+
+// Drop 5 extra xp for most hostile mobs
 for entity in entityList {
     entity.addDropFunction(function(entity, dmgSource) {
 		spawnXpInWorld(entity, 3);
 		spawnXpInWorld(entity, 1);
 		spawnXpInWorld(entity, 1);
 		return null;
+	});
+}
+
+// Give spiders a 1 in 4 chance of dropping a spider eye if killed by livingwood avatar
+for entity in spiderEntityList {
+    entity.addDropFunction(function(entity, dmgSource) {
+		if (dmgSource.damageType == "generic") {
+			if (entity.world.time % 4 == 0) {
+				return <minecraft:spider_eye>;
+			} else {
+				return null;
+			}
+		} else {
+			return null;
+		}
 	});
 }
 
@@ -40,7 +60,6 @@ for entity in entityList {
 	spawnXpInWorld(entity, 7);
 	return null;
 });
-
 
 // Blazes drop 10 xp, and if killed by livingwood avatar, blaze rods
 <entity:minecraft:blaze>.addDropFunction(function(entity, dmgSource) {
@@ -59,6 +78,8 @@ for entity in entityList {
 		return null;
 	}
 });
+
+
 
 // Helper method to spawn xp in world
 function spawnXpInWorld (entity as IEntity, xp as int) {

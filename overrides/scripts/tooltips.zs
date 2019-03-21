@@ -13,3 +13,5 @@ creativeManaPool.addTooltip(format.gray("Check the upgraded Lexica for more info
 
 <minecraft:flower_pot>.addTooltip(format.gray("Try using with a comparator"));
 <minecraft:mycelium>.addTooltip(format.gray("Made from coarse dirt using the orechid terram"));
+<minecraft:blaze_rod>.addTooltip(format.gray("Drops from blazes if they are killed by a player or Livingwood Avatar"));
+<minecraft:spider_eye>.addTooltip(format.gray("Drops from spiders if they are killed by a player or Livingwood Avatar"));
