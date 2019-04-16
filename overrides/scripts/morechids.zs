@@ -21,7 +21,6 @@ petram.addRecipe(<minecraft:stone>, <minecraft:sandstone>, 20);
 petram.addRecipe(<minecraft:stone>, <minecraft:red_sandstone>, 20);
 petram.addRecipe(<minecraft:stone>, <minecraft:soul_sand>, 15);
 petram.addRecipe(<minecraft:stone>, <minecraft:netherrack>, 15);
-petram.addRecipe(<minecraft:stone>, <minecraft:sponge>, 4);
 
 petram.addRecipe(<minecraft:stone>, <earthworks:block_chalk>, 20);
 petram.addRecipe(<minecraft:stone>, <earthworks:block_slate>, 20);
