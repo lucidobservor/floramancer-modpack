@@ -40,9 +40,6 @@ mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_brown:*>);
 mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_green:*>);
 mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_black:*>);
 
-// Remove Deco Cobweb
-mods.jei.JEI.removeAndHide(<cobwebs:deco_web>);
-
 // Remove recipes for different stone types (in favor of morechids
 recipes.removeShapeless(<minecraft:stone:1>);
 recipes.removeShapeless(<minecraft:stone:3>);

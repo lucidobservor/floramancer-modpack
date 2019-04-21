@@ -76,6 +76,64 @@ Automation:
 
 Minor Tweaks:
 • Removed sponge blocks from the orechid petram, since that was breaking automated smooth stone setups
+• Fermented spider eyes can now use either kind of mushroom
+
+Mods Updated:
+• Antique Atlas
+• Aroma1997Core
+• Athenaeum
+• AutoRegLib
+• B.A.S.E
+• Bad Wither No Cookie - Reloaded
+• Better Advancements
+• Blockcraftery
+• BnBGamingCore
+• BNBGamingLib
+• Bookshelf
+• Botania (Version 357 -> 361 https://botaniamod.net/changelog.php#r1.10-361)
+• Botania Tweaks
+• Carry On
+• Clumps
+• ContentTweaker
+• CraftTweaker
+• Custom Main Menu
+• Dropt
+• EasierVillagerTrading
+• Familiar Fauna
+• FastFurnace
+• FastWorkbench
+• FoamFix for Minecraft
+• Game Stages
+• Horse Tweaks
+• Incorporeal
+• Inspirations
+• Iron Chests
+• Just Enough Items (JEI)
+• LootTweaker
+• MalisisCore
+• Mantle
+• ModTweaker
+• Mouse Tweaks
+• MPUtils
+• MPUtils Basic Tools
+• MTLib
+• MysticalLib
+• Placebo
+• Quark
+• Realistic Cobwebs
+• Recurrent Complex
+• Shadowfacts' Forgelin
+• SimpleHarvest
+• Smooth Font
+• Spartan Shields
+• TipTheScales
+• Toast Control
+• Trample Stopper
+• Triumph
+• VanillaFix
+• Wawla - What Are We Looking At
+• Wither Skeleton Tweaks
+• Worley's Caves
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
