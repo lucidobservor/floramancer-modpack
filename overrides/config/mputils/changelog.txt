@@ -82,7 +82,6 @@ Mods Updated:
 • Antique Atlas
 • Aroma1997Core
 • Athenaeum
-• AutoRegLib
 • B.A.S.E
 • Bad Wither No Cookie - Reloaded
 • Better Advancements
@@ -90,7 +89,7 @@ Mods Updated:
 • BnBGamingCore
 • BNBGamingLib
 • Bookshelf
-• Botania (Version 357 -> 361 https://botaniamod.net/changelog.php#r1.10-361)
+• Botania (Version 357 -> 360 https://botaniamod.net/changelog.php#r1.10-360)
 • Botania Tweaks
 • Carry On
 • Clumps
@@ -103,6 +102,7 @@ Mods Updated:
 • FastFurnace
 • FastWorkbench
 • FoamFix for Minecraft
+• Forgiving Void
 • Game Stages
 • Horse Tweaks
 • Incorporeal
@@ -113,13 +113,13 @@ Mods Updated:
 • MalisisCore
 • Mantle
 • ModTweaker
+• Morechids!
 • Mouse Tweaks
 • MPUtils
 • MPUtils Basic Tools
 • MTLib
 • MysticalLib
 • Placebo
-• Quark
 • Realistic Cobwebs
 • Recurrent Complex
 • Shadowfacts' Forgelin
@@ -134,6 +134,7 @@ Mods Updated:
 • Wawla - What Are We Looking At
 • Wither Skeleton Tweaks
 • Worley's Caves
+• Worse Barrels
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
