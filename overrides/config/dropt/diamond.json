@@ -14,7 +14,25 @@
 					"selector": {
 						"weight": {
 							"value": 2
+						},
+						"silktouch": "REQUIRED"
+					},
+					"item": {
+						"items": [
+							"minecraft:diamond_ore"
+						],
+						"quantity": {
+							"min": 1,
+							"max": 1
 						}
+					}
+				},
+				{
+					"selector": {
+						"weight": {
+							"value": 2
+						},
+						"silktouch": "EXCLUDED"
 					},
 					"item": {
 						"items": [
