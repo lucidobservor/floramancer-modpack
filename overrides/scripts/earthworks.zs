@@ -63,3 +63,4 @@ recipes.addShapeless("earthworks_block_cob", <earthworks:block_cob> * 2,
 // Furnace recipes
 furnace.remove(<earthworks:item_quicklime>);
 furnace.addRecipe(<earthworks:item_quicklime>, <earthworks:block_chalk>, 0.1);
+furnace.addRecipe(<minecraft:dirt>, <earthworks:block_mud>);
