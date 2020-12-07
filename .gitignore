@@ -8,6 +8,7 @@ overrides/config/jei/worldSettings.cfg
 overrides/config/BiomeTweaker/output/
 overrides/config/presets
 overrides/config/antiqueatlas/biome_textures.json
+overrides/config/codechicken/supporters.json
 
 overrides/resources/pack.mcmeta
 
