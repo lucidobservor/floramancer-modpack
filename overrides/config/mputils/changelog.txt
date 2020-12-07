@@ -72,6 +72,20 @@ Automation:
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
+§n1.3.3§r
+
+Mods Updated:
+• Botania
+• Botania Tweaks
+• Incorporeal
+
+Bugfixes:
+• Moved mud->dirt recipe from anvil smashing to furnace, because the former didn't work
+• Changed Quark config to allow Totem of Holding to be claimed by player
+• Guardians now drop XP when not killed by player
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
 §n1.3.2§r
 
 Mods Removed:
