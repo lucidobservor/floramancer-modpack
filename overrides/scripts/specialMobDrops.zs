@@ -12,6 +12,8 @@ val entityList = [
 	<entity:minecraft:cave_spider>,
 	<entity:minecraft:creeper>,
 	<entity:minecraft:enderman>,
+	<entity:minecraft:guardian>,
+	<entity:minecraft:elder_guardian>,
 	<entity:minecraft:husk>,
 	<entity:minecraft:skeleton>,
 	<entity:minecraft:spider>,
