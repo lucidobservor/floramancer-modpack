@@ -78,7 +78,13 @@ Forge:
 • Updated to 14.23.5.2854 (latest stable for Minecraft 1.12.2)
 
 Mod Update Notes:
-• CraftingStation - As part of a bugfix update, all existing Crafting Stations will be removed from the world. We apologize for the inconvenience.
+• CraftingStation 
+    - As part of a bugfix update, all existing Crafting Stations will be removed from the world. We apologize for the inconvenience.
+• Inspirations
+    - New Items: photometer, beacon compass
+	- Bone meal can now be used to increase the rate of grass and mycelium spread
+	- Skeletons now drop skulls, and cave spiders drop webs, both as rare drops
+	- Colored Portals! Portals will color from placing blocks such as stained glass under the frame
 
 Mods Updated:
 • Antique Atlas
@@ -104,8 +110,19 @@ Mods Updated:
 • FastWorkbench
 • FoamFix
 • Forgiving Void
+• Game Stages
+• Inspirations
 • Mystical Lib
+• JEI Integration
+• Just Enough Resources
+• KleeSlabs
+• Login Shield
+• Mantle
+• ModTweaker
+• More Overlays
+• Recipe Stages
 • Shadowfact's Forgelin
+• Simple Harvest
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
