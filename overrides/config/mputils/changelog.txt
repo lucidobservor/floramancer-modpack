@@ -85,6 +85,8 @@ Mod Update Notes:
 	- Bone meal can now be used to increase the rate of grass and mycelium spread
 	- Skeletons now drop skulls, and cave spiders drop webs, both as rare drops
 	- Colored Portals! Portals will color from placing blocks such as stained glass under the frame
+• Worse Barrels
+	- Added concrete and terracotta barrels, in all 16 colors
 
 Mods Updated:
 • Antique Atlas
@@ -116,13 +118,27 @@ Mods Updated:
 • JEI Integration
 • Just Enough Resources
 • KleeSlabs
+• Iron Chests
 • Login Shield
 • Mantle
 • ModTweaker
 • More Overlays
+• Nature's Compass
+• Pretty Beaches
 • Recipe Stages
+• Redstone PCB
 • Shadowfact's Forgelin
 • Simple Harvest
+• Simple Trophies
+• Smooth Font
+• Sound Filters
+• Toast Control
+• Triumph
+• VanillaFix
+• WAWLA
+• Waystones
+• Worley's Caves
+• Worse Barrels
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
