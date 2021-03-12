@@ -79,6 +79,12 @@ Forge:
 
 Mods Updated (Bugfixes):
 • Antique Atlas
+• AppleSkin
+• Bad Wither No Cookie
+• Base
+• Better Invisibility
+• BiomeTweaker
+• Bookshelf
 • Comforts
 
 ------------------------------------------------------------------------------------------------------------------------------------------
