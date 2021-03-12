@@ -97,7 +97,15 @@ Mods Updated:
 • Comforts
 • Controlling
 • Crafting Station
+• Custom Main Menu
+• Ding
+• Essentials
+• Farseek
+• FastWorkbench
+• FoamFix
+• Forgiving Void
 • Mystical Lib
+• Shadowfact's Forgelin
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
