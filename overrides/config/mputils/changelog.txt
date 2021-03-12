@@ -77,15 +77,27 @@ Automation:
 Forge:
 • Updated to 14.23.5.2854 (latest stable for Minecraft 1.12.2)
 
-Mods Updated (Bugfixes):
+Mod Update Notes:
+• CraftingStation - As part of a bugfix update, all existing Crafting Stations will be removed from the world. We apologize for the inconvenience.
+
+Mods Updated:
 • Antique Atlas
 • AppleSkin
 • Bad Wither No Cookie
 • Base
 • Better Invisibility
 • BiomeTweaker
+• BlockCraftery
 • Bookshelf
+• Carry On
+• Charset Lib
+• Charset Transport
+• ChickenChunks
+• CodeChickenLib
 • Comforts
+• Controlling
+• Crafting Station
+• Mystical Lib
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
