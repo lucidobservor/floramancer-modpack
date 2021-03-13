@@ -85,10 +85,20 @@ Mod Update Notes:
 	- Bone meal can now be used to increase the rate of grass and mycelium spread
 	- Skeletons now drop skulls, and cave spiders drop webs, both as rare drops
 	- Colored Portals! Portals will color from placing blocks such as stained glass under the frame
+• Quark
+    - Updated from r1.5-135 to r1.6-179 (Full changelogs: https://ftb.gamepedia.com/Quark/Changelog)
+	- Automation: Chain Linkage, Color Slime, Gravisand, and Redstone Inductor
+	- Building: Turf block, slab, and stairs
+	- Decoration: Grates, ropes, ability to place blaze rods and tie leads to fences
+	- Miscellaneous: Horse whistle, Pickarang, reacharound placing
+	- World: new blocks, Slate and Jasper
 • Worse Barrels
 	- Added concrete and terracotta barrels, in all 16 colors
 
-Mods Updated:
+Recipe Changes:
+• Added blossoming saplings and swamp oak saplings to the sapling alchemy rotation
+
+Mods Updated (mostly bugfixes):
 • Antique Atlas
 • AppleSkin
 • Bad Wither No Cookie
@@ -125,10 +135,10 @@ Mods Updated:
 • More Overlays
 • Nature's Compass
 • Pretty Beaches
+• Quark
 • Recipe Stages
 • Redstone PCB
 • Shadowfact's Forgelin
-• Simple Harvest
 • Simple Trophies
 • Smooth Font
 • Sound Filters
@@ -139,6 +149,9 @@ Mods Updated:
 • Waystones
 • Worley's Caves
 • Worse Barrels
+
+Mods Removed:
+• Simple Harvest (feature pulled into Quark)
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 

@@ -110,7 +110,9 @@ ManaInfusion.addAlchemy(<traverse:orange_autumnal_sapling>, <traverse:red_autumn
 ManaInfusion.addAlchemy(<traverse:yellow_autumnal_sapling>, <traverse:orange_autumnal_sapling>, 120);
 ManaInfusion.addAlchemy(<traverse:brown_autumnal_sapling>, <traverse:yellow_autumnal_sapling>, 120);
 ManaInfusion.addAlchemy(<traverse:fir_sapling>, <traverse:brown_autumnal_sapling>, 120);
-ManaInfusion.addAlchemy(<minecraft:sapling>, <traverse:fir_sapling>, 120);
+ManaInfusion.addAlchemy(<quark:variant_sapling>, <traverse:fir_sapling>, 120);
+ManaInfusion.addAlchemy(<quark:variant_sapling:1>, <quark:variant_sapling>, 120);
+ManaInfusion.addAlchemy(<minecraft:sapling>, <quark:variant_sapling:1>, 120);
 
 // Cycle Quark Runes
 ManaInfusion.addAlchemy(<quark:rune:1>, <quark:rune:0>, 400);
