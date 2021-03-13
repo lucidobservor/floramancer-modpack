@@ -96,14 +96,16 @@ RuneAltar.addRecipe(<botania:rune:15>, [<ore:manaDiamond>, <ore:manaDiamond>, <o
     Mana Infustion Tweaks
  ==========================*/
 
-// Autumnal Leaves Duplication
+// Traverse/Quark Leaves Duplication
 ManaInfusion.addConjuration(<traverse:red_autumnal_leaves> * 2, <traverse:red_autumnal_leaves>, 2000);
 ManaInfusion.addConjuration(<traverse:orange_autumnal_leaves> * 2, <traverse:orange_autumnal_leaves>, 2000);
 ManaInfusion.addConjuration(<traverse:yellow_autumnal_leaves> * 2, <traverse:yellow_autumnal_leaves>, 2000);
 ManaInfusion.addConjuration(<traverse:brown_autumnal_leaves> * 2, <traverse:brown_autumnal_leaves>, 2000);
 ManaInfusion.addConjuration(<traverse:fir_leaves> * 2, <traverse:fir_leaves>, 2000);
+ManaInfusion.addConjuration(<quark:variant_leaves> * 2, <quark:variant_leaves>, 2000);
+ManaInfusion.addConjuration(<quark:variant_leaves:1> * 2, <quark:variant_leaves:1>, 2000);
 
-// Add Traverse Saplings to Alchemy rotation
+// Add Traverse/Quark Saplings to Alchemy rotation
 ManaInfusion.removeRecipe(<minecraft:sapling>);
 ManaInfusion.addAlchemy(<traverse:red_autumnal_sapling>, <minecraft:sapling:5>, 120);
 ManaInfusion.addAlchemy(<traverse:orange_autumnal_sapling>, <traverse:red_autumnal_sapling>, 120);
