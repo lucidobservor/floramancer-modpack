@@ -116,7 +116,7 @@ Lexicon.addAlchemyPage("botania.page.manaAlchemy4", "botania.entry.manaAlchemy",
 	[<quark:variant_sapling:1>, <quark:variant_sapling>, <traverse:fir_sapling>, <traverse:brown_autumnal_sapling>, <traverse:yellow_autumnal_sapling>, <traverse:orange_autumnal_sapling>, <traverse:red_autumnal_sapling>, <minecraft:sapling:5>, <minecraft:sapling:4>, <minecraft:sapling:3>, <minecraft:sapling:2>, <minecraft:sapling:1>, <minecraft:sapling>] as IIngredient[], 
 	[120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]);
 	
-Lexicon.removePage("botania.entry.manaAlchemy", 9);
+Lexicon.removePage("botania.entry.manaAlchemy", 8);
 Lexicon.addAlchemyPage("botania.page.manaAlchemy9B", "botania.entry.manaAlchemy", 9, 
 	[ <minecraft:vine>, <minecraft:waterlily>, <quark:roots>] as IItemStack[], 
 	[<minecraft:waterlily>, <quark:roots>, <minecraft:vine>] as IIngredient[], 

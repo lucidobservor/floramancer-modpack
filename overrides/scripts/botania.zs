@@ -141,6 +141,9 @@ ManaInfusion.addAlchemy(<minecraft:vine>, <minecraft:waterlily>, 320);
 ManaInfusion.addAlchemy(<quark:roots>, <minecraft:vine>, 320);
 ManaInfusion.addAlchemy(<minecraft:waterlily>, <quark:roots>, 320);
 
+// Sunny Quartz to Elder Prismarine
+ManaInfusion.addAlchemy(<quark:elder_prismarine>, <botania:quartztypesunny>, 4000);
+
 // Notch Apple to Overgrowth Seed
 ManaInfusion.addAlchemy(<botania:overgrowthseed>, <minecraft:golden_apple:1>, 50000);
 
