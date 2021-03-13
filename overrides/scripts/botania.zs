@@ -92,7 +92,7 @@ RuneAltar.addRecipe(<botania:rune:14>, [<ore:manaDiamond>, <ore:manaDiamond>, <o
 RuneAltar.addRecipe(<botania:rune:15>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:quartzLavender>, <ore:quartzLavender>, <ore:runeSummerB>, <ore:runeFireB>], 12000);
 
 // Heart of Diamond
-RuneAltar.addRecipe(<quark:diamond_heart>, [<minecraft:diamond>, <quark:crystal:*>, <minecraft:stone:*>, <minecraft:diamond>, <quark:crystal:*>, <minecraft:stone:*>], 12000);
+RuneAltar.addRecipe(<quark:diamond_heart>, [<minecraft:diamond>, <minecraft:stone:*>, <ore:runeEarthB>, <minecraft:stone:*>, <minecraft:diamond>, <minecraft:stone:*>, <ore:runeEarthB>, <minecraft:stone:*>], 12000);
 
 
 /*==========================
