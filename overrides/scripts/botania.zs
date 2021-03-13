@@ -1,5 +1,6 @@
 
 import mods.botania.Apothecary;
+import mods.botania.ElvenTrade;
 import mods.botania.Knowledge;
 import mods.botania.Lexicon;
 import mods.botania.ManaInfusion;
@@ -39,6 +40,21 @@ Apothecary.addRecipe(shulkmenot,
 Apothecary.addRecipe(dandelifeon,
 	[<ore:petalPurple>, <ore:petalPurple>, <ore:petalLime>, <ore:petalGreen>,
 	<ore:runeWaterB>, <ore:runeFireB>, <ore:runeEarthB>, <ore:runeAirB>, <ore:runeSpringB>, <ore:runeSummerB>, <ore:runeAutumnB>, <ore:runeWinterB>, <ore:elvenPixieDust>, <ore:bEnderAirBottle>]);
+	
+/*==========================
+  Elven Trade
+ ==========================*/
+
+ElvenTrade.addRecipe([<quark:crystal:0>], [<minecraft:stained_glass:0> * 2]);
+ElvenTrade.addRecipe([<quark:crystal:1>], [<minecraft:stained_glass:14> * 2]);
+ElvenTrade.addRecipe([<quark:crystal:2>], [<minecraft:stained_glass:1> * 2]);
+ElvenTrade.addRecipe([<quark:crystal:3>], [<minecraft:stained_glass:4> * 2]);
+ElvenTrade.addRecipe([<quark:crystal:4>], [<minecraft:stained_glass:5> * 2]);
+ElvenTrade.addRecipe([<quark:crystal:5>], [<minecraft:stained_glass:9> * 2]);
+ElvenTrade.addRecipe([<quark:crystal:6>], [<minecraft:stained_glass:11> * 2]);
+ElvenTrade.addRecipe([<quark:crystal:7>], [<minecraft:stained_glass:2> * 2]);
+ElvenTrade.addRecipe([<quark:crystal:8>], [<minecraft:stained_glass:15> * 2]);
+ 
 	
 /*==========================
   Runic Altar Recipe Tweaks
