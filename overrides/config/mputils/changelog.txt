@@ -96,7 +96,7 @@ Mod Update Notes:
 	- Added concrete and terracotta barrels, in all 16 colors
 
 Recipe Changes:
-• Added blossoming saplings and swamp oak saplings to the sapling alchemy rotation
+• Added Quark's variant tree saplings to the alchemy catalyst rotation, and added conjuration catalyst recipes for their leaves
 
 Mods Updated (mostly bugfixes):
 • Antique Atlas
