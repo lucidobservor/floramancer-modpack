@@ -134,6 +134,13 @@ ManaInfusion.addAlchemy(<quark:rune:14>, <quark:rune:13>, 400);
 ManaInfusion.addAlchemy(<quark:rune:15>, <quark:rune:14>, 400);
 ManaInfusion.addAlchemy(<quark:rune:0>, <quark:rune:15>, 400);
 
+// Add Cave Roots to Alchemy rotation
+ManaInfusion.removeRecipe(<minecraft:waterlily>);
+ManaInfusion.removeRecipe(<minecraft:vine>);
+ManaInfusion.addAlchemy(<minecraft:vine>, <minecraft:waterlily>, 320);
+ManaInfusion.addAlchemy(<quark:roots>, <minecraft:vine>, 320);
+ManaInfusion.addAlchemy(<minecraft:waterlily>, <quark:roots>, 320);
+
 // Notch Apple to Overgrowth Seed
 ManaInfusion.addAlchemy(<botania:overgrowthseed>, <minecraft:golden_apple:1>, 50000);
 

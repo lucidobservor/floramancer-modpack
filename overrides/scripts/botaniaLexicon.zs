@@ -116,6 +116,12 @@ Lexicon.addAlchemyPage("botania.page.manaAlchemy4", "botania.entry.manaAlchemy",
 	[<quark:variant_sapling:1>, <quark:variant_sapling>, <traverse:fir_sapling>, <traverse:brown_autumnal_sapling>, <traverse:yellow_autumnal_sapling>, <traverse:orange_autumnal_sapling>, <traverse:red_autumnal_sapling>, <minecraft:sapling:5>, <minecraft:sapling:4>, <minecraft:sapling:3>, <minecraft:sapling:2>, <minecraft:sapling:1>, <minecraft:sapling>] as IIngredient[], 
 	[120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]);
 	
+Lexicon.removePage("botania.entry.manaAlchemy", 9);
+Lexicon.addAlchemyPage("botania.page.manaAlchemy9B", "botania.entry.manaAlchemy", 9, 
+	[ <minecraft:vine>, <minecraft:waterlily>, <quark:roots>] as IItemStack[], 
+	[<minecraft:waterlily>, <quark:roots>, <minecraft:vine>] as IIngredient[], 
+	[320, 320, 320]);
+	
 // Cycle quark runes
 Lexicon.addAlchemyPage("botania.page.manaAlchemy28", "botania.entry.manaAlchemy", 28,
 	[<quark:rune:1>, <quark:rune:2>, <quark:rune:3>, <quark:rune:4>, <quark:rune:5>, <quark:rune:6>, <quark:rune:7>, <quark:rune:8>, <quark:rune:9>, <quark:rune:10>, <quark:rune:11>, <quark:rune:12>, <quark:rune:13>, <quark:rune:14>, <quark:rune:15>, <quark:rune:0>] as IItemStack[], 
