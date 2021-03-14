@@ -1,0 +1,39 @@
+{
+  "block_pools" :
+  [
+    {
+      "name": "Glowcelium Glowshroom",
+      "type":
+      {
+        "type": "block",
+        "name": "quark:glowcelium"
+      },
+      "clicktype": "rightclick",
+      "properties":
+      [
+        {
+          "type": "swing_hand",
+		  "disableJEI": true
+        },
+        {
+          "type": "drop_items"
+        },
+		{
+		  "type": "require_sneak"
+		}
+      ],
+      "drops": [
+        {
+          "name": "quark:glowshroom",
+          "weight": 2
+        },
+        {
+          "name": "botania:manaresource",
+		  "meta": 21,
+          "weight": 18
+        }
+      ],
+      "messages": []
+    }
+  ]
+}
