@@ -32,6 +32,8 @@ petram.addRecipe(<minecraft:stone>, <coralreef:reef:1>, 5);
 
 petram.addRecipe(<minecraft:stone>, <quark:basalt>, 20);
 petram.addRecipe(<minecraft:stone>, <quark:marble>, 20);
+petram.addRecipe(<minecraft:stone>, <quark:slate>, 20);
+petram.addRecipe(<minecraft:stone>, <quark:jasper>, 20);
 petram.addRecipe(<minecraft:stone>, <quark:limestone>, 20);
 petram.addRecipe(<minecraft:stone>, <quark:biome_cobblestone:0>, 8);
 petram.addRecipe(<minecraft:stone>, <quark:biome_cobblestone:1>, 8);
