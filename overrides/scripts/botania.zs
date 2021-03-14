@@ -135,6 +135,14 @@ ManaInfusion.addAlchemy(<quark:variant_sapling>, <traverse:fir_sapling>, 120);
 ManaInfusion.addAlchemy(<quark:variant_sapling:1>, <quark:variant_sapling>, 120);
 ManaInfusion.addAlchemy(<minecraft:sapling>, <quark:variant_sapling:1>, 120);
 
+// Add Inspirations flowers to Alchemy rotation
+ManaInfusion.removeRecipe(<minecraft:yellow_flower>);
+ManaInfusion.addAlchemy(<inspirations:flower:0>, <minecraft:double_plant:5>, 400);
+ManaInfusion.addAlchemy(<inspirations:flower:1>, <inspirations:flower:0>, 400);
+ManaInfusion.addAlchemy(<inspirations:flower:2>, <inspirations:flower:1>, 400);
+ManaInfusion.addAlchemy(<inspirations:flower:3>, <inspirations:flower:2>, 400);
+ManaInfusion.addAlchemy(<minecraft:yellow_flower>, <inspirations:flower:3>, 400);
+
 // Cycle Quark Runes
 ManaInfusion.addAlchemy(<quark:rune:1>, <quark:rune:0>, 400);
 ManaInfusion.addAlchemy(<quark:rune:2>, <quark:rune:1>, 400);

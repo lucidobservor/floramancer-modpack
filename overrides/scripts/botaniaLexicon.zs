@@ -116,11 +116,19 @@ Lexicon.addAlchemyPage("botania.page.manaAlchemy4", "botania.entry.manaAlchemy",
 	[<quark:variant_sapling:1>, <quark:variant_sapling>, <traverse:fir_sapling>, <traverse:brown_autumnal_sapling>, <traverse:yellow_autumnal_sapling>, <traverse:orange_autumnal_sapling>, <traverse:red_autumnal_sapling>, <minecraft:sapling:5>, <minecraft:sapling:4>, <minecraft:sapling:3>, <minecraft:sapling:2>, <minecraft:sapling:1>, <minecraft:sapling>] as IIngredient[], 
 	[120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]);
 	
+// Add Cave Roots to Alchemy rotation
 Lexicon.removePage("botania.entry.manaAlchemy", 8);
 Lexicon.addAlchemyPage("botania.page.manaAlchemy9B", "botania.entry.manaAlchemy", 9, 
 	[ <minecraft:vine>, <minecraft:waterlily>, <quark:roots>] as IItemStack[], 
 	[<minecraft:waterlily>, <quark:roots>, <minecraft:vine>] as IIngredient[], 
 	[320, 320, 320]);
+
+// Add Inspirations flowers to Alchemy rotation
+Lexicon.removePage("botania.entry.manaAlchemy", 24);
+Lexicon.addAlchemyPage("botania.page.manaAlchemy25", "botania.entry.manaAlchemy", 26, 
+	[<minecraft:red_flower>, <minecraft:red_flower:1>, <minecraft:red_flower:2>, <minecraft:red_flower:3>, <minecraft:red_flower:4>, <minecraft:red_flower:5>, <minecraft:red_flower:6>, <minecraft:red_flower:7>, <minecraft:red_flower:8>, <minecraft:double_plant>, <minecraft:double_plant:1>, <minecraft:double_plant:4>, <minecraft:double_plant:5>, <inspirations:flower:0>, <inspirations:flower:1>, <inspirations:flower:2>, <inspirations:flower:3>, <minecraft:yellow_flower>] as IItemStack[], 
+	[<minecraft:yellow_flower>, <minecraft:red_flower>, <minecraft:red_flower:1>, <minecraft:red_flower:2>, <minecraft:red_flower:3>, <minecraft:red_flower:4>, <minecraft:red_flower:5>, <minecraft:red_flower:6>, <minecraft:red_flower:7>, <minecraft:red_flower:8>, <minecraft:double_plant>, <minecraft:double_plant:1>, <minecraft:double_plant:4>, <minecraft:double_plant:5>, <inspirations:flower:0>, <inspirations:flower:1>, <inspirations:flower:2>, <inspirations:flower:3>] as IIngredient[], 
+	[400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400]);
 	
 // Cycle quark runes
 Lexicon.addAlchemyPage("botania.page.manaAlchemy28", "botania.entry.manaAlchemy", 28,

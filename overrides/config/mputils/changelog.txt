@@ -95,8 +95,11 @@ Mod Update Notes:
 • Worse Barrels
 	- Added concrete and terracotta barrels, in all 16 colors
 
-Recipe Changes:
-• Added Quark's variant tree saplings to the alchemy catalyst rotation, and added conjuration catalyst recipes for their leaves
+Enchancements:
+• All new blocks/items from Quark have received GoG compatible recipes
+• Added alchemy catalyst recipe for Inspirations flowers
+• Added Elven Gateway recipe for creating Quark cave crystals out of stained glass
+• Enchanted soil can now be picked up with Silk Touch
 
 Mods Updated (mostly bugfixes):
 • Antique Atlas
