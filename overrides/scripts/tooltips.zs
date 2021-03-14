@@ -11,6 +11,7 @@ creativeManaPool.addTooltip(format.gray("Check the upgraded Lexica for more info
 <quark:tallow>.addTooltip(format.gray("Dropped by pigs"));
 <quark:soul_bead>.addTooltip(format.gray("Dropped by wraiths"));
 <quark:soul_powder>.addTooltip(format.gray("Used to find the nearest Nether Fortress"));
+<quark:glowcelium>.addTooltip(format.gray("Use mana in a bottle on a block of mycelium"));
 
 <minecraft:flower_pot>.addTooltip(format.gray("Try using with a comparator"));
 <minecraft:mycelium>.addTooltip(format.gray("Made from coarse dirt using the orechid terram"));

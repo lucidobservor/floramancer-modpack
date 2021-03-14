@@ -1,0 +1,35 @@
+{
+  "block_pools" :
+  [
+    {
+      "name": "Glowcelium",
+      "type":
+      {
+        "type": "block",
+        "name": "minecraft:mycelium"
+      },
+      "clicktype": "rightclick",
+      "properties":
+      [
+        {
+          "type": "require_item",
+          "name": "botania:manabottle"
+        },
+        {
+          "type": "consume_item",
+          "amount": 1
+        },
+        {
+          "type": "swing_hand",
+		  "disableJEI": true
+        },
+		{
+          "type": "consume_block",
+          "name": "quark:glowcelium"
+        }
+      ],
+      "drops": [],
+      "messages": []
+    }
+  ]
+}
