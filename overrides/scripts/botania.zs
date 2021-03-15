@@ -40,7 +40,9 @@ ManaInfusion.addAlchemy(<inspirations:flower:0>, <minecraft:double_plant:5>, 400
 ManaInfusion.addAlchemy(<inspirations:flower:1>, <inspirations:flower:0>, 400);
 ManaInfusion.addAlchemy(<inspirations:flower:2>, <inspirations:flower:1>, 400);
 ManaInfusion.addAlchemy(<inspirations:flower:3>, <inspirations:flower:2>, 400);
-ManaInfusion.addAlchemy(<minecraft:yellow_flower>, <inspirations:flower:3>, 400);
+ManaInfusion.addAlchemy(<futuremc:lily_of_the_valley>, <inspirations:flower:3>, 400);
+ManaInfusion.addAlchemy(<futuremc:cornflower>, <futuremc:lily_of_the_valley>, 400);
+ManaInfusion.addAlchemy(<minecraft:yellow_flower>, <futuremc:cornflower>, 400);
 
 // Cycle Quark Runes
 ManaInfusion.addAlchemy(<quark:rune:1>, <quark:rune:0>, 400);
