@@ -103,6 +103,11 @@ ManaInfusion.addInfusion(<botania:tinypotato>, <minecraft:potato>, 50);
             Other
  =========================*/
  
+// Add Ancient Debris to orechid petram
+mods.botania.OrechidIgnem.removeOre(<ore:oreQuartz>);
+mods.botania.OrechidIgnem.addOre(<ore:oreAncientDebris>, 148);
+mods.botania.OrechidIgnem.addOre(<ore:oreQuartz>, 19600);
+ 
 // GoG recipes that should be available in all world types
 if(!(loadedMods in "gardenofglass")) {
     ManaInfusion.addAlchemy(<minecraft:prismarine_shard>, <minecraft:quartz>, 1000);
