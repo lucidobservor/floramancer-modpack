@@ -74,10 +74,11 @@ Automation:
 
 §n1.4.0§r
 
-Forge:
+General:
 • Updated to 14.23.5.2854 (latest stable for Minecraft 1.12.2)
+• Updated nearly every mod (see bottom of changelog for full list)
 
-Mod Update Notes:
+Important Mod Update Notes:
 • CraftingStation 
     - As part of a bugfix update, all existing Crafting Stations will be removed from the world. We apologize for the inconvenience.
 • Inspirations
@@ -101,6 +102,12 @@ Enchancements:
 • Added Elven Gateway recipe for creating Quark cave crystals out of stained glass
 • Enchanted soil can now be picked up with Silk Touch
 • Refactored how one gets sponge, coral blocks, and coral plants
+
+Mods Added:
+• Backported Flora
+
+Mods Removed:
+• Simple Harvest (feature pulled into Quark)
 
 Mods Updated (mostly bugfixes):
 • Antique Atlas
@@ -153,9 +160,6 @@ Mods Updated (mostly bugfixes):
 • Waystones
 • Worley's Caves
 • Worse Barrels
-
-Mods Removed:
-• Simple Harvest (feature pulled into Quark)
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
