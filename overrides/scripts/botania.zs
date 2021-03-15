@@ -80,6 +80,14 @@ ManaInfusion.addAlchemy(<coralreef:reef>, <minecraft:sponge>, 400);
 ManaInfusion.addAlchemy(<coralreef:reef:1>, <coralreef:reef>, 400);
 ManaInfusion.addAlchemy(<backportedflora:dried_kelp_block>, <coralreef:reef:1>, 400);
 
+// Cycle apples and sweet berries
+ManaInfusion.addAlchemy(<futuremc:sweet_berries>, <minecraft:apple>, 400);
+ManaInfusion.addAlchemy(<minecraft:apple>, <futuremc:sweet_berries>, 400);
+
+// Cycle bamboo and sugar cane
+ManaInfusion.addAlchemy(<futuremc:bamboo>, <minecraft:reeds>, 400);
+ManaInfusion.addAlchemy(<minecraft:reeds>, <futuremc:bamboo>, 400);
+
 // Random one offs
 ManaInfusion.addAlchemy(<quark:elder_prismarine>, <botania:quartztypesunny>, 4000);
 ManaInfusion.addAlchemy(<botania:overgrowthseed>, <minecraft:golden_apple:1>, 50000);
