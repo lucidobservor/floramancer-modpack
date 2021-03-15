@@ -1,6 +1,4 @@
 
-import mods.botania.Apothecary;
-import mods.botania.ElvenTrade;
 import mods.botania.Knowledge;
 import mods.botania.Lexicon;
 import mods.botania.ManaInfusion;
@@ -13,48 +11,6 @@ import mods.botaniatweaks.AgglomerationMultiblock;
 
 import crafttweaker.item.IIngredient;
 
-
-/*==========================
-  Apothecary Recipe Tweaks
- ==========================*/
-
-Apothecary.removeRecipe(kekimurus);
-Apothecary.removeRecipe(munchdew);
-Apothecary.removeRecipe(narslimmus);
-Apothecary.removeRecipe(dandelifeon);
-Apothecary.removeRecipe(shulkmenot);
-
-// Generating Flora
-Apothecary.addRecipe(munchdew,
-	[<ore:petalLime>, <ore:petalLime>, <ore:petalRed>, <ore:petalRed>, <ore:petalGreen>,
-	<ore:runeGluttonyB>, <ore:runeWaterB>]);
-Apothecary.addRecipe(kekimurus,
-	[<ore:petalWhite>, <ore:petalWhite>, <ore:petalOrange>, <ore:petalOrange>, <ore:petalBrown>, <ore:petalBrown>,
-	<ore:runeGluttonyB>, <ore:runeSpringB>, <ore:elvenPixieDust>]);
-Apothecary.addRecipe(narslimmus,
-	[<ore:petalLime>, <ore:petalLime>, <ore:petalGreen>, <ore:petalGreen>, <ore:petalBlack>,
-	<ore:runeAutumnB>, <ore:runeWaterB>]);
-Apothecary.addRecipe(shulkmenot,
-	[<ore:petalPurple>, <ore:petalPurple>, <ore:petalMagenta>, <ore:petalMagenta>, <ore:petalLightGray>,
-	<ore:runeEnvyB>, <ore:runeWrathB>, <ore:runeAirB>, <ore:elvenPixieDust>, <ore:bEnderAirBottle>]);
-Apothecary.addRecipe(dandelifeon,
-	[<ore:petalPurple>, <ore:petalPurple>, <ore:petalLime>, <ore:petalGreen>,
-	<ore:runeWaterB>, <ore:runeFireB>, <ore:runeEarthB>, <ore:runeAirB>, <ore:runeSpringB>, <ore:runeSummerB>, <ore:runeAutumnB>, <ore:runeWinterB>, <ore:elvenPixieDust>, <ore:bEnderAirBottle>]);
-	
-/*==========================
-  Elven Trade
- ==========================*/
-
-ElvenTrade.addRecipe([<quark:crystal:0>], [<minecraft:stained_glass:0> * 2]);
-ElvenTrade.addRecipe([<quark:crystal:1>], [<minecraft:stained_glass:14> * 2]);
-ElvenTrade.addRecipe([<quark:crystal:2>], [<minecraft:stained_glass:1> * 2]);
-ElvenTrade.addRecipe([<quark:crystal:3>], [<minecraft:stained_glass:4> * 2]);
-ElvenTrade.addRecipe([<quark:crystal:4>], [<minecraft:stained_glass:5> * 2]);
-ElvenTrade.addRecipe([<quark:crystal:5>], [<minecraft:stained_glass:9> * 2]);
-ElvenTrade.addRecipe([<quark:crystal:6>], [<minecraft:stained_glass:11> * 2]);
-ElvenTrade.addRecipe([<quark:crystal:7>], [<minecraft:stained_glass:2> * 2]);
-ElvenTrade.addRecipe([<quark:crystal:8>], [<minecraft:stained_glass:15> * 2]);
- 
 	
 /*==========================
   Runic Altar Recipe Tweaks
@@ -106,10 +62,6 @@ RuneAltar.addRecipe(<botania:rune:12>, [<ore:manaDiamond>, <ore:manaDiamond>, <o
 RuneAltar.addRecipe(<botania:rune:13>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:quartzRed>, <ore:quartzRed>, <ore:runeWinterB>, <ore:runeEarthB>], 12000);
 RuneAltar.addRecipe(<botania:rune:14>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:quartzElven>, <ore:quartzElven>, <ore:runeWinterB>, <ore:runeWaterB>], 12000);
 RuneAltar.addRecipe(<botania:rune:15>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:quartzLavender>, <ore:quartzLavender>, <ore:runeSummerB>, <ore:runeFireB>], 12000);
-
-// Heart of Diamond
-RuneAltar.addRecipe(<quark:diamond_heart>, [<minecraft:diamond>, <minecraft:stone:*>, <ore:runeEarthB>, <minecraft:stone:*>, <minecraft:diamond>, <minecraft:stone:*>, <ore:runeEarthB>, <minecraft:stone:*>], 12000);
-
 
 /*==========================
     Mana Infustion Tweaks
