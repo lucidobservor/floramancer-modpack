@@ -1,16 +1,11 @@
 
-import mods.botania.Knowledge;
-import mods.botania.Lexicon;
 import mods.botania.ManaInfusion;
-import mods.botania.RuneAltar;
+import mods.botania.PureDaisy;
 
-import mods.botaniatweaks.Agglomeration;
-import mods.botaniatweaks.AgglomerationPage;
-import mods.botaniatweaks.AgglomerationRecipe;
-import mods.botaniatweaks.AgglomerationMultiblock;
-
-import crafttweaker.item.IIngredient;
-
+/*==========================
+    Pure Daisy Tweaks
+ ==========================*/
+PureDaisy.addRecipe(<minecraft:packed_ice>, <futuremc:blue_ice>);
 	
 /*==========================
     Mana Infustion Tweaks
