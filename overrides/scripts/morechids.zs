@@ -27,9 +27,6 @@ petram.addRecipe(<minecraft:stone>, <earthworks:block_slate>, 20);
 petram.addRecipe(<minecraft:stone>, <earthworks:block_slate_green>, 20);
 petram.addRecipe(<minecraft:stone>, <earthworks:block_slate_purple>, 20);
 
-petram.addRecipe(<minecraft:stone>, <coralreef:reef:0>, 5);
-petram.addRecipe(<minecraft:stone>, <coralreef:reef:1>, 5);
-
 petram.addRecipe(<minecraft:stone>, <quark:basalt>, 20);
 petram.addRecipe(<minecraft:stone>, <quark:marble>, 20);
 petram.addRecipe(<minecraft:stone>, <quark:slate>, 20);

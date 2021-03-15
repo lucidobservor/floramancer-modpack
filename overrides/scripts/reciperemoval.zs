@@ -56,6 +56,8 @@ mods.jei.JEI.removeAndHide(<essentials:obsidian_cutting_kit>);
 mods.jei.JEI.removeAndHide(<essentials:slotted_chest>);
 mods.jei.JEI.removeAndHide(<essentials:wrench>);
 
+// Other
+mods.jei.JEI.removeAndHide(<backportedflora:mod_icon>);
 
 
 

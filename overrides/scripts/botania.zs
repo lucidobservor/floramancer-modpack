@@ -168,13 +168,24 @@ ManaInfusion.addAlchemy(<minecraft:vine>, <minecraft:waterlily>, 320);
 ManaInfusion.addAlchemy(<quark:roots>, <minecraft:vine>, 320);
 ManaInfusion.addAlchemy(<minecraft:waterlily>, <quark:roots>, 320);
 
-// Sunny Quartz to Elder Prismarine
+// Cycle seagrass, kelp, and coral
+ManaInfusion.addAlchemy(<backportedflora:kelp>, <backportedflora:seagrass>, 400);
+ManaInfusion.addAlchemy(<coralreef:coral:0>, <backportedflora:kelp>, 400);
+ManaInfusion.addAlchemy(<coralreef:coral:1>, <coralreef:coral:0>, 400);
+ManaInfusion.addAlchemy(<coralreef:coral:2>, <coralreef:coral:1>, 400);
+ManaInfusion.addAlchemy(<coralreef:coral:3>, <coralreef:coral:2>, 400);
+ManaInfusion.addAlchemy(<coralreef:coral:4>, <coralreef:coral:3>, 400);
+ManaInfusion.addAlchemy(<coralreef:coral:5>, <coralreef:coral:4>, 400);
+ManaInfusion.addAlchemy(<backportedflora:seagrass>, <coralreef:coral:5>, 400);
+
+// Cycle sponge, dried kelp, and coral blocks
+ManaInfusion.addAlchemy(<minecraft:sponge>, <backportedflora:dried_kelp_block>, 400);
+ManaInfusion.addAlchemy(<coralreef:reef>, <minecraft:sponge>, 400);
+ManaInfusion.addAlchemy(<coralreef:reef:1>, <coralreef:reef>, 400);
+ManaInfusion.addAlchemy(<backportedflora:dried_kelp_block>, <coralreef:reef:1>, 400);
+
+// Random one offs
 ManaInfusion.addAlchemy(<quark:elder_prismarine>, <botania:quartztypesunny>, 4000);
-
-// Cake to Sponge
-ManaInfusion.addAlchemy(<minecraft:sponge>, <minecraft:cake>, 4000);
-
-// Notch Apple to Overgrowth Seed
 ManaInfusion.addAlchemy(<botania:overgrowthseed>, <minecraft:golden_apple:1>, 50000);
 
 // Reduce Tiny Potato Cost
