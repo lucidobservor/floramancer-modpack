@@ -19,6 +19,7 @@ petram.addRecipe(<minecraft:stone>, <minecraft:stone:3>, 20);
 petram.addRecipe(<minecraft:stone>, <minecraft:stone:5>, 20);
 petram.addRecipe(<minecraft:stone>, <minecraft:sandstone>, 20);
 petram.addRecipe(<minecraft:stone>, <minecraft:red_sandstone>, 20);
+petram.addRecipe(<minecraft:stone>, <futuremc:soul_soil>, 15);
 petram.addRecipe(<minecraft:stone>, <minecraft:soul_sand>, 15);
 petram.addRecipe(<minecraft:stone>, <minecraft:netherrack>, 15);
 

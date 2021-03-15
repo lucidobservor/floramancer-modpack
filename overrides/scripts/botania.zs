@@ -10,6 +10,9 @@ PureDaisy.addRecipe(<minecraft:packed_ice>, <futuremc:blue_ice>);
 /*==========================
     Mana Infustion Tweaks
  ==========================*/
+ 
+// Soul Soil duplication
+ManaInfusion.addConjuration(<futuremc:soul_soil> * 2, <futuremc:soul_soil>, 1500);
 
 // Traverse/Quark Leaves Duplication
 ManaInfusion.addConjuration(<traverse:red_autumnal_leaves> * 2, <traverse:red_autumnal_leaves>, 2000);
