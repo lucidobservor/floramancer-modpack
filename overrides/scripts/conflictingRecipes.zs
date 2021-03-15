@@ -36,3 +36,11 @@ recipes.removeShaped(<earthworks:fence_planks_vert_acacia> * 6);
 recipes.addShaped("earthworks_fence_planks_vert_quark4", <earthworks:fence_planks_vert_acacia> * 6,
     [[<quark:vertical_planks:4>, <minecraft:stick>, <quark:vertical_planks:4>],
     [<quark:vertical_planks:4>, <minecraft:stick>, <quark:vertical_planks:4>]]);
+	
+// Stone Brick
+recipes.removeShaped(<minecraft:stone_slab:5> * 6);
+recipes.addShaped("minecraft_stone_brick_slab", <minecraft:stone_slab:5> * 6, [[<minecraft:stonebrick> | <minecraft:stonebrick:2> | <minecraft:stonebrick:3>, <minecraft:stonebrick> | <minecraft:stonebrick:2> | <minecraft:stonebrick:3>, <minecraft:stonebrick> | <minecraft:stonebrick:2> | <minecraft:stonebrick:3>]]);
+
+recipes.removeByRecipeName("minecraft:stone_brick_stairs");
+recipes.addShaped("minecraft_stone_brick_stairs", <minecraft:stone_brick_stairs> * 8, [[<minecraft:stonebrick> | <minecraft:stonebrick:2> | <minecraft:stonebrick:3>, null, null], [<minecraft:stonebrick> | <minecraft:stonebrick:2> | <minecraft:stonebrick:3>, <minecraft:stonebrick> | <minecraft:stonebrick:2> | <minecraft:stonebrick:3>, null], [<minecraft:stonebrick> | <minecraft:stonebrick:2> | <minecraft:stonebrick:3>, <minecraft:stonebrick> | <minecraft:stonebrick:2> | <minecraft:stonebrick:3>, <minecraft:stonebrick> | <minecraft:stonebrick:2> | <minecraft:stonebrick:3>]]);
+
