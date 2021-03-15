@@ -13,57 +13,6 @@ import crafttweaker.item.IIngredient;
 
 	
 /*==========================
-  Runic Altar Recipe Tweaks
- ==========================*/
-
-RuneAltar.removeRecipe(<botania:rune:2>);
-RuneAltar.removeRecipe(<botania:rune:3>);
-RuneAltar.removeRecipe(<botania:rune:4>);
-RuneAltar.removeRecipe(<botania:rune:5>);
-RuneAltar.removeRecipe(<botania:rune:6>);
-RuneAltar.removeRecipe(<botania:rune:7>);
-RuneAltar.removeRecipe(<botania:rune:9>);
-RuneAltar.removeRecipe(<botania:rune:10>);
-RuneAltar.removeRecipe(<botania:rune:11>);
-RuneAltar.removeRecipe(<botania:rune:12>);
-RuneAltar.removeRecipe(<botania:rune:13>);
-RuneAltar.removeRecipe(<botania:rune:14>);
-RuneAltar.removeRecipe(<botania:rune:15>);
-
-// Tier 1 runes use OreDict
-RuneAltar.addRecipe(<botania:rune:2> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:stone>, <ore:blockCoal>, <ore:mushroomAny>], 5200);
-RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <ore:carpet>, <ore:feather>, <ore:string>], 5200);
-
-// Tier 2 rune tweaks
-RuneAltar.addRecipe(<botania:rune:4>, [
-	<ore:runeWaterB>, <ore:runeFireB>,
-	<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>,
-	<ore:cropWheat>, <ore:stoneMetamorphic>, <ore:grass>], 8000);
-RuneAltar.addRecipe(<botania:rune:5>, [
-	<ore:runeEarthB>, <ore:runeAirB>,
-	<minecraft:sand>, <minecraft:sand>,
-	<minecraft:slime_ball>, <minecraft:melon>,
-	<ore:hardenedClay>, <minecraft:sand:1>], 8000);
-RuneAltar.addRecipe(<botania:rune:6>, [
-	<ore:runeFireB>, <ore:runeAirB>,
-	<ore:autumnalLeaves>, <ore:autumnalLeaves>, <ore:autumnalLeaves>,
-	<minecraft:fermented_spider_eye>, <ore:mycelium>, <botania:altgrass>], 8000);
-RuneAltar.addRecipe(<botania:rune:7>, [
-	<ore:runeWaterB>, <ore:runeEarthB>,
-	<minecraft:snow>, <minecraft:snow>,
-	<ore:blockWool>, <minecraft:cake>,
-	<minecraft:ice>, <minecraft:packed_ice>], 8000);
-
-// Tier 3 runes require colored quartz
-RuneAltar.addRecipe(<botania:rune:9>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:quartzMana>, <ore:quartzMana>, <ore:runeSummerB>, <ore:runeAirB>], 12000);
-RuneAltar.addRecipe(<botania:rune:10>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:quartzSunny>, <ore:quartzSunny>, <ore:runeWinterB>, <ore:runeFireB>], 12000);
-RuneAltar.addRecipe(<botania:rune:11>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:quartzBlaze>, <ore:quartzBlaze>, <ore:runeSpringB>, <ore:runeWaterB>], 12000);
-RuneAltar.addRecipe(<botania:rune:12>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:quartzDark>, <ore:quartzDark>, <ore:runeAutumnB>, <ore:runeAirB>], 12000);
-RuneAltar.addRecipe(<botania:rune:13>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:quartzRed>, <ore:quartzRed>, <ore:runeWinterB>, <ore:runeEarthB>], 12000);
-RuneAltar.addRecipe(<botania:rune:14>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:quartzElven>, <ore:quartzElven>, <ore:runeWinterB>, <ore:runeWaterB>], 12000);
-RuneAltar.addRecipe(<botania:rune:15>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:quartzLavender>, <ore:quartzLavender>, <ore:runeSummerB>, <ore:runeFireB>], 12000);
-
-/*==========================
     Mana Infustion Tweaks
  ==========================*/
 
@@ -144,19 +93,15 @@ ManaInfusion.addAlchemy(<botania:overgrowthseed>, <minecraft:golden_apple:1>, 50
 ManaInfusion.removeRecipe(<botania:tinypotato>);
 ManaInfusion.addInfusion(<botania:tinypotato>, <minecraft:potato>, 50);
 
-// Creative Galactic Potato Recipe
-ManaInfusion.addInfusion(galacticPotato, <contenttweaker:tinygalacticpotato>, 1000001);
-
+/*=========================
+            Other
+ =========================*/
+ 
 // GoG recipes that should be available in all world types
 if(!(loadedMods in "gardenofglass")) {
     ManaInfusion.addAlchemy(<minecraft:prismarine_shard>, <minecraft:quartz>, 1000);
 	ManaInfusion.addAlchemy(<minecraft:prismarine_crystals>, <minecraft:prismarine_shard>, 500);
 }
-
-
-/*=========================
-            Other
- =========================*/
 
 // Flugel Tiara requires Elytra
 recipes.removeShaped(<botania:flighttiara>);
@@ -180,31 +125,3 @@ if(loadedMods in "gardenofglass") {
 		[<minecraft:end_stone>, <minecraft:end_stone>, <minecraft:end_stone>,]]);
 }
 
-
-
- /*=========================
-       Creative Recipes
-  =========================*/
-
-// Creative Tablet
-RuneAltar.addRecipe(creativeManaTablet, [
-	<botania:dice>, <botania:manatablet>, <botania:dice>,
-	hydroangeastrophy, endoflametrophy, thermalilytrophy, arcanerosetrophy, munchdewtrophy, entropinnyumtrophy, 
-	kekimurustrophy, gourmaryllistrophy, narslimmustrophy, spectrolustrophy, rafflowsiatrophy, shulkmenottrophy, dandelifeontrophy
-	], 12000000);
-
-// Creative Pool
-Agglomeration.addRecipe(
-	<contenttweaker:tinygalacticpotato>,
-	[<botania:gaiahead>, creativeManaTablet, <botania_tweaks:compressed_tiny_potato_8>] as IIngredient[],
-	24000000,
-	0x00FF00,
-	0x0000FF,
-	<botania:pool:3>,
-	<botania:enchantedsoil>,
-	<botania:enchantedsoil>,
-	<botania:pool:1>,
-	<botania:altgrass>,
-	<botania:altgrass>);
-
-	
