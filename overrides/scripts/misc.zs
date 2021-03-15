@@ -15,3 +15,9 @@ recipes.addShapeless("seeds_from_wheat", <minecraft:wheat_seeds>, [<minecraft:wh
 // Red mushroom fermented spider eye
 recipes.removeShapeless(<minecraft:fermented_spider_eye>);
 recipes.addShapeless("oredict_fermented_spider_eye", <minecraft:fermented_spider_eye>, [<minecraft:spider_eye>, <ore:mushroomAny>, <minecraft:sugar>]);
+
+// Soul torches
+recipes.addShaped("futuremc_soul_torch", <futuremc:soul_fire_torch> * 4,
+	[[<minecraft:coal:*>],
+	[<minecraft:stick>],
+	[<minecraft:soul_sand> | <futuremc:soul_soil>]]);
