@@ -68,6 +68,11 @@ Stonecutter.addOutputs(
 	<minecraft:mossy_cobblestone>, 
 	<quark:cobblestone_mossy_stairs>, <quark:cobblestone_mossy_slab> * 2);
 	
+// Sandstone
+Stonecutter.removeAllOutputsForInput(<minecraft:sandstone>);
+Stonecutter.addOutputs(
+	<minecraft:sandstone>, 
+	<minecraft:sandstone:1>, <minecraft:sandstone:2>, <minecraft:stone_slab:1> * 2, <minecraft:sandstone_stairs>, <quark:sandstone_new>, <quark:sandstone_smooth_slab> * 2, <quark:sandstone_new:1>, <quark:sandstone_bricks_slab>, <quark:sandstone_bricks_stairs>, <quark:sandstone_wall>);
 	
 	
 	
