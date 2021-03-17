@@ -45,6 +45,8 @@ recipes.removeShapeless(<minecraft:stone:1>);
 recipes.removeShapeless(<minecraft:stone:3>);
 recipes.removeShapeless(<minecraft:stone:5>);
 recipes.removeShapeless(<quark:basalt>);
+recipes.removeByRecipeName("traverse:crag_rock_cobblestone");
+recipes.removeByRecipeName("traverse:red_rock_cobblestone");
 
 // Remove most of the mod Essentials
 mods.jei.JEI.removeAndHide(<essentials:brazier>);
@@ -58,6 +60,13 @@ mods.jei.JEI.removeAndHide(<essentials:wrench>);
 
 // Other
 mods.jei.JEI.removeAndHide(<backportedflora:mod_icon>);
+
+furnace.remove(<futuremc:smooth_sandstone>);
+furnace.remove(<futuremc:smooth_red_sandstone>);
+mods.jei.JEI.removeAndHide(<futuremc:smooth_sandstone>);
+mods.jei.JEI.removeAndHide(<futuremc:smooth_red_sandstone>);
+
+
 
 
 
