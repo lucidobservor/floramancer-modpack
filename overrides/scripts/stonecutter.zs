@@ -59,6 +59,51 @@ Stonecutter.addOutputs(<quark:elder_prismarine>, <quark:elder_prismarine_slab> *
 Stonecutter.addOutputs(<quark:elder_prismarine:1>, <quark:elder_prismarine_bricks_slab> * 2, <quark:elder_prismarine_bricks_stairs>, <quark:elder_prismarine_bricks_wall>);
 Stonecutter.addOutputs(<quark:elder_prismarine:2>, <quark:elder_prismarine_dark_slab> * 2, <quark:elder_prismarine_dark_stairs>, <quark:elder_prismarine_dark_wall>);
 	
+// Quartz
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:quartz_block>, <minecraft:quartz_block:1>, <minecraft:quartz_block:2>],
+	[<minecraft:stone_slab:7> * 2, <minecraft:quartz_stairs>, <quark:quartz_wall>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:quartztypedark>, <botania:quartztypedark:1>, <botania:quartztypedark:2>],
+	[<botania:quartzslabdarkhalf> * 2, <botania:quartzstairsdark>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:quartztypemana>, <botania:quartztypemana:1>, <botania:quartztypemana:2>],
+	[<botania:quartzslabmanahalf> * 2, <botania:quartzstairsmana>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:quartztypeblaze>, <botania:quartztypeblaze:1>, <botania:quartztypeblaze:2>],
+	[<botania:quartzslabblazehalf> * 2, <botania:quartzstairsblaze>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:quartztypelavender>, <botania:quartztypelavender:1>, <botania:quartztypelavender:2>],
+	[<botania:quartzslablavenderhalf> * 2, <botania:quartzstairslavender>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:quartztypered>, <botania:quartztypered:1>, <botania:quartztypered:2>],
+	[<botania:quartzslabredhalf> * 2, <botania:quartzstairsred>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:quartztypeelf>, <botania:quartztypeelf:1>, <botania:quartztypeelf:2>],
+	[<botania:quartzslabelfhalf> * 2, <botania:quartzstairself>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:quartztypesunny>, <botania:quartztypesunny:1>, <botania:quartztypesunny:2>],
+	[<botania:quartzslabsunnyhalf> * 2, <botania:quartzstairssunny>]);
+	
+// Purpur
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:purpur_block>, <minecraft:purpur_pillar>],
+	[<minecraft:purpur_slab> * 2, <minecraft:purpur_stairs>, <quark:purpur_block_wall>]);
+
+// Bricks
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:brick_block>],
+	[<minecraft:stone_slab:4> * 2, <minecraft:brick_stairs>, <quark:brick_wall>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:red_nether_brick>],
+	[<quark:red_nether_brick_slab> * 2, <quark:red_nether_brick_stairs>, <futuremc:red_nether_brick_wall>]);
+
+// End Stone
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:end_stone>, <minecraft:end_bricks>],
+	[<quark:end_bricks_slab> * 2, <quark:end_bricks_stairs>, <quark:end_bricks_wall>]);
+
+
 /*
 addBlockCyclingStonecutterRecipes(
 	[],
