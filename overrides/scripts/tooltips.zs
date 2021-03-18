@@ -19,3 +19,6 @@ creativeManaPool.addTooltip(format.gray("Check the upgraded Lexica for more info
 <minecraft:spider_eye>.addTooltip(format.gray("Drops from spiders if they are killed by a player or Livingwood Avatar"));
 
 <backportedflora:seagrass>.addTooltip(format.gray("Use bonemeal on underwater sand"));
+
+<futuremc:smoker>.addTooltip(format.gray("Does not work with the exoflame"));
+<futuremc:blast_furnace>.addTooltip(format.gray("Does not work with the exoflame"));
