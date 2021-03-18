@@ -284,6 +284,13 @@ addBlockCyclingStonecutterRecipes(
 	[<earthworks:block_slate_purple>, <earthworks:block_slate_slab_purple>, <earthworks:block_slate_shingle_purple>, <earthworks:block_slate_tile_purple>],
 	[<earthworks:itemslab_slate_purple> * 2, <earthworks:itemslab_slate_slab_purple> * 2, <earthworks:itemslab_slate_shingle_purple> * 2, <earthworks:itemslab_slate_tile_purple> * 2, <earthworks:stair_slate_purple>, <earthworks:stair_slate_slab_purple>, <earthworks:stair_slate_shingle_purple>, <earthworks:stair_slate_tile_purple>, <earthworks:wall_slate_purple>, <earthworks:wall_slate_slab_purple>, <earthworks:wall_slate_shingle_purple>, <earthworks:wall_slate_tile_purple>]);
 
+// Incorporeal
+Stonecutter.addOutputs(<incorporeal:red_string_deco>, <incorporeal:red_string_deco_slab> * 2, 
+	<incorporeal:red_string_deco_stairs>, <incorporeal:red_string_deco_wall>);
+addBlockCyclingStonecutterRecipes(
+	[<incorporeal:corporea_deco>, <incorporeal:corporea_brick_deco>],
+	[<incorporeal:corporea_deco_slab> * 2, <incorporeal:corporea_brick_deco_slab> * 2, <incorporeal:corporea_deco_stairs>, <incorporeal:corporea_brick_deco_stairs>, <incorporeal:corporea_brick_deco_wall>]);
+
 /*
 addBlockCyclingStonecutterRecipes(
 	[],

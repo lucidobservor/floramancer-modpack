@@ -58,6 +58,14 @@ mods.jei.JEI.removeAndHide(<essentials:obsidian_cutting_kit>);
 mods.jei.JEI.removeAndHide(<essentials:slotted_chest>);
 mods.jei.JEI.removeAndHide(<essentials:wrench>);
 
+// LokiW
+mods.jei.JEI.removeAndHide(<incorporeal:lokiw>);
+mods.jei.JEI.removeAndHide(<incorporeal:lokiw_stairs>);
+mods.jei.JEI.removeAndHide(<incorporeal:lokiw_fence>);
+mods.jei.JEI.removeAndHide(<incorporeal:lokiw_fence_gate>);
+mods.jei.JEI.removeAndHide(<incorporeal:lokiw_slab>);
+mods.jei.JEI.removeAndHide(<incorporeal:lokiw_wall>);
+
 // Other
 mods.jei.JEI.removeAndHide(<backportedflora:mod_icon>);
 
@@ -65,6 +73,7 @@ furnace.remove(<futuremc:smooth_sandstone>);
 furnace.remove(<futuremc:smooth_red_sandstone>);
 mods.jei.JEI.removeAndHide(<futuremc:smooth_sandstone>);
 mods.jei.JEI.removeAndHide(<futuremc:smooth_red_sandstone>);
+
 
 
 
