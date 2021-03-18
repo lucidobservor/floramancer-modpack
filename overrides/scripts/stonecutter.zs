@@ -103,6 +103,80 @@ addBlockCyclingStonecutterRecipes(
 	[<minecraft:end_stone>, <minecraft:end_bricks>],
 	[<quark:end_bricks_slab> * 2, <quark:end_bricks_stairs>, <quark:end_bricks_wall>]);
 
+// Livingrock / Shimmerrock
+addCyclicRecipes([<botania:livingrock>, <botania:livingrock:1>, <botania:livingrock:4>]);
+addStonecutterRecipes(
+	[<botania:livingrock:2>, <botania:livingrock:3>],
+	[<botania:livingrock>, <botania:livingrock:1>, <botania:livingrock:4>]);
+addStonecutterRecipes(
+	[<botania:livingrock>, <botania:livingrock:1>, <botania:livingrock:2>, <botania:livingrock:3>, <botania:livingrock:4>],
+	[<botania:livingrock0slab> * 2, <botania:livingrock1slab> * 2, <botania:livingrock0stairs>, <botania:livingrock1stairs>, <botania:livingrock0wall>]);
+
+// Metamorphic Cobblestone
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:8>],
+	[<botania:biomestonea8slab> * 2, <botania:biomestonea8stairs>, <botania:biomestonea0wall:0>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:9>],
+	[<botania:biomestonea9slab> * 2, <botania:biomestonea9stairs>, <botania:biomestonea0wall:1>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:10>],
+	[<botania:biomestonea10slab> * 2, <botania:biomestonea10stairs>, <botania:biomestonea0wall:2>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:11>],
+	[<botania:biomestonea11slab> * 2, <botania:biomestonea11stairs>, <botania:biomestonea0wall:3>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:12>],
+	[<botania:biomestonea12slab> * 2, <botania:biomestonea12stairs>, <botania:biomestonea0wall:4>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:13>],
+	[<botania:biomestonea13slab> * 2, <botania:biomestonea13stairs>, <botania:biomestonea0wall:5>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:14>],
+	[<botania:biomestonea14slab> * 2, <botania:biomestonea14stairs>, <botania:biomestonea0wall:6>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:15>],
+	[<botania:biomestonea15slab> * 2, <botania:biomestonea15stairs>, <botania:biomestonea0wall:7>]);
+
+// Metamorphic Stone
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:0>, <botania:biomestoneb:0>, <botania:biomestoneb:8>],
+	[<botania:biomestonea0slab> * 2, <botania:biomestoneb0slab> * 2, <botania:biomestonea0stairs>, <botania:biomestoneb0stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:1>, <botania:biomestoneb:1>, <botania:biomestoneb:9>],
+	[<botania:biomestonea1slab> * 2, <botania:biomestoneb1slab> * 2, <botania:biomestonea1stairs>, <botania:biomestoneb1stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:2>, <botania:biomestoneb:2>, <botania:biomestoneb:10>],
+	[<botania:biomestonea2slab> * 2, <botania:biomestoneb2slab> * 2, <botania:biomestonea2stairs>, <botania:biomestoneb2stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:3>, <botania:biomestoneb:3>, <botania:biomestoneb:11>],
+	[<botania:biomestonea3slab> * 2, <botania:biomestoneb3slab> * 2, <botania:biomestonea3stairs>, <botania:biomestoneb3stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:4>, <botania:biomestoneb:4>, <botania:biomestoneb:12>],
+	[<botania:biomestonea4slab> * 2, <botania:biomestoneb4slab> * 2, <botania:biomestonea4stairs>, <botania:biomestoneb4stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:5>, <botania:biomestoneb:5>, <botania:biomestoneb:13>],
+	[<botania:biomestonea5slab> * 2, <botania:biomestoneb5slab> * 2, <botania:biomestonea5stairs>, <botania:biomestoneb5stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:6>, <botania:biomestoneb:6>, <botania:biomestoneb:14>],
+	[<botania:biomestonea6slab> * 2, <botania:biomestoneb6slab> * 2, <botania:biomestonea6stairs>, <botania:biomestoneb6stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<botania:biomestonea:7>, <botania:biomestoneb:7>, <botania:biomestoneb:15>],
+	[<botania:biomestonea7slab> * 2, <botania:biomestoneb7slab> * 2, <botania:biomestonea7stairs>, <botania:biomestoneb7stairs>]);
+
+// Portuguese Pavement
+Stonecutter.addOutputs(<botania:pavement:0>, <botania:pavement0slab> * 2, <botania:pavement0stairs>);
+Stonecutter.addOutputs(<botania:pavement:1>, <botania:pavement1slab> * 2, <botania:pavement1stairs>);
+Stonecutter.addOutputs(<botania:pavement:2>, <botania:pavement2slab> * 2, <botania:pavement2stairs>);
+Stonecutter.addOutputs(<botania:pavement:3>, <botania:pavement3slab> * 2, <botania:pavement3stairs>);
+Stonecutter.addOutputs(<botania:pavement:4>, <botania:pavement4slab> * 2, <botania:pavement4stairs>);
+Stonecutter.addOutputs(<botania:pavement:5>, <botania:pavement5slab> * 2, <botania:pavement5stairs>);
+
+// Shimmerrock
+Stonecutter.addOutputs(<botania:shimmerrock>, <botania:shimmerrock0slab> * 2, <botania:shimmerrock0stairs>);
+
+// Azulejo
+addCyclicRecipes([<botania:custombrick:0>, <botania:custombrick:1>, <botania:custombrick:2>, <botania:custombrick:3>, <botania:custombrick:4>, <botania:custombrick:5>, <botania:custombrick:6>, <botania:custombrick:7>, <botania:custombrick:8>, <botania:custombrick:9>, <botania:custombrick:10>, <botania:custombrick:11>, <botania:custombrick:12>, <botania:custombrick:13>, <botania:custombrick:14>, <botania:custombrick:15>]);
 
 /*
 addBlockCyclingStonecutterRecipes(
