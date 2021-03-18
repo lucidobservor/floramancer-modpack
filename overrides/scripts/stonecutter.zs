@@ -291,6 +291,60 @@ addBlockCyclingStonecutterRecipes(
 	[<incorporeal:corporea_deco>, <incorporeal:corporea_brick_deco>],
 	[<incorporeal:corporea_deco_slab> * 2, <incorporeal:corporea_brick_deco_slab> * 2, <incorporeal:corporea_deco_stairs>, <incorporeal:corporea_brick_deco_stairs>, <incorporeal:corporea_brick_deco_wall>]);
 
+// Terracotta
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:hardened_clay>, <quark:hardened_clay_tiles>],
+	[<quark:hardened_clay_tiles_slab> * 2, <quark:hardened_clay_tiles_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:0>, <quark:stained_clay_tiles:0>],
+	[<quark:stained_clay_tiles_white_slab> * 2, <quark:stained_clay_tiles_white_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:1>, <quark:stained_clay_tiles:1>],
+	[<quark:stained_clay_tiles_orange_slab> * 2, <quark:stained_clay_tiles_orange_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:2>, <quark:stained_clay_tiles:2>],
+	[<quark:stained_clay_tiles_magenta_slab> * 2, <quark:stained_clay_tiles_magenta_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:3>, <quark:stained_clay_tiles:3>],
+	[<quark:stained_clay_tiles_light_blue_slab> * 2, <quark:stained_clay_tiles_light_blue_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:4>, <quark:stained_clay_tiles:4>],
+	[<quark:stained_clay_tiles_yellow_slab> * 2, <quark:stained_clay_tiles_yellow_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:5>, <quark:stained_clay_tiles:5>],
+	[<quark:stained_clay_tiles_lime_slab> * 2, <quark:stained_clay_tiles_lime_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:6>, <quark:stained_clay_tiles:6>],
+	[<quark:stained_clay_tiles_pink_slab> * 2, <quark:stained_clay_tiles_pink_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:7>, <quark:stained_clay_tiles:7>],
+	[<quark:stained_clay_tiles_gray_slab> * 2, <quark:stained_clay_tiles_gray_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:8>, <quark:stained_clay_tiles:8>],
+	[<quark:stained_clay_tiles_silver_slab> * 2, <quark:stained_clay_tiles_silver_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:9>, <quark:stained_clay_tiles:9>],
+	[<quark:stained_clay_tiles_cyan_slab> * 2, <quark:stained_clay_tiles_cyan_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:10>, <quark:stained_clay_tiles:10>],
+	[<quark:stained_clay_tiles_purple_slab> * 2, <quark:stained_clay_tiles_purple_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:11>, <quark:stained_clay_tiles:11>],
+	[<quark:stained_clay_tiles_blue_slab> * 2, <quark:stained_clay_tiles_blue_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:12>, <quark:stained_clay_tiles:12>],
+	[<quark:stained_clay_tiles_brown_slab> * 2, <quark:stained_clay_tiles_brown_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:13>, <quark:stained_clay_tiles:13>],
+	[<quark:stained_clay_tiles_green_slab> * 2, <quark:stained_clay_tiles_green_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:14>, <quark:stained_clay_tiles:14>],
+	[<quark:stained_clay_tiles_red_slab> * 2, <quark:stained_clay_tiles_red_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:stained_hardened_clay:15>, <quark:stained_clay_tiles:15>],
+	[<quark:stained_clay_tiles_black_slab> * 2, <quark:stained_clay_tiles_black_stairs>]);
+
+
 /*
 addBlockCyclingStonecutterRecipes(
 	[],
