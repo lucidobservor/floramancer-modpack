@@ -388,6 +388,17 @@ addBlockCyclingStonecutterRecipes(
 addBlockCyclingStonecutterRecipes(
 	[<minecraft:snow>, <quark:snow_bricks>],
 	[<quark:snow_bricks_slab> * 2, <quark:snow_bricks_stairs>, <quark:snow_bricks_wall>]);
+	
+// Traverse
+addBlockCyclingStonecutterRecipes(
+	[<traverse:red_rock>, <traverse:red_rock_bricks>, <traverse:red_rock_bricks_chiseled>],
+	[<traverse:red_rock_slab> * 2, <traverse:red_rock_bricks_slab> * 2, <traverse:red_rock_bricks_stairs>]);
+Stonecutter.addOutputs(<traverse:red_rock_cobblestone>, <traverse:red_rock_cobblestone_slab> * 2, <traverse:red_rock_cobblestone_stairs>, <traverse:red_rock_cobblestone_wall>);
+	
+addBlockCyclingStonecutterRecipes(
+	[<traverse:blue_rock>, <traverse:blue_rock_bricks>, <traverse:blue_rock_bricks_chiseled>],
+	[<traverse:blue_rock_slab> * 2, <traverse:blue_rock_bricks_slab> * 2, <traverse:blue_rock_bricks_stairs>]);
+Stonecutter.addOutputs(<traverse:blue_rock_cobblestone>, <traverse:blue_rock_cobblestone_slab> * 2, <traverse:blue_rock_cobblestone_stairs>, <traverse:blue_rock_cobblestone_wall>);
 
 /*
 addBlockCyclingStonecutterRecipes(
