@@ -178,6 +178,112 @@ Stonecutter.addOutputs(<botania:shimmerrock>, <botania:shimmerrock0slab> * 2, <b
 // Azulejo
 addCyclicRecipes([<botania:custombrick:0>, <botania:custombrick:1>, <botania:custombrick:2>, <botania:custombrick:3>, <botania:custombrick:4>, <botania:custombrick:5>, <botania:custombrick:6>, <botania:custombrick:7>, <botania:custombrick:8>, <botania:custombrick:9>, <botania:custombrick:10>, <botania:custombrick:11>, <botania:custombrick:12>, <botania:custombrick:13>, <botania:custombrick:14>, <botania:custombrick:15>]);
 
+// Earthworks
+addCyclicRecipes([
+	<earthworks:daub_cob_arrow0>,
+	<earthworks:daub_cob_arrow1>,
+	<earthworks:daub_cob_arrow2>,
+	<earthworks:daub_cob_arrow3>,
+	<earthworks:daub_cob_barndoor0>,
+	<earthworks:daub_cob_barndoor1>,
+	<earthworks:daub_cob_barndoor2>,
+	<earthworks:daub_cob_barndoor3>,
+	<earthworks:daub_cob_barndoor4>,
+	<earthworks:daub_cob_barndoor5>,
+	<earthworks:daub_cob_barndoor6>,
+	<earthworks:daub_cob_barndoor7>,
+	<earthworks:daub_cob_bottom_l>,
+	<earthworks:daub_cob_bottom>,
+	<earthworks:daub_cob_bottom_r>,
+	<earthworks:daub_cob_left>,
+	<earthworks:daub_cob_parallel_hor>,
+	<earthworks:daub_cob_parallel_vert>,
+	<earthworks:daub_cob_right>,
+	<earthworks:daub_cob_slash_back>,
+	<earthworks:daub_cob_slash>,
+	<earthworks:daub_cob_xbottom>,
+	<earthworks:daub_cob_xdoor0>,
+	<earthworks:daub_cob_xdoor1>,
+	<earthworks:daub_cob_xdoor2>,
+	<earthworks:daub_cob_xdoor3>,
+	<earthworks:daub_cob_xleft>,
+	<earthworks:daub_cob_x>,
+	<earthworks:daub_cob_xright>,
+	<earthworks:daub_cob_xtop>,
+	<earthworks:daub_cob_square>,
+	<earthworks:daub_cob_square_x>,
+	<earthworks:daub_cob_top_l>,
+	<earthworks:daub_cob_top>,
+	<earthworks:daub_cob_top_r>,
+	<earthworks:daub_cob_triangle0>,
+	<earthworks:daub_cob_triangle1>,
+	<earthworks:daub_cob_triangle2>,
+	<earthworks:daub_cob_triangle3>]);
+addCyclicRecipes([
+	<earthworks:plaster_arrow0>,
+	<earthworks:plaster_arrow1>,
+	<earthworks:plaster_arrow2>,
+	<earthworks:plaster_arrow3>,
+	<earthworks:plaster_barndoor0>,
+	<earthworks:plaster_barndoor1>,
+	<earthworks:plaster_barndoor2>,
+	<earthworks:plaster_barndoor3>,
+	<earthworks:plaster_barndoor4>,
+	<earthworks:plaster_barndoor5>,
+	<earthworks:plaster_barndoor6>,
+	<earthworks:plaster_barndoor7>,
+	<earthworks:plaster_bottom_l>,
+	<earthworks:plaster_bottom>,
+	<earthworks:plaster_bottom_r>,
+	<earthworks:plaster_left>,
+	<earthworks:plaster_parallel_hor>,
+	<earthworks:plaster_parallel_vert>,
+	<earthworks:plaster_right>,
+	<earthworks:plaster_slash_back>,
+	<earthworks:plaster_slash>,
+	<earthworks:plaster_xbottom>,
+	<earthworks:plaster_xdoor0>,
+	<earthworks:plaster_xdoor1>,
+	<earthworks:plaster_xdoor2>,
+	<earthworks:plaster_xdoor3>,
+	<earthworks:plaster_xleft>,
+	<earthworks:plaster_x>,
+	<earthworks:plaster_xright>,
+	<earthworks:plaster_xtop>,
+	<earthworks:plaster_square>,
+	<earthworks:plaster_square_x>,
+	<earthworks:plaster_top_l>,
+	<earthworks:plaster_top>,
+	<earthworks:plaster_top_r>,
+	<earthworks:plaster_triangle0>,
+	<earthworks:plaster_triangle1>,
+	<earthworks:plaster_triangle2>,
+	<earthworks:plaster_triangle3>]);
+
+Stonecutter.addOutputs(<earthworks:block_wattle>, <earthworks:itemslab_wattle> * 2, <earthworks:stair_wattle>, <earthworks:wall_wattle>);
+Stonecutter.addOutputs(<earthworks:block_plaster>, <earthworks:itemslab_plaster> * 2, <earthworks:stair_plaster>, <earthworks:wall_plaster>);
+Stonecutter.addOutputs(<earthworks:block_adobe>, <earthworks:itemslab_adobe> * 2, <earthworks:stair_adobe>, <earthworks:wall_adobe>);
+Stonecutter.addOutputs(<earthworks:block_chalk>, <earthworks:itemslab_chalk> * 2, <earthworks:stair_chalk>, <earthworks:wall_chalk>);
+Stonecutter.addOutputs(<earthworks:block_cinder>, <earthworks:itemslab_cinder> * 2, <earthworks:stair_cinder>, <earthworks:wall_cinder>);
+Stonecutter.addOutputs(<earthworks:block_cob>, <earthworks:itemslab_cob> * 2, <earthworks:stair_cob>, <earthworks:wall_cob>);
+Stonecutter.addOutputs(<earthworks:block_concrete>, <earthworks:itemslab_concrete> * 2, <earthworks:stair_concrete>, <earthworks:wall_concrete>);
+Stonecutter.addOutputs(<earthworks:block_cordwood>, <earthworks:itemslab_cordwood> * 2, <earthworks:stair_cordwood>, <earthworks:wall_cordwood>);
+Stonecutter.addOutputs(<earthworks:block_gabion_gravel>, <earthworks:itemslab_gabion_gravel> * 2, <earthworks:stair_gabion_gravel>, <earthworks:wall_gabion_gravel>);
+Stonecutter.addOutputs(<earthworks:block_gabion_sand>, <earthworks:itemslab_gabion_sand> * 2, <earthworks:stair_gabion_sand>, <earthworks:wall_gabion_sand>);
+Stonecutter.addOutputs(<earthworks:block_rammed_earth>, <earthworks:itemslab_rammed_earth> * 2, <earthworks:stair_rammed_earth>, <earthworks:wall_rammed_earth>);
+Stonecutter.addOutputs(<earthworks:block_mud>, <earthworks:itemslab_mud> * 2, <earthworks:stair_mud>, <earthworks:wall_mud>);
+Stonecutter.addOutputs(<earthworks:block_gabion_dirt>, <earthworks:itemslab_gabion_dirt> * 2, <earthworks:stair_gabion_dirt>, <earthworks:wall_gabion_dirt>);
+
+addBlockCyclingStonecutterRecipes(
+	[<earthworks:block_slate>, <earthworks:block_slate_slab>, <earthworks:block_slate_shingle>, <earthworks:block_slate_tile>],
+	[<earthworks:itemslab_slate> * 2, <earthworks:itemslab_slate_slab> * 2, <earthworks:itemslab_slate_shingle> * 2, <earthworks:itemslab_slate_tile> * 2, <earthworks:stair_slate>, <earthworks:stair_slate_slab>, <earthworks:stair_slate_shingle>, <earthworks:stair_slate_tile>, <earthworks:wall_slate>, <earthworks:wall_slate_slab>, <earthworks:wall_slate_shingle>, <earthworks:wall_slate_tile>]);
+addBlockCyclingStonecutterRecipes(
+	[<earthworks:block_slate_green>, <earthworks:block_slate_slab_green>, <earthworks:block_slate_shingle_verte>, <earthworks:block_slate_tile_verte>],
+	[<earthworks:itemslab_slate_green> * 2, <earthworks:itemslab_slate_slab_green> * 2, <earthworks:itemslab_slate_shingle_verte> * 2, <earthworks:itemslab_slate_tile_verte> * 2, <earthworks:stair_slate_green>, <earthworks:stair_slate_slab_green>, <earthworks:stair_slate_shingle_verte>, <earthworks:stair_slate_tile_verte>, <earthworks:wall_slate_green>, <earthworks:wall_slate_slab_green>, <earthworks:wall_slate_shingle_verte>, <earthworks:wall_slate_tile_verte>]);
+addBlockCyclingStonecutterRecipes(
+	[<earthworks:block_slate_purple>, <earthworks:block_slate_slab_purple>, <earthworks:block_slate_shingle_purple>, <earthworks:block_slate_tile_purple>],
+	[<earthworks:itemslab_slate_purple> * 2, <earthworks:itemslab_slate_slab_purple> * 2, <earthworks:itemslab_slate_shingle_purple> * 2, <earthworks:itemslab_slate_tile_purple> * 2, <earthworks:stair_slate_purple>, <earthworks:stair_slate_slab_purple>, <earthworks:stair_slate_shingle_purple>, <earthworks:stair_slate_tile_purple>, <earthworks:wall_slate_purple>, <earthworks:wall_slate_slab_purple>, <earthworks:wall_slate_shingle_purple>, <earthworks:wall_slate_tile_purple>]);
+
 /*
 addBlockCyclingStonecutterRecipes(
 	[],
