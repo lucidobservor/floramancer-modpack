@@ -29,13 +29,13 @@ addStonecutterRecipes(
 // Granite / Diorite / Andesite
 addBlockCyclingStonecutterRecipes(
 	[<minecraft:stone:1>, <minecraft:stone:2>, <quark:world_stone_bricks>, <quark:world_stone_carved>, <quark:world_stone_pavement>],
-	[<quark:stone_granite_slab> * 2, <quark:stone_granite_bricks_slab> * 2, <quark:stone_granite_stairs>, <quark:stone_granite_bricks_stairs>, <quark:stone_granite_wall>, <quark:stone_granite_bricks_wall>, <quark:granite_speleothem>]);
+	[<quark:stone_granite_slab> * 2, <quark:stone_granite_bricks_slab> * 2, <quark:stone_granite_stairs>, <quark:stone_granite_bricks_stairs>, <quark:stone_granite_wall>, <quark:stone_granite_bricks_wall>, <quark:granite_speleothem> * 2]);
 addBlockCyclingStonecutterRecipes(
 	[<minecraft:stone:3>, <minecraft:stone:4>, <quark:world_stone_bricks:1>, <quark:world_stone_carved:1>, <quark:world_stone_pavement:1>],
-	[<quark:stone_diorite_slab> * 2, <quark:stone_diorite_bricks_slab> * 2, <quark:stone_diorite_stairs>, <quark:stone_diorite_bricks_stairs>, <quark:stone_diorite_wall>, <quark:stone_diorite_bricks_wall>, <quark:diorite_speleothem>]);
+	[<quark:stone_diorite_slab> * 2, <quark:stone_diorite_bricks_slab> * 2, <quark:stone_diorite_stairs>, <quark:stone_diorite_bricks_stairs>, <quark:stone_diorite_wall>, <quark:stone_diorite_bricks_wall>, <quark:diorite_speleothem> * 2]);
 addBlockCyclingStonecutterRecipes(
 	[<minecraft:stone:5>, <minecraft:stone:6>, <quark:world_stone_bricks:2>, <quark:world_stone_carved:2>, <quark:world_stone_pavement:2>],
-	[<quark:stone_andesite_slab> * 2, <quark:stone_andesite_bricks_slab> * 2, <quark:stone_andesite_stairs>, <quark:stone_andesite_bricks_stairs>, <quark:stone_andesite_wall>, <quark:stone_andesite_bricks_wall>, <quark:andesite_speleothem>]);
+	[<quark:stone_andesite_slab> * 2, <quark:stone_andesite_bricks_slab> * 2, <quark:stone_andesite_stairs>, <quark:stone_andesite_bricks_stairs>, <quark:stone_andesite_wall>, <quark:stone_andesite_bricks_wall>, <quark:andesite_speleothem> * 2]);
 
 // Mossy Cobblestone
 Stonecutter.addOutputs(<minecraft:mossy_cobblestone>, <quark:cobblestone_mossy_slab> * 2, <quark:cobblestone_mossy_stairs>, <minecraft:cobblestone_wall:1>);
@@ -347,26 +347,47 @@ addBlockCyclingStonecutterRecipes(
 // Quark World Blocks
 addBlockCyclingStonecutterRecipes(
 	[<quark:basalt>, <quark:basalt:1>, <quark:world_stone_bricks:3>, <quark:world_stone_carved:3>, <quark:world_stone_pavement:3>],
-	[<quark:stone_basalt_slab> * 2, <quark:stone_basalt_bricks_slab> * 2, <quark:stone_basalt_stairs>, <quark:stone_basalt_bricks_stairs>, <quark:basalt_wall>, <quark:stone_basalt_bricks_wall>, <quark:basalt_speleothem>]);
+	[<quark:stone_basalt_slab> * 2, <quark:stone_basalt_bricks_slab> * 2, <quark:stone_basalt_stairs>, <quark:stone_basalt_bricks_stairs>, <quark:basalt_wall>, <quark:stone_basalt_bricks_wall>, <quark:basalt_speleothem> * 2]);
 addBlockCyclingStonecutterRecipes(
 	[<quark:marble>, <quark:marble:1>, <quark:world_stone_bricks:4>, <quark:world_stone_carved:4>, <quark:world_stone_pavement:4>],
-	[<quark:stone_marble_slab> * 2, <quark:stone_marble_bricks_slab> * 2, <quark:stone_marble_stairs>, <quark:stone_marble_bricks_stairs>, <quark:marble_wall>, <quark:stone_marble_bricks_wall>, <quark:marble_speleothem>]);
+	[<quark:stone_marble_slab> * 2, <quark:stone_marble_bricks_slab> * 2, <quark:stone_marble_stairs>, <quark:stone_marble_bricks_stairs>, <quark:marble_wall>, <quark:stone_marble_bricks_wall>, <quark:marble_speleothem> * 2]);
 addBlockCyclingStonecutterRecipes(
 	[<quark:limestone>, <quark:limestone:1>, <quark:world_stone_bricks:5>, <quark:world_stone_carved:5>, <quark:world_stone_pavement:5>],
-	[<quark:stone_limestone_slab> * 2, <quark:stone_limestone_bricks_slab> * 2, <quark:stone_limestone_stairs>, <quark:stone_limestone_bricks_stairs>, <quark:limestone_wall>, <quark:stone_limestone_bricks_wall>, <quark:limestone_speleothem>]);
+	[<quark:stone_limestone_slab> * 2, <quark:stone_limestone_bricks_slab> * 2, <quark:stone_limestone_stairs>, <quark:stone_limestone_bricks_stairs>, <quark:limestone_wall>, <quark:stone_limestone_bricks_wall>, <quark:limestone_speleothem> * 2]);
 addBlockCyclingStonecutterRecipes(
 	[<quark:jasper>, <quark:jasper:1>, <quark:world_stone_bricks:6>, <quark:world_stone_carved:6>, <quark:world_stone_pavement:6>],
-	[<quark:stone_jasper_slab> * 2, <quark:stone_jasper_bricks_slab> * 2, <quark:stone_jasper_stairs>, <quark:stone_jasper_bricks_stairs>, <quark:jasper_wall>, <quark:stone_jasper_bricks_wall>, <quark:jasper_speleothem>]);
+	[<quark:stone_jasper_slab> * 2, <quark:stone_jasper_bricks_slab> * 2, <quark:stone_jasper_stairs>, <quark:stone_jasper_bricks_stairs>, <quark:jasper_wall>, <quark:stone_jasper_bricks_wall>, <quark:jasper_speleothem> * 2]);
 addBlockCyclingStonecutterRecipes(
 	[<quark:slate>, <quark:slate:1>, <quark:world_stone_bricks:7>, <quark:world_stone_carved:7>, <quark:world_stone_pavement:7>],
-	[<quark:stone_slate_slab> * 2, <quark:stone_slate_bricks_slab> * 2, <quark:stone_slate_stairs>, <quark:stone_slate_bricks_stairs>, <quark:slate_wall>, <quark:stone_slate_bricks_wall>, <quark:slate_speleothem>]);
+	[<quark:stone_slate_slab> * 2, <quark:stone_slate_bricks_slab> * 2, <quark:stone_slate_stairs>, <quark:stone_slate_bricks_stairs>, <quark:slate_wall>, <quark:stone_slate_bricks_wall>, <quark:slate_speleothem> * 2]);
 
 
 // Quark Misc
 Stonecutter.addOutputs(<quark:iron_plate>, <quark:iron_plate_slab> * 2, <quark:iron_plate_stairs>);
 Stonecutter.addOutputs(<quark:sandy_bricks>, <quark:sandy_bricks_slab> * 2, <quark:sandy_bricks_stairs>, <quark:sandy_bricks_wall>);
 Stonecutter.addOutputs(<quark:charred_nether_bricks>, <quark:charred_nether_brick_slab> * 2, <quark:charred_nether_brick_stairs>);
-
+Stonecutter.addOutputs(<quark:magma_bricks>, <quark:magma_bricks_slab> * 2, <quark:magma_bricks_stairs>);
+addBlockCyclingStonecutterRecipes(
+	[<quark:midori_block>, <quark:midori_pillar>], 
+	[<quark:midori_block_slab> * 2, <quark:midori_block_stairs>, <quark:midori_block_wall>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:biotite_block>, <quark:biotite_block:1>, <quark:biotite_block:2>],
+	[<quark:biotite_slab> * 2, <quark:biotite_stairs>, <quark:biotite_wall>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:biome_cobblestone>, <quark:biome_brick>],
+	[<quark:fire_stone_slab> * 2, <quark:fire_stone_brick_slab> * 2, <quark:fire_stone_stairs>, <quark:fire_stone_brick_stairs>, <quark:fire_stone_wall>, <quark:fire_stone_brick_wall>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:biome_cobblestone:1>, <quark:biome_brick:1>],
+	[<quark:icy_stone_slab> * 2, <quark:icy_stone_brick_slab> * 2, <quark:icy_stone_stairs>, <quark:icy_stone_brick_stairs>, <quark:icy_stone_wall>, <quark:icy_stone_brick_wall>]);
+Stonecutter.addOutputs(<quark:biome_cobblestone:2>, <quark:cobbed_stone_slab> * 2, <quark:cobbed_stone_stairs>, <quark:cobbed_stone_wall>);
+Stonecutter.addOutputs(<quark:duskbound_block>, <quark:duskbound_block_slab> * 2, <quark:duskbound_block_stairs>, <quark:duskbound_block_wall>);
+Stonecutter.addOutputs(<minecraft:netherrack>, <quark:netherrack_speleothem> * 2);
+addBlockCyclingStonecutterRecipes(
+	[<quark:polished_netherrack>, <quark:polished_netherrack:1>],
+	[<quark:polished_netherrack_bricks_slab> * 2, <quark:polished_netherrack_bricks_stairs>, <quark:polished_netherrack_bricks_wall>]);
+addBlockCyclingStonecutterRecipes(
+	[<minecraft:snow>, <quark:snow_bricks>],
+	[<quark:snow_bricks_slab> * 2, <quark:snow_bricks_stairs>, <quark:snow_bricks_wall>]);
 
 /*
 addBlockCyclingStonecutterRecipes(
