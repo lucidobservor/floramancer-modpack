@@ -1,20 +1,20 @@
 {
 	"images": {
-		"title": {
-			"image": "custommainmenu:textures/gui/floramancer.png",
-			"posX": 200,
-			"posY": 10,
-			"width": 360,
-			"height": 120,
-			"alignment": "top_left"
-		},
-
 		"black": {
 			"image": "custommainmenu:textures/gui/blacktransparent.png",
 			"posX": 45,
 			"posY": 0,
 			"width": 109,
 			"height": 2000,
+			"alignment": "top_left"
+		},
+	
+		"title": {
+			"image": "custommainmenu:textures/gui/floramancer.png",
+			"posX": 20,
+			"posY": 10,
+			"width": 240,
+			"height": 80,
 			"alignment": "top_left"
 		}
 	},
@@ -128,7 +128,21 @@
 				"type": "openLink",
 				"link": "https://github.com/lucidobservor/floramancer-modpack/issues"
 			}
-		}
+		},
+		
+		"refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
 
 
 	},
@@ -145,16 +159,27 @@
 					"custommainmenu:textures/background/screenshot1.png",
 					"custommainmenu:textures/background/screenshot2.png",
 					"custommainmenu:textures/background/screenshot3.png",
-					"custommainmenu:textures/background/screenshot4.png",
-					"custommainmenu:textures/background/screenshot5.png",
 					"custommainmenu:textures/background/screenshot6.png",
-					"custommainmenu:textures/background/screenshot7.png",
-					"custommainmenu:textures/background/screenshot8.png",
 					"custommainmenu:textures/background/screenshot9.png",
-					"custommainmenu:textures/background/screenshot10.png",
 					"custommainmenu:textures/background/screenshot11.png",
-					"custommainmenu:textures/background/screenshot12.png",
-					"custommainmenu:textures/background/screenshot13.png"
+					"custommainmenu:textures/background/winry01.png",
+					"custommainmenu:textures/background/winry02.png",
+					"custommainmenu:textures/background/winry03.png",
+					"custommainmenu:textures/background/winry04.png",
+					"custommainmenu:textures/background/winry05.png",
+					"custommainmenu:textures/background/winry06.png",
+					"custommainmenu:textures/background/winry07.png",
+					"custommainmenu:textures/background/winry08.png",
+					"custommainmenu:textures/background/winry09.png",
+					"custommainmenu:textures/background/winry10.png",
+					"custommainmenu:textures/background/winry11.png",
+					"custommainmenu:textures/background/winry12.png",
+					"custommainmenu:textures/background/winry13.png",
+					"custommainmenu:textures/background/winry14.png",
+					"custommainmenu:textures/background/winry15.png",
+					"custommainmenu:textures/background/winry16.png",
+					"custommainmenu:textures/background/winry17.png",
+					"custommainmenu:textures/background/winry18.png"
 				],
 				"displayDuration": 100,
 				"fadeDuration": 30,
