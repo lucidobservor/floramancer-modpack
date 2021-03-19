@@ -94,6 +94,7 @@
 			"imageHeight": 150,
 			"alignment": "bottom_left",
 			"texture": "custommainmenu:textures/gui/curse.png",
+			"tooltip": "CurseForge",
 			"action": {
 				"type": "openLink",
 				"link": "https://minecraft.curseforge.com/projects/floramancer"
@@ -109,6 +110,7 @@
 			"imageHeight": 150,
 			"alignment": "bottom_left",
 			"texture": "custommainmenu:textures/gui/discord.png",
+			"tooltip": "Join the Discord!",
 			"action": {
 				"type": "openLink",
 				"link": "https://discord.gg/9eGp9fV"
@@ -124,6 +126,7 @@
 			"imageHeight": 150,
 			"alignment": "bottom_left",
 			"texture": "custommainmenu:textures/gui/bug.png",
+			"tooltip": "Report a Bug",
 			"action": {
 				"type": "openLink",
 				"link": "https://github.com/lucidobservor/floramancer-modpack/issues"
