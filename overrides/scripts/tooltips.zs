@@ -22,3 +22,9 @@ creativeManaPool.addTooltip(format.gray("Check the upgraded Lexica for more info
 
 <futuremc:smoker>.addTooltip(format.gray("Does not work with the exoflame"));
 <futuremc:blast_furnace>.addTooltip(format.gray("Does not work with the exoflame"));
+
+<minecraft:mob_spawner>.addTooltip(format.gray("Right click on a spawner with a mob head to change its spawn type"));
+<minecraft:skull>.addTooltip(format.gray("Right click on a spawner to change it into a skeleton spawner"));
+<minecraft:skull>.addTooltip(format.gray("A skeleton spawner will spawn wither skeletons in the Nether"));
+<minecraft:skull:2>.addTooltip(format.gray("Right click on a spawner to change it into a zombie spawner"));
+<minecraft:skull:4>.addTooltip(format.gray("Right click on a spawner to change it into a creeper spawner"));

@@ -1,0 +1,38 @@
+{
+	"block_pools": [{
+		"name": "Skeleton Spawner",
+		"type": {
+			"type": "block",
+			"name": "minecraft:mob_spawner"
+		},
+		"clicktype": "rightclick",
+		"properties": [{
+				"type": "require_item",
+				"name": "minecraft:skull",
+				"meta": 2
+			},
+			{
+				"type": "consume_item",
+				"amount": 1
+			},
+			{
+				"type": "swing_hand",
+				"disableJEI": true
+			},
+			{
+				"type": "use_command",
+				"name": "blockdata",
+				"arguments": "~ ~ ~ {SpawnData: {id: \"minecraft:zombie\"}, SpawnPotentials: [{Entity: {id: \"minecraft:zombie\"}, Weight: 1}]}"
+			},
+			{
+				"type": "spawn_particles",
+				"name": "enchantmenttable",
+				"yOffset": 1,
+				"amount": 100,
+				"disableJEI": true
+			}
+		],
+		"drops": [],
+		"messages": []
+	}]
+}

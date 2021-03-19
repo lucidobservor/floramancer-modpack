@@ -103,6 +103,8 @@ Enchancements:
 • Enchanted soil can now be picked up with Silk Touch
 • Refactored how one gets sponge, coral blocks, and coral plants
 • Added alchemy catalyst recipe for Inspirations flowers
+• Added stonecutter conversion recipes for all non-wood blocks in the game, including recipes to streamline the azulejo and earthworks cyclic recipes
+• You can now change the type of a spawner by rightclicking it with a mob's head (zombie, skeleton, or creeper)
 
 Mods Updated (mostly bugfixes):
 • Antique Atlas
