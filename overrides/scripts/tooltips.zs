@@ -28,3 +28,5 @@ creativeManaPool.addTooltip(format.gray("Check the upgraded Lexica for more info
 <minecraft:skull>.addTooltip(format.gray("A skeleton spawner will spawn wither skeletons in the Nether"));
 <minecraft:skull:2>.addTooltip(format.gray("Right click on a spawner to change it into a zombie spawner"));
 <minecraft:skull:4>.addTooltip(format.gray("Right click on a spawner to change it into a creeper spawner"));
+
+<minecraft:clay>.addTooltip(format.gray("Perfectly balanced"));

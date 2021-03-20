@@ -28,3 +28,6 @@ Caves are enormous and largely interconnected. Leave a trail so you can find you
 Punching blazes to death yields more blaze powder in Garden of Glass mode.
 Blaze rods can be automated by killing blazes with a Livingwood Avatar.
 Spider eyes can be automated by killing spiders with a Livingwood Avatar.
+You can change the type of a spawner by right-clicking it with a mob's head.
+Automate everything! Semi-automation is better than no automation.
+The iron rod is a mana-free block breaker.
