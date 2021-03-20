@@ -147,23 +147,7 @@
 				"type": "openLink",
 				"link": "https://bisecthosting.com/lucid"
 			}
-		},
-		
-		"refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
-        }
-
-
+		}
 	},
 
 	"labels": {
