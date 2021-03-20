@@ -75,7 +75,7 @@ Automation:
 §n1.4.0§r
 
 General:
-• Updated to 14.23.5.2854 (latest stable for Minecraft 1.12.2)
+• Updated Forge to 14.23.5.2854 (latest stable for Minecraft 1.12.2)
 • Updated nearly every mod (see bottom of changelog for full list)
 • Added Backported Flora and Future MC, to bring in blocks and items from future Minecraft versions
 • Updated the images in the main menu slideshow, thanks to WinryLive!
