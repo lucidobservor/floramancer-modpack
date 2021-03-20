@@ -86,15 +86,15 @@
 
 		"curse": {
 			"text": "",
-			"posX": 55,
+			"posX": 50,
 			"posY": -35,
-			"width": 25,
-			"height": 25,
+			"width": 21,
+			"height": 21,
 			"imageWidth": 150,
 			"imageHeight": 150,
 			"alignment": "bottom_left",
 			"texture": "custommainmenu:textures/gui/curse.png",
-			"tooltip": "CurseForge",
+			"tooltip": "Open on CurseForge",
 			"action": {
 				"type": "openLink",
 				"link": "https://minecraft.curseforge.com/projects/floramancer"
@@ -102,15 +102,15 @@
 		},
 		"discord": {
 			"text": "",
-			"posX": 87,
+			"posX": 76,
 			"posY": -35,
-			"width": 25,
-			"height": 25,
+			"width": 21,
+			"height": 21,
 			"imageWidth": 150,
 			"imageHeight": 150,
 			"alignment": "bottom_left",
 			"texture": "custommainmenu:textures/gui/discord.png",
-			"tooltip": "Join the Discord!",
+			"tooltip": "Join the Discord",
 			"action": {
 				"type": "openLink",
 				"link": "https://discord.gg/9eGp9fV"
@@ -118,10 +118,10 @@
 		},
 		"bug": {
 			"text": "",
-			"posX": 119,
+			"posX": 102,
 			"posY": -35,
-			"width": 25,
-			"height": 25,
+			"width": 21,
+			"height": 21,
 			"imageWidth": 150,
 			"imageHeight": 150,
 			"alignment": "bottom_left",
@@ -130,6 +130,22 @@
 			"action": {
 				"type": "openLink",
 				"link": "https://github.com/lucidobservor/floramancer-modpack/issues"
+			}
+		},
+		"bisect": {
+			"text": "",
+			"posX": 128,
+			"posY": -35,
+			"width": 21,
+			"height": 21,
+			"imageWidth": 150,
+			"imageHeight": 150,
+			"alignment": "bottom_left",
+			"texture": "custommainmenu:textures/gui/cube.png",
+			"tooltip": "Rent a Server",
+			"action": {
+				"type": "openLink",
+				"link": "https://bisecthosting.com/lucid"
 			}
 		},
 		
@@ -151,6 +167,20 @@
 	},
 
 	"labels": {
+	
+		"winry":
+        {
+            "text" : "Photo Credit\nWinryLive",
+			"hoverText": "Visit her on\nTwitch!",
+            "posX" : -55,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action": {
+				"type": "openLink",
+				"link": "https://www.twitch.tv/winrylive"
+			}
+        }
 
 	},
 	"other": {
@@ -167,7 +197,6 @@
 					"custommainmenu:textures/background/screenshot11.png",
 					"custommainmenu:textures/background/winry01.png",
 					"custommainmenu:textures/background/winry02.png",
-					"custommainmenu:textures/background/winry03.png",
 					"custommainmenu:textures/background/winry04.png",
 					"custommainmenu:textures/background/winry05.png",
 					"custommainmenu:textures/background/winry06.png",
@@ -176,7 +205,6 @@
 					"custommainmenu:textures/background/winry09.png",
 					"custommainmenu:textures/background/winry10.png",
 					"custommainmenu:textures/background/winry11.png",
-					"custommainmenu:textures/background/winry12.png",
 					"custommainmenu:textures/background/winry13.png",
 					"custommainmenu:textures/background/winry14.png",
 					"custommainmenu:textures/background/winry15.png",
