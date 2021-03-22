@@ -44,3 +44,25 @@ recipes.addShaped("minecraft_stone_brick_slab", <minecraft:stone_slab:5> * 6, [[
 recipes.removeByRecipeName("minecraft:stone_brick_stairs");
 recipes.addShaped("minecraft_stone_brick_stairs", <minecraft:stone_brick_stairs> * 8, [[<minecraft:stonebrick> | <minecraft:stonebrick:2> | <minecraft:stonebrick:3>, null, null], [<minecraft:stonebrick> | <minecraft:stonebrick:2> | <minecraft:stonebrick:3>, <minecraft:stonebrick> | <minecraft:stonebrick:2> | <minecraft:stonebrick:3>, null], [<minecraft:stonebrick> | <minecraft:stonebrick:2> | <minecraft:stonebrick:3>, <minecraft:stonebrick> | <minecraft:stonebrick:2> | <minecraft:stonebrick:3>, <minecraft:stonebrick> | <minecraft:stonebrick:2> | <minecraft:stonebrick:3>]]);
 
+// New trapdoors
+recipes.removeByRecipeName("futuremc:oak_wooden_trapdoor");
+recipes.removeByRecipeName("futuremc:spruce_wooden_trapdoor");
+recipes.removeByRecipeName("futuremc:birch_wooden_trapdoor");
+recipes.removeByRecipeName("futuremc:jungle_wooden_trapdoor");
+recipes.removeByRecipeName("futuremc:acacia_wooden_trapdoor");
+recipes.removeByRecipeName("futuremc:dark_oak_wooden_trapdoor");
+
+recipes.addShapeless("wooden_trapdoor_1a", <quark:spruce_trapdoor>,[<futuremc:spruce_trapdoor>], null, null);
+recipes.addShapeless("wooden_trapdoor_2a", <quark:birch_trapdoor>,[<futuremc:birch_trapdoor>], null, null);
+recipes.addShapeless("wooden_trapdoor_3a", <quark:jungle_trapdoor>,[<futuremc:jungle_trapdoor>], null, null);
+recipes.addShapeless("wooden_trapdoor_4a", <quark:acacia_trapdoor>,[<futuremc:acacia_trapdoor>], null, null);
+recipes.addShapeless("wooden_trapdoor_5a", <quark:dark_oak_trapdoor>,[<futuremc:dark_oak_trapdoor>], null, null);
+
+recipes.addShapeless("wooden_trapdoor_1b", <futuremc:spruce_trapdoor>,[<quark:spruce_trapdoor>], null, null);
+recipes.addShapeless("wooden_trapdoor_2b", <futuremc:birch_trapdoor>,[<quark:birch_trapdoor>], null, null);
+recipes.addShapeless("wooden_trapdoor_3b", <futuremc:jungle_trapdoor>,[<quark:jungle_trapdoor>], null, null);
+recipes.addShapeless("wooden_trapdoor_4b", <futuremc:acacia_trapdoor>,[<quark:acacia_trapdoor>], null, null);
+recipes.addShapeless("wooden_trapdoor_5b", <futuremc:dark_oak_trapdoor>,[<quark:dark_oak_trapdoor>], null, null);
+
+
+
