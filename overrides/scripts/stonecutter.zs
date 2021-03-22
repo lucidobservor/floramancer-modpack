@@ -193,7 +193,6 @@ addBlockCyclingStonecutterRecipes(
 	[<botania:dreamwood1slab> * 2, <botania:dreamwood1stairs>]);
 Stonecutter.addOutputs(<botania:dreamwood>, <botania:dreamwood:1> * 4, <botania:dreamwood:3> * 4, <botania:dreamwood:4> * 4, <botania:dreamwood1slab> * 8, <botania:dreamwood1stairs> * 4);
 
-
 // Earthworks
 addCyclicRecipes([
 	<earthworks:daub_cob_arrow0>,
@@ -418,6 +417,31 @@ addBlockCyclingStonecutterRecipes(
 	[<traverse:blue_rock>, <traverse:blue_rock_bricks>, <traverse:blue_rock_bricks_chiseled>],
 	[<traverse:blue_rock_slab> * 2, <traverse:blue_rock_bricks_slab> * 2, <traverse:blue_rock_bricks_stairs>]);
 Stonecutter.addOutputs(<traverse:blue_rock_cobblestone>, <traverse:blue_rock_cobblestone_slab> * 2, <traverse:blue_rock_cobblestone_stairs>, <traverse:blue_rock_cobblestone_wall>);
+
+// Wood
+val logs = [
+	[<minecraft:log:0>, <earthworks:block_timber>, <futuremc:stripped_oak_log>, <quark:bark:0>],
+	[<minecraft:log:1>, <earthworks:block_timber_spruce>, <futuremc:stripped_spruce_log>, <quark:bark:1>],
+	[<minecraft:log:2>, <earthworks:block_timber_birch>, <futuremc:stripped_birch_log>, <quark:bark:2>],
+	[<minecraft:log:3>, <earthworks:block_timber_jungle>, <futuremc:stripped_jungle_log>, <quark:bark:3>],
+	[<minecraft:log2:0>, <earthworks:block_timber_acacia>, <futuremc:stripped_acacia_log>, <quark:bark:4>],
+	[<minecraft:log2:1>, <earthworks:block_timber_dark_oak>, <futuremc:stripped_dark_oak_log>, <quark:bark:5>]
+] as IItemStack[][];
+val logShapes = [
+	[<earthworks:itemslab_timber>* 2, <quark:bark_oak_slab> * 2, <earthworks:stair_timber>, <quark:bark_oak_stairs>, <earthworks:wall_timber>, <quark:bark_oak_wall>],
+	[<earthworks:itemslab_timber_spruce>* 2, <quark:bark_spruce_slab> * 2, <earthworks:stair_timber_spruce>, <quark:bark_spruce_stairs>, <earthworks:wall_timber_spruce>, <quark:bark_spruce_wall>],
+	[<earthworks:itemslab_timber_birch>* 2, <quark:bark_birch_slab> * 2, <earthworks:stair_timber_birch>, <quark:bark_birch_stairs>, <earthworks:wall_timber_birch>, <quark:bark_birch_wall>],
+	[<earthworks:itemslab_timber_jungle>* 2, <quark:bark_jungle_slab> * 2, <earthworks:stair_timber_jungle>, <quark:bark_jungle_stairs>, <earthworks:wall_timber_jungle>, <quark:bark_jungle_wall>],
+	[<earthworks:itemslab_timber_acacia>* 2, <quark:bark_acacia_slab> * 2, <earthworks:stair_timber_acacia>, <quark:bark_acacia_stairs>, <earthworks:wall_timber_acacia>, <quark:bark_acacia_wall>],
+	[<earthworks:itemslab_timber_dark_oak>* 2, <quark:bark_dark_oak_slab> * 2, <earthworks:stair_timber_dark_oak>, <quark:bark_dark_oak_stairs>, <earthworks:wall_timber_dark_oak>, <quark:bark_dark_oak_wall>]
+] as IItemStack[][];
+val logOres = [<minecraft:stick> * 8, <earthworks:item_timber> * 3] as IItemStack[];
+
+for i in 0 to 6 {
+	addBlockCyclingStonecutterRecipes(logs[i], logShapes[i]);
+	addStonecutterRecipes(logs[i], logOres);
+}
+
 
 /*
 addBlockCyclingStonecutterRecipes(
