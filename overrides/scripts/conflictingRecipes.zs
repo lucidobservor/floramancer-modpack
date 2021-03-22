@@ -64,5 +64,30 @@ recipes.addShapeless("wooden_trapdoor_3b", <futuremc:jungle_trapdoor>,[<quark:ju
 recipes.addShapeless("wooden_trapdoor_4b", <futuremc:acacia_trapdoor>,[<quark:acacia_trapdoor>], null, null);
 recipes.addShapeless("wooden_trapdoor_5b", <futuremc:dark_oak_trapdoor>,[<quark:dark_oak_trapdoor>], null, null);
 
+// Make more fences
+recipes.removeByRecipeName("minecraft:fence");
+recipes.removeByRecipeName("minecraft:spruce_fence");
+recipes.removeByRecipeName("minecraft:birch_fence");
+recipes.removeByRecipeName("minecraft:jungle_fence");
+recipes.removeByRecipeName("minecraft:acacia_fence");
+recipes.removeByRecipeName("minecraft:dark_oak_fence");
 
+recipes.addShaped("minecraft_oak_fence", <minecraft:fence> * 6, 
+	[[<minecraft:planks:0>, <minecraft:stick>, <minecraft:planks:0>], 
+	[<minecraft:planks:0>, <minecraft:stick>, <minecraft:planks:0>]]);
+recipes.addShaped("minecraft_spruce_fence", <minecraft:spruce_fence> * 6, 
+	[[<minecraft:planks:1>, <minecraft:stick>, <minecraft:planks:1>], 
+	[<minecraft:planks:1>, <minecraft:stick>, <minecraft:planks:1>]]);
+recipes.addShaped("minecraft_birch_fence", <minecraft:birch_fence> * 6, 
+	[[<minecraft:planks:2>, <minecraft:stick>, <minecraft:planks:2>], 
+	[<minecraft:planks:2>, <minecraft:stick>, <minecraft:planks:2>]]);
+recipes.addShaped("minecraft_jungle_fence", <minecraft:jungle_fence> * 6, 
+	[[<minecraft:planks:3>, <minecraft:stick>, <minecraft:planks:3>], 
+	[<minecraft:planks:3>, <minecraft:stick>, <minecraft:planks:3>]]);
+recipes.addShaped("minecraft_acacia_fence", <minecraft:acacia_fence> * 6, 
+	[[<minecraft:planks:4>, <minecraft:stick>, <minecraft:planks:4>], 
+	[<minecraft:planks:4>, <minecraft:stick>, <minecraft:planks:4>]]);
+recipes.addShaped("minecraft_dark_oak_fence", <minecraft:dark_oak_fence> * 6, 
+	[[<minecraft:planks:5>, <minecraft:stick>, <minecraft:planks:5>], 
+	[<minecraft:planks:5>, <minecraft:stick>, <minecraft:planks:5>]]);
 
