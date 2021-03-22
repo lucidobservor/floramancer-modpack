@@ -453,7 +453,7 @@ val logPlankShapes = [
 	[],
 	[],
 	[],
-	[<minecraft:wooden_slab:5> * 8, <earthworks:itemslab_planks_vert_dark_oak> * 8, <minecraft:dark_oak_stairs> * 5, <earthworks:stair_planks_vert_dark_oak> * 5]
+	[<minecraft:wooden_slab:5> * 8, <earthworks:itemslab_planks_vert_dark_oak> * 8, <minecraft:dark_oak_stairs> * 5, <earthworks:stair_planks_vert_dark_oak> * 5, <minecraft:dark_oak_fence> * 5, <earthworks:fence_planks_vert_dark_oak> * 5, <fenceoverhaul:dark_oak_overhauledfence> * 5, <minecraft:dark_oak_fence_gate>, <minecraft:dark_oak_door> * 2, <quark:dark_oak_trapdoor> * 4, <futuremc:dark_oak_trapdoor> * 4, <minecraft:dark_oak_boat>, <quark:dark_oak_button> * 4, <quark:dark_oak_pressure_plate> * 2, <inspirations:bookshelf>.withTag({texture: {id: "minecraft:wooden_slab", Count: 1 as byte, Damage: 5 as short}}), <worsebarrels:barrel_darkoak>]
 ] as IItemStack[][];
 val plankShapes = [
 	[],
@@ -461,7 +461,7 @@ val plankShapes = [
 	[],
 	[],
 	[],
-	[<minecraft:wooden_slab:5> * 2, <earthworks:itemslab_planks_vert_dark_oak> * 2, <minecraft:dark_oak_stairs>, <earthworks:stair_planks_vert_dark_oak>]
+	[<minecraft:wooden_slab:5> * 2, <earthworks:itemslab_planks_vert_dark_oak> * 2, <minecraft:dark_oak_stairs>, <earthworks:stair_planks_vert_dark_oak>, <minecraft:dark_oak_fence>, <earthworks:fence_planks_vert_dark_oak>, <fenceoverhaul:dark_oak_overhauledfence>, <quark:dark_oak_trapdoor>, <futuremc:dark_oak_trapdoor>, <quark:dark_oak_button>]
 ] as IItemStack[][];
 
 
