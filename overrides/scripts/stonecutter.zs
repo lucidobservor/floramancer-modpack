@@ -436,10 +436,47 @@ val logShapes = [
 	[<earthworks:itemslab_timber_dark_oak>* 2, <quark:bark_dark_oak_slab> * 2, <earthworks:stair_timber_dark_oak>, <quark:bark_dark_oak_stairs>, <earthworks:wall_timber_dark_oak>, <quark:bark_dark_oak_wall>]
 ] as IItemStack[][];
 val logOres = [<minecraft:stick> * 8, <earthworks:item_timber> * 3] as IItemStack[];
+val planks = [
+	[<minecraft:planks:0>, <quark:vertical_planks:0>, <quark:carved_wood:0>],
+	[<minecraft:planks:1>, <quark:vertical_planks:1>, <quark:carved_wood:1>],
+	[<minecraft:planks:2>, <quark:vertical_planks:2>, <quark:carved_wood:2>],
+	[<minecraft:planks:3>, <quark:vertical_planks:3>, <quark:carved_wood:3>],
+	[<minecraft:planks:4>, <quark:vertical_planks:4>, <quark:carved_wood:4>],
+	[<minecraft:planks:5>, <quark:vertical_planks:5>, <quark:carved_wood:5>]
+] as IItemStack[][];
+
+
+
+val logPlankShapes = [
+	[],
+	[],
+	[],
+	[],
+	[],
+	[<minecraft:wooden_slab:5> * 8, <earthworks:itemslab_planks_vert_dark_oak> * 8, <minecraft:dark_oak_stairs> * 5, <earthworks:stair_planks_vert_dark_oak> * 5]
+] as IItemStack[][];
+val plankShapes = [
+	[],
+	[],
+	[],
+	[],
+	[],
+	[<minecraft:wooden_slab:5> * 2, <earthworks:itemslab_planks_vert_dark_oak> * 2, <minecraft:dark_oak_stairs>, <earthworks:stair_planks_vert_dark_oak>]
+] as IItemStack[][];
+
+
+
 
 for i in 0 to 6 {
-	addBlockCyclingStonecutterRecipes(logs[i], logShapes[i]);
+	addCyclicRecipes(logs[i]);
+	addStonecutterRecipes(logs[i], logShapes[i]);
+	addStonecutterRecipesMult(logs[i], planks[i], 4);
+	addStonecutterRecipes(logs[i], logPlankShapes[i]);
 	addStonecutterRecipes(logs[i], logOres);
+	
+	addCyclicRecipes(planks[i]);	
+	addStonecutterRecipes(planks[i], plankShapes[i]);
+	
 }
 
 
@@ -459,6 +496,14 @@ function addCyclicRecipes(items as IItemStack[]) {
 			if (i != j) {
 				Stonecutter.addOutput(itemA, itemB);
 			}
+		}
+	}
+}
+
+function addStonecutterRecipesMult(input as IItemStack[], output as IItemStack[], outputMult as int) {
+	for inputItem in input {
+		for outputItem in output {
+			Stonecutter.addOutput(inputItem, outputItem * outputMult);
 		}
 	}
 }
