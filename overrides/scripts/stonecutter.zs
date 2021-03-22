@@ -15,17 +15,10 @@ val inputsToRemove = [
 for inputItem in inputsToRemove { Stonecutter.removeAllOutputsForInput(inputItem); }
 
 // Stone
-addStonecutterRecipes(
-	[<minecraft:stonebrick:1>],
-	[<quark:stonebrick_mossy_slab> * 2, <quark:stonebrick_mossy_stairs>, <quark:stonebrick_mossy_wall>]);
-addStonecutterRecipes(
-	[<minecraft:stonebrick:1>, <minecraft:stonebrick:2>],
-	[<minecraft:stone>, <minecraft:stonebrick>, <minecraft:stonebrick:3>]);
-addCyclicRecipes([<minecraft:stone>, <minecraft:stonebrick>, <minecraft:stonebrick:3>]);
-addStonecutterRecipes(
+addBlockCyclingStonecutterRecipes(
 	[<minecraft:stone>, <minecraft:stonebrick>, <minecraft:stonebrick:1>, <minecraft:stonebrick:2>, <minecraft:stonebrick:3>],
-	[<minecraft:stone_slab> * 2, <minecraft:stone_slab:5> * 2, <quark:stone_stairs>, <minecraft:stone_brick_stairs>, <quark:stone_wall>, <quark:stonebrick_wall>, <quark:stone_speleothem> * 2]);
-	
+	[<minecraft:stone_slab> * 2, <minecraft:stone_slab:5> * 2, <quark:stonebrick_mossy_slab> * 2, <quark:stone_stairs>, <minecraft:stone_brick_stairs>, <quark:stonebrick_mossy_stairs>, <quark:stone_wall>, <quark:stonebrick_wall>, <quark:stonebrick_mossy_wall>, <quark:stone_speleothem> * 2]);
+
 // Granite / Diorite / Andesite
 addBlockCyclingStonecutterRecipes(
 	[<minecraft:stone:1>, <minecraft:stone:2>, <quark:world_stone_bricks>, <quark:world_stone_carved>, <quark:world_stone_pavement>],
@@ -103,12 +96,8 @@ addBlockCyclingStonecutterRecipes(
 	[<minecraft:end_stone>, <minecraft:end_bricks>],
 	[<quark:end_bricks_slab> * 2, <quark:end_bricks_stairs>, <quark:end_bricks_wall>]);
 
-// Livingrock / Shimmerrock
-addCyclicRecipes([<botania:livingrock>, <botania:livingrock:1>, <botania:livingrock:4>]);
-addStonecutterRecipes(
-	[<botania:livingrock:2>, <botania:livingrock:3>],
-	[<botania:livingrock>, <botania:livingrock:1>, <botania:livingrock:4>]);
-addStonecutterRecipes(
+// Livingrock
+addBlockCyclingStonecutterRecipes(
 	[<botania:livingrock>, <botania:livingrock:1>, <botania:livingrock:2>, <botania:livingrock:3>, <botania:livingrock:4>],
 	[<botania:livingrock0slab> * 2, <botania:livingrock1slab> * 2, <botania:livingrock0stairs>, <botania:livingrock1stairs>, <botania:livingrock0wall>]);
 
