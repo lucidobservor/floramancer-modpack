@@ -172,11 +172,27 @@ Stonecutter.addOutputs(<botania:pavement:3>, <botania:pavement3slab> * 2, <botan
 Stonecutter.addOutputs(<botania:pavement:4>, <botania:pavement4slab> * 2, <botania:pavement4stairs>);
 Stonecutter.addOutputs(<botania:pavement:5>, <botania:pavement5slab> * 2, <botania:pavement5stairs>);
 
-// Shimmerrock
+// Shimmerrock / Shimmerwood
 Stonecutter.addOutputs(<botania:shimmerrock>, <botania:shimmerrock0slab> * 2, <botania:shimmerrock0stairs>);
+Stonecutter.addOutputs(<botania:shimmerwoodplanks>, <botania:shimmerwoodplanks0slab> * 2, <botania:shimmerwoodplanks0stairs>);
 
 // Azulejo
 addCyclicRecipes([<botania:custombrick:0>, <botania:custombrick:1>, <botania:custombrick:2>, <botania:custombrick:3>, <botania:custombrick:4>, <botania:custombrick:5>, <botania:custombrick:6>, <botania:custombrick:7>, <botania:custombrick:8>, <botania:custombrick:9>, <botania:custombrick:10>, <botania:custombrick:11>, <botania:custombrick:12>, <botania:custombrick:13>, <botania:custombrick:14>, <botania:custombrick:15>]);
+
+// Livingwood
+Stonecutter.addOutputs(<botania:livingwood>, <botania:livingwood0slab> * 2, <botania:livingwood0stairs>, <botania:livingwood0wall>);
+addBlockCyclingStonecutterRecipes(
+	[<botania:livingwood:1>, <botania:livingwood:3>, <botania:livingwood:4>],
+	[<botania:livingwood1slab> * 2, <botania:livingwood1stairs>]);
+Stonecutter.addOutputs(<botania:livingwood>, <botania:livingwood:1> * 4, <botania:livingwood:3> * 4, <botania:livingwood:4> * 4, <botania:livingwood1slab> * 8, <botania:livingwood1stairs> * 4);
+
+// Dreamwood
+Stonecutter.addOutputs(<botania:dreamwood>, <botania:dreamwood0slab> * 2, <botania:dreamwood0stairs>, <botania:dreamwood0wall>);
+addBlockCyclingStonecutterRecipes(
+	[<botania:dreamwood:1>, <botania:dreamwood:3>, <botania:dreamwood:4>],
+	[<botania:dreamwood1slab> * 2, <botania:dreamwood1stairs>]);
+Stonecutter.addOutputs(<botania:dreamwood>, <botania:dreamwood:1> * 4, <botania:dreamwood:3> * 4, <botania:dreamwood:4> * 4, <botania:dreamwood1slab> * 8, <botania:dreamwood1stairs> * 4);
+
 
 // Earthworks
 addCyclicRecipes([
@@ -388,6 +404,9 @@ addBlockCyclingStonecutterRecipes(
 addBlockCyclingStonecutterRecipes(
 	[<minecraft:snow>, <quark:snow_bricks>],
 	[<quark:snow_bricks_slab> * 2, <quark:snow_bricks_stairs>, <quark:snow_bricks_wall>]);
+Stonecutter.addOutputs(<quark:turf>, <quark:turf_slab> * 2, <quark:turf_stairs>);
+Stonecutter.addOutputs(<quark:thatch>, <quark:thatch_slab> * 2, <quark:thatch_stairs>);
+Stonecutter.addOutputs(<quark:reed_block>, <quark:reed_block_slab> * 2, <quark:reed_block_stairs>, <quark:reed_block_wall>);
 	
 // Traverse
 addBlockCyclingStonecutterRecipes(
