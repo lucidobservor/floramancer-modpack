@@ -424,7 +424,6 @@ val logShapes = [
 	[<earthworks:itemslab_timber_acacia>* 2, <quark:bark_acacia_slab> * 2, <earthworks:stair_timber_acacia>, <quark:bark_acacia_stairs>, <earthworks:wall_timber_acacia>, <quark:bark_acacia_wall>, <earthworks:wall_wood_shingle_acacia> * 6],
 	[<earthworks:itemslab_timber_dark_oak>* 2, <quark:bark_dark_oak_slab> * 2, <earthworks:stair_timber_dark_oak>, <quark:bark_dark_oak_stairs>, <earthworks:wall_timber_dark_oak>, <quark:bark_dark_oak_wall>, <earthworks:wall_wood_shingle_dark_oak> * 6]
 ] as IItemStack[][];
-val logOres = [<minecraft:stick> * 8, <earthworks:item_timber> * 3] as IItemStack[];
 val planks = [
 	[<minecraft:planks:0>, <quark:vertical_planks:0>, <quark:carved_wood:0>],
 	[<minecraft:planks:1>, <quark:vertical_planks:1>, <quark:carved_wood:1>],
@@ -433,9 +432,6 @@ val planks = [
 	[<minecraft:planks:4>, <quark:vertical_planks:4>, <quark:carved_wood:4>],
 	[<minecraft:planks:5>, <quark:vertical_planks:5>, <quark:carved_wood:5>]
 ] as IItemStack[][];
-
-
-
 val logPlankShapes = [
 	[<earthworks:block_wood_shingle:0> * 6, <minecraft:wooden_slab:0> * 8, <earthworks:itemslab_planks_vert_oak> * 8, <earthworks:itemslab_wood_shingle_oak> * 12, <minecraft:oak_stairs> * 5, <earthworks:stair_planks_vert_oak> * 5, <earthworks:stair_wood_shingle_oak> * 8, <minecraft:fence> * 5, <earthworks:fence_planks_vert_oak> * 5, <fenceoverhaul:oak_overhauledfence> * 5, <minecraft:fence_gate>, <minecraft:wooden_door> * 2, <minecraft:trapdoor> * 4, <minecraft:boat>, <minecraft:wooden_button> * 4, <minecraft:wooden_pressure_plate> * 2, <inspirations:bookshelf>.withTag({texture: {id: "minecraft:wooden_slab", Count: 1 as byte, Damage: 0 as short}}), <worsebarrels:barrel_oak>],
 	[<earthworks:block_wood_shingle:1> * 6, <minecraft:wooden_slab:1> * 8, <earthworks:itemslab_planks_vert_spruce> * 8, <earthworks:itemslab_wood_shingle_spruce> * 12, <minecraft:spruce_stairs> * 5, <earthworks:stair_planks_vert_spruce> * 5, <earthworks:stair_wood_shingle_spruce> * 8, <minecraft:spruce_fence> * 5, <earthworks:fence_planks_vert_spruce> * 5, <fenceoverhaul:spruce_overhauledfence> * 5, <minecraft:spruce_fence_gate>, <minecraft:spruce_door> * 2, <quark:spruce_trapdoor> * 4, <futuremc:spruce_trapdoor> * 4, <minecraft:spruce_boat>, <quark:spruce_button> * 4, <quark:spruce_pressure_plate> * 2, <inspirations:bookshelf>.withTag({texture: {id: "minecraft:wooden_slab", Count: 1 as byte, Damage: 1 as short}}), <worsebarrels:barrel_spruce>],
@@ -452,8 +448,8 @@ val plankShapes = [
 	[<minecraft:wooden_slab:4> * 2, <earthworks:itemslab_planks_vert_acacia> * 2, <minecraft:acacia_stairs>, <earthworks:stair_planks_vert_acacia>, <minecraft:acacia_fence>, <earthworks:fence_planks_vert_acacia>, <fenceoverhaul:acacia_overhauledfence>, <quark:acacia_trapdoor>, <futuremc:acacia_trapdoor>, <quark:acacia_button>],
 	[<minecraft:wooden_slab:5> * 2, <earthworks:itemslab_planks_vert_dark_oak> * 2, <minecraft:dark_oak_stairs>, <earthworks:stair_planks_vert_dark_oak>, <minecraft:dark_oak_fence>, <earthworks:fence_planks_vert_dark_oak>, <fenceoverhaul:dark_oak_overhauledfence>, <quark:dark_oak_trapdoor>, <futuremc:dark_oak_trapdoor>, <quark:dark_oak_button>]
 ] as IItemStack[][];
-
-
+val logOres = [<inspirations:mulch> * 4, <minecraft:crafting_table>, <craftingstation:crafting_station>, <minecraft:sign> * 2, <minecraft:ladder> * 4, <extrarails:wooden_rail> * 5, <malisisdoors:saloon> * 2, <minecraft:stick> * 8, <earthworks:item_timber> * 3, <minecraft:bowl> * 5, <botania:pestleandmortar>] as IItemStack[];
+val plankOres = [<inspirations:mulch>, <minecraft:ladder>, <extrarails:wooden_rail>, <minecraft:stick> * 2, <minecraft:bowl>] as IItemStack[];
 
 
 for i in 0 to 6 {
@@ -465,6 +461,7 @@ for i in 0 to 6 {
 	
 	addCyclicRecipes(planks[i]);	
 	addStonecutterRecipes(planks[i], plankShapes[i]);
+	addStonecutterRecipes(planks[i], plankOres);
 }
 
 Stonecutter.addOutputs(<earthworks:block_wood_shingle:5>, <earthworks:itemslab_wood_shingle_dark_oak> * 2, <earthworks:stair_wood_shingle_dark_oak>, <earthworks:wall_wood_shingle_dark_oak>);
