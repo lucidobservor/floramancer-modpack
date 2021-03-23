@@ -450,21 +450,83 @@ val plankShapes = [
 ] as IItemStack[][];
 val logOres = [<inspirations:mulch> * 4, <minecraft:crafting_table>, <craftingstation:crafting_station>, <minecraft:sign> * 2, <minecraft:ladder> * 4, <extrarails:wooden_rail> * 5, <malisisdoors:saloon> * 2, <minecraft:stick> * 8, <earthworks:item_timber> * 3, <minecraft:bowl> * 5, <botania:pestleandmortar>] as IItemStack[];
 val plankOres = [<inspirations:mulch>, <minecraft:ladder>, <extrarails:wooden_rail>, <minecraft:stick> * 2, <minecraft:bowl>] as IItemStack[];
-
+val plankBlockCraft = [
+	<blockcraftery:editable_stairs>,
+	<blockcraftery:editable_slab> * 2,
+	<blockcraftery:editable_slant> * 2,
+	<blockcraftery:editable_outer_corner> * 4,
+	<blockcraftery:editable_inner_corner>,
+	<blockcraftery:editable_wall>,
+	<blockcraftery:editable_fence>,
+	<blockcraftery:editable_door>,
+	<blockcraftery:editable_trap_door>,
+	<blockcraftery:editable_pressure_plate_all>,
+	<blockcraftery:editable_pressure_plate_items>,
+	<blockcraftery:editable_pressure_plate_mobs>,
+	<blockcraftery:editable_pressure_plate_player>] as IItemStack[];
+val logBlockCraft = [
+	<blockcraftery:editable_slab> * 8,
+	<blockcraftery:editable_stairs> * 5,
+	<blockcraftery:editable_slant> * 2,
+	<blockcraftery:editable_outer_corner> * 16,
+	<blockcraftery:editable_inner_corner> * 4,
+	<blockcraftery:editable_wall> * 4,
+	<blockcraftery:editable_fence> * 5,
+	<blockcraftery:editable_door> * 2,
+	<blockcraftery:editable_trap_door> * 2,
+	<blockcraftery:editable_pressure_plate_all> * 4,
+	<blockcraftery:editable_pressure_plate_items> * 4,
+	<blockcraftery:editable_pressure_plate_mobs> * 4,
+	<blockcraftery:editable_pressure_plate_player> * 4] as IItemStack[];
 
 for i in 0 to 6 {
 	addCyclicRecipes(logs[i]);
 	addStonecutterRecipes(logs[i], logShapes[i]);
 	addStonecutterRecipesMult(logs[i], planks[i], 4);
 	addStonecutterRecipes(logs[i], logPlankShapes[i]);
-	addStonecutterRecipes(logs[i], logOres);
 	
 	addCyclicRecipes(planks[i]);	
 	addStonecutterRecipes(planks[i], plankShapes[i]);
-	addStonecutterRecipes(planks[i], plankOres);
 }
 
+for item in <ore:logWood>.items{
+	addStonecutterRecipes([item], logOres);
+	addStonecutterRecipes([item], [<blockcraftery:editable_block> * 4]);
+	addStonecutterRecipes([item], logBlockCraft);
+}
+addStonecutterRecipes([<traverse:fir_log>], logOres);
+addStonecutterRecipes([<traverse:fir_log>], [<blockcraftery:editable_block> * 4]);
+addStonecutterRecipes([<traverse:fir_log>], logBlockCraft);
+
+for item in <ore:plankWood>.items{
+	addStonecutterRecipes([item], plankOres);
+	addStonecutterRecipes([item], [<blockcraftery:editable_block>]);
+	addStonecutterRecipes([item], plankBlockCraft);
+}
+addStonecutterRecipes([<traverse:fir_planks>], plankOres);
+addStonecutterRecipes([<traverse:fir_planks>], [<blockcraftery:editable_block>]);
+addStonecutterRecipes([<traverse:fir_planks>], plankBlockCraft);
+
 Stonecutter.addOutputs(<earthworks:block_wood_shingle:5>, <earthworks:itemslab_wood_shingle_dark_oak> * 2, <earthworks:stair_wood_shingle_dark_oak>, <earthworks:wall_wood_shingle_dark_oak>);
+
+addStonecutterRecipes([<blockcraftery:editable_block>], plankBlockCraft);
+
+Stonecutter.addOutputs(
+	<blockcraftery:editable_block_reinforced>,
+	<blockcraftery:editable_stairs_reinforced>,
+	<blockcraftery:editable_slab_reinforced> * 2,
+	<blockcraftery:editable_slant_reinforced> * 2,
+	<blockcraftery:editable_outer_corner_reinforced> * 4,
+	<blockcraftery:editable_inner_corner_reinforced>,
+	<blockcraftery:editable_wall_reinforced>,
+	<blockcraftery:editable_fence_reinforced>,
+	<blockcraftery:editable_door_reinforced>,
+	<blockcraftery:editable_trap_door_reinforced>,
+	<blockcraftery:editable_pressure_plate_all_reinforced>,
+	<blockcraftery:editable_pressure_plate_items_reinforced>,
+	<blockcraftery:editable_pressure_plate_mobs_reinforced>,
+	<blockcraftery:editable_pressure_plate_player_reinforced>);
+
 
 
 /*
