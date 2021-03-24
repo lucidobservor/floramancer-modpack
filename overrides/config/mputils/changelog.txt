@@ -72,6 +72,13 @@ Automation:
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
+§n1.4.1§r
+
+• Added QOL woodcutting recipes to the stonecutter
+• Enabled some of the Inspirations "Utility module, including the redstone barrel and redstone book
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
 §n1.4.0§r
 
 General:
