@@ -33,13 +33,13 @@ Exploration:
 • The rare, tower-like structures in The End contain Enderman spawners! Move them back to the overworld for easier ender pearl farming.
 
 Transport:
-• You can automatically move items between dimensions using the Ender Soul Core.
 • Use minecarts to transport large amounts of mana quickly.
 • Minecarts can by dyed by shift-right clicking them with a vanilla dye.
 • There are several new kinds of rails to make constructing a rail network easier.
 • You can move chests and animals by using Carry On to pick them up.
 
 Mob Farming:
+• You can change the type of a spawner by right-clicking it with a mob's head.
 • Wither skeletons drop wither skull fragments, even when not killed by a player.
 • You can move a skeleton spawner from the overworld to the Nether to turn it into a wither skeleton spawner
 • Blazes only drop blaze rods when killed by a player or livingwood avatar. This is expensive in terms of mana, so for blaze powder it is recommended that you create blazes with Fel Pumpkins instead.

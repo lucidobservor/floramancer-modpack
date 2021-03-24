@@ -1,7 +1,7 @@
 
 In this pack, your goal is to fully automate every generating flower in Botania, despite the fact that all generating flora suffer passive decay. You'll need to produce one thousand mana pools worth of mana with every flower, so plan to have a lot of flowers running at all times. You can track your progress towards these goals in the Advancements Window (Default key "L").
 
-Those are long term goals though. To start off, you'll want to start gathering your basic vanilla resources and mystical flowers. Read the Lexica Botania and follow the Botania advancements to start progressing through the mod. Some recipes are tweaked, but if you've played with Botania before, the basic progression is unchanged. Making a fully automatic mana generation setup is a lot harder in this pack, due to the passive flower decay, but it's entirely possible to do even before unlocking Elven technology! You may need to be more frugal with your mana though, at least to start with.
+Those are long-term goals though. To start off, you'll want to start gathering your basic vanilla resources and mystical flowers. Read the Lexica Botania and follow the Botania advancements to start progressing through the mod. Some recipes are tweaked, but if you've played with Botania before, the basic progression is unchanged. Making a fully automatic mana generation setup is a lot harder in this pack, due to the passive flower decay, but it's entirely possible to do even before unlocking Elven technology! You may need to be more frugal with your mana though, at least to start with.
 
 Below, you can find some Tips, Tricks, and Tweaks. Many of these are the same tips you see on your loading screen, but better organized and with some additional explanation. Use them to discover features of the pack you may not be aware of, to help you on your journey!
 
@@ -38,13 +38,13 @@ Exploration:
 • The rare, tower-like structures in The End contain Enderman spawners! Move them back to the overworld for easier ender pearl farming.
 
 Transport:
-• You can automatically move items between dimensions using the Ender Soul Core.
 • Use minecarts to transport large amounts of mana quickly.
 • Minecarts can by dyed by shift-right clicking them with a vanilla dye.
 • There are several new kinds of rails to make constructing a rail network easier.
 • You can move chests and animals by using Carry On to pick them up.
 
 Mob Farming:
+• You can change the type of a spawner by right-clicking it with a mob's head.
 • Wither skeletons drop wither skull fragments, even when not killed by a player.
 • You can move a skeleton spawner from the overworld to the Nether to turn it into a wither skeleton spawner
 • Blazes only drop blaze rods when killed by a player or livingwood avatar. This is expensive in terms of mana, so for blaze powder it is recommended that you create blazes with Fel Pumpkins instead.
