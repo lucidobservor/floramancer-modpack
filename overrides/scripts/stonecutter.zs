@@ -407,7 +407,55 @@ addBlockCyclingStonecutterRecipes(
 	[<traverse:blue_rock_slab> * 2, <traverse:blue_rock_bricks_slab> * 2, <traverse:blue_rock_bricks_stairs>]);
 Stonecutter.addOutputs(<traverse:blue_rock_cobblestone>, <traverse:blue_rock_cobblestone_slab> * 2, <traverse:blue_rock_cobblestone_stairs>, <traverse:blue_rock_cobblestone_wall>);
 
-// Fir Wood
+// Stained Wood
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:0>],
+	[<quark:stained_planks_white_slab> * 2, <quark:stained_planks_white_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:1>],
+	[<quark:stained_planks_orange_slab> * 2, <quark:stained_planks_orange_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:2>],
+	[<quark:stained_planks_magenta_slab> * 2, <quark:stained_planks_magenta_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:3>],
+	[<quark:stained_planks_light_blue_slab> * 2, <quark:stained_planks_light_blue_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:4>],
+	[<quark:stained_planks_yellow_slab> * 2, <quark:stained_planks_yellow_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:5>],
+	[<quark:stained_planks_lime_slab> * 2, <quark:stained_planks_lime_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:6>],
+	[<quark:stained_planks_pink_slab> * 2, <quark:stained_planks_pink_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:7>],
+	[<quark:stained_planks_gray_slab> * 2, <quark:stained_planks_gray_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:8>],
+	[<quark:stained_planks_silver_slab> * 2, <quark:stained_planks_silver_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:9>],
+	[<quark:stained_planks_cyan_slab> * 2, <quark:stained_planks_cyan_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:10>],
+	[<quark:stained_planks_purple_slab> * 2, <quark:stained_planks_purple_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:11>],
+	[<quark:stained_planks_blue_slab> * 2, <quark:stained_planks_blue_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:12>],
+	[<quark:stained_planks_brown_slab> * 2, <quark:stained_planks_brown_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:13>],
+	[<quark:stained_planks_green_slab> * 2, <quark:stained_planks_green_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:14>],
+	[<quark:stained_planks_red_slab> * 2, <quark:stained_planks_red_stairs>]);
+addBlockCyclingStonecutterRecipes(
+	[<quark:stained_planks:15>],
+	[<quark:stained_planks_black_slab> * 2, <quark:stained_planks_black_stairs>]);
 
 // All Other Wood
 val logs = [
