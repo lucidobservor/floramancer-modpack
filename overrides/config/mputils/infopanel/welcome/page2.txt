@@ -15,11 +15,12 @@ General:
 
 Garden of Glass:
 • Falling into the void won't kill you.
-• You can find mushrooms while scavenging for pebbles on mycelium
+• You can find mushrooms while scavenging for pebbles on mycelium.
+• You can acquire mycelium by using the Orechid Terram.
 • Punching blazes to death yields more blaze powder.
 
 Exploration:
-• Craft an Antique Atlas before you go exploring so you don't get lost, and so you can easily fid your grave if you die.
+• Craft an Antique Atlas before you go exploring so you don't get lost, and so you can easily find your grave if you die.
 • The caves in this pack are enormous and largely interconnected. Leave a trail so you can find your way back out.
 • Need to find a specific biome? Craft a Nature's Compass.
 • If you die, a craft a Soul Compass. This will point you to the direction of your grave.
