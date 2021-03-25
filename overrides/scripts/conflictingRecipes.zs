@@ -64,6 +64,10 @@ recipes.addShapeless("wooden_trapdoor_3b", <futuremc:jungle_trapdoor>,[<quark:ju
 recipes.addShapeless("wooden_trapdoor_4b", <futuremc:acacia_trapdoor>,[<quark:acacia_trapdoor>], null, null);
 recipes.addShapeless("wooden_trapdoor_5b", <futuremc:dark_oak_trapdoor>,[<quark:dark_oak_trapdoor>], null, null);
 
+recipes.addShaped("minecraft_trapdoor_0", <minecraft:trapdoor> * 6, 
+	[[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], 
+	[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
+
 // Make more fences
 recipes.removeByRecipeName("minecraft:fence");
 recipes.removeByRecipeName("minecraft:spruce_fence");
