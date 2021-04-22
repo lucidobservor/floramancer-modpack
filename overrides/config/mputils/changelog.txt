@@ -73,6 +73,13 @@ Automation:
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
+§n1.4.4§r
+
+• Added Phosphor, for performance improvement
+• Added Rod of the Lands, Rod of the Depths, and the Black Hole Talisman to Quark's reacharound placement
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
 §n1.4.3§r
 
 • Fix: re-added recipe for oak trapdoors
