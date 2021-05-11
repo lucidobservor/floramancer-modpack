@@ -17,3 +17,4 @@ overrides/resources/pack.mcmeta
 */target/
 *.iml
 .idea/
+/util/output
