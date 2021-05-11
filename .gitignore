@@ -15,3 +15,5 @@ overrides/resources/pack.mcmeta
 
 *.lnk
 */target/
+*.iml
+.idea/
