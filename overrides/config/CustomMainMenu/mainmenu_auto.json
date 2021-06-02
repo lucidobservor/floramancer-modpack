@@ -71,11 +71,24 @@
 				"gui": "options"
 			}
 		},
+		
+		"rent": {
+			"text": "Rent a Server",
+			"posX": 55,
+			"posY": 40,
+			"width": 90,
+			"height": 20,
+			"alignment": "left_center",
+			"action": {
+				"type": "openLink",
+				"link": "https://bisecthosting.com/lucid"
+			}
+		},
 
 		"quit": {
 			"text": "menu.quit",
 			"posX": 55,
-			"posY": 40,
+			"posY": 65,
 			"width": 90,
 			"height": 20,
 			"alignment": "left_center",
@@ -86,15 +99,14 @@
 
 		"curse": {
 			"text": "",
-			"posX": 50,
+			"posX": 55,
 			"posY": -35,
-			"width": 21,
-			"height": 21,
+			"width": 25,
+			"height": 25,
 			"imageWidth": 150,
 			"imageHeight": 150,
 			"alignment": "bottom_left",
 			"texture": "custommainmenu:textures/gui/curse.png",
-			"tooltip": "Open on CurseForge",
 			"action": {
 				"type": "openLink",
 				"link": "https://minecraft.curseforge.com/projects/floramancer"
@@ -102,15 +114,14 @@
 		},
 		"discord": {
 			"text": "",
-			"posX": 76,
+			"posX": 87,
 			"posY": -35,
-			"width": 21,
-			"height": 21,
+			"width": 25,
+			"height": 25,
 			"imageWidth": 150,
 			"imageHeight": 150,
 			"alignment": "bottom_left",
 			"texture": "custommainmenu:textures/gui/discord.png",
-			"tooltip": "Join the Discord",
 			"action": {
 				"type": "openLink",
 				"link": "https://discord.gg/9eGp9fV"
@@ -118,36 +129,32 @@
 		},
 		"bug": {
 			"text": "",
-			"posX": 102,
+			"posX": 119,
 			"posY": -35,
-			"width": 21,
-			"height": 21,
+			"width": 25,
+			"height": 25,
 			"imageWidth": 150,
 			"imageHeight": 150,
 			"alignment": "bottom_left",
 			"texture": "custommainmenu:textures/gui/bug.png",
-			"tooltip": "Report a Bug",
 			"action": {
 				"type": "openLink",
 				"link": "https://github.com/lucidobservor/floramancer-modpack/issues"
 			}
 		},
-		"bisect": {
-			"text": "",
-			"posX": 128,
-			"posY": -35,
-			"width": 21,
-			"height": 21,
-			"imageWidth": 150,
-			"imageHeight": 150,
-			"alignment": "bottom_left",
-			"texture": "custommainmenu:textures/gui/cube.png",
-			"tooltip": "Rent a Server",
-			"action": {
-				"type": "openLink",
-				"link": "https://bisecthosting.com/lucid"
-			}
-		}
+		"refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
 	},
 
 	"labels": {
