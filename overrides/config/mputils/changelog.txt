@@ -73,6 +73,28 @@ Automation:
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
+§n1.4.5§r
+
+Botania Update - R1.10 364
+• This one-off 1.12.2 backport release is dedicated to the users and the developer of the Floramancer modpack.
+• Change: Cache lookups for Corporea sparks on inventories, massively increasing runtime performance of large Corporea networks
+• Change: The invalid flower advancement no longer asks to report it
+• Change: Rods can now be put into the Bauble Case (from 1.16.5-415)
+• Change: Obedience stick is now usable from a dispenser (from 1.16.3-407)
+• Change: Clean up JEI integration layouts (centered things properly, etc.) (from 1.16-400)
+• Change: Rod of the Unstable Reservoir targetting tweaks (from 1.16-398)
+• Fix: Avatar and life imbuer wasting a lot of mana (from 1.16.3-407)
+
+Enhancements:
+• Enabled Witch Hats from Quark
+• You can right click a spawner with a Witch Hat to turn it into a witch spawner
+• Added Quark chest buttons to Charset chests and FutureMC barrels
+• Removes Quark chest search bar
+• Fixed harvest level of Ancient Debris
+• Better main menu title image
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
 §n1.4.4§r
 
 • Added Phosphor, for performance improvement
