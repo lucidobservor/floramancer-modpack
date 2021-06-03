@@ -1,0 +1,38 @@
+{
+	"block_pools": [{
+		"name": "Skeleton Spawner",
+		"type": {
+			"type": "block",
+			"name": "minecraft:mob_spawner"
+		},
+		"clicktype": "rightclick",
+		"properties": [{
+				"type": "require_item",
+				"name": "quark:witch_hat",
+				"meta": 0
+			},
+			{
+				"type": "consume_item",
+				"amount": 1
+			},
+			{
+				"type": "swing_hand",
+				"disableJEI": true
+			},
+			{
+				"type": "use_command",
+				"name": "blockdata",
+				"arguments": "~ ~ ~ {SpawnData: {id: \"minecraft:witch\"}, SpawnPotentials: [{Entity: {id: \"minecraft:witch\"}, Weight: 1}]}"
+			},
+			{
+				"type": "spawn_particles",
+				"name": "enchantmenttable",
+				"yOffset": 1,
+				"amount": 100,
+				"disableJEI": true
+			}
+		],
+		"drops": [],
+		"messages": []
+	}]
+}
