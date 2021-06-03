@@ -10,11 +10,11 @@
 		},
 	
 		"title": {
-			"image": "custommainmenu:textures/gui/floramancer.png",
+			"image": "custommainmenu:textures/gui/FM_Artboard.png",
 			"posX": 20,
 			"posY": 10,
-			"width": 240,
-			"height": 80,
+			"width": 340,
+			"height": 85,
 			"alignment": "top_left"
 		}
 	},
@@ -141,20 +141,7 @@
 				"type": "openLink",
 				"link": "https://github.com/lucidobservor/floramancer-modpack/issues"
 			}
-		},
-		"refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
-        }
+		}
 	},
 
 	"labels": {
