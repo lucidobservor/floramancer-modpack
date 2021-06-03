@@ -15,6 +15,7 @@ creativeManaPool.addTooltip(format.gray("Check the upgraded Lexica for more info
 <quark:soul_bead>.addTooltip(format.gray("Dropped by wraiths"));
 <quark:soul_powder>.addTooltip(format.gray("Used to find the nearest Nether Fortress"));
 <quark:glowcelium>.addTooltip(format.gray("Use mana in a bottle on a block of mycelium"));
+<quark:witch_hat>.addTooltip(format.gray("Right click on a spawner to change it into a witch spawner"));
 
 <minecraft:mycelium>.addTooltip(format.gray("Made from coarse dirt using the orechid terram"));
 <minecraft:blaze_rod>.addTooltip(format.gray("Drops from blazes if they are killed by a player or Livingwood Avatar"));
